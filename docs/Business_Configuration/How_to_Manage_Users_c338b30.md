@@ -1,0 +1,219 @@
+<!-- loioc338b300dd01425bb74c04f0833f417c -->
+
+# How to Manage Users
+
+Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.
+
+
+
+<a name="loioc338b300dd01425bb74c04f0833f417c__prereq_sqn_c1c_ckb"/>
+
+## Prerequisites
+
+-   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
+
+    For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+
+-   The users you want to upload must be maintained in your identity provider \(IdP\) including the following user attributes:
+
+    -   `logonName`
+
+    -   `givenName`
+
+    -   `familyName`
+
+    -   `email`
+
+
+
+
+## Context
+
+Users who are maintained in the IdP are able to sign in to SAP S/4HANA Cloud for advanced financial closing. They can access the apps according to the role templates that are assigned to them.
+
+In addition, you need to upload users manually to advanced financial closing so that you can assign user roles to them and enter them as users responsible or processing users, for example. For all user attributes that are maintained in the IdP, you have to do this only once. If certain user attributes aren't maintained in your IdP, you can use the upload to keep these attributes up to date.
+
+You **must maintain** the user attributes `logonName`, `givenName`, `familyName`, and `email` in the IdP. In advanced financial closing, you can only maintain these attributes via the initial user upload or until the users have signed in for the first time. You can't use the upload to update these attributes.
+
+You **can** maintain the following user attributes in the IdP and have to map them to the corresponding user attributes in advanced financial closing. Alternatively, you can maintain these attributes by uploading users manually.
+
+<a name="loioc338b300dd01425bb74c04f0833f417c__table_bsc_sgc_hlb"/>User Attributes
+
+
+<table>
+<tr>
+<th>
+
+Identity Provider
+
+
+
+</th>
+<th>
+
+Advanced Financial Closing
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`Address`
+
+
+
+</td>
+<td>
+
+`address`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`Phone`
+
+
+
+</td>
+<td>
+
+`phone`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`Mobile`
+
+
+
+</td>
+<td>
+
+`mobile`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`Fax`
+
+
+
+</td>
+<td>
+
+`fax`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`Department`
+
+
+
+</td>
+<td>
+
+`department`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`Function`
+
+
+
+</td>
+<td>
+
+`function`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`Division`
+
+
+
+</td>
+<td>
+
+`function` \(if function is empty\)
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> The information provided by the IdP is always leading. User attributes from the IdP overwrite the information stored in advanced financial closing when the users sign in to the app.
+
+> ### Caution:  
+> Make sure that the user attribute `email` is always maintained correctly. The task scheduling relies on the email address to find the respective user in the connected financial communication systems.
+
+
+
+## Procedure
+
+1.  Go to the *Manage Users* app.
+
+2.  Download the template file.
+
+3.  Fill the template file with your users according to the format provided.
+
+    > ### Note:  
+    > -   The *ID* field is mandatory, and the value entered must match the user ID maintained in the IdP. Note that the field is case-sensitive.
+    > 
+    > -   For information about which language codes are allowed, refer to [Language Codes Allowed for User Upload](Language_Codes_Allowed_for_User_Upload_51c9133.md).
+    > 
+    > -   Use semicolons as column separators.
+    > 
+    > -   Save the file with UTF-8 encoding.
+    > 
+    > -   The fields containing numbers have to be formatted as **text** prior to saving the CSV file.
+
+4.  Choose *Upload Users* and select the file you prepared.
+
+5.  Review the results of the upload in the dialog that summarizes the changes.
+
+
+
+
+<a name="loioc338b300dd01425bb74c04f0833f417c__result_u45_nyd_rkb"/>
+
+## Results
+
+The users are uploaded with source *CSV Upload*. Once the respective users have signed in for the first time, the source is updated to *Identity Provider*. From then on, the identity provider is the source of the user information.
+
+> ### Note:  
+> User information provided by the IdP is updated via the IdP. However, you need to update the user information manually which you've uploaded in your CSV file but which you haven't maintained in the IdP.
+
+-   **[Language Codes Allowed for User Upload](Language_Codes_Allowed_for_User_Upload_51c9133.md "")**  
+
+
