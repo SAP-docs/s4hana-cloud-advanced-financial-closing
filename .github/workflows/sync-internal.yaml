@@ -1,0 +1,91 @@
+name: Sync back to internal
+
+# What the execution context is:
+# The push (merge) of content into the trunk, when on github.com.
+
+# What it does:
+# Syncs changes back to a repo, which is paired with this one and
+# sits on an internally hosted GitHub Enterprise server.
+
+# Why we need it:
+# To be able to have content in the right place to send to the SAP
+# Help Portal.
+
+# What's important to know:
+# Uses a github-actions@sap.com identification for the git activities.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  sync-back:
+
+    if: contains(github.repositoryUrl, 'github.com')
+    runs-on: ubuntu-20.04
+
+    env:
+      GIT_USER_NAME: github-actions
+      GIT_USER_EMAIL: github-actions@sap.com
+
+      SOURCE_OWNER_REPO: ${{ github.repository }}
+      SOURCE_REPO_NAME: ${{ github.event.repository.name }}
+      SOURCE_REPO_BRANCH: main
+      SOURCE_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SOURCE_REPO_HOST: github.com
+
+      TARGET_OWNER_REPO: ${{ secrets.TARGET_OWNER_REPO }}
+      TARGET_REPO_NAME: contribution-guidelines
+      TARGET_REPO_BRANCH: main
+      TARGET_REPO_TOKEN: ${{ secrets.INT_PAT }}
+      TARGET_REPO_HOST: ${{ secrets.TARGET_REPO_HOST }}
+
+    steps:
+      - name: Clone internal (target) repository
+        id: clone_internal
+        run: |
+          git clone https://x-access-token:${{ env.TARGET_REPO_TOKEN }}@${{ env.TARGET_REPO_HOST }}/${{ env.TARGET_OWNER_REPO }}.git
+
+      - name: Add git configuration
+        if: ${{ success() }}
+        id: config_git
+        run: |
+          git config --local user.name ${{ env.GIT_USER_NAME }}
+          git config --local user.email ${{ env.GIT_USER_EMAIL }}
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Add external (source) repo as remote and fetch
+        if: ${{ success() }}
+        id: add_remote
+        run: |
+          git remote add \
+            source https://x-access-token:${{ env.SOURCE_REPO_TOKEN }}@${{ env.SOURCE_REPO_HOST }}/${{ env.SOURCE_OWNER_REPO }}.git
+          git fetch --all
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Merge external (source) repo/branch onto internal (target)
+        if: ${{ success() }}
+        id: merge_source_target
+        run: |
+          git merge \
+            source/${{ env.SOURCE_REPO_BRANCH }} \
+            --allow-unrelated-histories \
+            -X theirs \
+            -m "External -> Internal sync"
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Push to origin (internal target)
+        if: ${{ success() }}
+        id: push_origin
+        run: |
+          git push origin ${{ env.TARGET_REPO_BRANCH }}
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+
+      - name: Clean up
+        if: ${{ always() }}
+        id: cleanup
+        run: |
+          rm -rf ${{ env.TARGET_REPO_NAME }}
