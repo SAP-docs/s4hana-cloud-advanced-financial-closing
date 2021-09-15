@@ -56,3 +56,9 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
 Provide the system administrator of advanced financial closing with the URL you've just copied when you called up the browser.
 
+**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+
+**Previous topicColonSymbol** [How to Install and Configure the Cloud Connector](How_to_Install_and_Configure_the_Cloud_Connector_4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as additional software.")
+
+**Next topicColonSymbol** [How to Create a Technical Communication User](How_to_Create_a_Technical_Communication_User_c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")
+

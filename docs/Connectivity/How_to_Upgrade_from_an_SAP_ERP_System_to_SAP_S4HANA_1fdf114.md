@@ -12,7 +12,7 @@ If you have already used advanced financial closing in connection with your SAP 
 
 -   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
 
-    For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+    For more information about role templates, see [How to Manage Static Role Templates](../User_Management/How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   You need to have installed and configured the Cloud Connector. For more information, see [How to Install and Configure the Cloud Connector](How_to_Install_and_Configure_the_Cloud_Connector_4cf0fb0.md).
 
@@ -78,4 +78,10 @@ If you have already used advanced financial closing in connection with your SAP 
     > ### Tip:  
     > For systems that have an SAP Fiori launchpad , you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Choose *Open Target SAP Fiori Launchpad*. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
 
+
+**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+
+**Previous topicColonSymbol** [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
+
+**Next topicColonSymbol** [How to Configure Local Settings in Communication Systems](How_to_Configure_Local_Settings_in_Communication_Systems_a3b374a.md "Configure your local settings for better use with advanced financial closing.")
 

@@ -31,3 +31,7 @@ The Cloud Connector serves as a link between SAP BTP applications and on-premise
 
 You have now installed and configured the Cloud Connector.
 
+**Parent topicColonSymbol** [SAP ERP](SAP_ERP_7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+
+**Next topicColonSymbol** [How to Set Up the SAP ERP Connector](How_to_Set_Up_the_SAP_ERP_Connector_b139d1e.md "If you want to connect to SAP ERP, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing as additional software.")
+

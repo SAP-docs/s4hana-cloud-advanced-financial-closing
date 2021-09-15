@@ -12,7 +12,7 @@ Upload new users to SAP S/4HANA Cloud for advanced financial closing and update 
 
 -   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
 
-    For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+    For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   The users you want to upload must be maintained in your identity provider \(IdP\) including the following user attributes:
 
@@ -29,9 +29,9 @@ Upload new users to SAP S/4HANA Cloud for advanced financial closing and update 
 
 ## Context
 
-Users who are maintained in the IdP are able to sign in to SAP S/4HANA Cloud for advanced financial closing. They can access the apps according to the role templates that are assigned to them.
+Users who are maintained in the IdP are able to sign in to SAP S/4HANA Cloud for advanced financial closing without any additional setting. They can access the apps according to the static role templates that are assigned to them.
 
-In addition, you need to upload users manually to advanced financial closing so that you can assign user roles to them and enter them as users responsible or processing users, for example. For all user attributes that are maintained in the IdP, you have to do this only once. If certain user attributes aren't maintained in your IdP, you can use the upload to keep these attributes up to date.
+In addition, you can upload users manually to advanced financial closing in advance so that you can assign user roles to them and enter them as users responsible or processing users, for example. For all user attributes that are maintained in the IdP, you have to do this only once. If certain user attributes aren't maintained in your IdP, you can use the upload function to keep these attributes up to date. In the *Manage Users* app, you can see all users available in advanced financial closing, independently of whether they were uploaded or created through their first sign-in.
 
 You **must maintain** the user attributes `logonName`, `givenName`, `familyName`, and `email` in the IdP. In advanced financial closing, you can only maintain these attributes via the initial user upload or until the users have signed in for the first time. You can't use the upload to update these attributes.
 
@@ -216,4 +216,10 @@ The users are uploaded with source *CSV Upload*. Once the respective users have 
 
 -   **[Language Codes Allowed for User Upload](Language_Codes_Allowed_for_User_Upload_51c9133.md "")**  
 
+
+**Parent topicColonSymbol** [User Management](User_Management_ae7fa30.md "")
+
+**Previous topicColonSymbol** [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md "Define and bundle static roles and assign them to users.")
+
+**Next topicColonSymbol** [User Access Management](User_Access_Management_6fa5e4e.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
 

@@ -2,7 +2,7 @@
 
 # How to Connect to SAP S/4HANA Cloud ES
 
-Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.
+Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.
 
 
 
@@ -10,13 +10,16 @@ Connect to your financial cloud system to retrieve information about organizatio
 
 ## Prerequisites
 
--   You have already completed the onboarding process as described under [Onboarding](../Onboarding_1987953.md).
+-   You have already completed the onboarding process as described under [Onboarding](../Onboarding/Onboarding_1987953.md).
 
 -   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
 
-    For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+    For more information about role templates, see [How to Manage Static Role Templates](../User_Management/How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   The SAP S/4HANA Cloud system administrator needs to have completed the set-up instructions. For more information, see [Setting Up Financial Task List Management Integration \(4HG\)](https://rapid.sap.com/bp/#/scopeitems/4HG).
+
+
+-   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_6e94409.md).
 
 
 
@@ -25,149 +28,9 @@ Connect to your financial cloud system to retrieve information about organizatio
 
 ## Procedure
 
-1.  Create a destination in your SAP BTP cockpit. For more information, see [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
+1.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
 
-    Enter the following information in the destination configuration:
-
-
-    <table>
-    <tr>
-    <th>
-
-    Field
-
-
-    
-    </th>
-    <th>
-
-    What to Enter
-
-
-    
-    </th>
-    </tr>
-    <tr>
-    <td>
-
-    *Name*
-
-
-    
-    </td>
-    <td>
-
-    Specify a name for the destination configuration.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Type*
-
-
-    
-    </td>
-    <td>
-
-     ***HTTP*** 
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *URL*
-
-
-    
-    </td>
-    <td>
-
-    Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
-
-    `https://www.example.com:[port number]**/sap/opu/odata/sap/fccx\_communication\_services\_srv?sap-client=100**`
-
-    The highlighted part is the same for all SAP S/4HANA Cloud systems.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Proxy Type*
-
-
-    
-    </td>
-    <td>
-
-    ***Internet***
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Authentication*
-
-
-    
-    </td>
-    <td>
-
-    ***BasicAuthentication***
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *User*
-
-
-    
-    </td>
-    <td>
-
-    Technical communication user that you've received from the SAP S/4HANA Cloud system administrator.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Password*
-
-
-    
-    </td>
-    <td>
-
-    Password of the selected user
-
-
-    
-    </td>
-    </tr>
-    </table>
-    
-2.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
-
-3.  Enter the following information:
+2.  Enter the following information:
 
 
     <table>
@@ -213,7 +76,7 @@ Connect to your financial cloud system to retrieve information about organizatio
     </td>
     <td>
 
-    Enter the name of the destination configuration you've just configured in the SAP BTP cockpit.
+    Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
 
 
     
@@ -336,7 +199,7 @@ Connect to your financial cloud system to retrieve information about organizatio
     > ### Tip:  
     > You can check whether the connection with the communication system works as expected. Choose *Check Connection to Destination*. This will check whether the back-end connection works and whether the system communicates as expected.
 
-4.  Save.
+3.  Save.
 
     > ### Tip:  
     > You can check whether the connection you set up works:
@@ -353,7 +216,7 @@ Connect to your financial cloud system to retrieve information about organizatio
     > 
     >     -   If entries are displayed, the connection works. Exit the value help and choose *Cancel* to cancel template creation.
     > 
-    >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Error_Handling_e5eb3d8.md).
+    >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Monitoring_and_Troubleshooting/Error_Handling_e5eb3d8.md).
 
 
 
@@ -499,7 +362,7 @@ Task parameters
 > ### Note:  
 > Only consistent data is synchronized. If data is deleted in your communication system, it will also be deleted in advanced financial closing with the next synchronization. This means that the deleted data can't be used for new task list templates or task lists, and their referenced objects.
 > 
-> If needed, check the business logs for more information as described under [Logging](../Logging_57375b8.md).
+> If needed, check the business logs for more information as described under [Logging](../Monitoring_and_Troubleshooting/Logging_57375b8.md).
 
 
 
@@ -508,4 +371,8 @@ Task parameters
 ## Next Steps
 
 You have two options for the initial data synchronization with the communication system: You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+
+**Parent topicColonSymbol** [How to Connect to SAP S/4HANA Cloud ES](How_to_Connect_to_SAP_S4HANA_Cloud_ES_d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+
+**Previous topicColonSymbol** [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_6e94409.md "Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpit.")
 

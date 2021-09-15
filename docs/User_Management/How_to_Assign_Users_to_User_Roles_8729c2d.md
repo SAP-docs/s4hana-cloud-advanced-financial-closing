@@ -12,7 +12,7 @@ Specify the users to whom the user roles you've created apply.
 
 Your user must have a role collection assigned that includes the role template `AFC_UserManagement`.
 
-For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 
 

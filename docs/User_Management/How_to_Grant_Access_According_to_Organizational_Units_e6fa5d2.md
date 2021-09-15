@@ -12,7 +12,7 @@ You want to grant users access to objects in specific company codes, controlling
 
 -   Your user must have a role collection assigned that includes the role template `AFC_Config`.
 
-    For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+    For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   An administrator has connected your financial communication systems. For more information, see [Connectivity](../Connectivity/Connectivity_200deae.md).
 
@@ -20,7 +20,7 @@ You want to grant users access to objects in specific company codes, controlling
 
 -   You've had a look at the [overview table](Overview_of_Actions_and_Means_to_Grant_Access_6f05d23.md) to make sure you're using the right means to grant access.
 
--   The users to whom you want to grant access have a role collection assigned that includes the required role templates. For more information, see [User Management](../User_Management_ae7fa30.md).
+-   The users to whom you want to grant access have a role collection assigned that includes the required role templates. For more information, see [User Management](User_Management_ae7fa30.md).
 
 
 

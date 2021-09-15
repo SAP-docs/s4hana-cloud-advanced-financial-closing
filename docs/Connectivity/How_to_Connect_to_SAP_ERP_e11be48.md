@@ -10,11 +10,11 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
 ## Prerequisites
 
--   You have already completed the onboarding process as described under [Onboarding](../Onboarding_1987953.md).
+-   You have already completed the onboarding process as described under [Onboarding](../Onboarding/Onboarding_1987953.md).
 
 -   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
 
-    For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+    For more information about role templates, see [How to Manage Static Role Templates](../User_Management/How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   To connect to your SAP ERP system, you need to have installed and configured the Cloud Connector. For more information, see [How to Install and Configure the Cloud Connector](How_to_Install_and_Configure_the_Cloud_Connector_3d19a8a.md).
 
@@ -26,6 +26,8 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
     -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing documentation. For more information, see [Security Considerations](https://help.sap.com/viewer/c56f7dab0ed341afad9581be5651184f/latest/en-US/c552f0649acd42a7bb8638359ca82897.html).
 
+-   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_6ec6782.md).
+
 
 
 
@@ -33,151 +35,9 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
 ## Procedure
 
-1.  Create a destination in your SAP BTP cockpit. For more information, see [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
+1.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
 
-    Enter the following information in the destination configuration:
-
-
-    <table>
-    <tr>
-    <th>
-
-    Field
-
-
-    
-    </th>
-    <th>
-
-    What to Enter
-
-
-    
-    </th>
-    </tr>
-    <tr>
-    <td>
-
-    *Name*
-
-
-    
-    </td>
-    <td>
-
-    Specify a name for the destination configuration.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Type*
-
-
-    
-    </td>
-    <td>
-
-     ***HTTP*** 
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *URL*
-
-
-    
-    </td>
-    <td>
-
-    Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
-
-    -   For the proxy type *OnPremise*: `http://www.example.com:[port number]**/sap/fccx?sap-client**=[client]`
-
-    -   For the proxy type *Internet*: `https://www.example.com:[port number]**/sap/fccx?sap-client**=[client]`
-
-    The highlighted parts are the same for all corresponding SAP ERP systems.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Proxy Type*
-
-
-    
-    </td>
-    <td>
-
-    ***OnPremise*** or ***Internet***
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Authentication*
-
-
-    
-    </td>
-    <td>
-
-    ***BasicAuthentication***
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *User*
-
-
-    
-    </td>
-    <td>
-
-    Technical user or other authenticated user
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td>
-
-    *Password*
-
-
-    
-    </td>
-    <td>
-
-    Password of the selected user
-
-
-    
-    </td>
-    </tr>
-    </table>
-    
-2.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
-
-3.  Enter the following information:
+2.  Enter the following information:
 
 
     <table>
@@ -223,7 +83,7 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     </td>
     <td>
 
-    Enter the name of the destination configuration you've just configured in the SAP BTP cockpit.
+    Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
 
 
     
@@ -346,7 +206,7 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     > ### Tip:  
     > You can check whether the connection with the communication system works as expected. Choose *Check Connection to Destination*. This will check whether the back-end connection works and whether the system communicates as expected.
 
-4.  Save.
+3.  Save.
 
     > ### Tip:  
     > You can check whether the connection you set up works:
@@ -363,7 +223,7 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     > 
     >     -   If entries are displayed, the connection works. Exit the value help and choose *Cancel* to cancel template creation.
     > 
-    >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Error_Handling_e5eb3d8.md).
+    >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Monitoring_and_Troubleshooting/Error_Handling_e5eb3d8.md).
 
 
 
@@ -509,7 +369,7 @@ Task parameters
 > ### Note:  
 > Only consistent data is synchronized. If data is deleted in your communication system, it will also be deleted in advanced financial closing with the next synchronization. This means that the deleted data can't be used for new task list templates or task lists, and their referenced objects.
 > 
-> If needed, check the business logs for more information as described under [Logging](../Logging_57375b8.md).
+> If needed, check the business logs for more information as described under [Logging](../Monitoring_and_Troubleshooting/Logging_57375b8.md).
 
 
 
@@ -518,6 +378,12 @@ Task parameters
 ## Next Steps
 
 You have two options for the initial data synchronization with the communication system: You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+
+**Parent topicColonSymbol** [SAP ERP](SAP_ERP_7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+
+**Previous topicColonSymbol** [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
+
+**Next topicColonSymbol** [How to Configure Local Settings in Communication Systems](How_to_Configure_Local_Settings_in_Communication_Systems_3e2c737.md "Configure your local settings for better use with advanced financial closing.")
 
 **Related Information**  
 

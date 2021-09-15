@@ -12,7 +12,7 @@ A user group represents a group of users who can be assigned to a particular set
 
 Your user must have a role collection assigned that includes the role template `AFC_Config`.
 
-For more information about role templates, see [User Management](../User_Management_ae7fa30.md).
+For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 
 

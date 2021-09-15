@@ -1,12 +1,12 @@
 <!-- loio6fa5e4e9c35f4032850307b1864d9f73 -->
 
-# Access Control
+# User Access Management
 
-You can control and grant access to task list templates, task lists, tasks, and folders in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.
+You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.
 
 
 
-Users who have been assigned a static role can see the respective apps in the SAP Fiori launchpad \(see [User Management](../User_Management_ae7fa30.md)\). For the following apps, you need to grant access to users so that they're able to view or edit **task list templates**, **task lists**, **tasks**, and **folders**:
+Users who have been assigned a static role can see the respective apps in the SAP Fiori launchpad \(see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md)\). For the following apps, you need to grant access to users so that they're able to view or edit **task list templates**, **task lists**, **tasks**, and **folders**:
 
 -   *Define Closing Tasks*
 
@@ -181,4 +181,8 @@ Specify the users to whom the user roles you've created apply.
 -   **[How to Manage User Groups](How_to_Manage_User_Groups_6d5d683.md "A user group represents a group of users who can be assigned to a particular set of
 		closing tasks.")**  
 A user group represents a group of users who can be assigned to a particular set of closing tasks.
+
+**Parent topicColonSymbol** [User Management](User_Management_ae7fa30.md "")
+
+**Previous topicColonSymbol** [How to Manage Users](How_to_Manage_Users_c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
 

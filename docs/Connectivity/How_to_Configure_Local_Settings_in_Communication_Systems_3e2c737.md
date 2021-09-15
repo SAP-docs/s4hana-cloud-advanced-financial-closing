@@ -15,3 +15,7 @@ For more information about how to configure ABAP programs and your local setting
 3.  Differences in local settings between SAP ERP and SAP S/4HANA releases
 
 
+**Parent topicColonSymbol** [SAP ERP](SAP_ERP_7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+
+**Previous topicColonSymbol** [How to Connect to SAP ERP](How_to_Connect_to_SAP_ERP_e11be48.md "Connect to your SAP ERP system to retrieve information about organizational units, the factory calendar, and so on.")
+

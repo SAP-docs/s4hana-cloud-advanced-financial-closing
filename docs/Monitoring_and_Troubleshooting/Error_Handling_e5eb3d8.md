@@ -22,11 +22,11 @@ Depending on what has caused the error, please do the following:
 
 -   **Issues when connecting to your on-premise communication system with the Cloud Connector**
 
-    Please follow the instructions on how to connect to an on-premise communication system under [Connectivity](Connectivity/Connectivity_200deae.md) and the underlying topics.
+    Please follow the instructions on how to connect to an on-premise communication system under [Connectivity](../Connectivity/Connectivity_200deae.md) and the underlying topics.
 
 -   **Issues when configuring destinations**
 
-    Please follow the instructions under [Connectivity](Connectivity/Connectivity_200deae.md) and the underlying topics. If you still can't solve the issue, create an incident under the component `FIN-FIO-FCC` in the [SAP Support Portal](https://support.sap.com).
+    Please follow the instructions under [Connectivity](../Connectivity/Connectivity_200deae.md) and the underlying topics. If you still can't solve the issue, create an incident under the component `FIN-FIO-FCC` in the [SAP Support Portal](https://support.sap.com).
 
 
 For all other unexpected issues, create an incident under the component `FIN-FIO-FCC` in the [SAP Support Portal](https://support.sap.com).

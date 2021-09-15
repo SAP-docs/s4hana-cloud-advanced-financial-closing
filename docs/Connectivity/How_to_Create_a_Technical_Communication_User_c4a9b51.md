@@ -289,3 +289,9 @@ You have now created a technical communication user that can be used to connect 
 
 Provide your system administrator for advanced financial closing with the information of the technical communication user.
 
+**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+
+**Previous topicColonSymbol** [How to Enable OData Services in SAP S/4HANA](How_to_Enable_OData_Services_in_SAP_S4HANA_fb5fe06.md "Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced financial closing.")
+
+**Next topicColonSymbol** [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
+

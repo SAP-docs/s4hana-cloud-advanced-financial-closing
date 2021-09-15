@@ -1,16 +1,12 @@
-<!-- loioae7fa30ce51d43e3a89f607b3dc6a930 -->
+<!-- loiob92a2411e4164270964903c502e22340 -->
 
-# User Management
+# Static Roles for Advanced Financial Closing
 
-This section describes how to configure user management for your application. As a prerequisite, you have created business users and user groups in your identity provider \(IdP\). SAP ID service is configured as the default IdP, but you can also add your instance of SAP Cloud Identity Services - Identity Authentication or a different IdP.
+Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
-If you use the Identity Authentication service, you can find more information in the SAP BTP documentation under [Manually Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7c6aa87459764b179aeccadccd4f91f3.html).
 
-If you use a different IdP, you can find more information under[Establish Trust and Federation with UAA Using Any SAML Identity Provider](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2ce3938c66d94479848bff3090999027.html).
 
-Users provisioned by the configured IdP are allowed to start the applications that are part of SAP S/4HANA Cloud for advanced financial closing. User information is automatically synchronized on application start.
-
-Users must have static roles assigned to be able to see the respective SAP Fiori apps in their SAP Fiori launchpad. The following static role templates exist:
+## Available Role Templates
 
 
 <table>
@@ -418,7 +414,11 @@ Reviews logs as an administrator
 </tr>
 </table>
 
-Additionally, the following composite role templates are available:
+
+
+<a name="loiob92a2411e4164270964903c502e22340__section_w3j_2c3_5qb"/>
+
+## Available Composite Role Templates
 
 
 <table>
@@ -474,7 +474,4 @@ AFC\_Manager
 </td>
 </tr>
 </table>
-
--   **[How to Define and Bundle Roles](How_to_Define_and_Bundle_Roles_0cca34d.md "")**  
-
 

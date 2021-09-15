@@ -33,3 +33,7 @@ The Cloud Connector serves as a link between SAP BTP applications and on-premise
 
 You have now installed and configured the Cloud Connector.
 
+**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+
+**Next topicColonSymbol** [How to Enable OData Services in SAP S/4HANA](How_to_Enable_OData_Services_in_SAP_S4HANA_fb5fe06.md "Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced financial closing.")
+
