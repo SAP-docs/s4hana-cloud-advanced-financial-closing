@@ -32,6 +32,16 @@ September 19, 2021
 </td>
 <td>
 
+-   For this guide, a new way of providing feedback has been implemented. In addition, a contribution function has been added. For more information, see [Contribution Guidelines](https://help.sap.com/products/open-documentation-initiative/contribution-guidelines/readme.html).
+
+-   Document [Overview](../Overview/Overview_6e1af27.md):
+
+    Information about high-level architecture was updated.
+
+-   Subdocument [Data Flow from and to Advanced Financial Closing](../Overview/Data_Flow_from_and_to_Advanced_Financial_Closing_56103b0.md):
+
+    Graphic was updated.
+
 -   Document [User Management](../User_Management/User_Management_ae7fa30.md):
 
     Subdocuments [How to Manage Users](../User_Management/How_to_Manage_Users_c338b30.md) and [User Access Management](../User_Management/User_Access_Management_6fa5e4e.md) \(formerly **Access Control**\) were moved here.
