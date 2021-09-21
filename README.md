@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/s4hana-cloud-advanced-financial-closing)](https://api.reuse.software/info/github.com/SAP-docs/s4hana-cloud-advanced-financial-closing)
 
 # Contributions to the Administration Guide
 
