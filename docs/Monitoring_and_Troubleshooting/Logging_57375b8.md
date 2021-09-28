@@ -144,5 +144,5 @@ Related to task processing
 </table>
 
 > ### Note:  
-> For more information about using this app, see [Using the Monitor Business Logs Application](https://help.sap.com/viewer/9d9c6578dd284b7491e2b6ceb1395329/LATEST/en-US/549c5b91a5594318b3ff29aa68b1ac65.html).
+> Your user needs the correct role assignment as stated under [Static Roles for Advanced Financial Closing](../User_Management/Static_Roles_for_Advanced_Financial_Closing_b92a241.md).
 

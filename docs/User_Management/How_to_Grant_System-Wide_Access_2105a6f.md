@@ -46,7 +46,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d15e1016"/>General Restrictions
+    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d15e1021"/>General Restrictions
 
 
     <table>
@@ -69,7 +69,7 @@ The user roles you create and the access restrictions maintained in them take ef
     <tr>
     <td>
 
-    *Unrestricted Read Only*
+    *Restricted ReadUnrestricted Read Only*
 
 
     

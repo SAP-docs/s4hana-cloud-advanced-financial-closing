@@ -81,7 +81,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
 5.  On the *General Information* tab, select one of the access restrictions listed below.
 
-    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d15e922"/>Instance-Level Restrictions
+    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d15e928"/>Instance-Level Restrictions
 
 
     <table>
@@ -111,7 +111,7 @@ The user roles you create and the restrictions maintained in them take effect wh
     <tr>
     <td>
 
-    *Restricted Read Only*
+    **
 
 
     
@@ -136,7 +136,7 @@ The user roles you create and the restrictions maintained in them take effect wh
     <tr>
     <td>
 
-    *Restricted Read and Restricted Write*
+    *Restricted Read and Restricted WriteRestricted Read Only*
 
 
     

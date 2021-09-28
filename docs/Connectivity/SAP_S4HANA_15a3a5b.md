@@ -14,8 +14,8 @@ Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for
 Create a technical communication user for your SAP S/4HANA system.
 4.  [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")  
 Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
-5.  [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md "Connect to SAP S/4HANA as
-		your financial communication system to retrieve information about organizational units, the
+5.  [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md "Connect to SAP S/4HANA as your
+		financial communication system to retrieve information about organizational units, the
 		factory calendar, and so on.")  
 Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.
 6.  [How to Upgrade from an SAP ERP System to SAP S/4HANA](How_to_Upgrade_from_an_SAP_ERP_System_to_SAP_S4HANA_1fdf114.md "If you have already used advanced financial

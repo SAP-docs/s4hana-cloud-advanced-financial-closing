@@ -248,7 +248,9 @@ Maintains task list templates and task lists
 <td>
 
 -   *Define Closing Tasks*
+
 -   *Change Log*
+
 
 
 

@@ -35,7 +35,7 @@ The connection allows you to do the following, for example:
 
     -   When you process tasks of type *SAP Fiori Application* in a task list defined for the respective communication system, you’re automatically forwarded to the app in the respective system's launchpad.
 
-    -   When you process tasks of type *Job* that are run in the communication system, the status and results of these scheduling jobs are returned to SAP S/4HANA Cloud for advanced financial closing. You can see the details for each task in the *Monitor Business Logs* app. For more information, see [Using the Monitor Business Logs Application](https://help.sap.com/viewer/3a8724a02e914178b9d829c3ed8036ff/latest/en-US/549c5b91a5594318b3ff29aa68b1ac65.html).
+    -   When you process tasks of type *Job* that are run in the communication system, the status and results of these scheduling jobs are returned to SAP S/4HANA Cloud for advanced financial closing. You can see the details for each task in the *Monitor Business Logs* app. For more information, see [Logging](../Monitoring_and_Troubleshooting/Logging_57375b8.md).
 
 
 -   **[SAP S/4HANA Cloud](SAP_S4HANA_Cloud_60448a7.md "Depending on your system, follow one of the instructions listed here to connect SAP S/4HANA Cloud for advanced
