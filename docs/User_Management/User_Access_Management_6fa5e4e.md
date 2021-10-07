@@ -150,7 +150,7 @@ Find out how to grant access according to organizational units under [How to Gra
 
 Users who are maintained as owners of a task list template or task list or who belong to an assigned owner group have write access to the specific object in the *Define Closing Tasks* app.
 
-Users who are maintained as the user responsible of a **folder**, **task list**, or **task**, or who belong to a responsible user group always have write access to the respective object. They don't need to have a user role assigned in addition.
+Users who are maintained as the user responsible for a **folder**, **task list**, or **task**, or who belong to a responsible user group always have write access to the respective object. They don't need to have a user role assigned in addition.
 
 Users who are maintained as the processing user of a **task** or who belong to a processing user group always have access to the respective task. To be able to process the respective task, they don't need to have a user role assigned in addition.
 
