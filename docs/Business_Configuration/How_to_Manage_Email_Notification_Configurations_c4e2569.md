@@ -10,7 +10,12 @@ Create notification configurations and assign a set of email notification scenar
 
 ## Prerequisites
 
-Your user must have a role collection assigned that includes the role template `AFC_Config`.
+Your user must have a role collection assigned that includes one of the following role templates:
+
+-   `AFC_Config`
+
+-   `AFC_Settings`
+
 
 For more information about role templates, see [How to Manage Static Role Templates](../User_Management/How_to_Manage_Static_Role_Templates_0cca34d.md).
 

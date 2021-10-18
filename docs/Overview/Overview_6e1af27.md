@@ -26,7 +26,7 @@ This guide addresses the following target audience:
 
 <a name="loio6e1af2743721420782fcb82472c9ce86__section_ow4_5lm_scb"/>
 
-## About SAP S/4HANA Cloud for advanced financial closing
+## About SAP S/4HANA Cloud for Advanced Financial Closing
 
 SAP S/4HANA Cloud for advanced financial closing supports you in planning, executing, monitoring, and analyzing financial closing tasks for the entities of your group. For more information about using the functions and features provided, see the [user guide](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/latest/en-US/239ab375e0334c149082cc6851644e8b.html).
 
@@ -34,7 +34,40 @@ SAP S/4HANA Cloud for advanced financial closing is an SAP BTP application that 
 
 The following graphic shows a high-level architecture. The solution is an application on SAP BTP in the Cloud Foundry environment, which you can connect to SAP S/4HANA Cloud, SAP S/4HANA, or SAP ERP as your financial communication systems. The integration scenario to SAP systems uses OData services for SAP S/4HANA Cloud and SAP S/4HANA systems, and a REST service for SAP ERP systems. SAP HANA is used as a database, and attachments are stored in the Object Store on SAP BTP. You must have an identity provider \(IdP\) to be able to configure your user management.
 
-![Diagram of the solution's high-level architecture with an SAP Fiori UI, the advanced financial closing back end, the SAP HANA database, as well as the object store on SAP BTP: Either an SAP IdP or a customer IdP serves as entry point to the advanced financial closing back end. The system’s front end, back end, and databases are part of the SAP BTP subaccount for the Cloud Foundry environment on SAP side. The SAP HANA database and the object store on SAP BTP form the database component. The front end is represented by the SAP Fiori UI. The advanced financial closing back end has two communication channels: one with SAP S/4HANA Cloud on SAP side and one with the customer’s SAP BTP subaccount. The customer’s SAP BTP subaccount contains three components: subscription to advanced financial closing, security controlled through roles and role collections, and the connectivity component represented by destination service and cloud connectors. This connectivity component is connected to the customer’s SAP S/4HANA or SAP ERP system.](images/AFC_High-Level_Architecture_Diagram_726b4eb.png)
+Some areas of this image are interactive. Hover over the areas for a description. Click highlighted areas for more information.
+
+![Diagram of the solution's high-level architecture with an SAP Fiori UI,
+							the advanced financial
+                                                closing
+							back end, the SAP HANA
+							database, as well as the object store on SAP BTP: Either
+							an SAP IdP or a customer IdP serves as entry point to the advanced
+							financial closing back end. The system’s front end, back end, and
+							databases are part of the SAP BTP
+							subaccount for the Cloud Foundry environment on SAP side. The SAP HANA
+							database and the object store on SAP BTP form
+							the database component. The front end is represented by the SAP Fiori
+							UI. The advanced financial
+                                                closing back
+							end has two communication channels: one with SAP S/4HANA Cloud on SAP
+							side and one with the customer’s SAP BTP
+							subaccount. The customer’s SAP BTP
+							subaccount contains three components: subscription to advanced financial
+                                                closing,
+							security controlled through roles and role collections, and the
+							connectivity component represented by destination service and cloud
+							connectors. This connectivity component is connected to the customer’s
+								SAP S/4HANA or SAP ERP system.
+							Some of the graphic's areas are interactive and link to more information
+							within this administration guide.](images/AFC_High-Level_Architecture_Diagram_726b4eb.png)
+
+-   [Technical Prerequisites](../Technical_Prerequisites/Technical_Prerequisites_13dbd04.md)
+-   [Connectivity](../Connectivity/Connectivity_200deae.md)
+-   [How to Manage Static Role Templates](../User_Management/How_to_Manage_Static_Role_Templates_0cca34d.md)
+-   [Onboarding](../Onboarding/Onboarding_1987953.md)
+-   [SAP S/4HANA Cloud](../Connectivity/SAP_S4HANA_Cloud_60448a7.md)
+-   [SAP S/4HANA](../Connectivity/SAP_S4HANA_15a3a5b.md)
+-   [SAP ERP](../Connectivity/SAP_ERP_7b85121.md)
 
 -   **[Data Flow from and to Advanced Financial Closing](Data_Flow_from_and_to_Advanced_Financial_Closing_56103b0.md "Data flow between advanced financial
                                                 closing

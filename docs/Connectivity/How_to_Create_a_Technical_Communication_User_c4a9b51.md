@@ -287,7 +287,7 @@ You have now created a technical communication user that can be used to connect 
 
 ## Next Steps
 
-Provide your system administrator for advanced financial closing with the information of the technical communication user.
+Provide your BTP account administrator for advanced financial closing with the information of the technical communication user.
 
 **Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 

@@ -10,7 +10,12 @@ Specify the users to whom the user roles you've created apply.
 
 ## Prerequisites
 
-Your user must have a role collection assigned that includes the role template `AFC_UserManagement`.
+Your user must have a role collection assigned that includes one of the following role templates:
+
+-   `AFC_UserManagement`
+
+-   `AFC_UserAdmin`
+
 
 For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
@@ -31,6 +36,10 @@ The user roles you've created take effect only once you assign users to them. Us
     -   To assign users to a specific user role, go to the *User Roles* tab and select a user role.
     -   To assign user roles to a specific user, go to the *Users* tab and select a user.
 3.  Choose *Add* and select the users or user roles you want to assign.
+
+4.  To get an overview of the user-to-role assignments, go to the *User-to-Role Assignments* tab.
+
+    1.  You can download this overview using the export options in the top-right corner.
 
 
 

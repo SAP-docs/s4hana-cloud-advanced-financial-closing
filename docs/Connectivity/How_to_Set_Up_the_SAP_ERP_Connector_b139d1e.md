@@ -27,7 +27,7 @@ The connector has the following main features:
     -   Accounting principles
 
 
-For more information about the connector, see [SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing](https://help.sap.com/viewer/p/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING).
+For more information about the connector, such as how to get the connector and activate the service, see [SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing](https://help.sap.com/viewer/p/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING).
 
 **Parent topicColonSymbol** [SAP ERP](SAP_ERP_7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 

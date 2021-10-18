@@ -10,7 +10,11 @@ For all objects of a connected financial communication system, you want certain 
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_Config`.
+-   Your user must have a role collection assigned that includes one of the following role templates:
+
+    -   `AFC_Config`
+
+    -   `AFC_UserRoles`
 
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
@@ -46,7 +50,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d15e1021"/>General Restrictions
+    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d15e1022"/>General Restrictions
 
 
     <table>
@@ -69,7 +73,7 @@ The user roles you create and the access restrictions maintained in them take ef
     <tr>
     <td>
 
-    *Restricted ReadUnrestricted Read Only*
+    *Unrestricted Read Only*
 
 
     

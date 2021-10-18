@@ -10,7 +10,11 @@ You want to grant users access to objects in specific company codes, controlling
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_Config`.
+-   Your user must have a role collection assigned that includes one of the following role templates:
+
+    -   `AFC_Config`
+
+    -   `AFC_UserRoles`
 
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
@@ -83,7 +87,7 @@ The user roles you create and the access restrictions maintained in them take ef
     <tr>
     <td>
 
-    **
+    *Restricted Read Only*
 
 
     
@@ -108,7 +112,7 @@ The user roles you create and the access restrictions maintained in them take ef
     <tr>
     <td>
 
-    *Restricted Read and Restricted WriteRestricted Read Only*
+    *Restricted Read and Restricted Write*
 
 
     

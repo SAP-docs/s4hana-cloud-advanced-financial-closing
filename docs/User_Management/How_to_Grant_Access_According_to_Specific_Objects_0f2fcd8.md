@@ -111,7 +111,7 @@ The user roles you create and the restrictions maintained in them take effect wh
     <tr>
     <td>
 
-    **
+    *Restricted Read Only*
 
 
     
@@ -136,7 +136,7 @@ The user roles you create and the restrictions maintained in them take effect wh
     <tr>
     <td>
 
-    *Restricted Read and Restricted WriteRestricted Read Only*
+    *Restricted Read and Restricted Write*
 
 
     

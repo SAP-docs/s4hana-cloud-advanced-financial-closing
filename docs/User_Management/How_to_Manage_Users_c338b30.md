@@ -10,7 +10,11 @@ Upload new users to SAP S/4HANA Cloud for advanced financial closing and update 
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
+-   Your user must have a role collection assigned that includes one of the following role templates:
+
+    -   `AFC_SystemAdmin`
+
+    -   `AFC_UserAdmin`
 
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
@@ -172,10 +176,14 @@ Advanced Financial Closing
 </table>
 
 > ### Note:  
-> The information provided by the IdP is always leading. User attributes from the IdP overwrite the information stored in advanced financial closing when the users sign in to the app.
+> The information provided by the IdP always takes precedence. User attributes from the IdP overwrite the information stored in advanced financial closing when the users sign in to the app.
 
 > ### Caution:  
-> Make sure that the user attribute `email` is always maintained correctly. The task scheduling relies on the email address to find the respective user in the connected financial communication systems.
+> Make sure that the user attribute `email` isn't empty and is always maintained correctly. The following features can't be used if the email isn't entered correctly because they rely on the email address to find the respective user in the connected financial communication systems:
+> 
+> -   Task scheduling using this user
+> 
+> -   Notifications and email to this user
 
 
 

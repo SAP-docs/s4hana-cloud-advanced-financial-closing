@@ -10,7 +10,11 @@ You want certain users to have either general read access or general write acces
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_Config`.
+-   Your user must have a role collection assigned that includes one of the following role templates:
+
+    -   `AFC_Config`
+
+    -   `AFC_UserRoles`
 
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
@@ -44,7 +48,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 3.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loiob96fb86d38f34716bcb3c150c89d707d__d7e1021"/>General Restrictions
+    <a name="loiob96fb86d38f34716bcb3c150c89d707d__d7e1022"/>General Restrictions
 
 
     <table>
@@ -67,7 +71,7 @@ The user roles you create and the access restrictions maintained in them take ef
     <tr>
     <td>
 
-    *Restricted ReadUnrestricted Read Only*
+    *Unrestricted Read Only*
 
 
     

@@ -8,7 +8,14 @@
 
 ## Prerequisites
 
-Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
+Your user must have a role collection assigned that includes one of the following role templates:
+
+-   `AFC_SystemAdmin`
+
+-   `AFC_UserAdmin`
+
+
+For more information about role templates, see [How to Manage Static Role Templates](../User_Management/How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 
 

@@ -155,7 +155,7 @@ Users who are maintained as the user responsible for a **folder**, **task list**
 Users who are maintained as the processing user of a **task** or who belong to a processing user group always have access to the respective task. To be able to process the respective task, they don't need to have a user role assigned in addition.
 
 > ### Restriction:  
-> A substitute of a user responsible or processing user only inherits access to the objects to which the user responsible or processing user has been assigned individually and not as part of a user group.
+> A substitute of an owner, a user responsible or a processing user only inherits access to the objects to which the owner, user responsible, or processing user has been assigned individually and not as part of a user group.
 
 > ### Note:  
 > A user who has the role template `AFC_Process` assigned always has read access to all task lists in the *Process Closing Tasks* app.
