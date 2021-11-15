@@ -27,6 +27,7 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 
 
 
+
 ## Procedure
 
 1.  Open your SAP BTP cockpit.
@@ -38,14 +39,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     What to Enter
 
@@ -54,14 +55,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Specify a name for the destination configuration.
 
@@ -70,14 +71,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      ***HTTP*** 
 
@@ -86,14 +87,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the back-end URL of the communication system that you've received from the , go to the SAP S/4HANA, go system administrator. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
@@ -106,14 +107,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Proxy Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***OnPremise*** 
 
@@ -122,14 +123,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Authentication*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***BasicAuthentication***
 
@@ -138,14 +139,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *User*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Technical communication user that you've received from the SAP S/4HANA system administrator.
 
@@ -154,14 +155,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Password*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Password of the selected user
 
@@ -180,9 +181,9 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 
 You have now created a destination for your SAP S/4HANA system.
 
-**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Previous topicColonSymbol** [How to Create a Technical Communication User](How_to_Create_a_Technical_Communication_User_c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")
+**Next:** [How to Create a Technical Communication User](How_to_Create_a_Technical_Communication_User_c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")
 
-**Next topicColonSymbol** [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
+**Previous:** [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
 

@@ -6,7 +6,7 @@ Connect to your financial cloud system to retrieve information about organizatio
 
 Perform the following steps to connect your SAP S/4HANA Cloud ES system to advanced financial closing:
 
-1.  [How to Set Up the Financial Task List Management Integration](How_to_Set_Up_the_Financial_Task_List_Management_Integration_24140e9.md "Configure your SAP S/4HANA Cloud ES
+1.  [How to Set Up the Integration of Financial Task List Management](How_to_Set_Up_the_Integration_of_Financial_Task_List_Management_24140e9.md "Configure your SAP S/4HANA Cloud ES
 		system for the connection with advanced financial
                                                 closing.")  
 Configure your SAP S/4HANA Cloud ES system for the connection with advanced financial closing.

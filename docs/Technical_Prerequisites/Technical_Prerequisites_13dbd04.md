@@ -55,9 +55,11 @@ You require an identity provider to create business users and user groups. You c
     -   You can leverage the capabilities of SAP Cloud Identity Services. For more information, see [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/latest/en-US/d17a116432d24470930ebea41977a888.html).
 
 
+
 -   Your own identity provider:
 
     -   You can also use your own identity provider. For more information, see [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/latest/en-US/19f3eca47db643b6aad448b5dc1075ad.html).
+
 
 
 

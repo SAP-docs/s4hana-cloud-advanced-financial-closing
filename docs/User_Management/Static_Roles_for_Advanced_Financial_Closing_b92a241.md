@@ -8,24 +8,26 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 ## Available Role Templates
 
+<a name="loiob92a2411e4164270964903c502e22340__d15e186"/>Role Templates
+
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Role Template
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tiles on SAP Fiori Launchpad
 
@@ -34,14 +36,14 @@ Tiles on SAP Fiori Launchpad
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `AFC_SystemAdmin` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Maintains solution-specific settings, for example, a connection to financial communication systems
 
@@ -57,7 +59,7 @@ Tiles on SAP Fiori Launchpad
 
 
 </td>
-<td>
+<td valign="top">
 
 System administration:
 
@@ -69,14 +71,14 @@ System administration:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `AFC_UserAdmin` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Maintains users and the assignments between users and roles.
 
@@ -86,195 +88,178 @@ System administration:
 
 
 </td>
-<td>
+<td valign="top">
 
 -   *Manage Users*
 -   *Manage User Role Assignments*
-
-Configuration:
-
--   *Manage User Groups*
+-   *Manage User Groups* \(Configuration\)
 
 
 
 </td>
 </tr>
 <tr>
-<td>
-
- `AFC_UserRoles` 
-
-
-
-</td>
-<td>
-
-Maintains user roles and authorization groups
-
-
-
-</td>
-<td>
-
-Configuration:
-
--   *Manage User Roles*
-
--   *Manage Authorization Groups*
-
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- `AFC_Compliance` 
-
-
-
-</td>
-<td>
-
-Maintains general compliance settings
-
-
-
-</td>
-<td>
-
-*Manage Compliance Settings*
-
-
-
-</td>
-</tr>
-<tr>
-<td>
+<td valign="top">
 
  `AFC_Config` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintains application-specific data, for example, configuration settings, or master data
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Configuration:
-
--   *Manage Authorization Groups*
--   *Manage Country/Region Groups*
--   *Manage Email Notification Configurations*
--   *Manage User Groups*
--   *Manage User Roles*
+-   *Manage Authorization Groups* \(Configuration\)
+-   *Manage Country/Region Groups* \(Configuration\)
+-   *Manage Email Notification Configurations* \(Configuration\)
+-   *Manage User Groups* \(Configuration\)
+-   *Manage User Roles* \(Configuration\)
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ `AFC_Compliance` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains general compliance settings
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Compliance Settings*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  `AFC_Settings` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Maintains application-specific settings, like notifications and country/region groups
+Maintains application-specific settings, such as notifications and country/region groups
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Configuration:
-
--   *Manage Country/Region Groups*
-
--   *Manage Email Notification Configurations*
-
+-   *Manage Country/Region Groups* \(Configuration\)
+-   *Manage Email Notification Configurations* \(Configuration\)
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ `AFC_UserRoles` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains user roles and authorization groups
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage User Roles* \(Configuration\)
+-   *Manage Authorization Groups* \(Configuration\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_UserGroupsApp` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains user groups
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage User Groups* \(Configuration\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  `AFC_UserManagement` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintains assignments between user and roles
 
 
 
 </td>
-<td>
+<td valign="top">
 
-*Manage User Role Assignments*
+-   *Manage User Role Assignments*
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `AFC_Define` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Maintains task list templates and task lists
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   *Define Closing Tasks*
-
--   *Change Log*
-
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- `AFC_Approve` 
-
-
-
-</td>
-<td>
-
-Approves tasks
-
-
-
-</td>
-<td>
-
--   *Approve Closing Tasks*
-
 -   *Change Log*
 
 
@@ -282,21 +267,21 @@ Approves tasks
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `AFC_Process` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Processes task lists and tasks
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   *Process Closing Tasks*
 -   *Change Log*
@@ -306,23 +291,45 @@ Processes task lists and tasks
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
+
+ `AFC_Approve` 
+
+
+
+</td>
+<td valign="top">
+
+Approves tasks
+
+
+
+</td>
+<td valign="top">
+
+-   *Approve Closing Tasks*
+-   *Change Log*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
 
  `AFC_Reporting` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Monitors overall progress of closing activities and tracks task completion
 
 
 
 </td>
-<td>
-
-Reporting:
+<td valign="top">
 
 -   *Financial Close Overview*
 -   *Closing Task Completion*
@@ -332,14 +339,14 @@ Reporting:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `AFC_KeyUser` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Adapts the UI of apps for customer-specific use \(additionally, the role template `FlexKeyUser` is needed\).
 
@@ -353,7 +360,7 @@ Reporting:
 
 
 </td>
-<td>
+<td valign="top">
 
 All apps in advanced financial closing
 
@@ -362,14 +369,14 @@ All apps in advanced financial closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `FlexKeyUser` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Adapts the UI of apps for customer-specific use \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 
@@ -383,7 +390,7 @@ All apps in advanced financial closing
 
 
 </td>
-<td>
+<td valign="top">
 
 All apps in advanced financial closing
 
@@ -392,23 +399,23 @@ All apps in advanced financial closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `Business_Process_Specialist_BL_AccessAll` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reviews logs as an administrator
 
 
 
 </td>
-<td>
+<td valign="top">
 
-*Monitor Business Logs*
+-   *Monitor Business Logs*
 
 
 
@@ -425,14 +432,14 @@ Reviews logs as an administrator
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Role Template
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Included Role Templates
 
@@ -441,14 +448,14 @@ Included Role Templates
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 AFC\_Expert
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AFC\_Define
 -   AFC\_Config
@@ -458,14 +465,14 @@ AFC\_Expert
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 AFC\_Manager
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   AFC\_Reporting
 -   AFC\_Approve

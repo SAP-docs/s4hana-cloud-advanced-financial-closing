@@ -12,7 +12,7 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
 
 -   You have already completed the onboarding process as described under [Onboarding](../Onboarding/Onboarding_1987953.md).
 
--   The SAP S/4HANA Cloud system administrator needs to have completed the set-up instructions as described under [How to Set Up the Financial Task List Management Integration](How_to_Set_Up_the_Financial_Task_List_Management_Integration_24140e9.md).
+-   The SAP S/4HANA Cloud system administrator needs to have completed the set-up instructions as described under [How to Set Up the Integration of Financial Task List Management](How_to_Set_Up_the_Integration_of_Financial_Task_List_Management_24140e9.md).
 
 
 
@@ -28,14 +28,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     What to Enter
 
@@ -44,14 +44,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Specify a name for the destination configuration.
 
@@ -60,14 +60,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      ***HTTP*** 
 
@@ -76,14 +76,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
@@ -96,14 +96,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Proxy Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***Internet***
 
@@ -112,14 +112,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Authentication*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***BasicAuthentication***
 
@@ -128,14 +128,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *User*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Technical communication user that you've received from the SAP S/4HANA Cloud system administrator.
 
@@ -144,14 +144,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Password*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Password of the selected user
 
@@ -170,9 +170,9 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
 
 You have now created a destination for your SAP S/4HANA Cloud system.
 
-**Parent topicColonSymbol** [How to Connect to SAP S/4HANA Cloud ES](How_to_Connect_to_SAP_S4HANA_Cloud_ES_d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+**Parent topic:** [How to Connect to SAP S/4HANA Cloud ES](How_to_Connect_to_SAP_S4HANA_Cloud_ES_d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Previous topicColonSymbol** [How to Set Up the Financial Task List Management Integration](How_to_Set_Up_the_Financial_Task_List_Management_Integration_24140e9.md "Configure your SAP S/4HANA Cloud ES system for the connection with advanced financial closing.")
+**Next:** [How to Set Up the Integration of Financial Task List Management](How_to_Set_Up_the_Integration_of_Financial_Task_List_Management_24140e9.md "Configure your SAP S/4HANA Cloud ES system for the connection with advanced financial closing.")
 
-**Next topicColonSymbol** [How to Connect to SAP S/4HANA Cloud ES](How_to_Connect_to_SAP_S4HANA_Cloud_ES_90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.")
+**Previous:** [How to Connect to SAP S/4HANA Cloud ES](How_to_Connect_to_SAP_S4HANA_Cloud_ES_90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.")
 

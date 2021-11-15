@@ -20,6 +20,7 @@ Depending on what has caused the error, please do the following:
 
     6.  If the settings are correct and the synchronization was successful, but the data isn't displayed in advanced financial closing, for example in the *Define Closing Tasks* app, please go to the [SAP Support Portal](https://support.sap.com) and create an incident under the component `FIN-FIO-FCC`.
 
+
 -   **Issues when connecting to your on-premise communication system with the Cloud Connector**
 
     Please follow the instructions on how to connect to an on-premise communication system under [Connectivity](../Connectivity/Connectivity_200deae.md) and the underlying topics.

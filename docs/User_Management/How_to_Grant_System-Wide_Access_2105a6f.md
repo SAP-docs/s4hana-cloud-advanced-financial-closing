@@ -16,6 +16,7 @@ For all objects of a connected financial communication system, you want certain 
 
     -   `AFC_UserRoles`
 
+
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   You've had a look at the [overview table](Overview_of_Actions_and_Means_to_Grant_Access_6f05d23.md) to make sure you're using the right means to grant access.
@@ -50,19 +51,19 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d15e1022"/>General Restrictions
+    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d15e1046"/>General Restrictions
 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Restriction
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -71,14 +72,14 @@ The user roles you create and the access restrictions maintained in them take ef
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Unrestricted Read Only*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access to all data.
 
@@ -89,14 +90,14 @@ The user roles you create and the access restrictions maintained in them take ef
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Unrestricted Write*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user always has unrestricted write access to all data.
 

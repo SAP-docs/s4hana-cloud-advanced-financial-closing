@@ -20,19 +20,19 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 The following settings are available:
 
-<a name="loio835ce12f7d4f4e8cab5df36537aea3c1__d15e1093"/>Compliance Settings
+<a name="loio835ce12f7d4f4e8cab5df36537aea3c1__d15e1117"/>Compliance Settings
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Effect
 
@@ -41,14 +41,14 @@ Effect
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Anonymize Names in Emails*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specify whether you want real names to be removed from emails sent by the advanced financial closing notification service. The default value is ***No***.
 
@@ -57,14 +57,14 @@ Specify whether you want real names to be removed from emails sent by the advanc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Anonymize Completed Task Lists After*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Define a number of months as the time offset after which user names are removed from completed task lists. The default value is ***18*** months.
 
@@ -78,14 +78,14 @@ Define a number of months as the time offset after which user names are removed 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Notify User Before Task Is Due*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To help ensure that tasks are completed before their scheduled end date, you can arrange for email and Fiori notifications to be sent to the processing user or user responsible. Define how many minutes before a task is due users are reminded about the task. The minimum value is ***10*** minutes.
 
@@ -97,14 +97,14 @@ To help ensure that tasks are completed before their scheduled end date, you can
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Enforce SOX Requirements*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Determine whether the Sarbanes-Oxley Act \(SOX\) compliance applies, that is, whether the processing user and the user responsible cannot be the same person. The default value is ***Yes***.
 

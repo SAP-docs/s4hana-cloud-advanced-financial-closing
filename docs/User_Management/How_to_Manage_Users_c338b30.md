@@ -16,6 +16,7 @@ Upload new users to SAP S/4HANA Cloud for advanced financial closing and update 
 
     -   `AFC_UserAdmin`
 
+
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   The users you want to upload must be maintained in your identity provider \(IdP\) including the following user attributes:
@@ -27,6 +28,7 @@ Upload new users to SAP S/4HANA Cloud for advanced financial closing and update 
     -   `familyName`
 
     -   `email`
+
 
 
 
@@ -46,14 +48,14 @@ You **can** maintain the following user attributes in the IdP and have to map th
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Identity Provider
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Advanced Financial Closing
 
@@ -62,14 +64,14 @@ Advanced Financial Closing
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Address`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `address`
 
@@ -78,14 +80,14 @@ Advanced Financial Closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Phone`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `phone`
 
@@ -94,14 +96,14 @@ Advanced Financial Closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Mobile`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `mobile`
 
@@ -110,14 +112,14 @@ Advanced Financial Closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Fax`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `fax`
 
@@ -126,14 +128,14 @@ Advanced Financial Closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Department`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `department`
 
@@ -142,14 +144,14 @@ Advanced Financial Closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Function`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `function`
 
@@ -158,14 +160,14 @@ Advanced Financial Closing
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `Division`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `function` \(if function is empty\)
 
@@ -225,9 +227,9 @@ The users are uploaded with source *CSV Upload*. Once the respective users have 
 -   **[Language Codes Allowed for User Upload](Language_Codes_Allowed_for_User_Upload_51c9133.md "")**  
 
 
-**Parent topicColonSymbol** [User Management](User_Management_ae7fa30.md "")
+**Parent topic:** [User Management](User_Management_ae7fa30.md "")
 
-**Previous topicColonSymbol** [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md "Define and bundle static roles and assign them to users.")
+**Next:** [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md "Define and bundle static roles and assign them to users.")
 
-**Next topicColonSymbol** [User Access Management](User_Access_Management_6fa5e4e.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+**Previous:** [User Access Management](User_Access_Management_6fa5e4e.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
 

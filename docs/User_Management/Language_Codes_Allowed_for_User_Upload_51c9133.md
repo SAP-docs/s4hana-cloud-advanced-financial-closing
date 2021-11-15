@@ -11,14 +11,14 @@ Refer to the following table for more information about which language codes are
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Language Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Language
 
@@ -27,14 +27,14 @@ Language
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ar`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Arabic
 
@@ -43,14 +43,14 @@ Arabic
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `cs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Czech
 
@@ -59,14 +59,14 @@ Czech
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `da`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Danish
 
@@ -75,14 +75,14 @@ Danish
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `de`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 German
 
@@ -91,14 +91,14 @@ German
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `en`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 English
 
@@ -107,14 +107,14 @@ English
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `es`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Spanish
 
@@ -123,14 +123,14 @@ Spanish
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `fi`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Finnish
 
@@ -139,14 +139,14 @@ Finnish
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `fr`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 French
 
@@ -155,14 +155,14 @@ French
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `hu`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Hungarian
 
@@ -171,14 +171,14 @@ Hungarian
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `it`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Italian
 
@@ -187,14 +187,14 @@ Italian
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ja`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Japanese
 
@@ -203,14 +203,14 @@ Japanese
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ko`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Korean
 
@@ -219,14 +219,14 @@ Korean
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ms`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Malay
 
@@ -235,14 +235,14 @@ Malay
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `nl`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dutch
 
@@ -251,14 +251,14 @@ Dutch
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Norwegian
 
@@ -267,14 +267,14 @@ Norwegian
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `pl`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Polish
 
@@ -283,14 +283,14 @@ Polish
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `pt`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Portuguese
 
@@ -299,14 +299,14 @@ Portuguese
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ro`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Romanian
 
@@ -315,14 +315,14 @@ Romanian
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `ru`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Russian
 
@@ -331,14 +331,14 @@ Russian
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sv`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Swedish
 
@@ -347,14 +347,14 @@ Swedish
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `th`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Thai
 
@@ -363,14 +363,14 @@ Thai
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `tr`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Turkish
 
@@ -379,14 +379,14 @@ Turkish
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `zh_CN`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Chinese - China
 
@@ -395,14 +395,14 @@ Chinese - China
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `zh_TW`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Chinese - Taiwan
 

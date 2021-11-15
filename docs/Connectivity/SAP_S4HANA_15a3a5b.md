@@ -4,12 +4,12 @@
 
 Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.
 
-1.  [How to Install and Configure the Cloud Connector](How_to_Install_and_Configure_the_Cloud_Connector_4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and
-		configure the Cloud Connector as additional software.")  
-If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as **additional software**.
-2.  [How to Enable OData Services in SAP S/4HANA](How_to_Enable_OData_Services_in_SAP_S4HANA_fb5fe06.md "Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced
+1.  [How to Enable OData Services in SAP S/4HANA](How_to_Enable_OData_Services_in_SAP_S4HANA_fb5fe06.md "Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced
                                                   financial closing.")  
 Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced financial closing.
+2.  [How to Install and Configure the Cloud Connector](How_to_Install_and_Configure_the_Cloud_Connector_4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and
+		configure the Cloud Connector as additional software.")  
+If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as **additional software**.
 3.  [How to Create a Technical Communication User](How_to_Create_a_Technical_Communication_User_c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")  
 Create a technical communication user for your SAP S/4HANA system.
 4.  [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")  

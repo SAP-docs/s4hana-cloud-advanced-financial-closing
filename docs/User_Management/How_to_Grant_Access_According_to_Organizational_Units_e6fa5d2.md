@@ -16,6 +16,7 @@ You want to grant users access to objects in specific company codes, controlling
 
     -   `AFC_UserRoles`
 
+
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   An administrator has connected your financial communication systems. For more information, see [Connectivity](../Connectivity/Connectivity_200deae.md).
@@ -57,26 +58,26 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loioe6fa5d22299b4e62a2e7f6e79227d63c__d15e928"/>Instance-Level Restrictions
+    <a name="loioe6fa5d22299b4e62a2e7f6e79227d63c__d15e952"/>Instance-Level Restrictions
 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Restriction
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Instance restrictions must be maintained
 
@@ -85,14 +86,14 @@ The user roles you create and the access restrictions maintained in them take ef
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Restricted Read Only*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access only to the instances that you define.
 
@@ -101,7 +102,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
     
     </td>
-    <td>
+    <td valign="top">
 
     For read access
 
@@ -110,14 +111,14 @@ The user roles you create and the access restrictions maintained in them take ef
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Restricted Read and Restricted Write*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access only to the instances that you define.
 
@@ -126,7 +127,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
     
     </td>
-    <td>
+    <td valign="top">
 
     For read and for write access
 
@@ -135,14 +136,14 @@ The user roles you create and the access restrictions maintained in them take ef
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Unrestricted Read and Restricted Write*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access to all data.
 
@@ -151,7 +152,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
     
     </td>
-    <td>
+    <td valign="top">
 
     For write access
 

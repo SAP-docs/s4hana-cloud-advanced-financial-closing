@@ -57,6 +57,7 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
         The subdomain name must be unique for each data center. Therefore, we strongly recommend including a **customer-specific prefix** in the name of the subdomain. Please note that this subdomain is later part of your URL with which you access the application in the browser and also part of the API URL that you provide to your external trading platform.
 
+
     > ### Example:  
     > Your subaccount details could look something like this:
     > 
@@ -94,6 +95,7 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
         **Result:** **SAP S/4HANA Cloud for advanced financial closing** is now shown in the list of your subaccount's entitlements.
 
+
 8.  Subscribe to the application:
 
     1.  Go to *Services* \> *Instances and Subscriptions*.
@@ -106,9 +108,11 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
         -   *Plan*: ***default***
 
+
     4.  Choose *Create*.
 
         **Result:** **SAP S/4HANA Cloud for advanced financial closing** is now shown in the list of your subaccount's instances and subscriptions, and the status is *Subscribed*.
+
 
 
 **Related Information**  

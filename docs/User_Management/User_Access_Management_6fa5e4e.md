@@ -182,7 +182,7 @@ Specify the users to whom the user roles you've created apply.
 		closing tasks.")**  
 A user group represents a group of users who can be assigned to a particular set of closing tasks.
 
-**Parent topicColonSymbol** [User Management](User_Management_ae7fa30.md "")
+**Parent topic:** [User Management](User_Management_ae7fa30.md "")
 
-**Previous topicColonSymbol** [How to Manage Users](How_to_Manage_Users_c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
+**Next:** [How to Manage Users](How_to_Manage_Users_c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
 

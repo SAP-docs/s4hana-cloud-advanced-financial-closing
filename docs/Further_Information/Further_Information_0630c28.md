@@ -7,14 +7,14 @@ Find further information about advanced financial closing within the following r
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Content
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Location
 
@@ -23,14 +23,14 @@ Location
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Feature Scope Description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [https://help.sap.com/viewer/p/AFC](https://help.sap.com/viewer/p/AFC)
 
@@ -39,14 +39,14 @@ Feature Scope Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 What's New
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [https://help.sap.com/viewer/p/AFC](https://help.sap.com/viewer/p/AFC)
 
@@ -55,14 +55,14 @@ What's New
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 User Guide
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [https://help.sap.com/viewer/p/AFC](https://help.sap.com/viewer/p/AFC)
 

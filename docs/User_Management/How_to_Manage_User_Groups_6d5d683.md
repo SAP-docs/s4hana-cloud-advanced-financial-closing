@@ -16,6 +16,8 @@ Your user must have a role collection assigned that includes one of the followin
 
 -   `AFC_UserAdmin`
 
+-   `AFC_UserGroupsApp`
+
 
 For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 

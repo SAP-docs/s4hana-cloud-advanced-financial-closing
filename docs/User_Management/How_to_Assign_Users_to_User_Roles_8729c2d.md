@@ -31,15 +31,50 @@ The user roles you've created take effect only once you assign users to them. Us
 
 1.  Go to the *Manage User Role Assignments* app.
 
-2.  Decide in which direction you want to make the assignment:
+2.  Decide how you want to perform the assignment:
 
-    -   To assign users to a specific user role, go to the *User Roles* tab and select a user role.
-    -   To assign user roles to a specific user, go to the *Users* tab and select a user.
-3.  Choose *Add* and select the users or user roles you want to assign.
+    1.  You can perform single assignments. There are two ways to do this:
 
-4.  To get an overview of the user-to-role assignments, go to the *User-to-Role Assignments* tab.
+        -   To assign users to a specific user role, go to the *User Roles* tab and select a user role.
+
+            -   Choose *Add* and select the users you want to assign.
+
+
+        -   To assign user roles to a specific user, go to the *Users* tab and select a user.
+
+            -   Choose *Add* and select the user roles you want to assign.
+
+
+
+    2.  You can perform a batch assignment by uploading a CSV file that lists the assignments:
+
+        1.  Go to the *User-to-Role Assignments* tab.
+
+        2.  Download the template to ensure the file has the correct format for the upload.
+
+            > ### Note:  
+            > The upload has to be a CSV file with UTF-8 encoding.
+
+        3.  Fill out the template. Add only one role and one user in each row. You can update several roles and several users with one CSV file.
+
+            > ### Caution:  
+            > The user ID is case-sensitive. Use the same spelling as in your identity provider.
+
+            > ### Note:  
+            > You need to use the exact role names for the assignment to work.
+
+        4.  Save the template.
+
+        5.  On the *User-to-Role Assignments* tab, choose *Upload Assignments*.
+
+        6.  Select your file and upload it.
+
+
+
+3.  To get an overview of the user-to-role assignments, go to the *User-to-Role Assignments* tab.
 
     1.  You can download this overview using the export options in the top-right corner.
+
 
 
 

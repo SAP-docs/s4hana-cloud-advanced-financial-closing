@@ -64,7 +64,7 @@ If you have already used advanced financial closing in connection with your SAP 
 
 5.  Update the *UI Parameters* \(optional\):
 
-    Enter the UI parameters that should be applied for the connection with the communication system.
+    Enter the UI parameters that are to be applied for the connection with the communication system.
 
     > ### Example:  
     > Given the complete URL is as follows:
@@ -79,9 +79,9 @@ If you have already used advanced financial closing in connection with your SAP 
     > For systems that have an SAP Fiori launchpad , you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Choose *Open Target SAP Fiori Launchpad*. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
 
 
-**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Previous topicColonSymbol** [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
+**Next:** [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Next topicColonSymbol** [How to Configure Local Settings in Communication Systems](How_to_Configure_Local_Settings_in_Communication_Systems_a3b374a.md "Configure your local settings for better use with advanced financial closing.")
+**Previous:** [How to Configure Local Settings in Communication Systems](How_to_Configure_Local_Settings_in_Communication_Systems_a3b374a.md "Configure your local settings for better use with advanced financial closing.")
 

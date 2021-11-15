@@ -72,6 +72,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
     -   Select *Task* to grant access to tasks in any of the apps to which the respective users have access with their static role.
 
+
     > ### Tip:  
     > Provide a meaningful description so that other users who want to make use of the authorization group can apply it correctly.
 
@@ -81,26 +82,26 @@ The user roles you create and the restrictions maintained in them take effect wh
 
 5.  On the *General Information* tab, select one of the access restrictions listed below.
 
-    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d15e928"/>Instance-Level Restrictions
+    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d15e952"/>Instance-Level Restrictions
 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Restriction
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Instance restrictions must be maintained
 
@@ -109,14 +110,14 @@ The user roles you create and the restrictions maintained in them take effect wh
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Restricted Read Only*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access only to the instances that you define.
 
@@ -125,7 +126,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
     
     </td>
-    <td>
+    <td valign="top">
 
     For read access
 
@@ -134,14 +135,14 @@ The user roles you create and the restrictions maintained in them take effect wh
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Restricted Read and Restricted Write*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access only to the instances that you define.
 
@@ -150,7 +151,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
     
     </td>
-    <td>
+    <td valign="top">
 
     For read and for write access
 
@@ -159,14 +160,14 @@ The user roles you create and the restrictions maintained in them take effect wh
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Unrestricted Read and Restricted Write*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access to all data.
 
@@ -175,7 +176,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
     
     </td>
-    <td>
+    <td valign="top">
 
     For write access
 

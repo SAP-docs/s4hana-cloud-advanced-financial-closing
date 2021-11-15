@@ -25,6 +25,7 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
 
 
+
 ## Procedure
 
 1.  Open your SAP BTP cockpit.
@@ -36,14 +37,14 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     What to Enter
 
@@ -52,14 +53,14 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Specify a name for the destination configuration.
 
@@ -68,14 +69,14 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      ***HTTP*** 
 
@@ -84,20 +85,21 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *URL*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
     -   For the proxy type *OnPremise*: `http://www.example.com:[port number]**/sap/fccx?sap-client**=[client]`
 
     -   For the proxy type *Internet*: `https://www.example.com:[port number]**/sap/fccx?sap-client**=[client]`
+
 
     The highlighted parts are the same for all corresponding SAP ERP systems.
 
@@ -106,14 +108,14 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Proxy Type*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***OnPremise*** or ***Internet***
 
@@ -122,14 +124,14 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Authentication*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ***BasicAuthentication***
 
@@ -138,14 +140,14 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *User*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Technical user or other authenticated user
 
@@ -154,14 +156,14 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Password*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Password of the selected user
 
@@ -180,9 +182,9 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
 You have now created a destination for your SAP ERP system.
 
-**Parent topicColonSymbol** [SAP ERP](SAP_ERP_7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:** [SAP ERP](SAP_ERP_7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
-**Previous topicColonSymbol** [How to Set Up the SAP ERP Connector](How_to_Set_Up_the_SAP_ERP_Connector_b139d1e.md "If you want to connect to SAP ERP, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing as additional software.")
+**Next:** [How to Install and Configure the Cloud Connector](How_to_Install_and_Configure_the_Cloud_Connector_3d19a8a.md "If you want to connect to SAP ERP, you need to install and configure the Cloud Connector as additional software.")
 
-**Next topicColonSymbol** [How to Connect to SAP ERP](How_to_Connect_to_SAP_ERP_e11be48.md "Connect to your SAP ERP system to retrieve information about organizational units, the factory calendar, and so on.")
+**Previous:** [How to Connect to SAP ERP](How_to_Connect_to_SAP_ERP_e11be48.md "Connect to your SAP ERP system to retrieve information about organizational units, the factory calendar, and so on.")
 

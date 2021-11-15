@@ -31,11 +31,14 @@ The connection allows you to do the following, for example:
 
     -   You can define a default financial communication system for your task list templates. Business attributes, such as the factory calendar or ledger, are then governed by default by the financial communication system specified and are incorporated into the task list template.
 
+
 -   In the *Process Closing Tasks* app:
 
     -   When you process tasks of type *SAP Fiori Application* in a task list defined for the respective communication system, you’re automatically forwarded to the app in the respective system's launchpad.
 
+
     -   When you process tasks of type *Job* that are run in the communication system, the status and results of these scheduling jobs are returned to SAP S/4HANA Cloud for advanced financial closing. You can see the details for each task in the *Monitor Business Logs* app. For more information, see [Logging](../Monitoring_and_Troubleshooting/Logging_57375b8.md).
+
 
 
 -   **[SAP S/4HANA Cloud](SAP_S4HANA_Cloud_60448a7.md "Depending on your system, follow one of the instructions listed here to connect SAP S/4HANA Cloud for advanced

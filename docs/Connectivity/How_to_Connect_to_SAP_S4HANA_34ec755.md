@@ -28,6 +28,7 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
 
     -   Password of the selected user
 
+
 -   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md).
 
 
@@ -44,14 +45,14 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Field
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -60,14 +61,14 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Name*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter a name for the communication system.
 
@@ -76,14 +77,14 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Name of Destination Configuration*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
 
@@ -92,14 +93,14 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *UI Domain*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the domain of the SAP Fiori launchpad gateway of your target communication system via which users can access the app UI.
 
@@ -119,14 +120,14 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter the UI endpoint for the SAP Fiori launchpad of your communication system.
 
@@ -153,16 +154,16 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *UI Parameters* \(optional\)
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
-    Enter the UI parameters that should be applied for the connection with the communication system.
+    Enter the UI parameters that are to be applied for the connection with the communication system.
 
     > ### Example:  
     > Given the complete URL is as follows:
@@ -180,14 +181,14 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Is Production System*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Decide whether the communication system you want to connect to is a test system or a production system. ***Yes*** indicates that the communication system contains production data, which thereby makes all related task lists potentially relevant to auditing and data retention.
 
@@ -239,14 +240,14 @@ The following data in advanced financial closing is synchronized daily with the 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Business Configuration
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Master Data
 
@@ -255,14 +256,14 @@ Master Data
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Task model types
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Accounting principles
 
@@ -271,14 +272,14 @@ Accounting principles
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Task list models
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Factory calendars
 
@@ -287,14 +288,14 @@ Factory calendars
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Folder models
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Fiscal year variants
 
@@ -303,14 +304,14 @@ Fiscal year variants
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Task models
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Ledgers
 
@@ -319,14 +320,14 @@ Ledgers
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Task dependencies
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Organizational units
 
@@ -335,14 +336,14 @@ Organizational units
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assignment of tasks to country/region
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Parameters
 
@@ -351,14 +352,14 @@ Parameters
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assignments of tasks to folder
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Task parameters
 
@@ -381,11 +382,11 @@ Task parameters
 
 You have two options for the initial data synchronization with the communication system: You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
-**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Previous topicColonSymbol** [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
+**Next:** [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
 
-**Next topicColonSymbol** [How to Upgrade from an SAP ERP System to SAP S/4HANA](How_to_Upgrade_from_an_SAP_ERP_System_to_SAP_S4HANA_1fdf114.md "If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")
+**Previous:** [How to Upgrade from an SAP ERP System to SAP S/4HANA](How_to_Upgrade_from_an_SAP_ERP_System_to_SAP_S4HANA_1fdf114.md "If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")
 
 **Related Information**  
 

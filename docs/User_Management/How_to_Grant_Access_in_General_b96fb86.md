@@ -16,6 +16,7 @@ You want certain users to have either general read access or general write acces
 
     -   `AFC_UserRoles`
 
+
     For more information about role templates, see [How to Manage Static Role Templates](How_to_Manage_Static_Role_Templates_0cca34d.md).
 
 -   You've had a look at the [overview table](Overview_of_Actions_and_Means_to_Grant_Access_6f05d23.md) to make sure you're using the right means to grant access.
@@ -48,19 +49,19 @@ The user roles you create and the access restrictions maintained in them take ef
 
 3.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loiob96fb86d38f34716bcb3c150c89d707d__d7e1022"/>General Restrictions
+    <a name="loiob96fb86d38f34716bcb3c150c89d707d__d7e1046"/>General Restrictions
 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Restriction
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -69,14 +70,14 @@ The user roles you create and the access restrictions maintained in them take ef
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Unrestricted Read Only*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user has read access to all data.
 
@@ -87,14 +88,14 @@ The user roles you create and the access restrictions maintained in them take ef
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     *Unrestricted Write*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The user always has unrestricted write access to all data.
 

@@ -31,14 +31,14 @@ You need to create a technical communication user with specific authorizations t
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Program ID
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Object Type
 
@@ -47,14 +47,14 @@ You need to create a technical communication user with specific authorizations t
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `R3TR`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     `IWSG`
 
@@ -66,6 +66,7 @@ You need to create a technical communication user with specific authorizations t
     
     1.  Under *TADIR Service*, use the value help and search for the technical service name that was used during service activation as described under [How to Enable OData Services in SAP S/4HANA](How_to_Enable_OData_Services_in_SAP_S4HANA_fb5fe06.md). For example, the default *****\[ZFCCX\_COMMUNICATION\_SERVICES\_SRV\]\******.
 
+
 7.  Under *Default Authorization*, select ***SAP Gateway Business Suite Enablement - Service***.
 
     The following information is filled out automatically:
@@ -73,14 +74,14 @@ You need to create a technical communication user with specific authorizations t
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Program ID
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Object Type
 
@@ -89,14 +90,14 @@ You need to create a technical communication user with specific authorizations t
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `R3TR`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     `IWSV`
 
@@ -110,40 +111,41 @@ You need to create a technical communication user with specific authorizations t
 
     2.  Choose *Copy*.
 
+
 8.  For this last authorization, the *OP Variant* needs to have been selected on the *Applications* tab if this is supported by your release:
 
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Active
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Type
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Name
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Variant
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Description
 
@@ -152,35 +154,35 @@ You need to create a technical communication user with specific authorizations t
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     ***Selected***
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     SAP Gateway Business Suite Enablement - Service
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     FCCX\_COMMUNICATION\_SERVICES\_SRV 0001
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     FCCX\_COMMUNICATION\_SERVICES\_SRVO
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     `OP Variant`
 
@@ -195,21 +197,21 @@ You need to create a technical communication user with specific authorizations t
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Authorization Object
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Field Name \(Heading\)
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Value
 
@@ -218,21 +220,21 @@ You need to create a technical communication user with specific authorizations t
     </th>
     </tr>
     <tr>
-    <td rowspan="2">
+    <td valign="top" rowspan="2">
 
     `S_BTCH_NA1`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     `PROGRAM`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     `FCCX_APJ_PROCESSOR`
 
@@ -241,20 +243,60 @@ You need to create a technical communication user with specific authorizations t
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `BTCUNAME`: *Background User Name for Authorization Check*
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Enter one of the following:
 
     -   `*`: Using the asterisk, you ensure that you don't have to list all relevant users explicitly.
 
     -   List all relevant business users explicitly.
+
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top" rowspan="2">
+
+    `S_BTCH_JOB`
+
+
+    
+    </td>
+    <td valign="top">
+
+    `JOBACTION`
+
+
+    
+    </td>
+    <td valign="top">
+
+    `RELE`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    `JOBGROUP`
+
+
+    
+    </td>
+    <td valign="top">
+
+    `*` \(asterisk\)
 
 
     
@@ -289,9 +331,9 @@ You have now created a technical communication user that can be used to connect 
 
 Provide your BTP account administrator for advanced financial closing with the information of the technical communication user.
 
-**Parent topicColonSymbol** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:** [SAP S/4HANA](SAP_S4HANA_15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Previous topicColonSymbol** [How to Enable OData Services in SAP S/4HANA](How_to_Enable_OData_Services_in_SAP_S4HANA_fb5fe06.md "Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced financial closing.")
+**Next:** [How to Install and Configure the Cloud Connector](How_to_Install_and_Configure_the_Cloud_Connector_4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as additional software.")
 
-**Next topicColonSymbol** [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
+**Previous:** [How to Create a Destination in the SAP BTP Cockpit](How_to_Create_a_Destination_in_the_SAP_BTP_Cockpit_5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
 

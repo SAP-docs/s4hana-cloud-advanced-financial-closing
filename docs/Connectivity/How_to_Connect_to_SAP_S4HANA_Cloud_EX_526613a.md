@@ -29,6 +29,7 @@ To connect SAP S/4HANA Cloud for advanced financial closing to an SAP S/4HANA Cl
     2.  Then, follow the steps described under [How to Connect to SAP S/4HANA](How_to_Connect_to_SAP_S4HANA_34ec755.md).
 
 
+
 **Related Information**  
 
 
