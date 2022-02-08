@@ -122,5 +122,5 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
 [Subscribe to Multitenant Business Applications in the Cloud Foundry Environment Using the Cockpit \(SAP BTP documentation\)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7a3e39622be14413b2a4df7c02ca1170.html)
 
-[Creating Service Instances in Cloud Foundry \(SAP Cloud Service Management Service documentation\)](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/latest/en-US/6d6846def3c443aa9f83d127353147ce.html)
+[Creating Service Instances in Cloud Foundry \(SAP Cloud Service Management Service documentation\)](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/latest/en-US/6d6846def3c443aa9f83d127353147ce.html) 
 
