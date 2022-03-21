@@ -207,20 +207,22 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     > For systems that have an SAP Fiori launchpad, you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Choose *Open Target SAP Fiori Launchpad*. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
 
     > ### Tip:  
-    > You can check whether the connection with the communication system works as expected. Choose *Check Connection to Destination*. This will check whether the back-end connection works and whether the system communicates as expected.
+    > You can check whether the connection with the communication system works as expected. Choose *Check Connection*. This will check whether the back-end connection works and whether the system communicates as expected.
 
 3.  Save.
 
     > ### Tip:  
     > You can check whether the connection you set up works:
     > 
-    > 1.  After the first synchronization, go to the *Define Closing Tasks* app.
+    > 1.  After the first synchronization, go to the *Manage Closing Task Lists* app.
     > 
     > 2.  Create a template.
     > 
-    > 3.  Under *Communication System*, enter the corresponding system.
+    > 3.  After you've provided the mandatory information and created the template, choose *Closing Structure*.
     > 
-    > 4.  Open the value help for the *Ledger* or *Factory Calendar ID* field.
+    > 4.  Under *Communication System*, enter the corresponding system.
+    > 
+    > 5.  Open the value help for the *Ledger* or *Factory Calendar ID* field.
     > 
     >     **Results**:
     > 
@@ -275,6 +277,9 @@ Accounting principles
 <td valign="top">
 
 Task list models
+
+> ### Note:  
+> Task list model changes in the communication system are applied to task list models only, **not** to task list templates or task lists that the model has been assigned to.
 
 
 
@@ -380,7 +385,15 @@ Task parameters
 
 ## Next Steps
 
-You have two options for the initial data synchronization with the communication system: You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+You have two options for the initial data synchronization with the communication system:
+
+1.  You can wait for the **daily synchronization** to run.
+
+2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+
+
+> ### Note:  
+> Synchronization always uses the active state of the communication system entry in advanced financial closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
 
 **Parent topic:** [SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 

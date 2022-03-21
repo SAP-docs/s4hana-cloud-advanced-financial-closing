@@ -8,7 +8,7 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 ## Available Role Templates
 
-<a name="loiob92a2411e4164270964903c502e22340__d14e186"/>Role Templates
+<a name="loiob92a2411e4164270964903c502e22340__d15e216"/>Role Templates
 
 
 <table>
@@ -259,7 +259,7 @@ Maintains task list templates and task lists
 </td>
 <td valign="top">
 
--   *Define Closing Tasks*
+-   *Manage Closing Task Lists*
 -   *Change Log*
 
 

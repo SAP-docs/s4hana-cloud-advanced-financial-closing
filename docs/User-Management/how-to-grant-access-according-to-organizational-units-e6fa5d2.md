@@ -40,7 +40,7 @@ To grant access according to organizational units, you define **system-dependent
 The user roles you create and the access restrictions maintained in them take effect when you assign the respective users.
 
 > ### Restriction:  
-> You **cannot** use this means of granting access for the *Define Closing Tasks* app.
+> You **cannot** use this means of granting access for the *Manage Closing Task Lists* app.
 > 
 > Instead, grant general access or grant access to specific task list templates or task lists.
 > 
@@ -58,7 +58,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loioe6fa5d22299b4e62a2e7f6e79227d63c__d14e1049"/>Instance-Level Restrictions
+    <a name="loioe6fa5d22299b4e62a2e7f6e79227d63c__d15e1092"/>Instance-Level Restrictions
 
 
     <table>

@@ -1,5 +1,7 @@
 <!-- loio45bb6c91e94a4d3bafbf4b752c918c3e -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Manage User Groups
 
 A user group represents a group of users who can be assigned to a particular set of closing tasks.
@@ -25,7 +27,7 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 ## Context
 
-In the *Define Closing Tasks* app, task lists, tasks, or folders can be assigned to user groups instead of individual users. This setting has the following effects:
+In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be assigned to user groups instead of individual users. This setting has the following effects:
 
 -   When you monitor and report on tasks using the *Financial Close Overview* and the *Closing Task Completion* apps, the names of the users assigned to tasks are not visible. Instead, you can only see the user group name that the user belongs to.
 
@@ -44,6 +46,8 @@ In the *Define Closing Tasks* app, task lists, tasks, or folders can be assigned
 
 3.  Under *Users*, add the users who are in charge of processing or who are responsible for the same set of tasks.
 
+4.  Choose *Create* to create the user group.
+
 
 
 
@@ -51,8 +55,18 @@ In the *Define Closing Tasks* app, task lists, tasks, or folders can be assigned
 
 ## Results
 
-All users who belong to an owner group or to a responsible or processing user group of an object automatically have access to that object.
+-   All users who belong to an owner group or to a responsible or processing user group of an object automatically have access to that object.
 
-> ### Caution:  
-> The substitutes of the users assigned to this user group don't inherit access to the objects.
+    > ### Caution:  
+    > The substitutes of the users assigned to this user group don't inherit access to the objects.
+
+-   You can get an overview of the assignments of users to user groups on the *User-to-Group Assignments* tab.
+
+    > ### Tip:  
+    > Using column-specific filters, you can enter specific criteria for your search.
+    > 
+    > Additionally, you can group entries by specific criteria using the *Group* option that you can find in the settings for this table.
+
+    To export the overview, you can use the *Export to Spreadsheet* icon <span class="SAP-icons"></span> on the table toolbar.
+
 

@@ -87,7 +87,7 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
 
     Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
-    `https://www.example.com:[port number]**/sap/opu/odata/sap/fccx\_communication\_services\_srv?sap-client=100**`
+    <code>https://www.example.com:[port number]<b>/sap/opu/odata/sap/fccx_communication_services_srv?sap-client=100</b></code>
 
     The highlighted part is the same for all SAP S/4HANA Cloud systems.
 

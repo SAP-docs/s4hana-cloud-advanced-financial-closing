@@ -31,7 +31,7 @@ For all objects of a connected financial communication system, you want certain 
 To grant system-wide access, you define **system-dependent user roles**.
 
 > ### Restriction:  
-> You **cannot** use this means of granting access for the *Define Closing Tasks* app.
+> You **cannot** use this means of granting access for the *Manage Closing Task Lists* app.
 > 
 > Instead, grant general access or grant access to specific task list templates or task lists.
 > 
@@ -51,7 +51,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d14e1143"/>General Restrictions
+    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d15e1186"/>General Restrictions
 
 
     <table>

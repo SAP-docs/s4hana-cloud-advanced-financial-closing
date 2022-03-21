@@ -8,7 +8,7 @@ You can control and grant access to task list templates, task lists, and tasks i
 
 Users who have been assigned a static role can see the respective apps in the SAP Fiori launchpad \(see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md)\). For the following apps, you need to grant access to users so that they're able to view or edit **task list templates**, **task lists**, **tasks**, and **folders**:
 
--   *Define Closing Tasks*
+-   *Manage Closing Task Lists*
 
     The right to create task list templates is given automatically to every user that has the role template `AFC_Define` assigned.
 
@@ -148,7 +148,7 @@ Find out how to grant access according to organizational units under [How to Gra
 
 ## Default Access for Directly Assigned Users and User Groups
 
-Users who are maintained as owners of a task list template or task list or who belong to an assigned owner group have write access to the specific object in the *Define Closing Tasks* app.
+Users who are maintained as owners of a task list template or task list or who belong to an assigned owner group have write access to the specific object in the *Manage Closing Task Lists* app.
 
 Users who are maintained as the user responsible for a **folder**, **task list**, or **task**, or who belong to a responsible user group always have write access to the respective object. They don't need to have a user role assigned in addition.
 

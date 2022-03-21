@@ -45,34 +45,20 @@ Comment
 <tr>
 <td valign="top">
 
-January 23, 2022
+March 20, 2022
 
 
 
 </td>
 <td valign="top">
 
--   Document [Overview](../Overview/overview-6e1af27.md):
+-   Documentation topic [How to Manage User Groups](../User-Management/how-to-manage-user-groups-45bb6c9.md):
 
-    Subdocument [Language Scope](../Overview/language-scope-4f635b9.md) was added.
+    Information about new *User-to-Group Assignments* tab was added.
 
--   Document [User Management](../User-Management/user-management-ae7fa30.md):
+-   Several [Connectivity](../Connectivity/connectivity-200deae.md) documentation topics:
 
-    Subdocument [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md) and all its subtopics were added.
-
-    Subdocument *User Access Management* was renamed to [User Access Management \(Old Authorization Concept\)](../User-Management/user-access-management-old-authorization-concept-6fa5e4e.md).
-
--   Document [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    Information about execution of transactions was added.
-
--   Connectivity document [SAP S/4HANA](../Connectivity/sap-s-4hana-15a3a5b.md):
-
-    Subdocument [How to Create a Technical Communication User](../Connectivity/how-to-create-a-technical-communication-user-c4a9b51.md) was changed and subdocuments [How to Create a Technical Communication User \(One System for Gateway and Business Back End\)](../Connectivity/how-to-create-a-technical-communication-user-one-system-for-gateway-and-business-back-end-8705f86.md) and [How to Create Technical Communication Users \(Separate Gateway and Business Back Ends\)](../Connectivity/how-to-create-technical-communication-users-separate-gateway-and-business-back-ends-d3b1cbe.md) were added.
-
--   Connectivity document [SAP ERP](../Connectivity/sap-erp-7b85121.md):
-
-    Subdocument [How to Create a Technical Communication User](../Connectivity/how-to-create-a-technical-communication-user-d9e09c7.md) was added.
+    Information about task list model changes in the communication system was added.
 
 
 
@@ -82,32 +68,22 @@ January 23, 2022
 <tr>
 <td valign="top">
 
-November 14, 2021
+February 27, 2022
 
 
 
 </td>
 <td valign="top">
 
--   Document [Static Roles for Advanced Financial Closing](../User-Management/static-roles-for-advanced-financial-closing-b92a241.md):
+-   Documentation topic [System Landscape](../System-Landscape/system-landscape-3b9f341.md) was added.
 
-    The new role template `AFC_UserGroupsApp` was added. Subdocument [How to Manage User Groups](../User-Management/how-to-manage-user-groups-6d5d683.md) was updated accordingly.
+-   Documentation topic [Monitoring and Troubleshooting](../Monitoring-and-Troubleshooting/monitoring-and-troubleshooting-1f86b8f.md):
 
--   Subdocument [How to Set Up the Integration of Financial Task List Management](../Connectivity/how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md):
+    The underlying topic [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md) was added.
 
-    Document was updated. The information about how to set up the integration was moved to the SAP Help Portal.
+-   Documentation topic [Error Handling](../Monitoring-and-Troubleshooting/error-handling-e5eb3d8.md):
 
--   Connectivity documents [SAP S/4HANA](../Connectivity/sap-s-4hana-15a3a5b.md) and [SAP ERP](../Connectivity/sap-erp-7b85121.md):
-
-    Subdocuments **How to Configure Local Settings in Communication Systems** were updated. The information about how to make local settings was moved to the SAP Help Portal.
-
--   Subdocument [How to Assign Users to User Roles](../User-Management/how-to-assign-users-to-user-roles-8729c2d.md):
-
-    Information about batch upload of user-to-role assignments was added.
-
--   Subdocument [Logging](../Monitoring-and-Troubleshooting/logging-57375b8.md):
-
-    Information about change logs for configuration objects was added.
+    Information about resolving communication system issues was updated.
 
 
 

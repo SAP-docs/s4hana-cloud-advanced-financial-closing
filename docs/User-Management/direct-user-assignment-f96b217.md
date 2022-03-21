@@ -10,7 +10,7 @@ Grant access by directly assigning a user or user group to a task list template,
 
 ## About This Access
 
-Users who are maintained as owners of a task list template or task list or who belong to an assigned owner group have write access to the specific object in the *Define Closing Tasks* app.
+Users who are maintained as owners of a task list template or task list or who belong to an assigned owner group have write access to the specific object in the *Manage Closing Task Lists* app.
 
 Users who are maintained as the user responsible for a **folder**, **task list**, or **task**, or who belong to a responsible user group always have write access to the respective object. They don't need to have a user role assigned in addition.
 
@@ -44,7 +44,7 @@ Scope Affected
 </th>
 <th valign="top">
 
-Actions Allowed
+Actions
 
 
 
@@ -409,6 +409,108 @@ Change Task List Status
 <td valign="top">
 
 `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+`X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task List Creation*
+
+
+
+</td>
+<td valign="top">
+
+Change User Assignments \(Quick Actions\)
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+<td valign="top">
+
+`X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task List Creation*
+
+
+
+</td>
+<td valign="top">
+
+Check SOX Compliance
+
+
+
+</td>
+<td valign="top">
+
+`X`
 
 
 

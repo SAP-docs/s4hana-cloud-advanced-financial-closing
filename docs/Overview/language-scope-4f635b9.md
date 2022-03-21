@@ -6,7 +6,7 @@ See in which language advanced financial closing is available.
 
 Apart from the system user interface, SAP S/4HANA Cloud for advanced financial closing comes with different means of documentation and help. The following table shows you which deliverable is available in which languages:
 
-<a name="loio4f635b90a93248b680a41abe69ac5d76__table_xcc_vb3_prb"/>Language Scope of Deliverables
+<a name="loio4f635b90a93248b680a41abe69ac5d76__table_xcc_vb3_prb"/>Language Scope of System and Product Assistance
 
 
 <table>
@@ -29,7 +29,7 @@ Available Languages
 <tr>
 <td valign="top">
 
-User interface of SAP S/4HANA Cloud for advanced financial closing
+User interface of SAP S/4HANA Cloud for advanced financial closing \(exception: *Monitor Business Logs* app\)
 
 
 
@@ -60,6 +60,31 @@ User interface of SAP S/4HANA Cloud for advanced financial closing
 -   Swedish
 -   Thai
 -   Turkish
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+User interface of the *Monitor Business Logs* app
+
+
+
+</td>
+<td valign="top">
+
+-   Chinese \(Simplified\)
+-   Chinese \(Traditional\)
+-   Dutch
+-   English
+-   French
+-   German
+-   Japanese
+-   Portuguese
+-   Russian
+-   Spanish
 
 
 

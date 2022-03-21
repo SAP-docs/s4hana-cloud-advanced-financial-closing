@@ -96,9 +96,9 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
     Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
-    -   For the proxy type *OnPremise*: `http://www.example.com:[port number]**/sap/fccx?sap-client**=[client]`
+    -   For the proxy type *OnPremise*: <code>http://www.example.com:[port number]<b>/sap/fccx?sap-client</b>=[client]</code>
 
-    -   For the proxy type *Internet*: `https://www.example.com:[port number]**/sap/fccx?sap-client**=[client]`
+    -   For the proxy type *Internet*: <code>https://www.example.com:[port number]<b>/sap/fccx?sap-client</b>=[client]</code>
 
 
     The highlighted parts are the same for all corresponding SAP ERP systems.

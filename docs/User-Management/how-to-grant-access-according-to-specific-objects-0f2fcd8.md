@@ -28,7 +28,7 @@ You want to grant users access to specific task list templates, tasks lists, and
 To grant access according to objects, you define **system-independent user roles**. Access to specific task list templates, task lists, and tasks is defined indirectly via **authorization groups**.
 
 > ### Restriction:  
-> You can use this type of user role to grant access to task list templates and task lists in the *Define Closing Tasks* app. While read access can be restricted to specific objects within the template or task list, write access can be granted only for the whole template, for the task list, or not at all.
+> You can use this type of user role to grant access to task list templates and task lists in the *Manage Closing Task Lists* app. While read access can be restricted to specific objects within the template or task list, write access can be granted only for the whole template, for the task list, or not at all.
 
 > ### Restriction:  
 > You **cannot** use this user role to grant access to the *Approve Closing Tasks* app.
@@ -68,7 +68,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
 2.  Create the authorization groups you want to assign to your user role. Decide which objects the authorization group applies to:
 
-    -   Select *Task List Template / Task List* to grant access to task list templates and task lists in the *Define Closing Tasks* app.
+    -   Select *Task List Template / Task List* to grant access to task list templates and task lists in the *Manage Closing Task Lists* app.
 
     -   Select *Task* to grant access to tasks in any of the apps to which the respective users have access with their static role.
 
@@ -82,7 +82,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
 5.  On the *General Information* tab, select one of the access restrictions listed below.
 
-    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d14e1049"/>Instance-Level Restrictions
+    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d15e1092"/>Instance-Level Restrictions
 
 
     <table>
@@ -210,6 +210,6 @@ The following tasks need to be completed for your newly created user role to tak
 
 -   Assign users to whom the defined access restrictions apply. For more information, see [How to Assign Users to User Roles](how-to-assign-users-to-user-roles-8729c2d.md).
 
--   In the *Define Closing Tasks* app, assign authorization groups to task list templates, task lists, or tasks. Each task list template, task list, or task can have only one authorization group assigned.
+-   In the *Manage Closing Task Lists* app, assign authorization groups to task list templates, task lists, or tasks. Each task list template, task list, or task can have only one authorization group assigned.
 
 

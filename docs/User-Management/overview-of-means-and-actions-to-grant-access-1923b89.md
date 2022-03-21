@@ -1,98 +1,74 @@
-<!-- loio6f05d238d31146fba98448f65d8de975 -->
+<!-- loio1923b891a7b8471ab1f30eca89fef261 -->
 
-# Overview of Actions and Means to Grant Access
+# Overview of Means and Actions to Grant Access
 
-All actions to which you can grant access and the available means to do so.
+Understand how you can grant which access.
+
+The following table explains through which means you can grant which access. For more detailed information, see the documentation on the following pages of this administration guide.
+
+> ### Note:  
+> For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is disabled.
 
 
 
-<a name="loio6f05d238d31146fba98448f65d8de975__section_ejd_dvr_dlb"/>
-
-## Overview of Read and Write Actions and Means to Grant Access
+<a name="loio1923b891a7b8471ab1f30eca89fef261__table_xfg_x34_psb"/>Access Granted Through Scope-Related Authorizations or Direct Assignment
 
 
 <table>
 <tr>
-<th valign="top" rowspan="2" colspan="2">
+<th valign="top">
 
  
 
 
 
 </th>
-<th valign="top" colspan="2">
-
-[General](how-to-grant-general-access-b96fb86.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[System-Wide](how-to-grant-system-wide-access-2105a6f.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[According to Objects \(Task List Template / Task List\)](how-to-grant-access-according-to-specific-objects-0f2fcd8.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[According to Objects \(Task\)](how-to-grant-access-according-to-specific-objects-0f2fcd8.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[According to Organizational Units](how-to-grant-access-according-to-organizational-units-e6fa5d2.md)
-
-
-
-</th>
 <th valign="top">
 
-Owner
+ 
 
 
 
 </th>
-<th valign="top">
+<th valign="top" colspan="5">
 
-[User Responsible (Task List Template / Task List)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
+[Task List Creation Scope](task-list-creation-scope-ba4100e.md)
 
+The following access can be granted:
 
+-   [General](how-to-grant-access-in-general-dc228ef.md)
 
-</th>
-<th valign="top">
-
-[User Responsible (Organizational Unit Folder)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
-
+-   [By Objects](how-to-grant-access-to-specific-objects-822ddcf.md)
 
 
-</th>
-<th valign="top">
-
-[User Responsible (Task)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
+Access is granted through the following authorizations:
 
 
 
 </th>
-<th valign="top">
+<th valign="top" colspan="6">
 
-[Processing User (Task)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
+[Task Processing Scope](task-processing-scope-b4f8ec6.md)
+
+The following access can be granted:
+
+-   [General](how-to-grant-general-access-2d5fa55.md)
+
+-   [System-Wide](how-to-grant-system-wide-access-92e1980.md)
+
+-   [By Objects](how-to-grant-access-to-specific-objects-1d6de41.md)
+
+-   [By Organizational Units](how-to-grant-access-by-organizational-units-16947f1.md)
+
+
+Access is granted through the following authorizations:
 
 
 
 </th>
-<th valign="top">
+<th valign="top" colspan="5">
 
-No Access Granted
+[Direct User Assignment](direct-user-assignment-f96b217.md)
 
 
 
@@ -101,130 +77,263 @@ No Access Granted
 <tr>
 <th valign="top">
 
-Read
+App Affected
 
 
 
 </th>
 <th valign="top">
 
-Write
+Action
 
 
 
 </th>
 <th valign="top">
 
-Read
+*Read*
 
 
 
 </th>
 <th valign="top">
 
-Write
+*Create*
 
 
 
 </th>
 <th valign="top">
 
-Read
+*Write*
 
 
 
 </th>
 <th valign="top">
 
-Write
+*Generate*
 
 
 
 </th>
 <th valign="top">
 
-Read
+*User Assignment*
 
 
 
 </th>
 <th valign="top">
 
-Write
+*Read*
 
 
 
 </th>
 <th valign="top">
 
-Read
+*Process*
 
 
 
 </th>
 <th valign="top">
 
-Write
+*Plan*
 
 
 
 </th>
 <th valign="top">
 
- 
+*Parameters*
 
 
 
 </th>
 <th valign="top">
 
- 
+*User Assignment*
 
 
 
 </th>
 <th valign="top">
 
- 
+*Approve / Reject*
 
 
 
 </th>
 <th valign="top">
 
- 
+Owner / Owner Group
 
 
 
 </th>
 <th valign="top">
 
- 
+User / User Group Responsible \(Task List Template / Task List\)
 
 
 
 </th>
 <th valign="top">
 
- 
+User / User Group Responsible \(Organizational Unit Folder\)
+
+
+
+</th>
+<th valign="top">
+
+User / User Group Responsible \(Task\)
+
+
+
+</th>
+<th valign="top">
+
+Processing User / User Group
 
 
 
 </th>
 </tr>
 <tr>
-<td valign="top" colspan="18">
+<td valign="top">
 
-*Manage Closing Task Lists*
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Read
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="7">
+<td valign="top">
 
-**`AFC_Define`**
+-   *Manage Closing Task Lists*
 
 
 
@@ -245,7 +354,7 @@ Create
 </td>
 <td valign="top">
 
- 
+ `X` 
 
 
 
@@ -352,367 +461,11 @@ Create
 <tr>
 <td valign="top">
 
-Read
+-   *Manage Closing Task Lists*
 
 
 
 </td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Edit / Save
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 Copy
@@ -729,7 +482,7 @@ Copy
 </td>
 <td valign="top">
 
- 
+ `X` 
 
 
 
@@ -834,6 +587,269 @@ Copy
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Edit / Save
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Delete
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
 <td valign="top">
 
 Generate
@@ -843,20 +859,6 @@ Generate
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
  
 
 
@@ -871,21 +873,14 @@ Generate
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
  
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
 
 
 
@@ -913,14 +908,7 @@ Generate
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 
@@ -928,6 +916,162 @@ Generate
 <td valign="top">
 
  
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Change Task List Status
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
 
 
 
@@ -957,49 +1101,14 @@ Generate
 <tr>
 <td valign="top">
 
-Task List Status Change \(e.g. Release\)
+-   *Manage Closing Task Lists*
 
 
 
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
+Change User Assignments \(Quick Actions\)
 
 
 
@@ -1034,14 +1143,7 @@ Task List Status Change \(e.g. Release\)
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ `X` 
 
 
 
@@ -1049,6 +1151,55 @@ Task List Status Change \(e.g. Release\)
 <td valign="top">
 
  
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
 
 
 
@@ -1076,18 +1227,265 @@ Task List Status Change \(e.g. Release\)
 </td>
 </tr>
 <tr>
-<td valign="top" colspan="18">
+<td valign="top">
 
-*Process Closing Tasks*
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Check SOX Compliance
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="12">
+<td valign="top">
 
-**`AFC_Process`**
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Check Compatibility
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
 
 
 
@@ -1101,112 +1499,112 @@ Read
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` \(compatibility\)
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
@@ -1215,112 +1613,1015 @@ Read
 <tr>
 <td valign="top">
 
-Change Status
+-   *Process Closing Tasks*
 
 
 
 </td>
 <td valign="top">
 
-`X`
+Download Results
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` \(compatibility\)
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Change Task Status
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Schedule
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Delete Scheduling
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Execute Test Run
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Delete Test Run
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Edit Attachments / Notes
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Change Offset/Start Time
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
 
 
 
@@ -1336,170 +2637,14 @@ Change Status
 <tr>
 <td valign="top">
 
-Change Processing User
+-   *Process Closing Tasks*
 
 
 
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Change User Responsible
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
+Change Planned Start
 
 
 
@@ -1527,7 +2672,7 @@ Change User Responsible
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
@@ -1541,21 +2686,7 @@ Change User Responsible
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 
@@ -1563,6 +2694,62 @@ Change User Responsible
 <td valign="top">
 
  
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
 
 
 
@@ -1578,125 +2765,11 @@ Change User Responsible
 <tr>
 <td valign="top">
 
--   Change Offset / Start Time
+-   *Process Closing Tasks*
 
 
 
 </td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 Change Planned Duration
@@ -1713,13 +2786,6 @@ Change Planned Duration
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
  
 
 
@@ -1727,77 +2793,7 @@ Change Planned Duration
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
  
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
 
 
 
@@ -1816,116 +2812,72 @@ Change Planned Duration
 
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
-Schedule
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` \(compatibility\)
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` \(compatibility\)
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` \(compatibility\)
 
 
 
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ `X` \(compatibility\)
 
 
 
@@ -1941,125 +2893,11 @@ Schedule
 <tr>
 <td valign="top">
 
-Delete Scheduling
+-   *Process Closing Tasks*
 
 
 
 </td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 Change Parameters
@@ -2125,7 +2963,72 @@ Change Parameters
 </td>
 <td valign="top">
 
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
  
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Change User / User Group Responsible
 
 
 
@@ -2167,7 +3070,70 @@ Change Parameters
 </td>
 <td valign="top">
 
-`X`
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
 
 
 
@@ -2183,112 +3149,119 @@ Change Parameters
 <tr>
 <td valign="top">
 
-Download Results
+-   *Process Closing Tasks*
 
 
 
 </td>
 <td valign="top">
 
-`X`
+Change Processing User / User Group
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
 
 
 
@@ -2304,112 +3277,120 @@ Download Results
 <tr>
 <td valign="top">
 
-Execute Test Run
+-   *Process Closing Tasks*
+-   *Approve Closing Tasks*
 
 
 
 </td>
 <td valign="top">
 
-`X`
+Approve
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
 
 
 
@@ -2425,7 +3406,15 @@ Execute Test Run
 <tr>
 <td valign="top">
 
-Approve / Reject
+-   *Process Closing Tasks*
+-   *Approve Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Reject
 
 
 
@@ -2502,28 +3491,7 @@ Approve / Reject
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ `X` 
 
 
 
@@ -2531,6 +3499,27 @@ Approve / Reject
 <td valign="top">
 
  
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
 
 
 
@@ -2544,335 +3533,13 @@ Approve / Reject
 </td>
 </tr>
 <tr>
-<td valign="top" colspan="18">
+<td valign="top">
 
 *Approve Closing Tasks*
 
 
 
 </td>
-</tr>
-<tr>
-<td valign="top">
-
-**`AFC_Approve`**
-
-
-
-</td>
-<td valign="top">
-
-Approve / Reject
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<th valign="top" rowspan="2" colspan="2">
-
- 
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[General](how-to-grant-general-access-b96fb86.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[System-Wide](how-to-grant-system-wide-access-2105a6f.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[According to Objects \(Task List Template / Task List\)](how-to-grant-access-according-to-specific-objects-0f2fcd8.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[According to Objects \(Task\)](how-to-grant-access-according-to-specific-objects-0f2fcd8.md)
-
-
-
-</th>
-<th valign="top" colspan="2">
-
-[According to Organizational Units](how-to-grant-access-according-to-organizational-units-e6fa5d2.md)
-
-
-
-</th>
-<th valign="top">
-
-[User Responsible (Task List Template / Task List)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
-
-
-
-</th>
-<th valign="top">
-
-[User Responsible (Organizational Unit Folder / Task)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
-
-
-
-</th>
-<th valign="top">
-
-[Processing User (Task)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
-
-
-
-</th>
-<th valign="top">
-
-No Access Granted
-
-
-
-</th>
-</tr>
-<tr>
-<th valign="top">
-
-Read
-
-
-
-</th>
-<th valign="top">
-
-Write
-
-
-
-</th>
-<th valign="top">
-
-Read
-
-
-
-</th>
-<th valign="top">
-
-Write
-
-
-
-</th>
-<th valign="top">
-
-Read
-
-
-
-</th>
-<th valign="top">
-
-Write
-
-
-
-</th>
-<th valign="top">
-
-Read
-
-
-
-</th>
-<th valign="top">
-
-Write
-
-
-
-</th>
-<th valign="top">
-
-Read
-
-
-
-</th>
-<th valign="top">
-
-Write
-
-
-
-</th>
-<th valign="top">
-
- 
-
-
-
-</th>
-<th valign="top">
-
- 
-
-
-
-</th>
-<th valign="top">
-
- 
-
-
-
-</th>
-<th valign="top">
-
- 
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top" colspan="16">
-
-*Change Log*
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**`AFC_Config`**
-
-
-
-</td>
 <td valign="top">
 
 Read
@@ -2882,91 +3549,7 @@ Read
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 
@@ -2978,109 +3561,9 @@ Read
 
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
-**`AFC_Define`**
-
-
-
-</td>
-<td valign="top">
-
-Read
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 
@@ -3092,109 +3575,9 @@ Read
 
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
-**`AFC_Process`**
-
-
-
-</td>
-<td valign="top">
-
-Read
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 
@@ -3206,109 +3589,9 @@ Read
 
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
-**`AFC_Approve`**
-
-
-
-</td>
-<td valign="top">
-
-Read
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 
@@ -3320,118 +3603,9 @@ Read
 
 
 </td>
-</tr>
-<tr>
-<td valign="top" colspan="16">
-
-*Financial Close Overview*
-
-
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
-**`AFC_Reporting`**
-
-
-
-</td>
-<td valign="top">
-
-Read
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 
@@ -3443,118 +3617,37 @@ Read
 
 
 </td>
-</tr>
-<tr>
-<td valign="top" colspan="16">
-
-*Closing Task Completion*
-
-
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
-**`AFC_Reporting`**
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
-Read
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
+ 
 
 
 
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
+ 
 
 
 

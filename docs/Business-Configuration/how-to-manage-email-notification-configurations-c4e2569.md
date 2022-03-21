@@ -25,7 +25,7 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 A notification configuration assigned to a task list controls when and how processing users or users responsible are notified by email. The settings in the notification configuration apply to the task list and to all tasks in the template or task list.
 
-The default notification configuration is prefilled when you create a new task list template in the *Define Closing Tasks* app.
+The default notification configuration is prefilled when you create a new task list template in the *Manage Closing Task Lists* app.
 
 
 

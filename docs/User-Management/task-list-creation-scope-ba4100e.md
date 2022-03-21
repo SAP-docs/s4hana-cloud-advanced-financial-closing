@@ -14,7 +14,7 @@ Grant access to create and edit task list templates and to generate task lists.
 
 ### Apps in This Scope
 
--   *Define Closing Tasks*
+-   *Manage Closing Task Lists*
 
 -   *Change Log*
 
@@ -42,7 +42,7 @@ For restricted roles, access is granted indirectly through authorization groups,
 
 When creating a user role for this scope, you can choose from the following authorizations:
 
-<a name="loioba4100eba36940588d837922691349ba__d14e3267"/>Authorizations for Task List Creation
+<a name="loioba4100eba36940588d837922691349ba__d15e3621"/>Authorizations for Task List Creation
 
 
 <table>
@@ -540,6 +540,50 @@ Change User Assignments \(Quick Actions\)
 <td valign="top">
 
  
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Check SOX Compliance
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+<td valign="top">
+
+`X`
 
 
 

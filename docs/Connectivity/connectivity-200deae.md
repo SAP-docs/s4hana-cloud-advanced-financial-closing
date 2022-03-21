@@ -27,7 +27,7 @@ For more information about connectivity, see the SAP BTP documentation under [Co
 
 The connection allows you to do the following, for example:
 
--   In the *Define Closing Tasks* app:
+-   In the *Manage Closing Task Lists* app:
 
     -   You can define a default financial communication system for your task list templates. Business attributes, such as the factory calendar or ledger, are then governed by default by the financial communication system specified and are incorporated into the task list template.
 

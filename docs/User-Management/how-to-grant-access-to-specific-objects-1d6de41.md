@@ -119,7 +119,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Remember:  
     > Users who have this role assignment have the authorizations across all task list templates and task lists.
 
-    <a name="loio1d6de4177efd46eab7dc83ad456cf53a__d14e3363"/>Authorizations for Task Processing
+    <a name="loio1d6de4177efd46eab7dc83ad456cf53a__d15e3717"/>Authorizations for Task Processing
 
 
     <table>
