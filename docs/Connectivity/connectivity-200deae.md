@@ -41,7 +41,7 @@ The connection allows you to do the following, for example:
         > 
         > -   The Internet Transaction Server \(ITS\) has to be active in your communication system. This is set up by default.
         > 
-        > -   The user executing the task needs to have a user in the communication system and be authenticated, ideally using single sign-on \(SSO\).
+        > -   The user processing the task needs to have a user in the communication system and be authenticated, ideally using single sign-on \(SSO\).
         > 
         > -   Context parameters such as fiscal year, fiscal year period and company code are **not** handed over to the target window.
 
@@ -61,4 +61,8 @@ Perform the following steps to connect SAP S/4HANA Cloud for advanced financial 
                                                   financial closing to your SAP ERP system. Perform the last
 		step only if it applies to your use case.")**  
 Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.
+-   **[How to Delete the Connection to a Communication System](how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md "Delete the connection between advanced financial
+                                                closing and the communication
+		system.")**  
+Delete the connection between advanced financial closing and the communication system.
 

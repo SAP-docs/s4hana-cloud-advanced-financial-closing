@@ -21,7 +21,7 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
 
 1.  Open your SAP BTP cockpit.
 
-2.  Create a destination in your SAP BTP cockpit. For more information, see [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
+2.  Create a destination in your SAP BTP cockpit. For more information, see [Managing Destinations](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/84e45e071c7646c88027fffc6a7bb787.html).
 
     Enter the following information in the destination configuration:
 
@@ -170,9 +170,9 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
 
 You have now created a destination for your SAP S/4HANA Cloud system.
 
-**Parent topic:** [How to Connect to SAP S/4HANA Cloud ES as a Communication System](how-to-connect-to-sap-s-4hana-cloud-es-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+**Parent topic:** [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
 **Next:** [How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud ES system for the connection with advanced financial closing.")
 
-**Previous:** [How to Connect to SAP S/4HANA Cloud ES as a Communication System](how-to-connect-to-sap-s-4hana-cloud-es-as-a-communication-system-90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.")
+**Previous:** [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.")
 

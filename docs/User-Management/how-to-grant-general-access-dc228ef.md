@@ -1,6 +1,6 @@
 <!-- loiodc228efd150d4e30b5891f9a65db318f -->
 
-# How to Grant Access in General
+# How to Grant General Access
 
 Grant general access by assigning one or more authorizations available within this scope.
 
@@ -63,7 +63,7 @@ You can grant access that applies to all objects within the scope, independently
     > ### Remember:  
     > For users who have this role assignment, the authorizations selected apply across all task list templates and task lists.
 
-    <a name="loiodc228efd150d4e30b5891f9a65db318f__d15e3621"/>Authorizations for Task List Creation
+    <a name="loiodc228efd150d4e30b5891f9a65db318f__d15e3698"/>Authorizations for Task List Creation
 
 
     <table>
@@ -181,6 +181,16 @@ You can grant access that applies to all objects within the scope, independently
 7.  Choose *Activate*.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
+
+    > ### Example:  
+    >  **Quick Demo: Access in General Within the Task List Creation Scope**
+    > 
+    > The following quick demo shows how to create a user role within the *Task List Creation* scope granting general *Create* access for performing the steps described above:
+    > 
+    > > ### Note:  
+    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+    > > 
+    > > Interfaces may differ slightly depending on the version of your apps.
 
 
 

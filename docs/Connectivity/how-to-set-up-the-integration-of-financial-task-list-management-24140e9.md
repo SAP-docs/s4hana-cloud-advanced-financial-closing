@@ -10,6 +10,11 @@ Configure your SAP S/4HANA Cloud ES system for the connection with advanced fina
 
 Before you can connect your SAP S/4HANA Cloud ES system to SAP S/4HANA Cloud for advanced financial closing, you need to perform additional configuration steps in your system.
 
+> ### Tip:  
+> SAP provides a wide range of predefined content, which serves as an accelerator for implementation projects:
+> 
+> The example business content for SAP S/4HANA Cloud ES systems is documented in SAP Note [3153338](https://launchpad.support.sap.com/#/notes/3153338).
+
 
 
 <a name="loio24140e9cc08d488a97194a56d04ba6f5__steps_e2z_jf4_3rb"/>
@@ -34,7 +39,7 @@ Before you can connect your SAP S/4HANA Cloud ES system to SAP S/4HANA Cloud for
 
 You have now set up the integration of financial task list management.
 
-**Parent topic:** [How to Connect to SAP S/4HANA Cloud ES as a Communication System](how-to-connect-to-sap-s-4hana-cloud-es-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+**Parent topic:** [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
 **Previous:** [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpit.")
 

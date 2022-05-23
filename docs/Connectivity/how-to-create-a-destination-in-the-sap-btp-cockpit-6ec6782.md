@@ -20,7 +20,7 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
     -   Back-end URL for the communication system
 
-    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing documentation. For more information, see [Security Considerations](https://help.sap.com/viewer/c56f7dab0ed341afad9581be5651184f/latest/en-US/c552f0649acd42a7bb8638359ca82897.html).
+    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing documentation. For more information, see [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
 
 
 
@@ -30,7 +30,7 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
 1.  Open your SAP BTP cockpit.
 
-2.  Create a destination in your SAP BTP cockpit. For more information, see [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
+2.  Create a destination in your SAP BTP cockpit. For more information, see [Managing Destinations](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/84e45e071c7646c88027fffc6a7bb787.html).
 
     Enter the following information in the destination configuration:
 

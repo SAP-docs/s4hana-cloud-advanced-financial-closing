@@ -7,7 +7,7 @@ Understand how you can grant which access.
 The following table explains through which means you can grant which access. For more detailed information, see the documentation on the following pages of this administration guide.
 
 > ### Note:  
-> For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is disabled.
+> For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is deactivated.
 
 
 
@@ -36,7 +36,7 @@ The following table explains through which means you can grant which access. For
 
 The following access can be granted:
 
--   [General](how-to-grant-access-in-general-dc228ef.md)
+-   [General](how-to-grant-general-access-dc228ef.md)
 
 -   [By Objects](how-to-grant-access-to-specific-objects-822ddcf.md)
 
@@ -2132,7 +2132,7 @@ Delete Scheduling
 </td>
 <td valign="top">
 
-Execute Test Run
+Start Test Run
 
 
 

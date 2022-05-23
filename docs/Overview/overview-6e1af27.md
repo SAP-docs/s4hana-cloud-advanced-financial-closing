@@ -9,9 +9,9 @@
 ## About This Guide
 
 > ### Note:  
-> This documentation refers to the solution on SAP BTP. For the SAP S/4HANA Cloud version, see [Entity Close](https://help.sap.com/viewer/f28f75c165cc4626ba0359dc47edc4de/latest/en-US/5e4381c85a544720920b78d20d656a4c.html).
+> This documentation refers to the solution on SAP BTP. For the SAP S/4HANA Cloud version, see [Entity Close](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f28f75c165cc4626ba0359dc47edc4de/5e4381c85a544720920b78d20d656a4c.html?locale=en-US).
 
-This administration guide describes the steps you need to perform as an administrator to set up and run SAP S/4HANA Cloud for advanced financial closing. It covers application-specific information only. For general information about SAP Business Technology Platform \(SAP BTP\), see the [documentation on the SAP Help Portal](https://help.sap.com/viewer/product/BTP).
+This administration guide describes the steps you need to perform as an administrator to set up and run SAP S/4HANA Cloud for advanced financial closing. It covers application-specific information only. For general information about SAP Business Technology Platform \(SAP BTP\), see the [documentation on the SAP Help Portal](https://help.sap.com/docs/BTP?locale=en-US).
 
 This guide addresses the following target audience:
 
@@ -28,7 +28,7 @@ This guide addresses the following target audience:
 
 ## About SAP S/4HANA Cloud for Advanced Financial Closing
 
-SAP S/4HANA Cloud for advanced financial closing supports you in planning, executing, monitoring, and analyzing financial closing tasks for the entities of your group. For more information about using the functions and features provided, see the [user guide](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/latest/en-US/239ab375e0334c149082cc6851644e8b.html).
+SAP S/4HANA Cloud for advanced financial closing supports you in planning, processing, monitoring, and analyzing financial closing tasks for the entities of your group. For more information about using the functions and features provided, see the [user guide](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/239ab375e0334c149082cc6851644e8b.html "Provides details about the changes made in each version of this document.") :arrow_upper_right:.
 
 SAP S/4HANA Cloud for advanced financial closing is an SAP BTP application that runs in an SAP BTP subaccount. The SAP BTP subaccount is associated with an SAP BTP global account. Your organization may have several SAP BTP global accounts. Please clarify with your sales representative in which SAP BTP global account your entitlement to SAP S/4HANA Cloud for advanced financial closing should be contained. If you have no previous SAP BTP global account, a new one needs to be created. Your sales representative will assist you.
 

@@ -16,7 +16,7 @@ Define and bundle static roles and assign them to users.
 
 2.  You've established trust and federation with the UAA.
 
-    For more information, see [Trust and Federation with SAML 2.0 Identity Providers](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html)
+    For more information, see [Trust and Federation with Identity Providers](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html).
 
 
 
@@ -97,7 +97,7 @@ For more information about how to create roles and how to bundle them in role co
     </tr>
     </table>
     
-3.  Create role collections from the role templates provided by advanced financial closing. Follow the steps under [Maintain Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d5f1612d8230448bb6c02a7d9c8ac0d1.html).
+3.  Create role collections from the role templates provided by advanced financial closing. Follow the steps under [Maintain Role Collections](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d5f1612d8230448bb6c02a7d9c8ac0d1.html).
 
     > ### Caution:  
     > To ensure a separation of concerns, you might want to avoid combining the role templates `AFC_Define` and `AFC_Process` into one role collection.
@@ -105,9 +105,9 @@ For more information about how to create roles and how to bundle them in role co
     > ### Note:  
     > When creating role collections, keep in mind that an app may link to objects in another app. For example, the *Closing Task Completion* app links to tasks in the *Process Closing Tasks* app. You can create a role collection that includes the role template `AFC_Reporting` but not the role template `AFC_Process`. However, users with this role collection won't be able to follow the link to the task details in the *Process Closing Tasks* app.
 
-4.  Assign role collections to users. Follow the steps under [Assign Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9e1bf57130ef466e8017eab298b40e5e.html).
+4.  Assign role collections to users. Follow the steps under [Mapping Role Collections in the Subaccount](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/9e1bf57130ef466e8017eab298b40e5e.html).
 
-5.  Add roles to role collections. Follow the steps under [Add Roles to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7596a0bdab4649ac8a6f6721dc72db19.html).
+5.  Add roles to role collections. Follow the steps under [Add Roles to Role Collections on the Application Level](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7596a0bdab4649ac8a6f6721dc72db19.html).
 
 
 -   **[Static Roles for Advanced Financial Closing](static-roles-for-advanced-financial-closing-b92a241.md "Static roles enable users to see the affected apps on their SAP Fiori

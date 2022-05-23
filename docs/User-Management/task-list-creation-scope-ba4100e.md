@@ -42,7 +42,7 @@ For restricted roles, access is granted indirectly through authorization groups,
 
 When creating a user role for this scope, you can choose from the following authorizations:
 
-<a name="loioba4100eba36940588d837922691349ba__d15e3621"/>Authorizations for Task List Creation
+<a name="loioba4100eba36940588d837922691349ba__d15e3698"/>Authorizations for Task List Creation
 
 
 <table>
@@ -650,7 +650,7 @@ Check Compatibility
 
 Find more information about how to manage access in this scope in the following documents:
 
--   **[How to Grant Access in General](how-to-grant-access-in-general-dc228ef.md "Grant general access by assigning one or more authorizations available within this
+-   **[How to Grant General Access](how-to-grant-general-access-dc228ef.md "Grant general access by assigning one or more authorizations available within this
 		scope.")**  
 Grant general access by assigning one or more authorizations available within this scope.
 -   **[How to Grant Access to Specific Objects](how-to-grant-access-to-specific-objects-822ddcf.md "Grant access to specific task list templates and task lists by assigning one or more

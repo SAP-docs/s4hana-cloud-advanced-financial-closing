@@ -18,7 +18,7 @@ Provides details about the changes made in each version of this document.
 > 
 > **More information:**
 > 
-> -   [Contribution Guidelines](https://help.sap.com/products/open-documentation-initiative/contribution-guidelines/readme.html)
+> -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
 > 
 > -   [Introduction Video: Open Documentation Initiative](https://www.youtube.com/watch?v=DwxrZ6ET3Yc)
 > 
@@ -45,20 +45,28 @@ Comment
 <tr>
 <td valign="top">
 
-March 20, 2022
+May 22, 2022
 
 
 
 </td>
 <td valign="top">
 
--   Documentation topic [How to Manage User Groups](../User-Management/how-to-manage-user-groups-45bb6c9.md):
+-   Documentation topic [System Landscape](../System-Landscape/system-landscape-3b9f341.md):
 
-    Information about new *User-to-Group Assignments* tab was added.
+    Information about a possible test tenant was added.
 
--   Several [Connectivity](../Connectivity/connectivity-200deae.md) documentation topics:
+-   Documentation topic [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md):
 
-    Information about task list model changes in the communication system was added.
+    Quick demos were added to several of the underlying topics.
+
+-   Documentation topic [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    The underlying topic [How to Delete the Connection to a Communication System](../Connectivity/how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md) was added.
+
+-   Documentation topic [How to Manage Authorization Groups](../Business-Configuration/how-to-manage-authorization-groups-d3c02b0.md):
+
+    Quick demo was added.
 
 
 
@@ -68,22 +76,33 @@ March 20, 2022
 <tr>
 <td valign="top">
 
-February 27, 2022
+April 24, 2022
 
 
 
 </td>
 <td valign="top">
 
--   Documentation topic [System Landscape](../System-Landscape/system-landscape-3b9f341.md) was added.
+-   Documentation topics [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md) and [User Access Management \(Old Authorization Concept\)](../User-Management/user-access-management-old-authorization-concept-6fa5e4e.md):
 
--   Documentation topic [Monitoring and Troubleshooting](../Monitoring-and-Troubleshooting/monitoring-and-troubleshooting-1f86b8f.md):
+    Underlying topics *How to Manage User Groups* was updated with the following information:
 
-    The underlying topic [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md) was added.
+    -   Creation of several user groups in one batch
 
--   Documentation topic [Error Handling](../Monitoring-and-Troubleshooting/error-handling-e5eb3d8.md):
+    -   Upload of several user-to-group assignments in one batch
 
-    Information about resolving communication system issues was updated.
+
+-   [Connectivity](../Connectivity/connectivity-200deae.md) documentation topics:
+
+    The underlying topics [How to Connect to SAP S/4HANA Cloud as a Communication System](../Connectivity/how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md), [How to Connect to SAP S/4HANA as a Communication System](../Connectivity/how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md), and [How to Connect to SAP ERP as a Communication System](../Connectivity/how-to-connect-to-sap-erp-as-a-communication-system-e11be48.md) were updated with information about the daily synchronization.
+
+-   Documentation topic [Business Configuration](../Business-Configuration/business-configuration-9719d0a.md):
+
+    The underlying documentation [How to Manage Authorization Groups](../Business-Configuration/how-to-manage-authorization-groups-d3c02b0.md) and [How to Manage User Groups](../Business-Configuration/how-to-manage-user-groups-e2f793a.md) was added.
+
+-   Documentation topic [Session Security](../Security/session-security-8378d19.md):
+
+    Information about the session timeout was updated.
 
 
 
@@ -91,4 +110,9 @@ February 27, 2022
 </td>
 </tr>
 </table>
+
+**Related Information**  
+
+
+[What&apos;s New for SAP S/4HANA Cloud for Advanced Financial Closing](https://help.sap.com/viewer/63a47d78868a40019d316c52e2ed597f/SHIP/en-US/54a5ce2b9dd84cf08b9e29760136e6d5.html "Overview of new and changed features of SAP S/4HANA Cloud for advanced financial closing.") :arrow_upper_right:
 

@@ -32,7 +32,7 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 
 1.  Open your SAP BTP cockpit.
 
-2.  Create a destination. For more information, see [Managing Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html).
+2.  Create a destination. For more information, see [Managing Destinations](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/84e45e071c7646c88027fffc6a7bb787.html).
 
     Enter the following information in the destination configuration:
 
@@ -96,7 +96,7 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </td>
     <td valign="top">
 
-    Enter the back-end URL of the communication system that you've received from the , go to the SAP S/4HANA, go system administrator. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
+    Enter the back-end URL of the communication system that you've received from the system administrator. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
     <code>http://www.example.com:[port number]<b>/sap/opu/odata/sap/fccx_communication_services_srv?sap-client</b>=[client]</code>
 

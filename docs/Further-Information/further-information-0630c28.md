@@ -30,9 +30,9 @@ Feature Scope Description
 
 
 </td>
-<td valign="top">
+<td valign="top" rowspan="3">
 
-[https://help.sap.com/viewer/p/AFC](https://help.sap.com/viewer/p/AFC)
+[https://help.sap.com/docs/AFC](https://help.sap.com/docs/AFC)
 
 
 
@@ -46,25 +46,11 @@ What's New
 
 
 </td>
-<td valign="top">
-
-[https://help.sap.com/viewer/p/AFC](https://help.sap.com/viewer/p/AFC)
-
-
-
-</td>
 </tr>
 <tr>
 <td valign="top">
 
 User Guide
-
-
-
-</td>
-<td valign="top">
-
-[https://help.sap.com/viewer/p/AFC](https://help.sap.com/viewer/p/AFC)
 
 
 

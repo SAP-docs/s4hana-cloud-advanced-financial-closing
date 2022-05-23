@@ -20,7 +20,7 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 		system to retrieve information about organizational units, the factory calendar, and so
 		on.")  
 Connect to your SAP ERP system to retrieve information about organizational units, the factory calendar, and so on.
-6.  [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-3e2c737.md "Configure your local settings for better use with advanced financial
+6.  [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-38f2e79.md "Configure your local settings for better use with advanced financial
                                                 closing.")  
 Configure your local settings for better use with advanced financial closing.
 

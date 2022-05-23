@@ -8,7 +8,7 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 ## Available Role Templates
 
-<a name="loiob92a2411e4164270964903c502e22340__d15e216"/>Role Templates
+<a name="loiob92a2411e4164270964903c502e22340__d15e225"/>Role Templates
 
 
 <table>
@@ -49,7 +49,7 @@ Tiles on SAP Fiori Launchpad
 
 -   Adapts the UI of apps for customer-specific use \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/viewer/3d99fdeadde04524bdd33d35f1e13777/latest/en-US/d868950a1e8c4b0f9b9453176939a19b.html) in the SAP Fiori Launchpad documentation.
+    For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
 -   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
 
@@ -341,6 +341,30 @@ Monitors overall progress of closing activities and tracks task completion
 <tr>
 <td valign="top">
 
+ `AFC_Migration` 
+
+
+
+</td>
+<td valign="top">
+
+Migrates data if a migration from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud to the SAP BTP solution takes place.
+
+
+
+</td>
+<td valign="top">
+
+-   *Migrate Configuration Data*
+-   *Migrate Closing Task Lists*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  `AFC_KeyUser` 
 
 
@@ -350,7 +374,7 @@ Monitors overall progress of closing activities and tracks task completion
 
 -   Adapts the UI of apps for customer-specific use \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/viewer/3d99fdeadde04524bdd33d35f1e13777/latest/en-US/d868950a1e8c4b0f9b9453176939a19b.html) in the SAP Fiori Launchpad documentation.
+    For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
 -   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
 
@@ -380,7 +404,7 @@ All apps in advanced financial closing
 
 -   Adapts the UI of apps for customer-specific use \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 
-    For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/viewer/3d99fdeadde04524bdd33d35f1e13777/latest/en-US/d868950a1e8c4b0f9b9453176939a19b.html) in the SAP Fiori Launchpad documentation.
+    For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
 -   Creates public view variants \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 

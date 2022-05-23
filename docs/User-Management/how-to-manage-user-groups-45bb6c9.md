@@ -40,13 +40,51 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
 
 ## Procedure
 
-1.  Go to the *Configuration* app and choose *User Groups* from the table.
+1.  Go to the ** app and choose *User Groups* from the table.
 
-2.  Under *User Groups*, create a user group and enter a description.
+2.  To create a new user group, perform the following steps:
 
-3.  Under *Users*, add the users who are in charge of processing or who are responsible for the same set of tasks.
+    1.  On the *User Groups* tab, create a user group and enter a description.
 
-4.  Choose *Create* to create the user group.
+    2.  Under *Users*
+
+    3.  Choose *Create* to create the user group.
+
+
+3.  To create several new user groups at once, perform the following steps:
+
+    1.  On the *User Groups*, add the users who are in charge of tab, download the template.
+
+    2.  In the CSV file, enter the user groups you want to create and for each group, enter one user that will be assigned to the group upon creation.
+
+        > ### Note:  
+        > Provide each user group only **once** and assign only one user to it. You can assign several users in one batch to the user group once it has been created.
+
+    3.  Go back to the *Manage User Groups* app.
+
+    4.  On the *User Groups* tab, choose *Upload User Groups*.
+
+    5.  Select the CSV file you've prepared and choose *Upload*.
+
+
+4.  To assign several users in one batch to user groups, perform the following steps:
+
+    > ### Note:  
+    > The user groups and users affected have to exist in advanced financial closing before you can upload assignments.
+
+    1.  On the *User-to-Group Assignments* tab, download the template.
+
+    2.  In the CSV file, enter the assignments you want to upload.
+
+        > ### Note:  
+        > On each line, you provide only one user group and only one user. However, you can mention each user group and user several times. This means that you can use this template to assign several users to several user groups in one batch.
+
+    3.  Go back to the *Manage User Groups* app.
+
+    4.  On the *User-to-Group Assignments* tab, choose *Upload Assignments*.
+
+    5.  Select the CSV file you've prepared and choose *Upload*.
+
 
 
 

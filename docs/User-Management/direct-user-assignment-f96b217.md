@@ -28,7 +28,7 @@ Find out how to manage user groups under [How to Manage User Groups](how-to-mana
 ## Actions Allowed Based on Direct Assignment
 
 > ### Note:  
-> For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is disabled.
+> For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is deactivated.
 
 <a name="loiof96b217748304780966e86b8063dc41d__table_ymd_fsv_rrb"/>
 
@@ -860,7 +860,7 @@ Delete Scheduling
 </td>
 <td valign="top">
 
-Execute Test Run
+Start Test Run
 
 
 
@@ -998,57 +998,6 @@ Edit Attachments/Notes
 <td valign="top">
 
 `X`
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Task Processing*
-
-
-
-</td>
-<td valign="top">
-
-Change Offset / Start Time
-
-
-
-</td>
-<td valign="top">
-
-`X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
-`X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
-`X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
-`X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 

@@ -20,7 +20,7 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 The following settings are available:
 
-<a name="loio835ce12f7d4f4e8cab5df36537aea3c1__d15e1257"/>Compliance Settings
+<a name="loio835ce12f7d4f4e8cab5df36537aea3c1__d15e1302"/>Compliance Settings
 
 
 <table>
@@ -118,9 +118,9 @@ Determine whether the Sarbanes-Oxley Act \(SOX\) compliance applies. The default
 
 
 > ### Note:  
-> If you disable this option, no checks for compliance with the SOX requirements will be executed anymore. If you enable this option again, only objects created after enabling this setting will be checked for SOX requirements. To ensure SOX compliance of existing task list templates and task lists, you need to run a SOX compliance check. Task lists that were generated before SOX compliance was required might still not fulfill the SOX requirements. However, during task approval, a check ensures that the approving user is not the same as the processing user.
+> If you deactivate this option, no checks for compliance with the SOX requirements will be run anymore. If you activate this option again, only objects created after activating this setting will be checked for SOX requirements. To ensure SOX compliance of existing task list templates and task lists, you need to run a SOX compliance check. Task lists that were generated before SOX compliance was required might still not fulfill the SOX requirements. However, during task approval, a check ensures that the approving user is not the same as the processing user.
 > 
-> For more information about the SOX compliance check, see [How to Run a Check on Templates](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/14e56802fa354b33938979fbed2619bd.html "Run a check on your task list template.") :arrow_upper_right:.
+> For more information about the SOX compliance check, see [How to Run a SOX Compliance Check](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/bfa9bdc596504a7cad150970a7c7f646.html "Check your task list templates for compliance with SOX requirements.") :arrow_upper_right:.
 
 
 

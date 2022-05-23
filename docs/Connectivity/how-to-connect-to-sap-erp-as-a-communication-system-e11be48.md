@@ -24,7 +24,7 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
     -   Back-end URL for the communication system
 
-    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing documentation. For more information, see [Security Considerations](https://help.sap.com/viewer/c56f7dab0ed341afad9581be5651184f/latest/en-US/c552f0649acd42a7bb8638359ca82897.html).
+    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing documentation. For more information, see [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
 
 
 -   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md).
@@ -240,14 +240,14 @@ The following data in advanced financial closing is synchronized daily with the 
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" align="center">
 
 Business Configuration
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Master Data
 
@@ -387,6 +387,9 @@ You have two options for the initial data synchronization with the communication
 
 1.  You can wait for the **daily synchronization** to run.
 
+    > ### Recommendation:  
+    > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
+
 2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
 
@@ -397,7 +400,7 @@ You have two options for the initial data synchronization with the communication
 
 **Next:** [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
 
-**Previous:** [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-3e2c737.md "Configure your local settings for better use with advanced financial closing.")
+**Previous:** [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-38f2e79.md "Configure your local settings for better use with advanced financial closing.")
 
 **Related Information**  
 

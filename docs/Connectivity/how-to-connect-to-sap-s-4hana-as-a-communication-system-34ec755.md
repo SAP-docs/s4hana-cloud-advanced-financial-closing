@@ -242,14 +242,14 @@ The following data in advanced financial closing is synchronized daily with the 
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" align="center">
 
 Business Configuration
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Master Data
 
@@ -388,6 +388,9 @@ Task parameters
 You have two options for the initial data synchronization with the communication system:
 
 1.  You can wait for the **daily synchronization** to run.
+
+    > ### Recommendation:  
+    > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
 
 2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 

@@ -1,6 +1,6 @@
 <!-- loio90aa5f3dd1124a54b8bd33ba5b5868bd -->
 
-# How to Connect to SAP S/4HANA Cloud ES as a Communication System
+# How to Connect to SAP S/4HANA Cloud as a Communication System
 
 Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.
 
@@ -232,14 +232,14 @@ The following data in advanced financial closing is synchronized daily with the 
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" align="center">
 
 Business Configuration
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Master Data
 
@@ -379,13 +379,16 @@ You have two options for the initial data synchronization with the communication
 
 1.  You can wait for the **daily synchronization** to run.
 
+    > ### Recommendation:  
+    > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
+
 2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
 
 > ### Note:  
 > Synchronization always uses the active state of the communication system entry in advanced financial closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
 
-**Parent topic:** [How to Connect to SAP S/4HANA Cloud ES as a Communication System](how-to-connect-to-sap-s-4hana-cloud-es-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+**Parent topic:** [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
 **Next:** [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpit.")
 

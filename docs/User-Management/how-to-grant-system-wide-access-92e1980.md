@@ -63,7 +63,7 @@ You can grant access that is tied to a specific communication system without bei
     > ### Remember:  
     > For users who have this role assignment, the authorizations selected apply across all task lists generated for the selected communication system.
 
-    <a name="loio92e1980503e24d0fbb363c8787c55a51__d15e3717"/>Authorizations for Task Processing
+    <a name="loio92e1980503e24d0fbb363c8787c55a51__d15e3794"/>Authorizations for Task Processing
 
 
     <table>
@@ -125,7 +125,7 @@ You can grant access that is tied to a specific communication system without bei
     </td>
     <td valign="top">
 
-    Authorization to change attributes that refer to the planning of a task. This authorization covers changes of offset/start time, planned start, and planned duration. This authorization always includes *Read* authorization.
+    Authorization to change attributes that refer to the planning of a task. This authorization covers changes of planned start and planned duration. This authorization always includes *Read* authorization.
 
 
     
@@ -195,6 +195,16 @@ You can grant access that is tied to a specific communication system without bei
 7.  Choose *Activate*.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
+
+    > ### Example:  
+    > **Quick Demo: System-Wide Access Within the *Task Processing* Scope**
+    > 
+    > The following quick demo shows how to create a user role within the *Task Processing* scope granting system-wide *User Assignment* access performing the steps described above:
+    > 
+    > > ### Note:  
+    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+    > > 
+    > > Interfaces may differ slightly depending on the version of your apps.
 
 
 

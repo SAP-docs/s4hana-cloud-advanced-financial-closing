@@ -41,7 +41,7 @@ For restricted roles, access is granted indirectly through authorization groups,
 
 When creating a user role for this scope, you can choose from the following authorizations:
 
-<a name="loiob4f8ec6e1c9745469f1574ee1b1e56e1__d15e3717"/>Authorizations for Task Processing
+<a name="loiob4f8ec6e1c9745469f1574ee1b1e56e1__d15e3794"/>Authorizations for Task Processing
 
 
 <table>
@@ -103,7 +103,7 @@ Authorization to process tasks. This authorization covers actions related to tas
 </td>
 <td valign="top">
 
-Authorization to change attributes that refer to the planning of a task. This authorization covers changes of offset/start time, planned start, and planned duration. This authorization always includes *Read* authorization.
+Authorization to change attributes that refer to the planning of a task. This authorization covers changes of planned start and planned duration. This authorization always includes *Read* authorization.
 
 
 
@@ -478,7 +478,7 @@ Delete Scheduling
 <tr>
 <td valign="top">
 
-Execute Test Run
+Start Test Run
 
 
 
@@ -602,57 +602,6 @@ Edit Attachments / Notes
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Change Offset/Start Time
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
-`X`
 
 
 

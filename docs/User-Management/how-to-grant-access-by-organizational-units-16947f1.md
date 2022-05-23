@@ -26,7 +26,7 @@ Grant access to specific organizational units by assigning one or more authoriza
 
 ## Context
 
-You can grant access that is restricted to specific oranizational units. The authorizations then only apply to tasks of the selected organizational units. The following graphic explains the relationship between the aspects involved:
+You can grant access that is restricted to specific organizational units. The authorizations then only apply to tasks of the selected organizational units. The following graphic explains the relationship between the aspects involved:
 
  ![Graphic depicting the relationship between objects and user roles: A user is assigned to a user role, which in turn has authorizations assigned. Additionally, organizational units are assigned to the user role and to folders in the task lists at the same time. This assignment on both sides (user role and task list) establishes the relationship between user and object and it grants access. Access to the folder automatically grants access to tasks.](images/Image_New_Auth_Concept_-_PROC_Access_to_Org_Units_ced8f0f.png) 
 
@@ -65,7 +65,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Remember:  
     > Users who have this role assignment have the authorizations across all task list templates and task lists.
 
-    <a name="loio16947f19a23d41ba832e1fa1314aca43__d15e3717"/>Authorizations for Task Processing
+    <a name="loio16947f19a23d41ba832e1fa1314aca43__d15e3794"/>Authorizations for Task Processing
 
 
     <table>
@@ -127,7 +127,7 @@ The abstraction level between user roles and specific objects enables you to gra
     </td>
     <td valign="top">
 
-    Authorization to change attributes that refer to the planning of a task. This authorization covers changes of offset/start time, planned start, and planned duration. This authorization always includes *Read* authorization.
+    Authorization to change attributes that refer to the planning of a task. This authorization covers changes of planned start and planned duration. This authorization always includes *Read* authorization.
 
 
     
@@ -205,6 +205,16 @@ The abstraction level between user roles and specific objects enables you to gra
 8.  Choose *Activate*.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
+
+    > ### Example:  
+    > **Quick Demo: Access to Specific Organizational Units Within the *Task Processing* Scope**
+    > 
+    > The following quick demo shows how to create a user role within the *Task Processing* scope granting *Parameters* access to specific organizational units performing the steps described above:
+    > 
+    > > ### Note:  
+    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+    > > 
+    > > Interfaces may differ slightly depending on the version of your apps.
 
 
 

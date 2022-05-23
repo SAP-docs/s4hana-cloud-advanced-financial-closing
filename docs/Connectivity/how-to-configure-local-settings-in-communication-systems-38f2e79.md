@@ -1,4 +1,4 @@
-<!-- copy3e2c737ec88242049f29fd5ca16630f6 -->
+<!-- loio38f2e79cddaa4465a9233c5ae1fcead6 -->
 
 # How to Configure Local Settings in Communication Systems
 
@@ -10,9 +10,14 @@ Configure your local settings for better use with advanced financial closing.
 
 When using SAP S/4HANA Cloud for advanced financial closing, you want to include your customer-specific local settings and ABAP programs. You can include them without any changes by registering them for advanced financial closing. However, to fully benefit from the automatic task status reporting to advanced financial closing, you need to integrate your programs and local settings further.
 
+> ### Tip:  
+> SAP provides a wide range of predefined content, which serves as an accelerator for implementation projects:
+> 
+> The example business content for SAP ERP systems is documented in SAP Note [3135513](https://launchpad.support.sap.com/#/notes/3135513).
 
 
-<a name="copy3e2c737ec88242049f29fd5ca16630f6__steps_ttj_jnn_3rb"/>
+
+<a name="loio38f2e79cddaa4465a9233c5ae1fcead6__steps_ttj_jnn_3rb"/>
 
 ## Procedure
 
@@ -30,7 +35,7 @@ When using SAP S/4HANA Cloud for advanced financial closing, you want to include
 
 
 
-<a name="copy3e2c737ec88242049f29fd5ca16630f6__result_jqg_f4n_3rb"/>
+<a name="loio38f2e79cddaa4465a9233c5ae1fcead6__result_jqg_f4n_3rb"/>
 
 ## Results
 

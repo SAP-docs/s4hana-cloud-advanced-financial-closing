@@ -44,7 +44,7 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
     1.  If none is maintained, maintain a definition.
 
-        For more information, see [Setting Up a Virus Scan Provider \(ABAP\)](https://help.sap.com/viewer/3cd5ac93e7ec4690bd804f0d23fed9da/latest/en-US/4df582ed472d41c4e10000000a42189c.html).
+        For more information, see [Setting Up a Virus Scan Provider \(ABAP\)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/3cd5ac93e7ec4690bd804f0d23fed9da/4df582ed472d41c4e10000000a42189c.html).
 
     2.  If you can't maintain a definition, go to the virus scan profile as described in the previous steps and select the *Virus Scan Switched Off* option.
 

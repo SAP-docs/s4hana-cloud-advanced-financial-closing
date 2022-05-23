@@ -6,7 +6,7 @@
 
 Refer to the following table for more information about which language codes are allowed when you upload users to SAP S/4HANA Cloud for advanced financial closing:
 
-<a name="loio51c9133684084ffa9d2083efcb760fb9__table_otc_hqy_q4b"/>Allowed Language Codes
+<a name="loio51c9133684084ffa9d2083efcb760fb9__d45e717"/>Allowed Language Codes
 
 
 <table>
@@ -388,7 +388,7 @@ Turkish
 </td>
 <td valign="top">
 
-Chinese - China
+Chinese \(Simplified\)
 
 
 
@@ -404,7 +404,7 @@ Chinese - China
 </td>
 <td valign="top">
 
-Chinese - Taiwan
+Chinese \(Traditional\)
 
 
 

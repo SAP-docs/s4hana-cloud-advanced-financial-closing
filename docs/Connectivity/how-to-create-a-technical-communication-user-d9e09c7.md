@@ -11,7 +11,7 @@ Create a technical communication user for your SAP ERP system.
 You need to create a technical communication user with specific authorizations to enable the connection between advanced financial closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
 
 > ### Caution:  
-> The technical communication user needs to have the authorization objects assigned that are listed under [Security Considerations](https://help.sap.com/products/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html?&locale=en-US).
+> The technical communication user needs to have the authorization objects assigned that are listed under [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
 
 
 
@@ -46,7 +46,7 @@ You need to create a technical communication user with specific authorizations t
 
 9.  Select the role and choose *Edit* \> *Insert Authorization\(s\)* \> *Manual Input*.
 
-10. Maintain the authorization objects listed under [Security Considerations](https://help.sap.com/products/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html?&locale=en-US).
+10. Maintain the authorization objects listed under [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
 
 11. When you've added all authorization objects, choose *Generate*.
 
