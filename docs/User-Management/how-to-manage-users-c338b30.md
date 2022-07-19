@@ -210,7 +210,12 @@ Advanced Financial Closing
 
 4.  Choose *Upload Users* and select the file you prepared.
 
-5.  Review the results of the upload in the dialog that summarizes the changes.
+5.  Confirm by choosing *Upload*.
+
+6.  Review the results of the upload in the dialog that summarizes the changes.
+
+    > ### Note:  
+    > When a user is created, it's set to *Inactive*. However, once the person assigned to this user signs in for the first time, the user is activated. For more information about user statuses, see [User Statuses](user-statuses-f476237.md).
 
 
 
@@ -226,6 +231,8 @@ The users are uploaded with source *CSV Upload*. Once the respective users have 
 
 -   **[Language Codes Allowed for User Upload](language-codes-allowed-for-user-upload-51c9133.md "")**  
 
+-   **[User Statuses](user-statuses-f476237.md "Learn which statuses and status changes are possible for users.")**  
+Learn which statuses and status changes are possible for users.
 
 **Parent topic:** [User Management](user-management-ae7fa30.md "")
 

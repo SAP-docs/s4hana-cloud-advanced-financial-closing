@@ -66,6 +66,16 @@ Access to Tasks
 
 The abstraction level between user roles and specific objects enables you to grant access to collections of objects, for example, according to the domain of expertise.
 
+> ### Example:  
+> **Quick Demo: Access to Specific Objects Within the *Task Processing* Scope**
+> 
+> The following quick demo shows how to create a user role within the *Task Processing* scope granting *Parameters* access to specific object types performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
 
 
 ## Procedure
@@ -119,7 +129,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Remember:  
     > Users who have this role assignment have the authorizations across all task list templates and task lists.
 
-    <a name="loio1d6de4177efd46eab7dc83ad456cf53a__d15e3794"/>Authorizations for Task Processing
+    <a name="loio1d6de4177efd46eab7dc83ad456cf53a__d15e3677"/>Authorizations for Task Processing
 
 
     <table>
@@ -256,16 +266,6 @@ The abstraction level between user roles and specific objects enables you to gra
 12. Choose *Activate*.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
-
-    > ### Example:  
-    > **Quick Demo: Access to Specific Objects Within the *Task Processing* Scope**
-    > 
-    > The following quick demo shows how to create a user role within the *Task Processing* scope granting *Parameters* access to specific object types performing the steps described above:
-    > 
-    > > ### Note:  
-    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
-    > > 
-    > > Interfaces may differ slightly depending on the version of your apps.
 
 
 

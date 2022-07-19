@@ -32,6 +32,16 @@ You can grant access that is restricted to specific task list templates and task
 
 The abstraction level between user roles and specific objects enables you to grant access to collections of objects, for example, according to the domain of expertise.
 
+> ### Example:  
+> **Quick Demo: Access to Specific Objects Within the *Task List Creation* Scope**
+> 
+> The following quick demo shows how to create a user role within the *Task List Creation* scope granting *Generate* access to specific object types performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
 
 
 ## Procedure
@@ -79,7 +89,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Note:  
     > A user role must have at least one authorization assigned.
 
-    <a name="loio822ddcf75cb3484183ab11f4648039a0__d15e3698"/>Authorizations for Task List Creation
+    <a name="loio822ddcf75cb3484183ab11f4648039a0__d15e3581"/>Authorizations for Task List Creation
 
 
     <table>
@@ -202,16 +212,6 @@ The abstraction level between user roles and specific objects enables you to gra
 12. Choose *Activate*.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
-
-    > ### Example:  
-    > **Quick Demo: Access to Specific Objects Within the *Task List Creation* Scope**
-    > 
-    > The following quick demo shows how to create a user role within the *Task List Creation* scope granting *Generate* access to specific object types performing the steps described above:
-    > 
-    > > ### Note:  
-    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
-    > > 
-    > > Interfaces may differ slightly depending on the version of your apps.
 
 
 

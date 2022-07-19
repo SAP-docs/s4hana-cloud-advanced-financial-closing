@@ -16,17 +16,14 @@ The following documents explain how to manage static roles and assign them to us
 
 1.  [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")  
 Define and bundle static roles and assign them to users.
-2.  [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced
-                                                  financial closing and update certain
+2.  [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain
 		user attributes.")  
 Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.
 3.  [User Access Management \(New Authorization Concept\)](user-access-management-new-authorization-concept-d974847.md "You can control and grant access to task list templates, task lists, and tasks in
-			SAP S/4HANA Cloud for advanced
-                                                  financial closing. By default,
+			SAP S/4HANA Cloud for advanced financial closing. By default,
 		users don't have access to these objects.")  
 You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.
-4.  [User Access Management \(Old Authorization Concept\)](user-access-management-old-authorization-concept-6fa5e4e.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced
-                                                  financial closing. By default, users
+4.  [User Access Management \(Old Authorization Concept\)](user-access-management-old-authorization-concept-6fa5e4e.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users
 		don't have access to these objects.")  
 You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.
 

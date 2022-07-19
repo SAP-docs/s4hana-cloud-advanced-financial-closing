@@ -25,6 +25,16 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 You can use authorization groups to grant access to specific objects, that is, either to tasks or to task list templates and task lists. Additionally, you need to assign the authorization group to a user role in order to grant access.
 
+> ### Example:  
+> **Quick Demo: Create and Assign an Authorization Group**
+> 
+> The following quick demo shows how to create an authorization group performing the steps described below, and how to assign it to a user role as mentioned under *Next Steps*:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
 
 
 ## Procedure
@@ -61,16 +71,6 @@ You have now created an authorization group.
 You can now make the necessary assignments to grant access to specific objects. Perform the following steps:
 
 1.  Add the authorization group to a user role to define the authorizations you want to grant using this group.
-
-    > ### Example:  
-    > **Quick Demo: Create and Assign an Authorization Group**
-    > 
-    > The following quick demo shows how to create an authorization group performing the steps described above, and how to assign it to a user role:
-    > 
-    > > ### Note:  
-    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
-    > > 
-    > > Interfaces may differ slightly depending on the version of your apps.
 
 2.  Assign the authorization group to an object of the type you specified in the authorization group.
 

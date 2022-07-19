@@ -8,7 +8,7 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 ## Available Role Templates
 
-<a name="loiob92a2411e4164270964903c502e22340__d15e225"/>Role Templates
+<a name="loiob92a2411e4164270964903c502e22340__d15e223"/>Role Templates
 
 
 <table>

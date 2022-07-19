@@ -27,6 +27,14 @@ A notification configuration assigned to a task list controls when and how proce
 
 The default notification configuration is prefilled when you create a new task list template in the *Manage Closing Task Lists* app.
 
+> ### Example:  
+> The following quick demo shows how to create an email notification configuration performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
 
 
 ## Procedure
@@ -41,6 +49,14 @@ The default notification configuration is prefilled when you create a new task l
 
 5.  Save.
 
+
+
+
+<a name="loioc4e256920af749ab815d325ac8464302__result_tlh_34s_qtb"/>
+
+## Results
+
+You have now created an email notification configuration.
 
 
 

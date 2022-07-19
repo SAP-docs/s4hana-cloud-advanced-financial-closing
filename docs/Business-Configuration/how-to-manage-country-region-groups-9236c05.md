@@ -28,6 +28,14 @@ Defining country/region groups for financial closing enables you to monitor the 
 > ### Tip:  
 > Create a country/region group for each major region where you have subsidiaries or business activities and according to which you would like to be able to monitor your closing activities.
 
+> ### Example:  
+> The following quick demo shows how to create a country/region group performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
 
 
 ## Procedure
@@ -40,4 +48,12 @@ Defining country/region groups for financial closing enables you to monitor the 
 
 4.  Save.
 
+
+
+
+<a name="loio9236c05663354e0d850a86711b57958f__result_nwq_f4s_qtb"/>
+
+## Results
+
+You have now created a country/region group.
 

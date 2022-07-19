@@ -28,6 +28,16 @@ Grant general access by assigning one or more authorizations available within th
 
 You can grant access that applies to all objects within the scope, independently of the related communication system or authorization groups. However, you can still decide which authorizations to grant. This means that even though user access isn't restricted to specific objects or organizational units, general access doesn't necessarily mean that users can perform all actions.
 
+> ### Example:  
+> **Quick Demo: General Access Within the Task Processing Scope**
+> 
+> The following quick demo shows how to create a user role within the *Task Processing* scope granting general *User Assignment* access by performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
 
 
 ## Procedure
@@ -61,7 +71,7 @@ You can grant access that applies to all objects within the scope, independently
     > ### Remember:  
     > For users who have this role assignment, the authorizations selected apply across all task lists.
 
-    <a name="loio2d5fa55c30dc4767af47f624aca9ba7c__d15e3794"/>Authorizations for Task Processing
+    <a name="loio2d5fa55c30dc4767af47f624aca9ba7c__d15e3677"/>Authorizations for Task Processing
 
 
     <table>
@@ -193,16 +203,6 @@ You can grant access that applies to all objects within the scope, independently
 7.  Choose *Activate*.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
-
-    > ### Example:  
-    > **Quick Demo: Access in General Within the Task Processing Scope**
-    > 
-    > The following quick demo shows how to create a user role within the *Task Processing* scope granting general *User Assignment* access for performing the steps described above:
-    > 
-    > > ### Note:  
-    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
-    > > 
-    > > Interfaces may differ slightly depending on the version of your apps.
 
 
 

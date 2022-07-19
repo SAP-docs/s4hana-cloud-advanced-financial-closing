@@ -45,6 +45,35 @@ Comment
 <tr>
 <td valign="top">
 
+July 17, 2022
+
+
+
+</td>
+<td valign="top">
+
+-   Documentation topic [How to Manage Users](../User-Management/how-to-manage-users-c338b30.md):
+
+    Information about initial inactive status of users was added.
+
+    The underlying topic [User Statuses](../User-Management/user-statuses-f476237.md) was added.
+
+-   Documentation topics [How to Manage User Groups](../User-Management/how-to-manage-user-groups-45bb6c9.md) \(new authorization concept\), [How to Manage User Groups](../User-Management/how-to-manage-user-groups-6d5d683.md) \(old authorization concept\), [How to Manage Country/Region Groups](../Business-Configuration/how-to-manage-country-region-groups-9236c05.md), [How to Manage Email Notification Configurations](../Business-Configuration/how-to-manage-email-notification-configurations-c4e2569.md), and [How to Manage User Groups](../Business-Configuration/how-to-manage-user-groups-e2f793a.md):
+
+    Quick demos were added.
+
+-   Documentation topic [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    The underlying topic [Synchronization of Communication Systems](../Connectivity/synchronization-of-communication-systems-a86348d.md) was added.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 May 22, 2022
 
 
@@ -73,46 +102,10 @@ May 22, 2022
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-April 24, 2022
-
-
-
-</td>
-<td valign="top">
-
--   Documentation topics [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md) and [User Access Management \(Old Authorization Concept\)](../User-Management/user-access-management-old-authorization-concept-6fa5e4e.md):
-
-    Underlying topics *How to Manage User Groups* was updated with the following information:
-
-    -   Creation of several user groups in one batch
-
-    -   Upload of several user-to-group assignments in one batch
-
-
--   [Connectivity](../Connectivity/connectivity-200deae.md) documentation topics:
-
-    The underlying topics [How to Connect to SAP S/4HANA Cloud as a Communication System](../Connectivity/how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md), [How to Connect to SAP S/4HANA as a Communication System](../Connectivity/how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md), and [How to Connect to SAP ERP as a Communication System](../Connectivity/how-to-connect-to-sap-erp-as-a-communication-system-e11be48.md) were updated with information about the daily synchronization.
-
--   Documentation topic [Business Configuration](../Business-Configuration/business-configuration-9719d0a.md):
-
-    The underlying documentation [How to Manage Authorization Groups](../Business-Configuration/how-to-manage-authorization-groups-d3c02b0.md) and [How to Manage User Groups](../Business-Configuration/how-to-manage-user-groups-e2f793a.md) was added.
-
--   Documentation topic [Session Security](../Security/session-security-8378d19.md):
-
-    Information about the session timeout was updated.
-
-
-
-
-</td>
-</tr>
 </table>
 
 **Related Information**  
 
 
-[What&apos;s New for SAP S/4HANA Cloud for Advanced Financial Closing](https://help.sap.com/viewer/63a47d78868a40019d316c52e2ed597f/SHIP/en-US/54a5ce2b9dd84cf08b9e29760136e6d5.html "Overview of new and changed features of SAP S/4HANA Cloud for advanced financial closing.") :arrow_upper_right:
+[What's New for SAP S/4HANA Cloud for advanced financial closing](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&state=PRODUCTION&version=Cloud&Component=SAP%2520S%252F4HANA%2520Cloud%2520for%2520advanced%2520financial%2520closing&Valid_as_Of=2022-01-01%253A2022-12-31)
 
