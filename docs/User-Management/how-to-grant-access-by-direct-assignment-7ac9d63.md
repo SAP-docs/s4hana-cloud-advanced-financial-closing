@@ -10,14 +10,11 @@ Grant access by directly assigning a user to a task list template, task list, or
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes one of the following role templates:
-
-    -   `AFC_Config`
-
-    -   `AFC_UserRoles`
-
+-   Your user must have a role collection assigned that includes the role template `AFC_Define`.
 
     For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
+
+-   You must be authorized to perform the following steps through one of the options described under [Task List Creation Scope](task-list-creation-scope-ba4100e.md).
 
 -   You've familiarized yourself with the information under [Direct User Assignment](direct-user-assignment-f96b217.md) to ensure that you're using the right means to grant access.
 

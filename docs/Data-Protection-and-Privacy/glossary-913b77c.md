@@ -29,7 +29,39 @@ Definition
 <tr>
 <td valign="top">
 
- **Blocking** 
+ **Artificial Intelligence \(AI\)** 
+
+
+
+</td>
+<td valign="top">
+
+The simulation of human intelligence processes by machines and computer systems – typically by learning, coming to its own conclusions, appearing to understand complex content, engaging in natural dialogs with people, enhancing human cognitive performance \(also known as cognitive computing\) or replacing people on execution of nonroutine tasks. Applications include autonomous vehicles, automatic speech recognition and generation and detecting novel concepts and abstractions \(useful for detecting potential new risks and aiding humans to quickly understand very large bodies of ever-changing information\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Automated Decision Making**
+
+
+
+</td>
+<td valign="top">
+
+The ability to make decisions by technological means without human involvement.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Blocking**
 
 
 
@@ -109,7 +141,7 @@ Deletion of **personal data** so that the data is no longer available.
 <tr>
 <td valign="top">
 
- **End of business** 
+ **End of Business** 
 
 
 
@@ -157,7 +189,7 @@ A method of identifying the point in time for a data set when the processing of 
 <tr>
 <td valign="top">
 
- **Personal Data** 
+ **Personal data** 
 
 
 
@@ -165,6 +197,22 @@ A method of identifying the point in time for a data set when the processing of 
 <td valign="top">
 
 Any information relating to an identified or identifiable natural person \("data subject"\). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Processing of Personal Data
+
+
+
+</td>
+<td valign="top">
+
+Processing means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
 
 
 
@@ -189,7 +237,7 @@ The information that specifies the reason and the goal for the processing of a s
 <tr>
 <td valign="top">
 
- **Residence Period** 
+ **Residence period** 
 
 
 
@@ -205,7 +253,7 @@ The period of time between the end of business and the end of purpose \(EoP\) fo
 <tr>
 <td valign="top">
 
- **Retention Period** 
+ **Retention period** 
 
 
 
@@ -221,7 +269,7 @@ The period of time between the end of the last business activity involving a spe
 <tr>
 <td valign="top">
 
- **Sensitive Personal Data** 
+ **Sensitive personal data** 
 
 
 
@@ -242,7 +290,7 @@ A category of personal data that usually includes the following type of informat
 <tr>
 <td valign="top">
 
- **Technical and Organizational Measures \(TOM\)** 
+Technical and organizational measures \(TOM\)
 
 
 
@@ -251,13 +299,13 @@ A category of personal data that usually includes the following type of informat
 
 Some basic requirements that support data protection and privacy are often referred to as technical and organizational measures \(TOM\). The following topics are related to data protection and privacy and require appropriate TOMs, for example:
 
--   **Access control**Authentication features
--   **Authorizations**Authorization concept
+-   **Access control:**Authentication features
+-   **Authorizations:**Authorization concept
 -   **Read access logging**
--   **Transmission control/communication security** 
--   **Input control/change logging**
+-   **Transmission control / Communication security** 
+-   **Input control / Change logging**
 -   **Availability control**
--   **Separation by purpose**Subject to the organizational model implemented and must be applied as part of the authorization concept.
+-   **Separation by purpose:**Is subject to the organizational model implemented and must be applied as part of the authorization concept.
 
 
 

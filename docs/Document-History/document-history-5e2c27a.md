@@ -1,5 +1,7 @@
 <!-- loio5e2c27a01c0f45f394a81b3f97eaf66d -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Document History
 
 Provides details about the changes made in each version of this document.
@@ -9,9 +11,9 @@ Provides details about the changes made in each version of this document.
 > ### Remember:  
 > This guide is open for feedback and contributions using GitHub. This allows for communication on documentation-related matters between you as contributor and the development team. To provide feedback or contribute to the administration guide, choose the corresponding option on the SAP Help Portal:
 > 
-> -   *Feedback*: Provide feedback about a document in the administration guide. This option opens an issue in GitHub.
+> -   <span class="SAP-icons"></span> *Feedback*: Provide feedback about a document in the administration guide. This option opens an issue in GitHub.
 > 
-> -   *Edit*: Contribute to a document in the administration guide. This option opens a pull request in GitHub.
+> -   <span class="SAP-icons"></span> *Edit*: Contribute to a document in the administration guide. This option opens a pull request in GitHub.
 > 
 > 
 > To use these options, a GitHub account is required.
@@ -45,6 +47,31 @@ Comment
 <tr>
 <td valign="top">
 
+August 21, 2022
+
+
+
+</td>
+<td valign="top">
+
+-   Documentation topic [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    The topic [Monitor Communication Systems](../Connectivity/monitor-communication-systems-a215069.md) and its underlying topics were added.
+
+-   Documentation topic [How to Set Up the SAP ERP Connector](../Connectivity/how-to-set-up-the-sap-erp-connector-b139d1e.md):
+
+    Recommendation about implementing new SPs was added.
+
+-   Documentation topic [Migration from Advanced Financial Closing as Part of SAP S/4HANA Cloud \(Optional\)](../Migration-from-Advanced-Financial-Closing-as-Part-of-SAP-S/4HANA-Cloud-Optional/migration-from-advanced-financial-51b6705.md) was added.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 July 17, 2022
 
 
@@ -65,37 +92,6 @@ July 17, 2022
 -   Documentation topic [Connectivity](../Connectivity/connectivity-200deae.md):
 
     The underlying topic [Synchronization of Communication Systems](../Connectivity/synchronization-of-communication-systems-a86348d.md) was added.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-May 22, 2022
-
-
-
-</td>
-<td valign="top">
-
--   Documentation topic [System Landscape](../System-Landscape/system-landscape-3b9f341.md):
-
-    Information about a possible test tenant was added.
-
--   Documentation topic [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md):
-
-    Quick demos were added to several of the underlying topics.
-
--   Documentation topic [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    The underlying topic [How to Delete the Connection to a Communication System](../Connectivity/how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md) was added.
-
--   Documentation topic [How to Manage Authorization Groups](../Business-Configuration/how-to-manage-authorization-groups-d3c02b0.md):
-
-    Quick demo was added.
 
 
 

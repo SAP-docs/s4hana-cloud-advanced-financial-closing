@@ -65,6 +65,10 @@ Perform the following steps to connect SAP S/4HANA Cloud for advanced financial 
                                                 closing and the communication
 		system.")**  
 Delete the connection between advanced financial closing and the communication system.
+-   **[Monitor Communication Systems](monitor-communication-systems-a215069.md "You use the Monitor Communication
+                                                                           Systems app to check the status of your connected communication systems and tackle any
+		issues.")**  
+You use the *Monitor Communication Systems* app to check the status of your connected communication systems and tackle any issues.
 -   **[Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md "Get an overview of the synchronization and validation of data.")**  
 Get an overview of the synchronization and validation of data.
 

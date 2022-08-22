@@ -31,9 +31,9 @@ Grant access to specific organizational units by assigning one or more authoriza
 The abstraction level between user roles and specific objects enables you to grant access to collections of objects, for example, according to the domain of expertise.
 
 > ### Example:  
-> ***Task Processing* Scope**
+> **Quick Demo: Access to Specific Organizational Units Within the *Task Processing* Scope**
 > 
-> The following quick demo shows how to create a user role within the Quick Demo: Access to Specific Organizational Units Within the *Task Processing* scope granting *Parameters* access to specific organizational units performing the steps described below:
+> The following quick demo shows how to create a user role within the *Task Processing* scope granting *Parameters* access to specific organizational units performing the steps described below:
 > 
 > > ### Note:  
 > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
@@ -44,7 +44,7 @@ The abstraction level between user roles and specific objects enables you to gra
 
 ## Procedure
 
-1.  Open the *Configuration* app and choose *Quick Demo: Access to SpecificUser Roles*.
+1.  Open the *Configuration* app and choose *User Roles*.
 
 2.  Go to the *Scoped User Roles* tab.
 
@@ -73,7 +73,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Remember:  
     > Users who have this role assignment have the authorizations across all task list templates and task lists.
 
-    <a name="loio16947f19a23d41ba832e1fa1314aca43__d15e3677"/>Authorizations for Task Processing
+    <a name="loio16947f19a23d41ba832e1fa1314aca43__d17e3746"/>Authorizations for Task Processing
 
 
     <table>

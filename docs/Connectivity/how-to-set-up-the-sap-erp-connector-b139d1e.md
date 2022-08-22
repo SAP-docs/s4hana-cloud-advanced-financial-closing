@@ -10,6 +10,9 @@ If you want to connect to SAP ERP, you require the SAP ERP connector for SAP S/4
 
 To be able to connect SAP S/4HANA Cloud for advanced financial closing to SAP ERP, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing as **additional software**.
 
+> ### Recommendation:  
+> We highly recommend that you update regularly to the most recent support package available for the SAP ERP Connector. This ensures that you can use all features.
+
 The connector has the following main features:
 
 -   Process scheduling

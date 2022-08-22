@@ -20,7 +20,7 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 The following settings are available:
 
-<a name="loio835ce12f7d4f4e8cab5df36537aea3c1__d15e1269"/>Compliance Settings
+<a name="loio835ce12f7d4f4e8cab5df36537aea3c1__d17e1356"/>Compliance Settings
 
 
 <table>
@@ -114,13 +114,13 @@ Determine whether the Sarbanes-Oxley Act \(SOX\) compliance applies. The default
 
 -   If a user group contains only one user and the group is assigned as the responsible user group or processing user group, the user of the group must not be the same user as the one maintained for the other role.
 
-    This rule is checked only during the SOX Compliance check.
+    This rule is checked only during the consistency check.
 
 
 > ### Note:  
-> If you deactivate this option, no checks for compliance with the SOX requirements will be run anymore. If you activate this option again, only objects created after activating this setting will be checked for SOX requirements. To ensure SOX compliance of existing task list templates and task lists, you need to run a SOX compliance check. Task lists that were generated before SOX compliance was required might still not fulfill the SOX requirements. However, during task approval, a check ensures that the approving user is not the same as the processing user.
+> If you deactivate this option, no checks for compliance with the SOX requirements will be run anymore. If you activate this option again, only objects created after activating this setting will be checked for SOX requirements. To ensure SOX compliance of existing task list templates, you need to run a consistency check. Task lists that were generated before SOX compliance was required might still not fulfill the SOX requirements. However, during task approval, a check ensures that the approving user is not the same as the processing user.
 > 
-> For more information about the SOX compliance check, see [How to Run a SOX Compliance Check](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/bfa9bdc596504a7cad150970a7c7f646.html "Check your task list templates for compliance with SOX requirements.") :arrow_upper_right:.
+> For more information about the consistency check, see [How to Perform Checks on Templates](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/bd90b43614b841f48796e068fb1fcb6c.html "Check whether your templates fulfill all requirements.") :arrow_upper_right:.
 
 
 

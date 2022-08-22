@@ -73,7 +73,7 @@ You can grant access that applies to all objects within the scope, independently
     > ### Remember:  
     > For users who have this role assignment, the authorizations selected apply across all task list templates and task lists.
 
-    <a name="loiodc228efd150d4e30b5891f9a65db318f__d15e3581"/>Authorizations for Task List Creation
+    <a name="loiodc228efd150d4e30b5891f9a65db318f__d17e3650"/>Authorizations for Task List Creation
 
 
     <table>

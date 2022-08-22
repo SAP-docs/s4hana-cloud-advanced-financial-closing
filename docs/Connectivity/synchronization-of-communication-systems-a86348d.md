@@ -20,19 +20,11 @@ As soon as you connect a communication system to SAP S/4HANA Cloud for advanced 
 
 Synchronization between the communication system and advanced financial closing involves two sets of data: business configuration data and master data.
 
-  
-  
-<a name="loioa86348d6459a4c929ec1f389e38827ad__fig_stc_222_c5b"/>Communication System Synchronization
-
- ![Graphic depicting synchronization between advanced financial closing and the communication system: On the one hand, you have the communication system with its business configuration data and master data. On the other hand, you have advanced financial closing with business configuration data and master data that has already been received from the communication system. These two sets of data are synchronized during synchronization. During this process, business logs are created for both data sets. The logs consist of success, warning, and error messages.](images/Image_System_Synchronization_9881c12.png "Communication System Synchronization") 
+ ![Graphic depicting synchronization between advanced financial closing and the communication system: On the one hand, you have the communication system with its business configuration data and master data. On the other hand, you have advanced financial closing with business configuration data and master data that has already been received from the communication system. These two sets of data are synchronized during synchronization. During this process, business logs are created for both data sets. The logs consist of success, warning, and error messages.](images/Image_System_Synchronization_9881c12.png) 
 
 Synchronization always covers both sets of data. Accordingly, if an error in one set causes synchronization to fail, synchronization fails for both data sets.
 
-  
-  
-<a name="loioa86348d6459a4c929ec1f389e38827ad__fig_wqd_4l2_c5b"/>Synchronization Fails Due to Errors
-
- ![Graphic depicting the same synchronization setup as the previous graphic: On the one hand, you have the communication system with its business configuration data and its master data. On the other hand, you have advanced financial closing with business configuration data and master data that has already been received from the communication system. Error messages in the business logs created during synchronization cause synchronization to fail for both data sets.](images/Image_System_Synchronization_Fails_0c014b2.png "Synchronization Fails Due to Errors") 
+ ![Graphic depicting the same synchronization setup as the previous graphic: On the one hand, you have the communication system with its business configuration data and its master data. On the other hand, you have advanced financial closing with business configuration data and master data that has already been received from the communication system. Error messages in the business logs created during synchronization cause synchronization to fail for both data sets.](images/Image_System_Synchronization_Fails_0c014b2.png) 
 
 The following data in advanced financial closing is synchronized with the connected system:
 

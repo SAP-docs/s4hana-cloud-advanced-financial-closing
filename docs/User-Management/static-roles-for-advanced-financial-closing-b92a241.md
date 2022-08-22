@@ -8,7 +8,7 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 ## Available Role Templates
 
-<a name="loiob92a2411e4164270964903c502e22340__d15e223"/>Role Templates
+<a name="loiob92a2411e4164270964903c502e22340__d17e225"/>Role Templates
 
 
 <table>
@@ -51,6 +51,8 @@ Tiles on SAP Fiori Launchpad
 
     For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
+-   Monitors system statuses and tackles any issues with connected systems \(additionally, the role template `Business_Process_Specialist_BL_AccessAll` is needed\)
+
 -   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
 
     For more information, see [How to Share View Variants](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share your view variants with other users.") :arrow_upper_right:.
@@ -65,6 +67,35 @@ System administration:
 
 -   *Manage Users*
 -   *Specify Communication Systems*
+-   *Monitor Communication Systems*
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_MonitorSystemsApp` 
+
+
+
+</td>
+<td valign="top">
+
+-   Monitors system statuses
+
+-   Tackles issues with connected systems
+
+
+To be able to view synchronization logs, a user additionally requires role template `Business_Process_Specialist_BL_AccessAll`.
+
+
+
+</td>
+<td valign="top">
+
+-   *Monitor Communication Systems*
 
 
 
