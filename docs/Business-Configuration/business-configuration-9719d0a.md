@@ -2,6 +2,8 @@
 
 # Business Configuration
 
+Understand how you can manage the business configuration in SAP S/4HANA Cloud for advanced financial closing.
+
 -   **[How to Manage Authorization Groups](how-to-manage-authorization-groups-d3c02b0.md "Use authorization groups to grant object-specific access.")**  
 Use authorization groups to grant object-specific access.
 -   **[How to Manage Country/Region Groups](how-to-manage-country-region-groups-9236c05.md "Define country/region groups for reports about financial closing activities.")**  

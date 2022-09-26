@@ -16,6 +16,8 @@ Your user must have a role collection assigned that includes one of the followin
 
 -   `AFC_Settings`
 
+-   `AFC_NotificationsApp`
+
 
 For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
@@ -41,13 +43,19 @@ The default notification configuration is prefilled when you create a new task l
 
 1.  Go to the *Configuration* app and choose *Email Notification Configurations* from the table.
 
-2.  Choose *Create* and enter a name and description.
+2.  Choose *Create* in the table toolbar.
 
-3.  Choose *Add* and select the scenarios for which you want notifications to be sent.
+3.  Enter a name and description for the email notification configuration.
 
-4.  Under *Scenarios*, select who should receive an email notification for each scenario.
+4.  Under *Scenarios*, choose *Add*.
 
-5.  Save.
+5.  In the table, select the scenarios for which you want notifications to be sent.
+
+6.  Choose *Add* in the dialog footer.
+
+7.  In the *Scenarios* table, select who should receive an email notification for each scenario by checking the box in the corresponding table column.
+
+8.  Choose *Create* in the footer to create the configuration.
 
 
 

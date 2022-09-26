@@ -12,7 +12,12 @@ Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financi
 
 -   You have already completed the onboarding process as described under [Onboarding](../Onboarding/onboarding-1987953.md).
 
--   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
+-   Your user must have a role collection assigned that includes one of the following role templates:
+
+    -   `AFC_SystemAdmin`
+
+    -   `AFC_SpecifySystemsApp`
+
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
@@ -30,7 +35,9 @@ Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financi
 
 1.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
 
-2.  Enter the following information:
+2.  Choose *Create* in the table toolbar.
+
+3.  Enter the following information:
 
 
     <table>
@@ -199,12 +206,15 @@ Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financi
     > ### Tip:  
     > You can check whether the connection with the communication system works as expected. Choose *Check Connection*. This will check whether the back-end connection works and whether the system communicates as expected.
 
-3.  Save.
+4.  Save.
 
     > ### Tip:  
     > You can check whether the connection you set up works:
     > 
     > 1.  After the first synchronization, go to the *Manage Closing Task Lists* app.
+    > 
+    >     > ### Note:  
+    >     > For access to this app, your user must have a role collection assigned that includes the role template `AFC_Define`.
     > 
     > 2.  Create a template.
     > 

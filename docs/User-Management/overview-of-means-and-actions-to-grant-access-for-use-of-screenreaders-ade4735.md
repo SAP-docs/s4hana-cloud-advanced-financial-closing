@@ -1,32 +1,82 @@
-<!-- loio1923b891a7b8471ab1f30eca89fef261 -->
+<!-- loioade47358df714f8a8e7bdc4985c9d7c5 -->
 
-# Overview of Means and Actions to Grant Access
+# Overview of Means and Actions to Grant Access \(for Use of Screenreaders\)
 
 Understand how you can grant which access.
 
-The following table explains through which means you can grant which access. The authorizations mentioned in the table headings fall into one of the following categories:
-
--   Authorizations used to grant access in the *Task List Creation* scope as described under [Task List Creation Scope](task-list-creation-scope-ba4100e.md)
-
--   Authorizations used to grant access in the *Task Processing* scope as described under [Task Processing Scope](task-processing-scope-b4f8ec6.md)
-
--   Direct user assignments granting access as described under [Direct User Assignment](direct-user-assignment-f96b217.md)
-
-
 > ### Note:  
-> A table that has been adjusted to be more suitable for the use of screenreaders is available under [Overview of Means and Actions to Grant Access \(for Use of Screenreaders\)](overview-of-means-and-actions-to-grant-access-for-use-of-screenreaders-ade4735.md).
+> This table has been adjusted to be more suitable for the use of screenreaders. If you're not using a screenreader, the table under [Overview of Means and Actions to Grant Access](overview-of-means-and-actions-to-grant-access-1923b89.md) may be more suitable for you.
 
-For more detailed information about granting access, see the documentation on the following pages of this administration guide.
+The following table explains through which means you can grant which access. For more detailed information, see the documentation on the following pages of this administration guide.
 
 > ### Note:  
 > For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is deactivated.
 
 
 
-<a name="loio1923b891a7b8471ab1f30eca89fef261__table_wrn_jx1_w5b"/>Access Granted Through Scope-Related Authorizations or Direct Assignment
+<a name="loioade47358df714f8a8e7bdc4985c9d7c5__table_t34_v2b_w5b"/>Access Granted Through Scope-Related Authorizations or Direct Assignment
 
 
 <table>
+<tr>
+<th valign="top">
+
+ 
+
+
+
+</th>
+<th valign="top">
+
+ 
+
+
+
+</th>
+<th valign="top" colspan="5">
+
+[Task List Creation Scope](task-list-creation-scope-ba4100e.md)
+
+The following access can be granted:
+
+-   [General](how-to-grant-general-access-dc228ef.md)
+
+-   [By Objects](how-to-grant-access-to-specific-objects-822ddcf.md)
+
+
+Access is granted through the following authorizations:
+
+
+
+</th>
+<th valign="top" colspan="6">
+
+[Task Processing Scope](task-processing-scope-b4f8ec6.md)
+
+The following access can be granted:
+
+-   [General](how-to-grant-general-access-2d5fa55.md)
+
+-   [System-Wide](how-to-grant-system-wide-access-92e1980.md)
+
+-   [By Objects](how-to-grant-access-to-specific-objects-1d6de41.md)
+
+-   [By Organizational Units](how-to-grant-access-by-organizational-units-16947f1.md)
+
+
+Access is granted through the following authorizations:
+
+
+
+</th>
+<th valign="top" colspan="5">
+
+[Direct User Assignment](direct-user-assignment-f96b217.md)
+
+
+
+</th>
+</tr>
 <tr>
 <th valign="top">
 
@@ -44,99 +94,77 @@ Action
 </th>
 <th valign="top">
 
-*Read* 
-
-\([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
+*Read*
 
 
 
 </th>
 <th valign="top">
 
-*Create* 
-
-\([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
+*Create*
 
 
 
 </th>
 <th valign="top">
 
-*Write* 
-
-\([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
+*Write*
 
 
 
 </th>
 <th valign="top">
 
-*Generate* 
-
-\([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
+*Generate*
 
 
 
 </th>
 <th valign="top">
 
-*User Assignment* 
-
-\([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
+*User Assignment*
 
 
 
 </th>
 <th valign="top">
 
-*Read* 
-
-\([Task Processing Scope](task-processing-scope-b4f8ec6.md)\)
+*Read*
 
 
 
 </th>
 <th valign="top">
 
-*Process* 
-
-\([Task Processing Scope](task-processing-scope-b4f8ec6.md)\)
+*Process*
 
 
 
 </th>
 <th valign="top">
 
-*Plan* 
-
-\([Task Processing Scope](task-processing-scope-b4f8ec6.md)\)
+*Plan*
 
 
 
 </th>
 <th valign="top">
 
-*Parameters* 
-
-\([Task Processing Scope](task-processing-scope-b4f8ec6.md)\)
+*Parameters*
 
 
 
 </th>
 <th valign="top">
 
-*User Assignment* 
-
-\([Task Processing Scope](task-processing-scope-b4f8ec6.md)\)
+*User Assignment*
 
 
 
 </th>
 <th valign="top">
 
-*Approve / Reject* 
-
-\([Task Processing Scope](task-processing-scope-b4f8ec6.md)\)
+*Approve / Reject*
 
 
 
@@ -145,16 +173,12 @@ Action
 
 Owner / Owner Group
 
-\([Direct User Assignment](direct-user-assignment-f96b217.md)\)
-
 
 
 </th>
 <th valign="top">
 
 User / User Group Responsible \(Task List Template / Task List\)
-
-\([Direct User Assignment](direct-user-assignment-f96b217.md)\)
 
 
 
@@ -163,8 +187,6 @@ User / User Group Responsible \(Task List Template / Task List\)
 
 User / User Group Responsible \(Organizational Unit Folder\)
 
-\([Direct User Assignment](direct-user-assignment-f96b217.md)\)
-
 
 
 </th>
@@ -172,16 +194,12 @@ User / User Group Responsible \(Organizational Unit Folder\)
 
 User / User Group Responsible \(Task\)
 
-\([Direct User Assignment](direct-user-assignment-f96b217.md)\)
-
 
 
 </th>
 <th valign="top">
 
 Processing User / User Group
-
-\([Direct User Assignment](direct-user-assignment-f96b217.md)\)
 
 
 
@@ -3646,7 +3664,4 @@ Read
 </td>
 </tr>
 </table>
-
--   **[Overview of Means and Actions to Grant Access \(for Use of Screenreaders\)](overview-of-means-and-actions-to-grant-access-for-use-of-screenreaders-ade4735.md "Understand how you can grant which access.")**  
-Understand how you can grant which access.
 

@@ -2,6 +2,8 @@
 
 # User Management
 
+Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.
+
 This section describes how to configure user management for your application. As a prerequisite, you have created business users and user groups in your identity provider \(IdP\). SAP ID service is configured as the default IdP, but you can also add your instance of SAP Cloud Identity Services - Identity Authentication or a different IdP.
 
 If you use the Identity Authentication service, you can find more information in the SAP BTP documentation under [Manually Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7c6aa87459764b179aeccadccd4f91f3.html).

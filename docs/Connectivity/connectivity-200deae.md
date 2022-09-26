@@ -53,6 +53,24 @@ The connection allows you to do the following, for example:
 
 
 
+
+
+<a name="loio200deaea523b48da939c33fcf8f2e0e4__section_lkp_by3_s5b"/>
+
+## What Does This Documentation Cover?
+
+The following graphic lists the documentation for this app:
+
+Some areas of this image are interactive. Hover over the areas for a description. Click the areas for more information.
+
+![Graphic depicting a treasure chest on the left and text boxes on the right: The text boxes list the documentation
+							available for this app. For connections to communication systems, find more information under SAP S/4HANA Cloud, SAP
+							S/4HANA, and SAP ERP. For communication system management, find more information about monitoring communication systems
+							and about deleting the connection to communication systems. For more details about the synchronization with communication
+							systems, find more information under Synchronization of Communication Systems.](images/Image_Map_Cover_for_Connectivity_Section_d09ddd1.png)
+
+-   **[Important SAP Notes for Connected Communication Systems](important-sap-notes-for-connected-communication-systems-02686a2.md "Get an overview of SAP Notes that you need to implement for your connected on-premise systems.")**  
+Get an overview of SAP Notes that you need to implement for your connected on-premise systems.
 -   **[SAP S/4HANA Cloud](sap-s-4hana-cloud-60448a7.md "Depending on your system, follow one of the instructions listed here to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA Cloud system.")**  
 Depending on your system, follow one of the instructions listed here to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA Cloud system.
 -   **[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last

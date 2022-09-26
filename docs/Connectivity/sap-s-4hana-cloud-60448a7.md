@@ -7,6 +7,6 @@ Depending on your system, follow one of the instructions listed here to connect 
 -   **[How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational
 		units, the factory calendar, and so on.")**  
 Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.
--   **[How to Connect to SAP S/4HANA Cloud, Extended Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-extended-edition-as-a-communication-system-526613a.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")**  
+-   **[How to Connect to SAP S/4HANA Cloud, Private/Extended Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-private-extended-edition-as-a-communication-system-526613a.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")**  
 Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.
 

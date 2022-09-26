@@ -31,7 +31,7 @@ You can easily get an overview of the overall system status. In the case of any 
 
 The following system statuses are possible:
 
-<a name="loiof30be05fb2d3419c838256dae727d5b2__d12e888"/>Overall System Status
+<a name="loiof30be05fb2d3419c838256dae727d5b2__d12e960"/>Overall System Status
 
 
 <table>
@@ -91,7 +91,7 @@ One or more issues were detected. Check the *Status Source* column and the syste
 
 1.  Open the *Monitor Communication Systems* app.
 
-2.  Check the system statuses of the connected communication systems.
+2.  In the table, check the system statuses of the connected communication systems.
 
     1.  If the status is set to *Error*, check the *Status Source* column to see where the error comes from.
 

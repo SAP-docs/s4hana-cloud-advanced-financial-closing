@@ -16,6 +16,8 @@ Your user must have a role collection assigned that includes one of the followin
 
 -   `AFC_Settings`
 
+-   `AFC_CountryGroupsApp`
+
 
 For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
@@ -42,11 +44,17 @@ Defining country/region groups for financial closing enables you to monitor the 
 
 1.  Go to the *Configuration* app and choose *Country/Region Groups* from the table.
 
-2.  Under *Country/Region Groups*, choose *Create*.
+2.  Choose *Create* in the table toolbar.
 
-3.  Choose *Add* and select all countries that you want to belong to this country/region group.
+3.  Provide a unique name.
 
-4.  Save.
+4.  Under *Countries/Regions*, choose *Add*.
+
+5.  In the table, select all countries that you want to add to this country/region group.
+
+6.  Choose *Add* in the dialog footer.
+
+7.  Choose *Create* in the footer to create the country/region group.
 
 
 

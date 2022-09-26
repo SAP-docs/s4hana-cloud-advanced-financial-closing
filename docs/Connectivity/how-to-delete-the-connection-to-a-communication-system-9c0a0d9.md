@@ -10,7 +10,12 @@ Delete the connection between advanced financial closing and the communication s
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
+-   Your user must have a role collection assigned that includes one of the following role templates:
+
+    -   `AFC_SystemAdmin`
+
+    -   `AFC_SpecifySystemsApp`
+
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
@@ -33,9 +38,9 @@ The connection to a communication system can be removed only if no synchronizati
 
 1.  Open the *Specify Communication Systems* app.
 
-2.  Select the communication system for which you want to delete the connection to advanced financial closing.
+2.  From the table, select the communication system for which you want to delete the connection to advanced financial closing.
 
-3.  Choose *Delete*.
+3.  Choose *Delete* in the table toolbar.
 
 
 

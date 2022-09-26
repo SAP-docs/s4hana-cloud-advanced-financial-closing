@@ -54,11 +54,19 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
 
 3.  To create a new user group, perform the following steps:
 
-    1.  On the *User Groups* tab, create a user group and enter a description.
+    1.  Go to the *User Groups* tab.
 
-    2.  Under *Users*
+    2.  Choose *Create* in the table toolbar.
 
-    3.  Choose *Create* to create the user group.
+    3.  Under *General Information*, provide a name for the user group.
+
+    4.  You can also enter a description.
+
+    5.  Under *Users*, choose *Add* and select users you want to add.
+
+    6.  Choose *Add* in the dialog footer.
+
+    7.  Choose *Create* in the footer to create the user group.
 
 
 4.  **Creating Several User Groups at Once**
@@ -73,18 +81,22 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
 
 5.  To create several new user groups at once, perform the following steps:
 
-    1.  On the *User Groups*, add the users who are in charge of tab, download the template.
+    1.  Go to the *User Groups* tab.
 
-    2.  In the CSV file, enter the user groups you want to create and for each group, enter one user that will be assigned to the group upon creation.
+    2.  Download the template from the table toolbar.
+
+    3.  In the CSV file, enter the user groups you want to create and for each group, enter one user that will be assigned to the group upon creation.
 
         > ### Note:  
         > Provide each user group only **once** and assign only one user to it. You can assign several users in one batch to the user group once it has been created.
 
-    3.  Go back to the *Manage User Groups* app.
+    4.  Go back to the *Manage User Groups* app.
 
-    4.  On the *User Groups* tab, choose *Upload User Groups*.
+    5.  On the *User Groups* tab, choose *Upload User Groups* in the table toolbar.
 
-    5.  Select the CSV file you've prepared and choose *Upload*.
+    6.  Choose *Add* and select the CSV file you've prepared.
+
+    7.  Choose *Upload* in the dialog footer.
 
 
 6.  **Uploading Several User-to-Group Assignments at Once**
@@ -102,18 +114,22 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
     > ### Note:  
     > The user groups and users affected have to exist in advanced financial closing before you can upload assignments.
 
-    1.  On the *User-to-Group Assignments* tab, download the template.
+    1.  Go to the *User-to-Group Assignments* tab.
 
-    2.  In the CSV file, enter the assignments you want to upload.
+    2.  Download the template from the table toolbar.
+
+    3.  In the CSV file, enter the assignments you want to upload.
 
         > ### Note:  
         > On each line, you provide only one user group and only one user. However, you can mention each user group and user several times. This means that you can use this template to assign several users to several user groups in one batch.
 
-    3.  Go back to the *Manage User Groups* app.
+    4.  Go back to the *Manage User Groups* app.
 
-    4.  On the *User-to-Group Assignments* tab, choose *Upload Assignments*.
+    5.  On the *User-to-Group Assignments* tab, choose *Upload Assignments* in the table toolbar.
 
-    5.  Select the CSV file you've prepared and choose *Upload*.
+    6.  Choose *Add* and select the CSV file you've prepared.
+
+    7.  Choose *Upload* in the dialog footer.
 
 
 

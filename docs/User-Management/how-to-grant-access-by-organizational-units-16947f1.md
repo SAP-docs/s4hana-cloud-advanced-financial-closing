@@ -1,5 +1,7 @@
 <!-- loio16947f19a23d41ba832e1fa1314aca43 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Grant Access by Organizational Units
 
 Grant access to specific organizational units by assigning one or more authorizations available within this scope.
@@ -15,6 +17,8 @@ Grant access to specific organizational units by assigning one or more authoriza
     -   `AFC_Config`
 
     -   `AFC_UserRoles`
+
+    -   `AFC_UserRolesSingleApp`
 
 
     For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
@@ -48,7 +52,7 @@ The abstraction level between user roles and specific objects enables you to gra
 
 2.  Go to the *Scoped User Roles* tab.
 
-3.  Choose *Create*.
+3.  Choose *Create* in the table toolbar.
 
 4.  Provide the following information:
 
@@ -63,7 +67,7 @@ The abstraction level between user roles and specific objects enables you to gra
     5.  Under *Restriction*, select *Restricted*.
 
 
-5.  Choose *Create*.
+5.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
 6.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
@@ -73,7 +77,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Remember:  
     > Users who have this role assignment have the authorizations across all task list templates and task lists.
 
-    <a name="loio16947f19a23d41ba832e1fa1314aca43__d17e3746"/>Authorizations for Task Processing
+    <a name="loio16947f19a23d41ba832e1fa1314aca43__d17e5153"/>Authorizations for Task Processing
 
 
     <table>
@@ -194,15 +198,14 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Note:  
     > The *Read* authorization will automatically be added if you add another authorization before adding *Read*.
 
-    1.  Repeat the previous step to assign additional authorizations.
+7.  Repeat the previous step to assign additional authorizations.
 
-    2.  To remove an authorization, select it and choose *Delete*.
+8.  To remove an authorization, choose the corresponding *Delete* icon :x:.
 
-        > ### Remember:  
-        > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
+    > ### Remember:  
+    > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-
-7.  Under *Assigned Company Codes*, *Assigned Controlling Areas*, and *Assigned Plants*, add the organizational unit to which this role grants access.
+9.  Under *Assigned Company Codes*, *Assigned Controlling Areas*, and *Assigned Plants*, add the organizational unit to which this role grants access.
 
     > ### Note:  
     > You can add several organizational units if the selected authorizations need to be applied to several organizational units. Keep in mind that all users who have this role assignment have access to **all objects** of these organizational units.
@@ -210,7 +213,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Caution:  
     > The organizational units you maintain in the role are independent of each other and always give access to the specific organizational unit and all underlying organizational units. This means that if you add a controlling area to this role, you can't restrict the access to specific company codes within this controlling area by additionally assigning these company codes. You can, however, add several company codes to one role, even without adding a controlling area or plant. In that case, you only grant access to the specific company codes and all their underlying organizational units.
 
-8.  Choose *Activate*.
+10. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

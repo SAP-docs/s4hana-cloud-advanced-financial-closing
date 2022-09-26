@@ -1,5 +1,7 @@
 <!-- loio822ddcf75cb3484183ab11f4648039a0 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Grant Access to Specific Objects
 
 Grant access to specific task list templates and task lists by assigning one or more authorizations available within this scope.
@@ -10,11 +12,13 @@ Grant access to specific task list templates and task lists by assigning one or 
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes one of the following role templates:
+-   Your user must have a role collection assigned that includes one of the following role templates or role template combinations:
 
     -   `AFC_Config`
 
     -   `AFC_UserRoles`
+
+    -   `AFC_UserRolesSingleApp` and `AFC_AuthGroupsApp`
 
 
     For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
@@ -48,7 +52,7 @@ The abstraction level between user roles and specific objects enables you to gra
 
 1.  Open the *Configuration* app and choose *Authorization Groups*.
 
-2.  Choose *Create*.
+2.  Choose *Create* in the table toolbar.
 
 3.  Provide the following information:
 
@@ -65,7 +69,7 @@ The abstraction level between user roles and specific objects enables you to gra
 
 6.  Go to the *Scoped User Roles* tab.
 
-7.  Choose *Create*.
+7.  Choose *Create* in the table toolbar.
 
 8.  Provide the following information:
 
@@ -82,14 +86,14 @@ The abstraction level between user roles and specific objects enables you to gra
     5.  Under *Restriction*, select *Restricted*.
 
 
-9.  Choose *Create*.
+9.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
 10. Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
     > A user role must have at least one authorization assigned.
 
-    <a name="loio822ddcf75cb3484183ab11f4648039a0__d17e3650"/>Authorizations for Task List Creation
+    <a name="loio822ddcf75cb3484183ab11f4648039a0__d17e5057"/>Authorizations for Task List Creation
 
 
     <table>
@@ -196,20 +200,19 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Note:  
     > The *Read* authorization will automatically be added if you add another authorization before adding *Read*.
 
-    1.  Repeat the previous step to assign additional authorizations.
+11. Repeat the previous step to assign additional authorizations.
 
-    2.  To remove an authorization, select it and choose *Delete*.
+12. To remove an authorization, choose the corresponding *Delete* icon :x:.
 
-        > ### Remember:  
-        > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
+    > ### Remember:  
+    > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-
-11. Under *Task List Templates* and *Task Lists*, add the authorization group you created before to define access to the specific objects of the respective object type.
+13. Under *Task List Templates* and *Task Lists*, add the authorization group you created before to define access to the specific objects of the respective object type.
 
     > ### Note:  
     > You can add several authorization groups if the selected authorizations need to be applied to several authorization groups. Keep in mind that all users who have this role assignment have access to **all objects** that these authorization groups are assigned to on task list level.
 
-12. Choose *Activate*.
+14. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

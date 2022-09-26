@@ -34,7 +34,7 @@ To delete a user, do the following:
 
 1.  Open the *Manage Users* app.
 
-2.  Select the user you want to delete and choose *Delete*.
+2.  Select the user you want to delete and choose *Delete* in the table toolbar.
 
     > ### Note:  
     > You can display all deleted users by selecting *Deleted* in the *Status* filter.

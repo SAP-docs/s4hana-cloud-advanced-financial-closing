@@ -10,7 +10,12 @@ If you have already used advanced financial closing in connection with your SAP 
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_SystemAdmin`.
+-   Your user must have a role collection assigned that includes one of the following role templates:
+
+    -   `AFC_SystemAdmin`
+
+    -   `AFC_SpecifySystemsApp`
+
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 

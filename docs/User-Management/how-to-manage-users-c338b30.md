@@ -16,6 +16,8 @@ Upload new users to SAP S/4HANA Cloud for advanced financial closing and update 
 
     -   `AFC_UserAdmin`
 
+    -   `AFC_ManageUsersApp`
+
 
     For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
 
@@ -193,7 +195,7 @@ Advanced Financial Closing
 
 1.  Go to the *Manage Users* app.
 
-2.  Download the template file.
+2.  In the table toolbar, choose *Download Template* to download the user template file.
 
 3.  Fill the template file with your users according to the format provided.
 
@@ -208,11 +210,13 @@ Advanced Financial Closing
     > 
     > -   The fields containing numbers have to be formatted as **text** prior to saving the CSV file.
 
-4.  Choose *Upload Users* and select the file you prepared.
+4.  Back in the *Manage Users* app, choose *Upload Users* in the table toolba
 
-5.  Confirm by choosing *Upload*.
+5.  Either drag and drop the file you prepared or choose *Add* and select the file.
 
-6.  Review the results of the upload in the dialog that summarizes the changes.
+6.  Confirm by choosing *Upload* in the dialog footer.
+
+7.  Review the results of the upload in the dialog that summarizes the changes.
 
     > ### Note:  
     > When a user is created, it's set to *Inactive*. However, once the person assigned to this user signs in for the first time, the user is activated. For more information about user statuses, see [User Statuses](user-statuses-f476237.md).
@@ -234,7 +238,7 @@ The users are uploaded with source *CSV Upload*. Once the respective users have 
 -   **[User Statuses](user-statuses-f476237.md "Learn which statuses and status changes are possible for users.")**  
 Learn which statuses and status changes are possible for users.
 
-**Parent topic:** [User Management](user-management-ae7fa30.md "")
+**Parent topic:** [User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
 
 **Next:** [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")
 

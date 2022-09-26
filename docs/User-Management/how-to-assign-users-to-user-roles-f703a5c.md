@@ -38,14 +38,22 @@ The user roles you've created take effect only once you assign users to them. Us
 
     1.  You can perform single assignments. There are two ways to do this:
 
-        -   To assign users to a specific user role, go to the *User Roles* tab and select a user role.
+        -   To assign users to a specific user role, go to the *User Roles* tab and open a user role from the table.
 
-            -   Choose *Add* and select the users you want to assign.
+            -   In the *Users* table, choose *Add*.
+
+            -   In the table, select the users you want to assign.
+
+            -   Choose *Add* in the dialog footer.
 
 
-        -   To assign user roles to a specific user, go to the *Users* tab and select a user.
+        -   To assign user roles to a specific user, go to the *Users* tab and open the user details of a user from the table.
 
-            -   Choose *Add* and select the user roles you want to assign.
+            -   In the *User Roles* table, choose *Add*.
+
+            -   In the table, select the user roles you want to assign.
+
+            -   Choose *Add* in the dialog footer.
 
 
 
@@ -53,7 +61,7 @@ The user roles you've created take effect only once you assign users to them. Us
 
         1.  Go to the *User-to-Role Assignments* tab.
 
-        2.  Download the template to ensure the file has the correct format for the upload.
+        2.  From the table toolbar, download the template to ensure the file has the correct format for the upload.
 
             > ### Note:  
             > The upload has to be a CSV file with UTF-8 encoding.
@@ -68,15 +76,17 @@ The user roles you've created take effect only once you assign users to them. Us
 
         4.  Save the template.
 
-        5.  On the *User-to-Role Assignments* tab, choose *Upload Assignments*.
+        5.  On the *User-to-Role Assignments* tab, choose *Upload Assignments* in the table toolbar.
 
-        6.  Select your file and upload it.
+        6.  Choose *Add* and select your file.
+
+        7.  Choose *Upload* in the dialog footer.
 
 
 
 3.  To get an overview of the user-to-role assignments, go to the *User-to-Role Assignments* tab.
 
-    1.  You can download this overview using the export options in the top-right corner.
+    1.  You can download this overview using the export options in the table toolbar.
 
 
 

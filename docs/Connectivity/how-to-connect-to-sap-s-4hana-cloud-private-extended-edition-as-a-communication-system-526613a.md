@@ -1,6 +1,6 @@
 <!-- loio526613a4f61d4ab39ae850a1d43e8346 -->
 
-# How to Connect to SAP S/4HANA Cloud, Extended Edition as a Communication System
+# How to Connect to SAP S/4HANA Cloud, Private/Extended Edition as a Communication System
 
 Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.
 
@@ -8,7 +8,7 @@ Connect to your financial cloud system to retrieve information about organizatio
 
 ## Context
 
-To connect SAP S/4HANA Cloud for advanced financial closing to SAP S/4HANA Cloud, extended edition, the process as described under [SAP S/4HANA](sap-s-4hana-15a3a5b.md) applies.
+To connect SAP S/4HANA Cloud for advanced financial closing to SAP S/4HANA Cloud, private/extended edition, the process as described under [SAP S/4HANA](sap-s-4hana-15a3a5b.md) applies.
 
 
 
@@ -22,7 +22,9 @@ To connect SAP S/4HANA Cloud for advanced financial closing to SAP S/4HANA Cloud
 
 3.  Enable the OData Services as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md).
 
-4.  Connect advanced financial closing to your SAP S/4HANA Cloud, extended edition as follows:
+4.  Create a technical communication user as described under [How to Create a Technical Communication User](how-to-create-a-technical-communication-user-c4a9b51.md).
+
+5.  Connect advanced financial closing to your SAP S/4HANA Cloud, private/extended edition as follows:
 
     1.  First, follow the steps described under [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-5c2b2f0.md).
 

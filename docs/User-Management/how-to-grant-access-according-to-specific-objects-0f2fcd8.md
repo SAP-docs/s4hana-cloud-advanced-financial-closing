@@ -10,7 +10,14 @@ You want to grant users access to specific task list templates, tasks lists, and
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_Config`.
+-   Your user must have a role collection assigned that includes one of the following role templates or role template combinations:
+
+    -   `AFC_Config`
+
+    -   `AFC_UserRoles`
+
+    -   `AFC_UserRolesSingleApp` and `AFC_AuthGroupsApp`
+
 
     For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
 
@@ -82,7 +89,7 @@ The user roles you create and the restrictions maintained in them take effect wh
 
 5.  On the *General Information* tab, select one of the access restrictions listed below.
 
-    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d17e1191"/>Instance-Level Restrictions
+    <a name="loio0f2fcd871f154e969e1234d52e0ea7f8__d17e2576"/>Instance-Level Restrictions
 
 
     <table>

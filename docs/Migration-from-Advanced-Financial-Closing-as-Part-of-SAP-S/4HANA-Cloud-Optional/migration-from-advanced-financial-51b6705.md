@@ -18,6 +18,6 @@ You've already used SAP S/4HANA Cloud for advanced financial closing as part of 
 
 ## Procedure
 
-1.  Familiarize yourself with the information about the migration and perform the steps required. For more information, see the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/a7d4a6c0d9554f268020060efc56eb18.html "Migrate your data to advanced financial closing on SAP BTP.") :arrow_upper_right:.
+1.  Familiarize yourself with the information about the migration and perform the steps required. For more information, see the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
 
 

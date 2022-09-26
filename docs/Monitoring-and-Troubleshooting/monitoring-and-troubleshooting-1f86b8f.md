@@ -2,7 +2,7 @@
 
 # Monitoring and Troubleshooting
 
-In this section, you can find information about how to monitor your application, how to read business logs, and how to create an incident to report an error.
+Find information about how to monitor your application, how to read business logs, and how to create an incident to report an error.
 
 -   **[How to Sign Up for Update Notifications](how-to-sign-up-for-update-notifications-77c4077.md "Receive email notifications about updates and system outages.")**  
 Receive email notifications about updates and system outages.

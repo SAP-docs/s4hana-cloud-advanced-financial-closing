@@ -2,7 +2,7 @@
 
 # Offboarding
 
-Request the deletion of your SAP S/4HANA Cloud for advanced financial closing tenant
+Request the deletion of your SAP S/4HANA Cloud for advanced financial closing tenant.
 
 
 
@@ -21,6 +21,9 @@ The deletion of your tenant and your data in SAP S/4HANA Cloud for advanced fina
 -   Configuration and business logging data
 
 
+> ### Caution:  
+> Once the process to unsubscribe is initiated, a resubscription is no longer possible.
+
 If you wish to delete your tenant and your data, perform the following steps:
 
 
@@ -38,6 +41,9 @@ If you wish to delete your tenant and your data, perform the following steps:
     > ### Note:  
     > If your data is subject to any litigation, the data must be retained until all legal concerns are resolved.
 
+    > ### Remember:  
+    > Once the process to unsubscribe is initiated, a resubscription is no longer possible.
+
 
 
 
@@ -45,5 +51,5 @@ If you wish to delete your tenant and your data, perform the following steps:
 
 ## Results
 
-Once the deletion process is completed, your tenant has been offboarded and all your data in SAP S/4HANA Cloud for advanced financial closing has been deleted.
+Once the deletion process is completed, your tenant has been offboarded and all your data in SAP S/4HANA Cloud for advanced financial closing has been deleted. A resubscription to the same tenant isn't possible anymore.
 

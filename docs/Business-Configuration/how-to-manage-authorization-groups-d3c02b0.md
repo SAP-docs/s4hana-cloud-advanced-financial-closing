@@ -16,6 +16,8 @@ Your user must have a role collection assigned that includes one of the followin
 
 -   `AFC_UserRoles`
 
+-   `AFC_AuthGroupsApp`
+
 
 For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
@@ -41,7 +43,7 @@ You can use authorization groups to grant access to specific objects, that is, e
 
 1.  Go to the *Configuration* app and choose *Authorization Groups* from the table.
 
-2.  To create a new authorization group, choose *Create*.
+2.  To create a new authorization group, choose *Create* in the table toolbar.
 
 3.  Provide a unique name.
 
@@ -51,7 +53,7 @@ You can use authorization groups to grant access to specific objects, that is, e
 
 5.  You can also add a description for this group.
 
-6.  Choose *Create* to create the authorization group.
+6.  Choose *Create* in the footer to create the authorization group.
 
 
 

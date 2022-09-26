@@ -2,7 +2,7 @@
 
 # Security
 
-In this section, you can find information about the security features of advanced financial closing.
+Find information about the security features of advanced financial closing.
 
 For more information about security on SAP BTP, see the SAP BTP documentation under [Security](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e129aa20c78c4a9fb379b9803b02e5f6.html).
 

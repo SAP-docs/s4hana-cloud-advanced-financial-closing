@@ -8,7 +8,12 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 ## Available Role Templates
 
-<a name="loiob92a2411e4164270964903c502e22340__d17e225"/>Role Templates
+> ### Note:  
+> Some role templates have a corresponding **display-only** role template, which grants access to the same app but with restricted authorizations. In general, the display-only role templates allow users to view and export information, but not to create, upload, edit, or delete any information.
+> 
+> For detailed information, see the corresponding columns in the following table.
+
+<a name="loiob92a2411e4164270964903c502e22340__d17e1053"/>Role Templates
 
 
 <table>
@@ -30,6 +35,20 @@ Description
 <th valign="top">
 
 Tiles on SAP Fiori Launchpad
+
+
+
+</th>
+<th valign="top">
+
+Display-Only Role Template
+
+
+
+</th>
+<th valign="top">
+
+Description for Display-Only Role
 
 
 
@@ -72,6 +91,66 @@ System administration:
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_SpecifySystemsApp` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains connections to financial communication systems
+
+
+
+</td>
+<td valign="top">
+
+-   *Specify Communication Systems*
+
+
+
+</td>
+<td valign="top">
+
+`AFC_SpecifySystemsApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports system information
+
+-   Views and exports in-app change logs
+
+-   Checks the connection of communication systems
+
+-   **Cannot** maintain, edit, or synchronize communication systems
+
+-   **Cannot** delete the connection to communication systems
+
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -96,6 +175,105 @@ To be able to view synchronization logs, a user additionally requires role templ
 <td valign="top">
 
 -   *Monitor Communication Systems*
+
+
+
+</td>
+<td valign="top">
+
+`AFC_MonitorSystemsApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports system information
+
+-   Checks the connection of communication systems
+
+-   **Cannot** synchronize communication systems
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_Migration` 
+
+
+
+</td>
+<td valign="top">
+
+Migrates data if a migration from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud to the SAP BTP solution takes place.
+
+
+
+</td>
+<td valign="top">
+
+-   *Migrate Configuration Data*
+-   *Migrate Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_Compliance` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains general compliance settings
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Compliance Settings*
+
+
+
+</td>
+<td valign="top">
+
+`AFC_Compliance_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views compliance settings
+
+-   Views and exports in-app change logs
+
+-   **Cannot** change compliance settings
+
 
 
 
@@ -128,6 +306,20 @@ To be able to view synchronization logs, a user additionally requires role templ
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -155,25 +347,16 @@ Maintains application-specific data, for example, configuration settings, or mas
 
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
- `AFC_Compliance` 
+ 
 
 
 
 </td>
 <td valign="top">
 
-Maintains general compliance settings
-
-
-
-</td>
-<td valign="top">
-
--   *Manage Compliance Settings*
+ 
 
 
 
@@ -202,6 +385,20 @@ Maintains application-specific settings, such as notifications and country/regio
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -222,6 +419,146 @@ Maintains user roles and authorization groups
 
 -   *Manage User Roles* \(Configuration\)
 -   *Manage Authorization Groups* \(Configuration\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_AuthGroupsApp` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains authorization groups
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Authorization Groups* \(Configuration\)
+
+
+
+</td>
+<td valign="top">
+
+`AFC_AuthGroupsApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports authorization group information
+
+-   Views and exports in-app change logs
+
+-   **Cannot** create, edit, or delete authorization groups
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_CountryGroupsApp` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains country/region groups
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Country/Region Groups* \(Configuration\)
+
+
+
+</td>
+<td valign="top">
+
+`AFC_CountryGroupsApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports country/region group information
+
+-   Views and exports in-app change logs
+
+-   **Cannot** create, edit, or delete country/region groups
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_NotificationsApp` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains email notification configurations
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Email Notification Configurations* \(Configuration\)
+
+
+
+</td>
+<td valign="top">
+
+`AFC_NotificationsApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports information about email notification configurations
+
+-   Views and exports in-app change logs
+
+-   **Cannot** create, edit, or delete email notification configurations
+
 
 
 
@@ -249,6 +586,115 @@ Maintains user groups
 
 
 </td>
+<td valign="top">
+
+`AFC_UserGroupsApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports user group information
+
+-   Views and exports in-app change logs
+
+-   **Cannot** upload, create, edit, or delete user groups
+
+-   **Cannot** upload user-to-group assignments
+
+-   **Cannot** download the template for user-to-group assignment creation
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_UserRolesSingleApp` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains user roles
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage User Roles* \(Configuration\)
+
+
+
+</td>
+<td valign="top">
+
+`AFC_UserRolesSingleApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports user role information
+
+-   Views and exports in-app change logs
+
+-   **Cannot** create, edit, or delete user roles
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_ManageUsersApp` 
+
+
+
+</td>
+<td valign="top">
+
+Maintains and deletes users
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Users*
+
+
+
+</td>
+<td valign="top">
+
+`AFC_ManageUsersApp_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports user information
+
+-   Views and exports in-app change logs
+
+-   **Cannot** upload, edit, or delete users
+
+-   **Cannot** download the template for user creation
+
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -268,6 +714,27 @@ Maintains assignments between user and roles
 <td valign="top">
 
 -   *Manage User Role Assignments*
+
+
+
+</td>
+<td valign="top">
+
+`AFC_UserManagement_Display`
+
+
+
+</td>
+<td valign="top">
+
+-   Views and exports user-to-role assignment information
+
+-   Views and exports in-app change logs
+
+-   **Cannot** upload, edit, or delete user-to-role assignments
+
+-   **Cannot** download the template for user-to-role assignment creation
+
 
 
 
@@ -296,6 +763,20 @@ Maintains task list templates and task lists
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -316,6 +797,20 @@ Processes task lists and tasks
 
 -   *Process Closing Tasks*
 -   *Change Log*
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -344,6 +839,20 @@ Approves tasks
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -368,26 +877,53 @@ Monitors overall progress of closing activities and tracks task completion
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
- `AFC_Migration` 
+ `Business_Process_Specialist_BL_AccessAll` 
 
 
 
 </td>
 <td valign="top">
 
-Migrates data if a migration from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud to the SAP BTP solution takes place.
+Reviews logs as an administrator
 
 
 
 </td>
 <td valign="top">
 
--   *Migrate Configuration Data*
--   *Migrate Closing Task Lists*
+-   *Monitor Business Logs*
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -422,6 +958,20 @@ All apps in advanced financial closing
 
 
 </td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -452,25 +1002,16 @@ All apps in advanced financial closing
 
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
- `Business_Process_Specialist_BL_AccessAll` 
+ 
 
 
 
 </td>
 <td valign="top">
 
-Reviews logs as an administrator
-
-
-
-</td>
-<td valign="top">
-
--   *Monitor Business Logs*
+ 
 
 
 
@@ -505,15 +1046,15 @@ Included Role Templates
 <tr>
 <td valign="top">
 
-AFC\_Expert
+`AFC_Expert`
 
 
 
 </td>
 <td valign="top">
 
--   AFC\_Define
--   AFC\_Config
+-   `AFC_Define`
+-   `AFC_Config`
 
 
 
@@ -522,16 +1063,16 @@ AFC\_Expert
 <tr>
 <td valign="top">
 
-AFC\_Manager
+`AFC_Manager`
 
 
 
 </td>
 <td valign="top">
 
--   AFC\_Reporting
--   AFC\_Approve
--   AFC\_UserManagement
+-   `AFC_Reporting`
+-   `AFC_Approve`
+-   `AFC_UserManagement`
 
 
 

@@ -34,7 +34,7 @@ The synchronization check follows the frequency and rules as described under [Sy
 
 1.  Open the *Monitor Communication Systems* app.
 
-2.  Open the system details of a communication system.
+2.  From the table, open the system details of a communication system.
 
 3.  In the *Status Details* section, check the *Synchronization* tile for more details.
 

@@ -36,10 +36,3 @@ Some areas of this image are interactive. Hover over the areas for a description
 								connected to three systems, a D system, a Q system, and a P system.
 								Test and production tenant are kept completely separate.](images/Image_Map_System_Landscape_DQP_Test_Tenant_ff32915.png)
 
--   [System Landscape](system-landscape-3b9f341.md)
--   [System Landscape](system-landscape-3b9f341.md)
--   [System Landscape](system-landscape-3b9f341.md)
--   [System Landscape](system-landscape-3b9f341.md)
--   [System Landscape](system-landscape-3b9f341.md)
--   [System Landscape](system-landscape-3b9f341.md)
-

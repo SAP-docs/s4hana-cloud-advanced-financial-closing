@@ -182,7 +182,7 @@ Specify the users to whom the user roles you've created apply.
 		closing tasks.")**  
 A user group represents a group of users who can be assigned to a particular set of closing tasks.
 
-**Parent topic:** [User Management](user-management-ae7fa30.md "")
+**Parent topic:** [User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
 
 **Next:** [User Access Management \(New Authorization Concept\)](user-access-management-new-authorization-concept-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
 

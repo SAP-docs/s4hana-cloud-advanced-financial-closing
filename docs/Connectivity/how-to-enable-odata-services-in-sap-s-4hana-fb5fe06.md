@@ -23,7 +23,10 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
     -   *System Alias*: for example, ***LOCAL***
 
-    -   *External Service Name*: ***FCCX\_COMMUNICATION\_SERVICES***
+    -   *External Service Name*: ***FCCX\_COMMUNICATION\_SERVICES\_SRV***
+
+        > ### Tip:  
+        > Search for ***\*FCCX\**** to ensure that you find the external service name.
 
 
     > ### Note:  

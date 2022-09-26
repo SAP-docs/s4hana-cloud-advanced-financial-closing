@@ -2,6 +2,8 @@
 
 # Data Protection and Privacy
 
+Learn about data protection and privacy in SAP S/4HANA Cloud for advanced financial closing.
+
 Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries. SAP provides specific features and functions to support compliance with regard to relevant legal requirements, including data protection, which are documented in these templates along with the assumptions that have been guiding the implementation in the software. By nature of legal requirements the conclusion whether these features are covering customer specific demands as well as the conclusion whether additional measures have to be taken is solely with the customer.
 
 > ### Note:  

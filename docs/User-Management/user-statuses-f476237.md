@@ -18,11 +18,6 @@ Some areas of this image are interactive. Hover over the areas for a description
 							deletion, the user status changes to Deleted. However, if the user is used for a new sign-in, the
 							user is reactivated and set to Active again.](images/Image_Map_User_Statuses_1055e04.png)
 
--   [User Statuses](user-statuses-f476237.md)
--   [User Statuses](user-statuses-f476237.md)
--   [User Statuses](user-statuses-f476237.md)
--   [User Statuses](user-statuses-f476237.md)
-
 > ### Note:  
 > To avoid the reactivation of a deleted user through a new logon via the IdP, you also need to unassign the user from all role collections **relevant for SAP S/4HANA Cloud for advanced financial closing**. This way, access to all apps for advanced financial closing is revoked. You can delete the user from role collections using the SAP BTP cockpit. For more information, see [Delete Users from Role Collections](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/4f8a242839a947f9a6f379650480c776.html).
 

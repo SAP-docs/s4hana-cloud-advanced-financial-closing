@@ -16,6 +16,8 @@ For all objects of a connected financial communication system, you want certain 
 
     -   `AFC_UserRoles`
 
+    -   `AFC_UserRolesSingleApp`
+
 
     For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
 
@@ -51,7 +53,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d17e1285"/>General Restrictions
+    <a name="loio2105a6f5987b4e0bb641a1c3da7a6c9f__d17e2670"/>General Restrictions
 
 
     <table>

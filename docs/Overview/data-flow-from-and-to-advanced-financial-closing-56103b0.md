@@ -2,7 +2,7 @@
 
 # Data Flow from and to Advanced Financial Closing
 
-Data flow between advanced financial closing and connected financial communication systems.
+Understand the data flow between advanced financial closing and connected financial communication systems.
 
 After you've connected your financial communication system to SAP S/4HANA Cloud for advanced financial closing, data is sent between both systems. See the graphic below for more information.
 

@@ -16,6 +16,8 @@ You want to grant users access to objects in specific company codes, controlling
 
     -   `AFC_UserRoles`
 
+    -   `AFC_UserRolesSingleApp`
+
 
     For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
 
@@ -58,7 +60,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 4.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loioe6fa5d22299b4e62a2e7f6e79227d63c__d17e1191"/>Instance-Level Restrictions
+    <a name="loioe6fa5d22299b4e62a2e7f6e79227d63c__d17e2576"/>Instance-Level Restrictions
 
 
     <table>
