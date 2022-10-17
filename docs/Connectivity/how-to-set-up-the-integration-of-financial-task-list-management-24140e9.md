@@ -21,14 +21,13 @@ Before you can connect your SAP S/4HANA Cloud ES system to SAP S/4HANA Cloud for
 
 ## Procedure
 
-1.  Perform the steps as described under [Setting Up Advanced Financial Closing Integration (4HG)](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/448c1997a9a44071bba9aa91d4bd82af.html "") :arrow_upper_right:. The guide covers the following topics:
+Perform the steps as described under [Setting Up Advanced Financial Closing Integration (4HG)](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/448c1997a9a44071bba9aa91d4bd82af.html "") :arrow_upper_right:. The guide covers the following topics:
 
-    1.  [About This Configuration Guide](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/448c1997a9a44071bba9aa91d4bd82af.html "") :arrow_upper_right:: Familiarize yourself with the local settings guide.
+1.  [About This Configuration Guide](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/448c1997a9a44071bba9aa91d4bd82af.html "") :arrow_upper_right:: Familiarize yourself with the local settings guide.
 
-    2.  [Communication Arrangement](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/46e4c38b9dd448749d575a0c65ec98c7.html "Activate the communication arrangement required for communication with Web services.") :arrow_upper_right:: Set up the communication arrangement for Web services.
+2.  [Communication Arrangement](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/46e4c38b9dd448749d575a0c65ec98c7.html "Activate the communication arrangement required for communication with Web services.") :arrow_upper_right:: Set up the communication arrangement for Web services.
 
-    3.  [Interaction with the SAP Cloud Service Center](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/fb6a85ddaf1a496db89938914b217792.html "Request the activation of the scope item.") :arrow_upper_right:: Activate the scope item.
-
+3.  [Interaction with the SAP Cloud Service Center](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/fb6a85ddaf1a496db89938914b217792.html "Request the activation of the scope item.") :arrow_upper_right:: Activate the scope item.
 
 
 

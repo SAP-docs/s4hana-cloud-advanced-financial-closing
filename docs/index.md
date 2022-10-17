@@ -27,6 +27,7 @@
             -   [How to Grant Access by Organizational Units](User-Management/how-to-grant-access-by-organizational-units-16947f1.md)
         -   [Direct User Assignment](User-Management/direct-user-assignment-f96b217.md)
             -   [How to Grant Access by Direct Assignment](User-Management/how-to-grant-access-by-direct-assignment-7ac9d63.md)
+        -   [How to Copy User Roles](User-Management/how-to-copy-user-roles-c16170b.md)
         -   [How to Assign Users to User Roles](User-Management/how-to-assign-users-to-user-roles-f703a5c.md)
         -   [How to Manage User Groups](User-Management/how-to-manage-user-groups-45bb6c9.md)
     -   [User Access Management \(Old Authorization Concept\)](User-Management/user-access-management-old-authorization-concept-6fa5e4e.md)

@@ -35,7 +35,7 @@ To perform your financial close, you have connected one or more financial commun
 
 The following system statuses are possible:
 
-<a name="loioa215069e4c534617acde3e03393b3168__d50e960"/>Overall System Status
+<a name="loioa215069e4c534617acde3e03393b3168__d51e1199"/>Overall System Status
 
 
 <table>
@@ -95,7 +95,7 @@ One or more issues were detected. Check the *Status Source* column and the syste
 
 The connection status is checked regularly. However, the frequency depends on the status that was set during the last check. The status is checked as follows:
 
-<a name="loioa215069e4c534617acde3e03393b3168__d50e1013"/>Connection Status Checks
+<a name="loioa215069e4c534617acde3e03393b3168__d51e1252"/>Connection Status Checks
 
 
 <table>

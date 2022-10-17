@@ -25,6 +25,29 @@ Comment
 <tr>
 <td valign="top">
 
+October 16, 2022
+
+
+
+</td>
+<td valign="top">
+
+-   Documentation topic [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md):
+
+    The underlying topic [How to Copy User Roles](../User-Management/how-to-copy-user-roles-c16170b.md) was added.
+
+-   Documentation topic [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md):
+
+    New note added to the list for SAP ERP systems.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 September 18, 2022
 
 
@@ -57,31 +80,6 @@ September 18, 2022
 -   Several how-to documentation topics:
 
     Instructions were adjusted to be better suitable for the use of screenreaders.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-August 21, 2022
-
-
-
-</td>
-<td valign="top">
-
--   Documentation topic [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    The topic [Monitor Communication Systems](../Connectivity/monitor-communication-systems-a215069.md) and its underlying topics were added.
-
--   Documentation topic [How to Set Up the SAP ERP Connector](../Connectivity/how-to-set-up-the-sap-erp-connector-b139d1e.md):
-
-    Recommendation about implementing new SPs was added.
-
--   Documentation topic [Migration from Advanced Financial Closing as Part of SAP S/4HANA Cloud \(Optional\)](../Migration-from-Advanced-Financial-Closing-as-Part-of-SAP-S/4HANA-Cloud-Optional/migration-from-advanced-financial-51b6705.md) was added.
 
 
 

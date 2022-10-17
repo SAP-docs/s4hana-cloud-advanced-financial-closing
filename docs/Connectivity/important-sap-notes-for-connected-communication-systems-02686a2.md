@@ -494,6 +494,57 @@ SAP ERP
 </td>
 <td valign="top">
 
+`SP10`
+
+
+
+</td>
+<td valign="top">
+
+[3252875](https://launchpad.support.sap.com/#/notes/3252875) \(Improve OPVAR Handling in the ABAP Business Backend \(3\)\)
+
+
+
+</td>
+<td valign="top">
+
+Improve handling of posting period variants
+
+
+
+</td>
+<td valign="top">
+
+Required
+
+
+
+</td>
+<td valign="top">
+
+2022-09-29
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP ERP
+
+
+
+</td>
+<td valign="top">
+
+`6.0`
+
+
+
+</td>
+<td valign="top">
+
 `SP09`
 
 

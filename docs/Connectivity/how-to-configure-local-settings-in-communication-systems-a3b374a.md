@@ -21,16 +21,15 @@ When using SAP S/4HANA Cloud for advanced financial closing, you want to include
 
 ## Procedure
 
-1.  Perform the steps as described under [Advanced Financial Closing Local Settings Guide](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/b9fac8285765445ba0eaaa9bdf738e3d.html "") :arrow_upper_right:. The guide covers the following topics:
+Perform the steps as described under [Advanced Financial Closing Local Settings Guide](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/b9fac8285765445ba0eaaa9bdf738e3d.html "") :arrow_upper_right:. The guide covers the following topics:
 
-    1.  [About This Configuration Guide](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/b9fac8285765445ba0eaaa9bdf738e3d.html "") :arrow_upper_right:: Familiarize yourself with the local settings guide.
+1.  [About This Configuration Guide](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/b9fac8285765445ba0eaaa9bdf738e3d.html "") :arrow_upper_right:: Familiarize yourself with the local settings guide.
 
-    2.  [ABAP Programs in Advanced Financial Closing](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/a028800cbc3741909800f68a0c8f08dd.html "") :arrow_upper_right:: See how to register and set up programs for use with advanced financial closing.
+2.  [ABAP Programs in Advanced Financial Closing](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/a028800cbc3741909800f68a0c8f08dd.html "") :arrow_upper_right:: See how to register and set up programs for use with advanced financial closing.
 
-    3.  [SAP Fiori Applications in Advanced Financial Closing](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/5e4bffe369fd4f7397c4e8f27f30a14a.html "") :arrow_upper_right:: See how to use SAP Fiori applications with advanced financial closing.
+3.  [SAP Fiori Applications in Advanced Financial Closing](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/5e4bffe369fd4f7397c4e8f27f30a14a.html "") :arrow_upper_right:: See how to use SAP Fiori applications with advanced financial closing.
 
-    4.  [Differences in System Appearances Between SAP Releases](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/c4f4e2fee4be4de59fbc7514286d0c87.html "Release-related differences between system appearances.") :arrow_upper_right:: Pay attention to any differences in system appearance that may exist between different releases.
-
+4.  [Differences in System Appearances Between SAP Releases](https://help.sap.com/viewer/a32675ceb29149fd9be78a66704da190/SHIP/en-US/c4f4e2fee4be4de59fbc7514286d0c87.html "Release-related differences between system appearances.") :arrow_upper_right:: Pay attention to any differences in system appearance that may exist between different releases.
 
 
 

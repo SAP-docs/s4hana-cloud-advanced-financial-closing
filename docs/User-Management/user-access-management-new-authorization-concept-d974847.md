@@ -210,6 +210,8 @@ Grant access to process and approve or reject tasks.
 -   **[Direct User Assignment](direct-user-assignment-f96b217.md "Grant access by directly assigning a user or user group to a task list template, task
 		list, folder, or task.")**  
 Grant access by directly assigning a user or user group to a task list template, task list, folder, or task.
+-   **[How to Copy User Roles](how-to-copy-user-roles-c16170b.md "Copy scoped user roles.")**  
+Copy scoped user roles.
 -   **[How to Assign Users to User Roles](how-to-assign-users-to-user-roles-f703a5c.md "Specify the users to whom the user roles you've created apply.")**  
 Specify the users to whom the user roles you've created apply.
 -   **[How to Manage User Groups](how-to-manage-user-groups-45bb6c9.md "A user group represents a group of users who can be assigned to a particular set of

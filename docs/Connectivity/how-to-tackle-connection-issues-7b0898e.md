@@ -25,7 +25,7 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 The connection status is checked regularly. However, the frequency depends on the status that was set during the last check. The status is checked as follows:
 
-<a name="loio7b0898e60c434895ae596832529d29d9__d12e1013"/>Connection Status Checks
+<a name="loio7b0898e60c434895ae596832529d29d9__d13e1252"/>Connection Status Checks
 
 
 <table>
