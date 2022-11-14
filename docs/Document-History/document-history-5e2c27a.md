@@ -25,6 +25,45 @@ Comment
 <tr>
 <td valign="top">
 
+November 13, 2022
+
+
+
+</td>
+<td valign="top">
+
+-   [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    The underlying page [Requirements for On-Premise Systems](../Connectivity/requirements-for-on-premise-systems-12f664f.md) was added.
+
+-   [Requirements for On-Premise Systems](../Connectivity/requirements-for-on-premise-systems-12f664f.md):
+
+    The underlying page [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md) was added.
+
+    The page [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md) was moved here from [Connectivity](../Connectivity/connectivity-200deae.md).
+
+-   [Monitor Communication Systems](../Connectivity/monitor-communication-systems-a215069.md):
+
+    The underlying page [How to Check the System Information Provided](../Connectivity/how-to-check-the-system-information-provided-1f3c6dd.md) was added.
+
+    Information added about processes that are deactivated for communication systems with connectivity issues.
+
+-   Several pages under [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    Tips to use the *Synchronize Now* button have been adjusted due to the removal of the button from the *Specify Communication Systems* app.
+
+-   **Terminology adjustment**:
+
+    Several pages have been adjusted to reflect the renaming of the *Open Target SAP Fiori Launchpad* button to *Check UI Settings*.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 October 16, 2022
 
 
@@ -39,47 +78,6 @@ October 16, 2022
 -   Documentation topic [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md):
 
     New note added to the list for SAP ERP systems.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-September 18, 2022
-
-
-
-</td>
-<td valign="top">
-
--   Documentation topic [About This Guide](../About-This-Guide/about-this-guide-2c62446.md) was added.
-
--   Documentation topic [Static Roles for Advanced Financial Closing](../User-Management/static-roles-for-advanced-financial-closing-b92a241.md):
-
-    New role templates were added to allow you to grant access to individual apps only. The prerequisites in several other documentation topics were adjusted accordingly.
-
-    New role templates were added to allow you to grant display-only access to individual apps.
-
--   Documentation topic [Overview of Means and Actions to Grant Access](../User-Management/overview-of-means-and-actions-to-grant-access-1923b89.md):
-
-    Format of the overview table was changed to increase usability.
-
-    The underlying topic [Overview of Means and Actions to Grant Access \(for Use of Screenreaders\)](../User-Management/overview-of-means-and-actions-to-grant-access-for-use-of-screenreaders-ade4735.md) was added to still allow for a better usability for users that use screenreaders.
-
--   Documentation topic [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    The underlying topic [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md) was added.
-
--   Documentation topic [Offboarding](../Offboarding/offboarding-e2312ef.md):
-
-    Information about resubscription was added.
-
--   Several how-to documentation topics:
-
-    Instructions were adjusted to be better suitable for the use of screenreaders.
 
 
 

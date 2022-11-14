@@ -125,7 +125,7 @@ The *Monitor Business Logs* app shows you as an administrator logs of possible t
 
 The following events are logged in the *Monitor Business Logs* app:
 
-<a name="loio57375b87280a4ae8bfe2f622e2c2cbf4__table_pyp_nhg_dqb"/>
+****
 
 
 <table>

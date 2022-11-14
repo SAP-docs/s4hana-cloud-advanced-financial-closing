@@ -51,7 +51,7 @@ The user roles you create and the access restrictions maintained in them take ef
 
 3.  On the *General Information* tab, select one of the following access restrictions:
 
-    <a name="loiob96fb86d38f34716bcb3c150c89d707d__d17e2670"/>General Restrictions
+    **General Restrictions**
 
 
     <table>

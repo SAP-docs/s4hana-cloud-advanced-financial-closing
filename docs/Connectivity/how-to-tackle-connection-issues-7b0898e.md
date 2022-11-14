@@ -25,7 +25,7 @@ For more information about role templates, see [How to Manage Static Role Templa
 
 The connection status is checked regularly. However, the frequency depends on the status that was set during the last check. The status is checked as follows:
 
-<a name="loio7b0898e60c434895ae596832529d29d9__d13e1252"/>Connection Status Checks
+**Connection Status Checks**
 
 
 <table>
@@ -138,6 +138,13 @@ Every 24 hours
 > The following graphic illustrates this process:
 > 
 >  ![Graphic depicting the process leading to an additional connection check: First, a regular check is successful and set the connection status to OK. Then, a user tries to schedule a job in the same communication system. The scheduling fails due to connection issues. Accordingly, an additional connection check is planned to start within the next 15 minutes. If this check is successful, the connection status stays in status OK. If the check fails, the connection status for this system is set to Error.](images/Image_Extraordinary_Connection_Check_f12b958.png) 
+
+> ### Remember:  
+> If the connectivity check doesn't show any successful result for twelve hours, the following processes are deactivated until the connectivity check is successful again:
+> 
+> -   Synchronization of master data
+> 
+> -   Scheduling of *Job* tasks
 
 Connection issues can originate from different sources within the environment. The following components are possible sources of errors:
 

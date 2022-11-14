@@ -41,7 +41,7 @@ For restricted roles, access is granted indirectly through authorization groups,
 
 When creating a user role for this scope, you can choose from the following authorizations:
 
-<a name="loiob4f8ec6e1c9745469f1574ee1b1e56e1__d17e5175"/>Authorizations for Task Processing
+**Authorizations for Task Processing**
 
 
 <table>
@@ -165,7 +165,7 @@ Authorization to approve and reject tasks that require approval. This authorizat
 
 ## Actions Allowed Based on Authorization of Scoped User Roles
 
-<a name="loiob4f8ec6e1c9745469f1574ee1b1e56e1__table_rnd_k4j_qrb"/>
+****
 
 
 <table>

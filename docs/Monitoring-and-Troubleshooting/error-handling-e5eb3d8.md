@@ -14,7 +14,7 @@ Depending on what has caused the error, please do the following:
 
         1.  Check that the information entered for the communication system is correct.
 
-        2.  Check that the URL information is correct. For systems that have an SAP Fiori launchpad, you can use the *Open Target SAP Fiori Launchpad* function for this. This function is available on the details page for each communication system.
+        2.  Check that the URL information is correct. For systems that have an SAP Fiori launchpad, you can use the *Check UI Settings* function for this. This function is available on the details page for each communication system.
 
         3.  Now check that the connection to the destination works. You can use the *Check Connection* function for this. This function is available on the overview page and on the details page for each communication system.
 

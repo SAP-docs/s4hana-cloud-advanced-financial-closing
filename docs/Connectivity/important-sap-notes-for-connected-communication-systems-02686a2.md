@@ -10,11 +10,11 @@ In general, it's recommended that you install the newest support and feature pac
 
 <a name="loio02686a2e680d4d02be37dfd0b8f92b0f__section_qn2_sb1_w5b"/>
 
-## SAP Note Recommendations by System Release
+## SAP Note Recommendations and Requirements by System Release
 
 The following table lists by release the SAP Notes and correction measures that are recommended to ensure that you can use all functions of advanced financial closing:
 
-<a name="loio02686a2e680d4d02be37dfd0b8f92b0f__table_fkz_qc1_w5b"/> 
+** **
 
 
 <table>

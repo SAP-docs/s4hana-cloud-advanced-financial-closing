@@ -201,7 +201,7 @@ Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financi
     </table>
     
     > ### Tip:  
-    > For systems that have an SAP Fiori launchpad, you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Choose *Open Target SAP Fiori Launchpad*. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
+    > For systems that have an SAP Fiori launchpad, you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Go to the *Monitor Communication Systems* app and choose *Check UI Settings* for the corresponding system. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
 
     > ### Tip:  
     > You can check whether the connection with the communication system works as expected. Choose *Check Connection*. This will check whether the back-end connection works and whether the system communicates as expected.
@@ -253,6 +253,11 @@ You have two options for the initial data synchronization with the communication
     > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
 
 2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+
+3.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+
+    > ### Tip:  
+    > You can use the *Monitor System Status* button to navigate directly to the *Monitor Communication Systems* app.
 
 
 > ### Note:  

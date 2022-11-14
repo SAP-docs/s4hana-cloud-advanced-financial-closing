@@ -77,7 +77,7 @@ You can grant access that is tied to a specific communication system without bei
     > ### Remember:  
     > For users who have this role assignment, the authorizations selected apply across all task lists generated for the selected communication system.
 
-    <a name="loio92e1980503e24d0fbb363c8787c55a51__d17e5175"/>Authorizations for Task Processing
+    **Authorizations for Task Processing**
 
 
     <table>

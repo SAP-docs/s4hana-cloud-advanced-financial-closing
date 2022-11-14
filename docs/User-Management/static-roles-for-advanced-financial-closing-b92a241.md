@@ -13,7 +13,7 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 > 
 > For detailed information, see the corresponding columns in the following table.
 
-<a name="loiob92a2411e4164270964903c502e22340__d17e1053"/>Role Templates
+**Role Templates**
 
 
 <table>
@@ -66,11 +66,13 @@ Description for Display-Only Role
 
 -   Maintains solution-specific settings, for example, a connection to financial communication systems
 
+-   Monitors system statuses and tackles any issues with connected systems \(additionally, the role template `Business_Process_Specialist_BL_AccessAll` is needed\)
+
+-   Maintains and deletes users
+
 -   Adapts the UI of apps for customer-specific use \(additionally, the role template `FlexKeyUser` is needed\).
 
     For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
-
--   Monitors system statuses and tackles any issues with connected systems \(additionally, the role template `Business_Process_Specialist_BL_AccessAll` is needed\)
 
 -   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
 
@@ -143,7 +145,7 @@ Maintains connections to financial communication systems
 
 -   Checks the connection of communication systems
 
--   **Cannot** maintain, edit, or synchronize communication systems
+-   **Cannot** maintain or edit communication systems
 
 -   **Cannot** delete the connection to communication systems
 
@@ -165,6 +167,8 @@ Maintains connections to financial communication systems
 -   Monitors system statuses
 
 -   Tackles issues with connected systems
+
+-   Synchronizes communication systems
 
 
 To be able to view synchronization logs, a user additionally requires role template `Business_Process_Specialist_BL_AccessAll`.

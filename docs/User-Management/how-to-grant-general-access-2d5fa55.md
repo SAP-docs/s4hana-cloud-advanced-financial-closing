@@ -75,7 +75,7 @@ You can grant access that applies to all objects within the scope, independently
     > ### Remember:  
     > For users who have this role assignment, the authorizations selected apply across all task lists.
 
-    <a name="loio2d5fa55c30dc4767af47f624aca9ba7c__d17e5175"/>Authorizations for Task Processing
+    **Authorizations for Task Processing**
 
 
     <table>

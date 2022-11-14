@@ -35,7 +35,7 @@ To perform your financial close, you have connected one or more financial commun
 
 The following system statuses are possible:
 
-<a name="loioa215069e4c534617acde3e03393b3168__d51e1199"/>Overall System Status
+**Overall System Status**
 
 
 <table>
@@ -95,7 +95,7 @@ One or more issues were detected. Check the *Status Source* column and the syste
 
 The connection status is checked regularly. However, the frequency depends on the status that was set during the last check. The status is checked as follows:
 
-<a name="loioa215069e4c534617acde3e03393b3168__d51e1252"/>Connection Status Checks
+**Connection Status Checks**
 
 
 <table>
@@ -209,12 +209,21 @@ Every 24 hours
 > 
 >  ![Graphic depicting the process leading to an additional connection check: First, a regular check is successful and set the connection status to OK. Then, a user tries to schedule a job in the same communication system. The scheduling fails due to connection issues. Accordingly, an additional connection check is planned to start within the next 15 minutes. If this check is successful, the connection status stays in status OK. If the check fails, the connection status for this system is set to Error.](images/Image_Extraordinary_Connection_Check_f12b958.png) 
 
+> ### Note:  
+> If the connectivity check doesn't show any successful result for twelve hours, the following processes are deactivated until the connectivity check is successful again:
+> 
+> -   Synchronization of master data
+> 
+> -   Scheduling of *Job* tasks
+
 
 
 ### Synchronization Status
 
 The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
 
+-   **[How to Check the System Information Provided](how-to-check-the-system-information-provided-1f3c6dd.md "Check that the system information provided is correct.")**  
+Check that the system information provided is correct.
 -   **[How to Check the Overall System Status](how-to-check-the-overall-system-status-f30be05.md "Check the overall statuses of your connected communication systems.")**  
 Check the overall statuses of your connected communication systems.
 -   **[How to Tackle Connection Issues](how-to-tackle-connection-issues-7b0898e.md "Check the connection status of your communication system and tackle any existing

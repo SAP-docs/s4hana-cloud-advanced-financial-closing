@@ -23,7 +23,7 @@ For more detailed information about granting access, see the documentation on th
 
 
 
-<a name="loio1923b891a7b8471ab1f30eca89fef261__table_wrn_jx1_w5b"/>Access Granted Through Scope-Related Authorizations or Direct Assignment
+**Access Granted Through Scope-Related Authorizations or Direct Assignment**
 
 
 <table>

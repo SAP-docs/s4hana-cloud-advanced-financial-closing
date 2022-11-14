@@ -45,7 +45,7 @@ You **must maintain** the user attributes `logonName`, `givenName`, `familyName`
 
 You **can** maintain the following user attributes in the IdP and have to map them to the corresponding user attributes in advanced financial closing. Alternatively, you can maintain these attributes by uploading users manually.
 
-<a name="loioc338b300dd01425bb74c04f0833f417c__table_bsc_sgc_hlb"/>User Attributes
+**User Attributes**
 
 
 <table>

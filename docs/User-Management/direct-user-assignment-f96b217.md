@@ -30,7 +30,7 @@ Find out how to manage user groups under [How to Manage User Groups](how-to-mana
 > ### Note:  
 > For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is deactivated.
 
-<a name="loiof96b217748304780966e86b8063dc41d__table_ymd_fsv_rrb"/>
+****
 
 
 <table>

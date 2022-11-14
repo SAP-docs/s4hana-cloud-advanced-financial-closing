@@ -14,7 +14,7 @@ The following table explains through which means you can grant which access. For
 
 
 
-<a name="loioade47358df714f8a8e7bdc4985c9d7c5__table_t34_v2b_w5b"/>Access Granted Through Scope-Related Authorizations or Direct Assignment
+**Access Granted Through Scope-Related Authorizations or Direct Assignment**
 
 
 <table>

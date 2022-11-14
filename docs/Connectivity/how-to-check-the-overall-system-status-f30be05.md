@@ -31,7 +31,7 @@ You can easily get an overview of the overall system status. In the case of any 
 
 The following system statuses are possible:
 
-<a name="loiof30be05fb2d3419c838256dae727d5b2__d13e1199"/>Overall System Status
+**Overall System Status**
 
 
 <table>

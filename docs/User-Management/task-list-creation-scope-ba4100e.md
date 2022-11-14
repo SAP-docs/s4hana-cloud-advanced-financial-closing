@@ -42,7 +42,7 @@ For restricted roles, access is granted indirectly through authorization groups,
 
 When creating a user role for this scope, you can choose from the following authorizations:
 
-<a name="loioba4100eba36940588d837922691349ba__d17e5079"/>Authorizations for Task List Creation
+**Authorizations for Task List Creation**
 
 
 <table>
@@ -152,7 +152,7 @@ Authorization to change processing users or user groups, and users responsible o
 
 ## Actions Allowed Based on Authorization of Scoped User Roles
 
-<a name="loioba4100eba36940588d837922691349ba__table_sc2_3nc_qrb"/>
+****
 
 
 <table>

@@ -81,7 +81,7 @@ If you have already used advanced financial closing in connection with your SAP 
 6.  Save.
 
     > ### Tip:  
-    > For systems that have an SAP Fiori launchpad , you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Choose *Open Target SAP Fiori Launchpad*. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
+    > For systems that have an SAP Fiori launchpad , you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Choose *Check UI Settings*. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
 
 
 **Parent topic:** [SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")

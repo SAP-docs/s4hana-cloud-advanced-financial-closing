@@ -181,6 +181,11 @@ To synchronize data \(for example, if you have changes in your communication sys
 
 2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
+3.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+
+    > ### Tip:  
+    > You can use the *Monitor System Status* button to navigate directly to the *Monitor Communication Systems* app.
+
 
 > ### Note:  
 > Synchronization always uses the active state of the communication system entry in advanced financial closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
