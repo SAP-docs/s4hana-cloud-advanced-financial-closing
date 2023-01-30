@@ -140,7 +140,7 @@ Every 24 hours
 >  ![Graphic depicting the process leading to an additional connection check: First, a regular check is successful and set the connection status to OK. Then, a user tries to schedule a job in the same communication system. The scheduling fails due to connection issues. Accordingly, an additional connection check is planned to start within the next 15 minutes. If this check is successful, the connection status stays in status OK. If the check fails, the connection status for this system is set to Error.](images/Image_Extraordinary_Connection_Check_f12b958.png) 
 
 > ### Remember:  
-> If the connectivity check doesn't show any successful result for twelve hours, the following processes are deactivated until the connectivity check is successful again:
+> If the connection check doesn't show any successful result for twelve hours, the following processes are deactivated until the connection check is successful again:
 > 
 > -   Synchronization of master data
 > 

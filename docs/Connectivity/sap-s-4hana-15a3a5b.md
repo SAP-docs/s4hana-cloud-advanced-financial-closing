@@ -17,12 +17,10 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 		financial communication system to retrieve information about organizational units, the
 		factory calendar, and so on.")  
 Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.
-6.  [How to Upgrade from an SAP ERP System to SAP S/4HANA](how-to-upgrade-from-an-sap-erp-system-to-sap-s-4hana-1fdf114.md "If you have already used advanced financial
-                                                closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as
+6.  [How to Upgrade from an SAP ERP System to SAP S/4HANA](how-to-upgrade-from-an-sap-erp-system-to-sap-s-4hana-1fdf114.md "If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as
 		your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")  
 If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.
-7.  [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-a3b374a.md "Configure your local settings for better use with advanced financial
-                                                closing.")  
+7.  [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-a3b374a.md "Configure your local settings for better use with advanced financial closing.")  
 Configure your local settings for better use with advanced financial closing.
 
 **Related Information**  

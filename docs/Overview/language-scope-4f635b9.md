@@ -210,6 +210,55 @@ User guide
 <tr>
 <td valign="top">
 
+Migration guide
+
+
+
+</td>
+<td valign="top">
+
+-   English
+-   German
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Local settings guide \(on-premise systems\)
+
+
+
+</td>
+<td valign="top">
+
+-   English
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Set-up guide based on scope item 4HG \(Cloud systems\)
+
+
+
+</td>
+<td valign="top">
+
+-   English
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 What's new documents on the SAP Help Portal
 
 
@@ -273,6 +322,22 @@ How-to videos \(subtitles\)
 -   Swedish
 -   Thai
 -   Turkish
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+What's new videos \(callouts in video only\)
+
+
+
+</td>
+<td valign="top">
+
+-   English
 
 
 

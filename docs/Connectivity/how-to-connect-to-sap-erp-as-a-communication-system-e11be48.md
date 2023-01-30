@@ -260,9 +260,7 @@ You have two options for the initial data synchronization with the communication
     > ### Recommendation:  
     > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
 
-2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
-
-3.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
     > ### Tip:  
     > You can use the *Monitor System Status* button to navigate directly to the *Monitor Communication Systems* app.

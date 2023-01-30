@@ -6,7 +6,9 @@ Connect your financial cloud or on-premise systems to SAP S/4HANA Cloud for adva
 
 You can connect SAP S/4HANA Cloud for advanced financial closing to the following solutions:
 
--   SAP S/4HANA Cloud
+-   SAP S/4HANA Cloud, public edition
+
+-   SAP S/4HANA Cloud, private edition 2020 and all following releases
 
 -   SAP S/4HANA 1809 SPS04 and higher
 
@@ -32,7 +34,7 @@ The connection allows you to do the following, for example:
 
 -   In the *Manage Closing Task Lists* app:
 
-    -   You can define a default financial communication system for your task list templates. Business attributes, such as the factory calendar or ledger, are then governed by default by the financial communication system specified and are incorporated into the task list template.
+    -   You can assign communication systems to your task list templates. Business attributes, such as the factory calendar or ledger, are then governed by the financial communication system specified and are incorporated into the task list template.
 
 
 -   In the *Process Closing Tasks* app:
@@ -69,8 +71,7 @@ Some areas of this image are interactive. Hover over the areas for a description
 							and about deleting the connection to communication systems. For more details about the synchronization with communication
 							systems, find more information under Synchronization of Communication Systems.](images/Image_Map_Cover_for_Connectivity_Section_d09ddd1.png)
 
--   **[Requirements for On-Premise Systems](requirements-for-on-premise-systems-12f664f.md "Understand which system releases and SAP Notes are required for advanced financial
-                                                closing to run
+-   **[Requirements for On-Premise Systems](requirements-for-on-premise-systems-12f664f.md "Understand which system releases and SAP Notes are required for advanced financial closing to run
 		correctly.")**  
 Understand which system releases and SAP Notes are required for advanced financial closing to run correctly.
 -   **[SAP S/4HANA Cloud](sap-s-4hana-cloud-60448a7.md "Depending on your system, follow one of the instructions listed here to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA Cloud system.")**  
@@ -81,8 +82,7 @@ Perform the following steps to connect SAP S/4HANA Cloud for advanced financial 
 -   **[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last
 		step only if it applies to your use case.")**  
 Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.
--   **[How to Delete the Connection to a Communication System](how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md "Delete the connection between advanced financial
-                                                closing and the communication
+-   **[How to Delete the Connection to a Communication System](how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md "Delete the connection between advanced financial closing and the communication
 		system.")**  
 Delete the connection between advanced financial closing and the communication system.
 -   **[Monitor Communication Systems](monitor-communication-systems-a215069.md "You use the Monitor Communication

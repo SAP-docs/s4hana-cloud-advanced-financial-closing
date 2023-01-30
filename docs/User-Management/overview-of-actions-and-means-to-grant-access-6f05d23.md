@@ -4,6 +4,13 @@
 
 All actions to which you can grant access and the available means to do so.
 
+> ### Caution:  
+> This part of the documentation refers to the **old authorization concept**. New assignments to roles of this concept will no longer be possible as of February 2023. Existing assignments remain valid until May.
+> 
+> Therefore, please switch to the new authorization concept. Make sure that you remove existing user-to-role assignments from old roles and use assignments to scoped user roles instead. When switching to the new concept, pay special attention to direct assignments, since authorizations granted for compatibility reasons will be removed in May.
+> 
+> Please find information about the new authorization concept in this guide under [User Access Management \(New Authorization Concept\)](user-access-management-new-authorization-concept-d974847.md). This section also covers the new authorization logic of direct user assignments under [Direct User Assignment](direct-user-assignment-f96b217.md).
+
 
 
 <a name="loio6f05d238d31146fba98448f65d8de975__section_ejd_dvr_dlb"/>
@@ -222,7 +229,7 @@ Write
 </td>
 </tr>
 <tr>
-<td valign="top" align="center" rowspan="7">
+<td valign="top" align="center" rowspan="8">
 
 **`AFC_Define`**
 
@@ -1076,6 +1083,127 @@ Task List Status Change \(e.g. Release\)
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+Recalculate Paths
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+`X`
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+`X`
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+`X`
+
+
+
+</td>
+<td valign="top" align="center">
+
+`X`
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" align="center" colspan="18">
 
 *Process Closing Tasks*
@@ -1085,7 +1213,7 @@ Task List Status Change \(e.g. Release\)
 </td>
 </tr>
 <tr>
-<td valign="top" align="center" rowspan="12">
+<td valign="top" align="center" rowspan="13">
 
 **`AFC_Process`**
 
@@ -2047,6 +2175,127 @@ Delete Scheduling
 <td valign="top" align="center">
 
 `X`
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Recalculate Paths
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+`X`
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+`X`
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
+
+
+
+</td>
+<td valign="top" align="center">
+
+ 
 
 
 

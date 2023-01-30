@@ -109,56 +109,6 @@ Not applicable
 </td>
 <td valign="top">
 
-No further requirements
-
-
-
-</td>
-<td valign="top">
-
-No further requirements
-
-
-
-</td>
-<td valign="top">
-
-No further requirements
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
-
-</td>
-<td valign="top">
-
--   `SP08`: Feature is part of shipment.
-
--   `SP05` to `SP07`: Feature is available in add-on.
-
-    -   Additional requirement: [3223775](https://launchpad.support.sap.com/#/notes/3223775)
-
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Spool Lists as CSV Downloads**
-
-
-
-</td>
-<td valign="top">
-
 `SP00`
 
 
@@ -190,7 +140,13 @@ Not applicable
 </td>
 <td valign="top">
 
-Not applicable
+-   `SP08`: Feature is part of shipment.
+
+-   `SP05` to `SP07`: Feature is available in add-on.
+
+    -   Additional requirement: [3223775](https://launchpad.support.sap.com/#/notes/3223775)
+
+
 
 
 

@@ -30,7 +30,7 @@ Find out how to manage user groups under [How to Manage User Groups](how-to-mana
 > ### Note:  
 > For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is deactivated.
 
-****
+** **
 
 
 <table>
@@ -249,6 +249,57 @@ Copy
 <td valign="top">
 
 Edit / Save
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+<td valign="top">
+
+`X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task List Creation*
+
+
+
+</td>
+<td valign="top">
+
+Recalculate Paths
 
 
 
@@ -1115,6 +1166,57 @@ Change Planned Duration
 </td>
 <td valign="top">
 
+Recalculate Paths
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Processing*
+
+
+
+</td>
+<td valign="top">
+
 Change Parameters
 
 
@@ -1373,4 +1475,9 @@ Find more information about how to manage direct access in the following documen
 -   **[How to Grant Access by Direct Assignment](how-to-grant-access-by-direct-assignment-7ac9d63.md "Grant access by directly assigning a user to a task list template, task list, or
 		task.")**  
 Grant access by directly assigning a user to a task list template, task list, or task.
+
+**Related Information**  
+
+
+[Allowed Attribute Changes Depending on Task List Status](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/21e491bf621d499fbeef037c2ee55742.html "See which attributes you can change in which app depending on the task list status.") :arrow_upper_right:
 

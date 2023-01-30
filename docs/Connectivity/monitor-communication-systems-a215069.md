@@ -205,12 +205,16 @@ Every 24 hours
 > ### Note:  
 > Connection issues can also be detected outside any scheduled checks, for example, when a user tries to schedule a task in the corresponding communication system. If an issue is detected this way, but the connection status is *OK* based on the last connection check, an additional connection check is scheduled to happen within the next 15 minutes. You can then find the results in the *Monitor Communication Systems* app.
 > 
-> The following graphic illustrates this process:
+> The following graphic illustrates this process \(click on the title to expand the graphic\):
 > 
->  ![Graphic depicting the process leading to an additional connection check: First, a regular check is successful and set the connection status to OK. Then, a user tries to schedule a job in the same communication system. The scheduling fails due to connection issues. Accordingly, an additional connection check is planned to start within the next 15 minutes. If this check is successful, the connection status stays in status OK. If the check fails, the connection status for this system is set to Error.](images/Image_Extraordinary_Connection_Check_f12b958.png) 
+>    
+>   
+> **Additional Connection Check**
+> 
+>  ![Graphic depicting the process leading to an additional connection check: First, a regular check is successful and set the connection status to OK. Then, a user tries to schedule a job in the same communication system. The scheduling fails due to connection issues. Accordingly, an additional connection check is planned to start within the next 15 minutes. If this check is successful, the connection status stays in status OK. If the check fails, the connection status for this system is set to Error.](images/Image_Extraordinary_Connection_Check_f12b958.png "Additional Connection Check") 
 
 > ### Note:  
-> If the connectivity check doesn't show any successful result for twelve hours, the following processes are deactivated until the connectivity check is successful again:
+> If the connection check doesn't show any successful result for twelve hours, the following processes are deactivated until the connection check is successful again:
 > 
 > -   Synchronization of master data
 > 
@@ -222,6 +226,24 @@ Every 24 hours
 
 The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
 
+
+
+### Scheduling Queue
+
+The scheduling queue information reflects the status of the scheduling queue of a communication system and provides an overview of the tasks for which the scheduling is in preparation. It also shows how many of those are overdue. A task scheduling is considered overdue under the following conditions:
+
+-   **Task that is scheduled to start immediately:** Task is considered overdue **immediately** if scheduling doesn't happen.
+
+-   **Task that is scheduled for a specific point in time:** Task is considered overdue if it still hasn't been scheduled **15 minutes before** the scheduled start.
+
+
+> ### Remember:  
+> If the connection check doesn't show any successful result for twelve hours, the following processes are deactivated until the connection check is successful again:
+> 
+> -   Synchronization of master data
+> 
+> -   Scheduling of *Job* tasks
+
 -   **[How to Check the System Information Provided](how-to-check-the-system-information-provided-1f3c6dd.md "Check that the system information provided is correct.")**  
 Check that the system information provided is correct.
 -   **[How to Check the Overall System Status](how-to-check-the-overall-system-status-f30be05.md "Check the overall statuses of your connected communication systems.")**  
@@ -231,4 +253,6 @@ Check the overall statuses of your connected communication systems.
 Check the connection status of your communication system and tackle any existing issues.
 -   **[How to Tackle Synchronization Issues](how-to-tackle-synchronization-issues-ed8c4ec.md "Check the synchronization status of your communication system and tackle any issues.")**  
 Check the synchronization status of your communication system and tackle any issues.
+-   **[How to Tackle Scheduling Issues](how-to-tackle-scheduling-issues-3f7687a.md "Check the scheduling status of your communication system and tackle any existing issues.")**  
+Check the scheduling status of your communication system and tackle any existing issues.
 

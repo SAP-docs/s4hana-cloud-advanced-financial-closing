@@ -32,14 +32,14 @@ Grant access to specific task list templates and task lists by assigning one or 
 
 You can grant access that is restricted to specific task list templates and task lists. The authorizations you select for this user role then only apply to templates and task lists to which the selected authorization groups are assigned. Access is also granted to underlying folders and tasks. The following graphic explains the relationship between the aspects involved:
 
- ![](images/Image_New_Auth_Concept_-_DEF_scope_Access_to_Specific_Objects_b23b76d.png) 
+ ![Graphic depicting the relationship between objects and user roles: A user is assigned to a user role, which in turn has authorizations assigned. Additionally, authorization groups are assigned to the user role and to task list templates or task lists at the same time. This assignment on both sides (user role and task list) establishes the relationship between user and object and it grants access. Access to the task list or template automatically grants access to underlying folders and tasks.](images/Image_New_Auth_Concept_-_DEF_scope_Access_to_Specific_Objects_b23b76d.png) 
 
 The abstraction level between user roles and specific objects enables you to grant access to collections of objects, for example, according to the domain of expertise.
 
 > ### Example:  
 > **Quick Demo: Access to Specific Objects Within the *Task List Creation* Scope**
 > 
-> The following quick demo shows how to create a user role within the Graphic depicting the relationship between objects and user roles: A user is assigned to a user role, which in turn has authorizations assigned. Additionally, authorization groups are assigned to the user role and to task list templates or task lists at the same time. This assignment on both sides \(user role and task list\) establishes the relationship between user and object and it grants access. Access to the task list or template automatically grants access to underlying folders and tasks.*Task List Creation* scope granting *Generate* access to specific object types performing the steps described below:
+> The following quick demo shows how to create a user role within the *Task List Creation* scope granting *Generate* access to specific object types performing the steps described below:
 > 
 > > ### Note:  
 > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
@@ -50,7 +50,7 @@ The abstraction level between user roles and specific objects enables you to gra
 
 ## Procedure
 
-1.  Open the *Configuration*Graphic depicting the relationship between objects and user roles: A user is assigned to a app and choose *Authorization Groups*.
+1.  Open the *Configuration* app and choose *Authorization Groups*.
 
 2.  Choose *Create* in the table toolbar.
 

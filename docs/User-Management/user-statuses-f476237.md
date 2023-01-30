@@ -11,8 +11,7 @@ For users in advanced financial closing, several statuses are possible. You can 
 Some areas of this image are interactive. Hover over the areas for a description.
 
 ![Graphic depicting the different user statuses and the possible status changes: After user creation through a CSV upload
-							or through an API for advanced financial
-                                                closing, the user has the status
+							or through an API for advanced financial closing, the user has the status
 								Inactive. As soon as the person assigned to the user signs in for the first time, the user
 							status is set to Active. The user stays in this status until it's deleted. In the case of a
 							deletion, the user status changes to Deleted. However, if the user is used for a new sign-in, the

@@ -709,6 +709,134 @@ Edit / Save
 </td>
 <td valign="top">
 
+Recalculate Paths
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
 Delete
 
 
@@ -2885,6 +3013,134 @@ Change Planned Duration
 </td>
 <td valign="top">
 
+Recalculate Paths
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X` \(through task list authorization of authorization groups\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` \(compatibility\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
 Change Parameters
 
 
@@ -3649,4 +3905,9 @@ Read
 
 -   **[Overview of Means and Actions to Grant Access \(for Use of Screenreaders\)](overview-of-means-and-actions-to-grant-access-for-use-of-screenreaders-ade4735.md "Understand how you can grant which access.")**  
 Understand how you can grant which access.
+
+**Related Information**  
+
+
+[Allowed Attribute Changes Depending on Task List Status](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/21e491bf621d499fbeef037c2ee55742.html "See which attributes you can change in which app depending on the task list status.") :arrow_upper_right:
 

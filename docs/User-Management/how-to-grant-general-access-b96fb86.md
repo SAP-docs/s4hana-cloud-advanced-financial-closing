@@ -10,6 +10,13 @@ You want certain users to have either general read access or general write acces
 
 ## Prerequisites
 
+> ### Caution:  
+> This part of the documentation refers to the **old authorization concept**. New assignments to roles of this concept will no longer be possible as of February 2023. Existing assignments remain valid until May.
+> 
+> Therefore, please switch to the new authorization concept. Make sure that you remove existing user-to-role assignments from old roles and use assignments to scoped user roles instead. When switching to the new concept, pay special attention to direct assignments, since authorizations granted for compatibility reasons will be removed in May.
+> 
+> Please find information about the new authorization concept in this guide under [User Access Management \(New Authorization Concept\)](user-access-management-new-authorization-concept-d974847.md). This section also covers the new authorization logic of direct user assignments under [Direct User Assignment](direct-user-assignment-f96b217.md).
+
 -   Your user must have a role collection assigned that includes one of the following role templates:
 
     -   `AFC_Config`

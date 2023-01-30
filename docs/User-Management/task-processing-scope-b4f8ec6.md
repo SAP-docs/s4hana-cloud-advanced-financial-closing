@@ -103,7 +103,7 @@ Authorization to process tasks. This authorization covers actions related to tas
 </td>
 <td valign="top">
 
-Authorization to change attributes that refer to the planning of a task. This authorization covers changes of planned start and planned duration. This authorization always includes *Read* authorization.
+Authorization to change attributes that relate to the planning of a task. This authorization covers changes to the planned start and planned duration as well as path recalculation. This authorization always includes *Read* authorization.
 
 
 
@@ -733,6 +733,57 @@ Change Planned Duration
 <tr>
 <td valign="top">
 
+Recalculate Paths
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X` \(through task list authorization of authorization groups\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Change Parameters
 
 
@@ -1007,4 +1058,9 @@ Grant access to specific task list templates, task lists, or tasks by assigning 
 -   **[How to Grant Access by Organizational Units](how-to-grant-access-by-organizational-units-16947f1.md "Grant access to specific organizational units by assigning one or more authorizations
 		available within this scope.")**  
 Grant access to specific organizational units by assigning one or more authorizations available within this scope.
+
+**Related Information**  
+
+
+[Allowed Attribute Changes Depending on Task List Status](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/21e491bf621d499fbeef037c2ee55742.html "See which attributes you can change in which app depending on the task list status.") :arrow_upper_right:
 

@@ -252,9 +252,7 @@ You have two options for the initial data synchronization with the communication
     > ### Recommendation:  
     > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
 
-2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Specify Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
-
-3.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
     > ### Tip:  
     > You can use the *Monitor System Status* button to navigate directly to the *Monitor Communication Systems* app.
@@ -263,7 +261,7 @@ You have two options for the initial data synchronization with the communication
 > ### Note:  
 > Synchronization always uses the active state of the communication system entry in advanced financial closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
 
-**Parent topic:** [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+**Parent topic:** [How to Connect to SAP S/4HANA Cloud, Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
 **Next:** [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpit.")
 

@@ -35,7 +35,7 @@ You can grant access that is tied to a specific communication system without bei
 > ### Example:  
 > **Quick Demo: System-Wide Access Within the *Task Processing* Scope**
 > 
-> *Task Processing* scope granting system-wide *User Assignment* access performing the steps described below:
+> The following quick demo shows how to create a user role within the *Task Processing* scope granting system-wide *User Assignment* access performing the steps described below:
 > 
 > > ### Note:  
 > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
@@ -139,7 +139,7 @@ You can grant access that is tied to a specific communication system without bei
     </td>
     <td valign="top">
 
-    Authorization to change attributes that refer to the planning of a task. This authorization covers changes of planned start and planned duration. This authorization always includes *Read* authorization.
+    Authorization to change attributes that relate to the planning of a task. This authorization covers changes to the planned start and planned duration as well as path recalculation. This authorization always includes *Read* authorization.
 
 
     
@@ -218,7 +218,7 @@ You can grant access that is tied to a specific communication system without bei
 
 ## Results
 
-You have now created a user role for system-wide access within the The following quick demo shows how to create a user role within the *Task Processing* scope.
+You have now created a user role for system-wide access within the *Task Processing* scope.
 
 
 

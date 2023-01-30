@@ -379,6 +379,50 @@ Edit / Save
 <tr>
 <td valign="top">
 
+Recalculate Paths
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Delete
 
 
@@ -656,4 +700,9 @@ Grant general access by assigning one or more authorizations available within th
 -   **[How to Grant Access to Specific Objects](how-to-grant-access-to-specific-objects-822ddcf.md "Grant access to specific task list templates and task lists by assigning one or more
 		authorizations available within this scope.")**  
 Grant access to specific task list templates and task lists by assigning one or more authorizations available within this scope.
+
+**Related Information**  
+
+
+[Allowed Attribute Changes Depending on Task List Status](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/21e491bf621d499fbeef037c2ee55742.html "See which attributes you can change in which app depending on the task list status.") :arrow_upper_right:
 

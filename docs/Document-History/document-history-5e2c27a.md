@@ -25,6 +25,45 @@ Comment
 <tr>
 <td valign="top">
 
+January 22, 2023
+
+
+
+</td>
+<td valign="top">
+
+-   [Language Scope](../Overview/language-scope-4f635b9.md):
+
+    Deliverables were added to the table.
+
+-   [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    The list of solutions advanced financial closing can be connected to now lists SAP S/4HANA Cloud, public edition and SAP S/4HANA Cloud, private edition separately.
+
+    The information about default communication systems was removed.
+
+-   [User Management](../User-Management/user-management-ae7fa30.md):
+
+    Authorization overview tables in the underlying pages were updated with information about the recalculation of paths.
+
+-   [User Access Management \(Old Authorization Concept\)](../User-Management/user-access-management-old-authorization-concept-6fa5e4e.md):
+
+    Notes about switching to the new authorization concept were added.
+
+-   [Monitor Communication Systems](../Connectivity/monitor-communication-systems-a215069.md):
+
+    Information about the scheduling queue information of a communication system was added.
+
+    The underlying page [How to Tackle Scheduling Issues](../Connectivity/how-to-tackle-scheduling-issues-3f7687a.md) was added.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 November 13, 2022
 
 
@@ -61,33 +100,10 @@ November 13, 2022
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-October 16, 2022
-
-
-
-</td>
-<td valign="top">
-
--   Documentation topic [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md):
-
-    The underlying topic [How to Copy User Roles](../User-Management/how-to-copy-user-roles-c16170b.md) was added.
-
--   Documentation topic [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md):
-
-    New note added to the list for SAP ERP systems.
-
-
-
-
-</td>
-</tr>
 </table>
 
 **Related Information**  
 
 
-[What's New for SAP S/4HANA Cloud for advanced financial closing](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Valid_as_Of=2022-01-01%253A2022-12-31&locale=en-US&version=Cloud&Component=SAP%2520S%252F4HANA%2520Cloud%2520for%2520advanced%2520financial%2520closing)
+[What&apos;s New for SAP S/4HANA Cloud for Advanced Financial Closing](https://help.sap.com/viewer/4cfbc69dfae645ff83d29380ec35750c/SHIP/en-US/54a5ce2b9dd84cf08b9e29760136e6d5.html "Overview of new and changed features of SAP S/4HANA Cloud for Advanced Financial Closing.") :arrow_upper_right:
 

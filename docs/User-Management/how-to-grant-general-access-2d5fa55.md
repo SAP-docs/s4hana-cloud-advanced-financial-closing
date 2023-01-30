@@ -137,7 +137,7 @@ You can grant access that applies to all objects within the scope, independently
     </td>
     <td valign="top">
 
-    Authorization to change attributes that refer to the planning of a task. This authorization covers changes of planned start and planned duration. This authorization always includes *Read* authorization.
+    Authorization to change attributes that relate to the planning of a task. This authorization covers changes to the planned start and planned duration as well as path recalculation. This authorization always includes *Read* authorization.
 
 
     
