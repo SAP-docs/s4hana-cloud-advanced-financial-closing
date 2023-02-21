@@ -2,7 +2,7 @@
 
 # Language Scope
 
-See in which language advanced financial closing is available.
+See in which languages advanced financial closing is available.
 
 Apart from the system user interface, SAP S/4HANA Cloud for advanced financial closing comes with different means of documentation and help. The following table shows you which deliverable is available in which languages:
 

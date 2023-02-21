@@ -63,13 +63,13 @@ Some areas of this image are interactive. Hover over the areas for a description
 -   **[Data Flow from and to Advanced Financial Closing](data-flow-from-and-to-advanced-financial-closing-56103b0.md "Understand the data flow between advanced financial closing and connected financial communication
 		systems.")**  
 Understand the data flow between advanced financial closing and connected financial communication systems.
--   **[Language Scope](language-scope-4f635b9.md "See in which language advanced financial closing is available.")**  
-See in which language advanced financial closing is available.
+-   **[Language Scope](language-scope-4f635b9.md "See in which languages advanced financial closing is available.")**  
+See in which languages advanced financial closing is available.
 
 **Related Information**  
 
 
 [Data Flow from and to Advanced Financial Closing](data-flow-from-and-to-advanced-financial-closing-56103b0.md "Understand the data flow between advanced financial closing and connected financial communication systems.")
 
-[Language Scope](language-scope-4f635b9.md "See in which language advanced financial closing is available.")
+[Language Scope](language-scope-4f635b9.md "See in which languages advanced financial closing is available.")
 

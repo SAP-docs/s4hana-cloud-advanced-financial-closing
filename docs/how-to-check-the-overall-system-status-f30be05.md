@@ -17,7 +17,7 @@ Your user must have a role collection assigned that includes one of the followin
 -   `AFC_SystemAdmin`
 
 
-For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 

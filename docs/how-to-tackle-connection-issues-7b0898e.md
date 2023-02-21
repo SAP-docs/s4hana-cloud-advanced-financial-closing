@@ -17,7 +17,7 @@ Your user must have a role collection assigned that includes one of the followin
 -   `AFC_SystemAdmin`
 
 
-For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 
@@ -145,6 +145,9 @@ Every 24 hours
 > -   Synchronization of master data
 > 
 > -   Scheduling of *Job* tasks
+> 
+> 
+> In this case, the *Synchronization* tile and the *Scheduling* tile show status *Paused*.
 
 Connection issues can originate from different sources within the environment. The following components are possible sources of errors:
 
@@ -165,10 +168,81 @@ Connection issues can originate from different sources within the environment. T
 
 2.  From the table, open the system details of a communication system.
 
-3.  In the *Status Details* section, check the *Connection Check* tile for more details.
+3.  In the *Status* section, check the *Connection Check* tile for more details:
 
-    The status provides information about whether the last connection check was successful or whether it failed. Additionally, you see the time stamp of the last check.
 
+    <table>
+    <tr>
+    <th valign="top">
+
+    Field
+
+
+    
+    </th>
+    <th valign="top">
+
+    Description
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Status*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the status of the connection. The status you see was set after the last connection check. The following statuses are possible:
+
+    -   *OK*
+
+    -   *Error*
+
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Last Checked On*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the date and time of the last attempt to perform a connection check, independently of whether the check was successful or not.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Status Changed On*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the date and time of when the current status was set.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 4.  If issues exist, performing a new connection check may already resolve the issues. You can start a new connection check manually by choosing *Check Connection* in the *Connection Check* tile.
 
     1.  If this check is successful, no further action is required.

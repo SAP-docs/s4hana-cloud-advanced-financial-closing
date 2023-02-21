@@ -16,4 +16,6 @@ Authorization handling during communication with an on-premise system.
 
 -   **[Data Storage Security](data-storage-security-a086d19.md "")**  
 
+-   **[Data Used for SCIM API](data-used-for-scim-api-62f0a49.md "Security considerations for data relevant for the use of the SCIM API.")**  
+Security considerations for data relevant for the use of the SCIM API.
 

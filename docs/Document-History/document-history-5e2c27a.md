@@ -25,6 +25,39 @@ Comment
 <tr>
 <td valign="top">
 
+February 19, 2023
+
+
+
+</td>
+<td valign="top">
+
+-   [User Access Management \(New Authorization Concept\)](../User-Management/user-access-management-new-authorization-concept-d974847.md):
+
+    The underlying page [How to Manage User Access Using the SCIM API Provided](../User-Management/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md) was added.
+
+-   New page [System Monitoring](../system-monitoring-babec34.md) was added:
+
+    The underlying page [Monitor Communication Systems](../monitor-communication-systems-a215069.md) was moved here from [Connectivity](../Connectivity/connectivity-200deae.md).
+
+    The underlying page [How to Set Up Notifications About Communication System Errors](../how-to-set-up-notifications-about-communication-system-errors-835b2a2.md) was added.
+
+-   [Monitor Communication Systems](../monitor-communication-systems-a215069.md):
+
+    The underlying page [Notifications About Communication System Errors](../notifications-about-communication-system-errors-8bf4cd3.md) was added.
+
+-   [Security](../Security/security-b3539ec.md):
+
+    The underlying page [Data Used for SCIM API](../Security/data-used-for-scim-api-62f0a49.md) was added.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 January 22, 2023
 
 
@@ -50,50 +83,11 @@ January 22, 2023
 
     Notes about switching to the new authorization concept were added.
 
--   [Monitor Communication Systems](../Connectivity/monitor-communication-systems-a215069.md):
+-   [Monitor Communication Systems](../monitor-communication-systems-a215069.md):
 
     Information about the scheduling queue information of a communication system was added.
 
-    The underlying page [How to Tackle Scheduling Issues](../Connectivity/how-to-tackle-scheduling-issues-3f7687a.md) was added.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-November 13, 2022
-
-
-
-</td>
-<td valign="top">
-
--   [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    The underlying page [Requirements for On-Premise Systems](../Connectivity/requirements-for-on-premise-systems-12f664f.md) was added.
-
--   [Requirements for On-Premise Systems](../Connectivity/requirements-for-on-premise-systems-12f664f.md):
-
-    The underlying page [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md) was added.
-
-    The page [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md) was moved here from [Connectivity](../Connectivity/connectivity-200deae.md).
-
--   [Monitor Communication Systems](../Connectivity/monitor-communication-systems-a215069.md):
-
-    The underlying page [How to Check the System Information Provided](../Connectivity/how-to-check-the-system-information-provided-1f3c6dd.md) was added.
-
-    Information added about processes that are deactivated for communication systems with connectivity issues.
-
--   Several pages under [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    Tips to use the *Synchronize Now* button have been adjusted due to the removal of the button from the *Specify Communication Systems* app.
-
--   **Terminology adjustment**:
-
-    Several pages have been adjusted to reflect the renaming of the *Open Target SAP Fiori Launchpad* button to *Check UI Settings*.
+    The underlying page [How to Tackle Scheduling Issues](../how-to-tackle-scheduling-issues-3f7687a.md) was added.
 
 
 

@@ -12,12 +12,12 @@ This administration guide first gives an overview of SAP S/4HANA Cloud for advan
 
 Some areas of this image are interactive. Hover over the areas for a description. Click the areas for more information.
 
-![Graphic depicting a treasure chest on the left and text boxes on the right: For an overview, you can find information
-							under Overview, Data Flow from and to Advanced Financial Closing, and Language Scope. For system setup, you can find
-							information under Technical Prerequisites, System Landscape, and Onboarding. For communication system configuration, you
-							find information under User Management, Connectivity, Migration from the Solution in SAP S/4HANA Cloud, and Business
-							Configuration. You can find more information under Security, Data Protection and Privacy, Monitoring and Troubleshooting,
-							Offboardings, and Further Information.](images/Image_Map_Admin_Guide_Cover_b4e8103.png)
+![Graphic depicting a treasure chest on the left and text boxes on the right: For an overview, you can find information under Overview, Data Flow
+							from and to Advanced Financial Closing, and Language Scope. For system setup, you can find information under Technical
+							Prerequisites, System Landscape, and Onboarding. For communication system configuration and monitoring, you find
+							information under User Management, Connectivity, System Monitoring, Migration from the Solution in SAP S/4HANA Cloud, and
+							Business Configuration. You can find more information under Security, Data Protection and Privacy, Monitoring and
+							Troubleshooting, Offboardings, and Further Information.](images/Image_Map_Admin_Guide_Cover_b4e8103.png)
 
 
 

@@ -87,7 +87,7 @@ Define a number of months as the time offset after which user names are removed 
 </td>
 <td valign="top">
 
-To help ensure that tasks are completed before their scheduled end date, you can arrange for email and Fiori notifications to be sent to the processing user or user responsible. Define how many minutes before a task is due users are reminded about the task. The minimum value is ***10*** minutes.
+To help ensure that tasks are completed before their scheduled end date, you can arrange for email and SAP Fiori notifications to be sent to the processing user or user responsible. Define how many minutes before a task is due users are reminded about the task. The minimum value is ***10*** minutes.
 
 > ### Note:  
 > To enable email notifications for a task, an email notification configuration including the scenario *Planned End Time of Task Approaching* must be assigned.

@@ -240,6 +240,12 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     > 
     >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Monitoring-and-Troubleshooting/error-handling-e5eb3d8.md).
 
+5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
+
+6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from advanced financial closing as part of SAP S/4HANA Cloud.
+
+    For more information about the migration, refer to the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
+
 
 
 

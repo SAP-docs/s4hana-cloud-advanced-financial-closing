@@ -17,7 +17,7 @@ Your user must have a role collection assigned that includes one of the followin
 -   `AFC_SystemAdmin`
 
 
-For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 
@@ -45,10 +45,81 @@ The scheduling queue information reflects the status of the scheduling queue of 
 
 2.  From the table, open the system details of a communication system.
 
-3.  In the *Status* section, check the *Scheduling* tile for more details.
+3.  In the *Status* section, check the *Scheduling* tile for more details:
 
-    The information shows for how many tasks the scheduling is currently in preparation and for how many of those tasks the scheduling is overdue.
 
+    <table>
+    <tr>
+    <th valign="top">
+
+    Field
+
+
+    
+    </th>
+    <th valign="top">
+
+    Description
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Status*
+
+
+    
+    </td>
+    <td valign="top">
+
+    The status is displayed only when a connection issue has caused the scheduling to be deactivated for the moment. The status is then *Paused*.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *In Preparation*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the number of task executions that are currently being worked on and that are yet to be scheduled.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Overdue*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the number of tasks that are still in the scheduling queue but haven't been scheduled in time. A task is considered overdue under the following conditions:
+
+    -   **Tasks for which a planned start time is maintained:** A task is considered overdue as of 15 minutes before the planned start time if the scheduling hasn't happened yet.
+
+    -   **Tasks which have been scheduled to start immediately \(no planned start time maintained\):** A task is immediately considered overdue.
+
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 4.  For more information about the scheduling queue, choose *Show Schedulings* on the *Scheduling* tile. This brings you to an overview of the scheduling queue for this communication system.
 
     1.  If all schedulings are running as expected, no further action is required.

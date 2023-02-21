@@ -76,7 +76,7 @@ Description for Display-Only Role
 
 -   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information, see [How to Share View Variants](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share your view variants with other users.") :arrow_upper_right:.
+    For more information, see [How to Share Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share views you&apos;ve adjusted with other users.") :arrow_upper_right:.
 
 
 
@@ -306,6 +306,43 @@ Maintains general compliance settings
 -   *Manage Users*
 -   *Manage User Role Assignments*
 -   *Manage User Groups* \(Configuration\)
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `AFC_API_Access` 
+
+
+
+</td>
+<td valign="top">
+
+Uses the UI to access API information and documentation
+
+
+
+</td>
+<td valign="top">
+
+*Public API*
 
 
 
@@ -949,7 +986,7 @@ Reviews logs as an administrator
 
 -   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information, see [How to Share View Variants](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share your view variants with other users.") :arrow_upper_right:.
+    For more information, see [How to Share Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share views you&apos;ve adjusted with other users.") :arrow_upper_right:.
 
 
 
@@ -993,7 +1030,7 @@ All apps in advanced financial closing
 
 -   Creates public view variants \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 
-    For more information, see [How to Share View Variants](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share your view variants with other users.") :arrow_upper_right:.
+    For more information, see [How to Share Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share views you&apos;ve adjusted with other users.") :arrow_upper_right:.
 
 
 

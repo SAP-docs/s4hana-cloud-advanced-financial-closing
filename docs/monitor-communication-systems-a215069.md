@@ -219,12 +219,15 @@ Every 24 hours
 > -   Synchronization of master data
 > 
 > -   Scheduling of *Job* tasks
+> 
+> 
+> In this case, the *Synchronization* tile and the *Scheduling* tile show status *Paused*.
 
 
 
 ### Synchronization Status
 
-The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
+The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](Connectivity/synchronization-of-communication-systems-a86348d.md).
 
 
 
@@ -255,4 +258,6 @@ Check the connection status of your communication system and tackle any existing
 Check the synchronization status of your communication system and tackle any issues.
 -   **[How to Tackle Scheduling Issues](how-to-tackle-scheduling-issues-3f7687a.md "Check the scheduling status of your communication system and tackle any existing issues.")**  
 Check the scheduling status of your communication system and tackle any existing issues.
+-   **[Notifications About Communication System Errors](notifications-about-communication-system-errors-8bf4cd3.md "Get an overview of notifications about communication system errors.")**  
+Get an overview of notifications about communication system errors.
 

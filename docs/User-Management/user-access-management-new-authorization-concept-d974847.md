@@ -217,6 +217,8 @@ Specify the users to whom the user roles you've created apply.
 -   **[How to Manage User Groups](how-to-manage-user-groups-45bb6c9.md "A user group represents a group of users who can be assigned to a particular set of
 		closing tasks.")**  
 A user group represents a group of users who can be assigned to a particular set of closing tasks.
+-   **[How to Manage User Access Using the SCIM API Provided](how-to-manage-user-access-using-the-scim-api-provided-49376ed.md "Manage users, user groups, and user roles through a dedicated API.")**  
+Manage users, user groups, and user roles through a dedicated API.
 
 **Parent topic:** [User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
 

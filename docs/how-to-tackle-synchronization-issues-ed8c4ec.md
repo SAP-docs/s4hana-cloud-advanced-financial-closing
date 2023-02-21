@@ -20,13 +20,20 @@ Check the synchronization status of your communication system and tackle any iss
 -   Additionally, your user must have a role collection assigned that includes the role template `Business_Process_Specialist_BL_AccessAll`.
 
 
-For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 
 ## Context
 
-The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
+The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](Connectivity/synchronization-of-communication-systems-a86348d.md).
+
+> ### Remember:  
+> If the connection check doesn't show any successful result for twelve hours, the following processes are deactivated until the connection check is successful again:
+> 
+> -   Synchronization of master data
+> 
+> -   Scheduling of *Job* tasks
 
 
 
@@ -36,10 +43,91 @@ The synchronization check follows the frequency and rules as described under [Sy
 
 2.  From the table, open the system details of a communication system.
 
-3.  In the *Status Details* section, check the *Synchronization* tile for more details.
+3.  In the *Status* section, check the *Synchronization* tile for more details:
 
-    The status provides information about whether the last synchronization run was successful or whether it failed. Additionally, you see the time stamp of the last synchronization.
 
+    <table>
+    <tr>
+    <th valign="top">
+
+    Field
+
+
+    
+    </th>
+    <th valign="top">
+
+    Description
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Status*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the status of the synchronization. The status you see was set either after the last synchronization run was attempted or due to connection issues. The following statuses are possible:
+
+    -   *Completed*
+
+    -   *In Process*
+
+    -   *Error*
+
+    -   *Paused*
+
+        This status is set if a connection issue persists.
+
+    -   *Open*
+
+        This status is set only if there has not yet been an attempt to run a synchronization. This is usually the case for new systems that were connected.
+
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Last Checked On*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the date and time of the last attempt to perform a synchronization run, independently of whether the run was successful or not.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    *Last Successful Run*
+
+
+    
+    </td>
+    <td valign="top">
+
+    Shows the date and time of the last successful run.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 4.  For more information about passed synchronization runs, choose *Show Logs* on the *Synchronization* tile. This brings you to an overview of the logs created for the passed synchronization runs.
 
     1.  If no issues were detected during the last synchronization, no further action is required.
