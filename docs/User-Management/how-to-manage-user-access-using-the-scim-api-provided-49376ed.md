@@ -12,7 +12,7 @@ Manage users, user groups, and user roles through a dedicated API.
 
 ## Prerequisites
 
-To access the API information available through the user interface of advanced financial closing, your user must have a role collection assigned that includes the role template `AFC_API_Access`.
+To access the API information available from the user interface of advanced financial closing, your user must have a role collection assigned that includes the role template `AFC_API_Access`.
 
 
 
@@ -25,19 +25,19 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 > 
 > -   *User ID* in advanced financial closing
 > 
-> -   *User ID* used in CSV upload of user data
+> -   *User ID* used in the CSV upload of user data
 > 
-> -   *Login Name* in identity service
+> -   *Login Name* in the identity service
 > 
 > -   *Subject Name Identifier* in IDP / XSUAA
 > 
 > 
-> If this information isn't identical although the data is referring to the same user, multiple users will be maintained.
+> If this information isn't identical even though the data refers to the same user, multiple users will be maintained.
 
 > ### Note:  
 > User-to-role assignments can be maintained for scoped user roles only, since they're part of the new authorization concept. Assignments to user roles that are part of the old authorization concept aren't possible.
 > 
-> Deleted users are not available through the SCIM API, even if assignments in advanced financial closing still exist.
+> Deleted users are not available through the SCIM API, even if assignments still exist in advanced financial closing.
 
 > ### Restriction:  
 > The following rate limits apply when using the SCIM API:
@@ -54,22 +54,131 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 
     1.  Go to the SAP BTP cockpit.
 
-    2.  Go to the account that contains the entitlement to SAP S/4HANA Cloud for advanced financial closing.
+    2.  Go to the subaccount that contains the entitlement to SAP S/4HANA Cloud for advanced financial closing.
 
-    3.  From the side panel, choose *Service Marketplace*.
+    3.  Ensure that you have enabled the *standard* service plan entitlement for SAP S/4HANA Cloud for advanced financial closing.
 
-    4.  In the service marketplace, search for ***advanced financial closing***.
+        For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts).
 
-    5.  Choose the *SAP S/4HANA Cloud for advanced financial closing* tile to open the details.
+    4.  From the side panel, choose *Service Marketplace*.
 
-    6.  Go to the *Service Plans* tab.
+    5.  In the service marketplace, search for ***advanced financial closing***.
 
-    7.  In the table, you find an entry called *standard* and a description identifying it as API for advanced financial closing that provides an SCIM interface.
+    6.  Choose the *SAP S/4HANA Cloud for advanced financial closing* tile to open the details.
 
-    8.  Open the additional options for this entry using the *More* icon <span class="SAP-icons"></span>.
+    7.  Go to the *Service Plans* tab.
 
-    9.  Choose *Create*.
+        > ### Note:  
+        > If you don't see the tab, check that you have performed the previous step to enabled the *standard* service plan entitlement for your subaccount.
 
+    8.  In the table, look for an entry called *standard* with a description identifying it as the API for advanced financial closing that provides an SCIM interface.
+
+    9.  Open the additional options for this entry using the *More* icon <span class="SAP-icons"></span>.
+
+    10. Choose *Create*.
+
+    11. In the *New Instance or Subscription* dialog, provide the following information:
+
+
+        <table>
+        <tr>
+        <th valign="top">
+
+        Field
+
+
+        
+        </th>
+        <th valign="top">
+
+        Entry
+
+
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+
+        *Service*
+
+
+        
+        </td>
+        <td valign="top">
+
+        Keep the default value.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+
+        *Plan*
+
+
+        
+        </td>
+        <td valign="top">
+
+        Keep the default value.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+
+        *Runtime Environment*
+
+
+        
+        </td>
+        <td valign="top">
+
+        Enter ***Cloud Foundry***.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+
+        *Space*
+
+
+        
+        </td>
+        <td valign="top">
+
+        Keep the default value.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+
+        *Instance Name*
+
+
+        
+        </td>
+        <td valign="top">
+
+        Enter a name for this instance.
+
+
+        
+        </td>
+        </tr>
+        </table>
+        
 
 2.  Get the service key:
 
@@ -91,7 +200,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 
         You can use this information for the following cases:
 
-        -   Use the API through your preferred command-line tool as described under [Access SAP Authorization and Trust Management Service APIs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/ebc9113a520e495ea5fb759b9a7929f2.html).
+        -   Use the API through your preferred command line tool as described under [Access SAP Authorization and Trust Management Service APIs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/ebc9113a520e495ea5fb759b9a7929f2.html).
 
         -   Use the API through your identity management, such as the Identity Provisioning service. Maintain the API information as described below.
 
@@ -99,7 +208,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 
 3.  \(Optional\) Maintain the API information for your source system:
 
-    As source system, you can, for example, use an identity authentication. To do this, follow the steps described under [Identity Authentication](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/e4e25f1fae094c2a89ad62159e1cd230.html).
+    As a source system, you can use an identity authentication, for example. To do this, follow the steps described under [Identity Authentication](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/e4e25f1fae094c2a89ad62159e1cd230.html).
 
     > ### Note:  
     > Other identity provisioning services may require a different configuration.
@@ -267,7 +376,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         > ### Note:  
         > Some of the information you need to provide may be sensitive data for which security recommendations apply. For more information, see [Data Used for SCIM API](../Security/data-used-for-scim-api-62f0a49.md).
 
-    3.  \(Optional\) The SCIM implementation offers further possibilities that you can leverage with the following modifications to the target system properties, you've maintained. To perform any of the following modifications, go to the *Transformations* tab in your target system details:
+    3.  \(Optional\) The SCIM implementation offers further possibilities that you can leverage with the following modifications to the target system properties you've maintained. To perform any of the following modifications, go to the *Transformations* tab in your target system details:
 
         -   **Enterprise User:** To transfer enterprise user information, remove the following section under *user* \> *menu*:
 
@@ -356,16 +465,16 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
     4.  Once the run is finished, you can find the results under the *Job Execution Details* menu.
 
 
-6.  Using the API documentation provided through the user interface of advanced financial closing, you can now use the API to manage user access:
+6.  Using the API documentation provided by the user interface of advanced financial closing, you can now use the API to manage user access:
 
-    1.  In advanced financial closing, go to the *Public API* app.
+    1.  From advanced financial closing, open the *Public API* app.
 
     2.  Open *SCIM*.
 
     3.  On the next screen, you find all the information needed for this API.
 
         > ### Note:  
-        > The API follows SCIM standard 7644 and 7643. However, it has been extended by functions to manage user roles, that is, adding users to roles or removing user from them.
+        > The API follows SCIM standards 7644 and 7643. However, it has been extended by functions that you can use to manage user roles, that is, adding users to roles or removing users from them.
 
 
 

@@ -396,5 +396,61 @@ Not applicable
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+**Use of Validation Class `CL_FCCX_VALIDATION_BY_JOBLOG_M`**
+
+
+
+</td>
+<td valign="top">
+
+`SP02`
+
+-   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+
+
+
+
+</td>
+<td valign="top">
+
+`SP04`
+
+-   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+
+
+
+
+</td>
+<td valign="top">
+
+`SP06`
+
+-   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+`SP11`
+
+-   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+
+
+
+
+</td>
+</tr>
 </table>
 

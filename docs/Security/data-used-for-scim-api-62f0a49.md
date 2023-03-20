@@ -18,5 +18,5 @@ For SAP S/4HANA Cloud for advanced financial closing, you can use an SCIM API to
 
 ## Sensitive Data Used for SCIM API
 
-When using the SCIM API, you need to enter a client ID and a client secret. The *clientid* and *clientsecret* elements of API service keys are sensitive data. Therefore, SAP recommends keeping the data safe and performing regular secret rotations.
+When using the SCIM API, you need to enter a client ID and a client secret. The *clientid* and *clientsecret* elements of API service keys are sensitive data. SAP recommends keeping the data safe and performing regular secret rotations.
 

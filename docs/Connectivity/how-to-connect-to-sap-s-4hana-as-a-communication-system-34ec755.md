@@ -202,7 +202,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     The default value is ***Yes***.
 
     > ### Note:  
-    > Define a communication system as a production system to prevent the untimely deletion of related task lists.
+    > Define a communication system as a production system to prevent the untimely deletion of related task lists. Mark communication systems as test systems only if they do not contain audit- or retention-relevant data. However, use this setting to allow enhanced testing capabilities for your non-production systems.
+    > 
+    > Ensure that you set this indicator correctly, since the information will be displayed in the task list header information in the *Manage Closing Task Lists* app.
+    > 
+    > We do not recommend changing the *Is Production System* indicator for a system after it has already been in use. Existing task lists will not be reclassified.
 
 
     

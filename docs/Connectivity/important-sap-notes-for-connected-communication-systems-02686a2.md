@@ -232,6 +232,57 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
+`2021`
+
+
+
+</td>
+<td valign="top">
+
+`SP02`
+
+
+
+</td>
+<td valign="top">
+
+[3152735](https://launchpad.support.sap.com/#/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
+
+
+
+</td>
+<td valign="top">
+
+Adoption of batch job name generation to handle new pattern
+
+
+
+</td>
+<td valign="top">
+
+Recommended
+
+
+
+</td>
+<td valign="top">
+
+2022-02-22
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+
+
+</td>
+<td valign="top">
+
 `2020`
 
 
@@ -385,6 +436,57 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
+`2020`
+
+
+
+</td>
+<td valign="top">
+
+`SP04`
+
+
+
+</td>
+<td valign="top">
+
+[3152735](https://launchpad.support.sap.com/#/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
+
+
+
+</td>
+<td valign="top">
+
+Adoption of batch job name generation to handle new pattern
+
+
+
+</td>
+<td valign="top">
+
+Recommended
+
+
+
+</td>
+<td valign="top">
+
+2022-02-22
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+
+
+</td>
+<td valign="top">
+
 `1909`
 
 
@@ -421,6 +523,57 @@ Recommended
 <td valign="top">
 
 2022-09-18
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+
+
+</td>
+<td valign="top">
+
+`2019`
+
+
+
+</td>
+<td valign="top">
+
+`SP06`
+
+
+
+</td>
+<td valign="top">
+
+[3152735](https://launchpad.support.sap.com/#/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
+
+
+
+</td>
+<td valign="top">
+
+Adoption of batch job name generation to handle new pattern
+
+
+
+</td>
+<td valign="top">
+
+Recommended
+
+
+
+</td>
+<td valign="top">
+
+2022-02-22
 
 
 

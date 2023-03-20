@@ -51,7 +51,7 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
         The combination of provider and region represents the data center you are using.
 
         > ### Note:  
-        > For SAP S/4HANA Cloud for advanced financial closing, the subaccount needs to be in the same region as the application. Currently `Europe (Frankfurt) (cf-eu10)` and `US (Virginia) (cf-us10)` are available as regions.
+        > For SAP S/4HANA Cloud for advanced financial closing, the subaccount needs to be in the same region as the application. Currently `Europe (Frankfurt) (cf-eu10)` and `US (Virginia) (cf-us10)` are available as standard regions. If you have an EU access contract for advanced financial closing, the region `Europe (Frankfurt) (cf-eu11)` is shown.
 
     6.  *Subdomain*:
 
@@ -113,6 +113,8 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
         **Result:** **SAP S/4HANA Cloud for advanced financial closing** is now shown in the list of your subaccount's instances and subscriptions, and the status is *Subscribed*.
 
+
+9.  \(**Recommended**\) Add SAP S/4HANA Cloud for advanced financial closing to your Cloud system notification subscriptions as described under [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md).
 
 
 **Related Information**  

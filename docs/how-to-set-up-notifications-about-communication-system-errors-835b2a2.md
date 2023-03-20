@@ -142,9 +142,11 @@ Notifications can be sent for the following cases:
     4.  To confirm, choose *Add*.
 
 
-7.  If you ever want to remove a scenario entry from the *Assigned Scenarios* table, select the entry and choose *Delete* in the table toolbar.
+7.  If you ever want to update the user assignment for a scenario, select the scenario entry in the *Assigned Scenarios* table and choose *Change*.
 
-8.  To confirm your changes, choose *Save* in the footer.
+8.  If you ever want to remove a scenario entry from the *Assigned Scenarios* table, select the entry and choose *Delete* in the table toolbar.
+
+9.  To confirm your changes, choose *Save* in the footer.
 
 
 

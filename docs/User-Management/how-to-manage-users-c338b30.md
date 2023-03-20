@@ -210,7 +210,7 @@ Advanced Financial Closing
     > 
     > -   The fields containing numbers have to be formatted as **text** prior to saving the CSV file.
 
-4.  Back in the *Manage Users* app, choose *Upload Users* in the table toolba
+4.  Back in the *Manage Users* app, choose *Upload Users* in the table toolbar.
 
 5.  Either drag and drop the file you prepared or choose *Add* and select the file.
 
@@ -232,6 +232,11 @@ The users are uploaded with source *CSV Upload*. Once the respective users have 
 
 > ### Note:  
 > User information provided by the IdP is updated via the IdP. However, you need to update the user information manually which you've uploaded in your CSV file but which you haven't maintained in the IdP.
+
+> ### Tip:  
+> If users have maintained substitutes, you can see their substitutes on the *Substitutes* tab in the user details.
+> 
+> You can also see the history of substitutes for each user, that is, you can see whom the user assigned as their substitute in the past.
 
 -   **[Language Codes Allowed for User Upload](language-codes-allowed-for-user-upload-51c9133.md "")**  
 
