@@ -67,7 +67,7 @@ If you have already used advanced financial closing in connection with your SAP 
     > 
     > -   Entry can't end with /
 
-5.  Update the *UI Parameters* \(optional\):
+5.  **Optional:** Update the *UI Parameters*:
 
     Enter the UI parameters that are to be applied for the connection with the communication system.
 

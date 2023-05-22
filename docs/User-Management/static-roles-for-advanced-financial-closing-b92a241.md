@@ -784,6 +784,43 @@ Maintains assignments between user and roles
 <tr>
 <td valign="top">
 
+`AFC_Archiving`
+
+
+
+</td>
+<td valign="top">
+
+Restores task lists from archive
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Archived Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+`AFC_Archiving_Display`
+
+
+
+</td>
+<td valign="top">
+
+Views archived task lists
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  `AFC_Define` 
 
 

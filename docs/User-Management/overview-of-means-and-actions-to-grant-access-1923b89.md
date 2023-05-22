@@ -18,9 +18,6 @@ The following table explains through which means you can grant which access. The
 
 For more detailed information about granting access, see the documentation on the following pages of this administration guide.
 
-> ### Note:  
-> For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is deactivated.
-
 
 
 **Access Granted Through Scope-Related Authorizations or Direct Assignment**
@@ -190,6 +187,390 @@ Processing User / User Group
 <tr>
 <td valign="top">
 
+-   *Financial Close Overview*
+
+
+
+</td>
+<td valign="top">
+
+Read
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Closing Task Completion*
+
+
+
+</td>
+<td valign="top">
+
+Read
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Change Log*
+
+
+
+</td>
+<td valign="top">
+
+Read
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 -   *Manage Closing Task Lists*
 
 
@@ -288,7 +669,7 @@ Read
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -672,7 +1053,7 @@ Edit / Save
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -800,7 +1181,7 @@ Recalculate Paths
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -928,7 +1309,7 @@ Delete
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1049,14 +1430,14 @@ Generate
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1177,14 +1558,14 @@ Change Task List Status
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1312,7 +1693,7 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1440,7 +1821,7 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1568,7 +1949,7 @@ Check Compatibility
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1689,7 +2070,7 @@ Read
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1817,7 +2198,7 @@ Download Results
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1945,28 +2326,156 @@ Change Task Status
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Process
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ `X` 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -2073,28 +2582,28 @@ Schedule
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -2117,7 +2626,7 @@ Schedule
 </td>
 <td valign="top">
 
-Delete Scheduling
+Cancel Run
 
 
 
@@ -2201,28 +2710,28 @@ Delete Scheduling
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -2329,28 +2838,28 @@ Start Test Run
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -2373,7 +2882,7 @@ Start Test Run
 </td>
 <td valign="top">
 
-Delete Test Run
+Cancel Test Run
 
 
 
@@ -2457,28 +2966,28 @@ Delete Test Run
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -2578,100 +3087,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
  `X` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
--   *Process Closing Tasks*
-
-
-
-</td>
-<td valign="top">
-
-Change Offset/Start Time
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 
@@ -2692,56 +3108,21 @@ Change Offset/Start Time
 </td>
 <td valign="top">
 
- 
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
- 
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- 
+ `X` 
 
 
 
@@ -2841,28 +3222,28 @@ Change Planned Start
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -2969,28 +3350,28 @@ Change Planned Duration
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -3104,7 +3485,7 @@ Recalculate Paths
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -3232,28 +3613,28 @@ Change Parameters
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -3874,21 +4255,21 @@ Read
 </td>
 <td valign="top">
 
- 
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
- 
+ `X` 
 
 
 
 </td>
 <td valign="top">
 
- 
+ `X` 
 
 
 

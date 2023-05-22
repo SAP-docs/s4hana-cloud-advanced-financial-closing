@@ -247,5 +247,5 @@ Learn which statuses and status changes are possible for users.
 
 **Next:** [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")
 
-**Previous:** [User Access Management \(New Authorization Concept\)](user-access-management-new-authorization-concept-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+**Previous:** [User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
 

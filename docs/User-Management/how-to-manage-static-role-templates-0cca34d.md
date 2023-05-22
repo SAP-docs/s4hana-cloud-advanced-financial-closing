@@ -30,7 +30,7 @@ As a prerequisite for assigning roles to IdP users or user groups, you also need
 For more information about how to create roles and how to bundle them in role collections using the SAP BTP cockpit, see [Building Roles and Role Collections for Applications](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/eaa6a26291914b348e875a00b6beb729.html).
 
 > ### Caution:  
-> Users to whom you assign a static role for system administration, configuration, user management, or compliance can read and change all data in the respective apps. For other apps, access must be granted before users can read and change data. For more information, see [User Access Management \(Old Authorization Concept\)](user-access-management-old-authorization-concept-6fa5e4e.md).
+> Users to whom you assign a static role for system administration, configuration, user management, or compliance can read and change all data in the respective apps. For other apps, access must be granted before users can read and change data. For more information, see [User Access Management](user-access-management-d974847.md).
 
 
 
@@ -121,5 +121,5 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 **Related Information**  
 
 
-[User Access Management \(Old Authorization Concept\)](user-access-management-old-authorization-concept-6fa5e4e.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
 

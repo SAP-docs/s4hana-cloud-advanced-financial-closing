@@ -1,6 +1,6 @@
 <!-- loiod974847a74d34f2795f97d75a90ce8eb -->
 
-# User Access Management \(New Authorization Concept\)
+# User Access Management
 
 You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.
 
@@ -18,14 +18,14 @@ Users who have been assigned a static role can see the respective apps in the SA
 
 -   *Approve Closing Tasks*
 
--   *Financial Close Overview* \(derived from the authorization to process tasks\)
+-   *Financial Close Overview* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
--   *Closing Task Completion* \(derived from the authorization to process tasks\)
+-   *Closing Task Completion* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
--   *Change Log* \(derived from the authorizations to define task lists or process tasks\)
+-   *Change Log* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
 
-In all other apps, users with a matching static role always have full access so that no further access needs to be granted on object level. This affects access to the following apps:
+In all other apps, users only require a matching static role. A display-only role provides them with read access, while the standard roles always grant full access so that no further access needs to be granted on object level. This affects access to the following apps:
 
 
 <table>
@@ -44,18 +44,28 @@ Configuration Apps
 
 
 </th>
+<th valign="top">
+
+System Configuration and Monitoring Apps
+
+
+
+</th>
+<th valign="top">
+
+Migration Apps
+
+
+
+</th>
 </tr>
 <tr>
 <td valign="top">
 
 -   *Manage Users*
-
--   *Specify Communication Systems*
-
 -   *Manage User Role Assignments*
-
 -   *Manage Compliance Settings*
-
+-   *Manage Archived Closing Task Lists*
 
 
 
@@ -63,6 +73,23 @@ Configuration Apps
 <td valign="top">
 
 All apps accessed through the *Configuration* tile
+
+
+
+</td>
+<td valign="top">
+
+-   *Specify Communication Systems*
+-   *Monitor Communication Systems*
+-   *Monitor Business Logs*
+
+
+
+</td>
+<td valign="top">
+
+-   *Migrate Configuration Data*
+-   *Migrate Closing Task Lists*
 
 
 
@@ -178,7 +205,7 @@ For more information, see [Task List Creation Scope](task-list-creation-scope-ba
 </td>
 <td valign="top">
 
-Grant access to process and approve tasks. Users who are granted access for this scope automatically get access to the related entries in the change log.
+Grant access to process and approve tasks. Users who are granted access for this scope automatically get access to the related entries in the change log and the apps for reporting.
 
 For more information, see [Task Processing Scope](task-processing-scope-b4f8ec6.md).
 
@@ -224,5 +251,5 @@ Manage users, user groups, and user roles through a dedicated API.
 
 **Next:** [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
 
-**Previous:** [User Access Management \(Old Authorization Concept\)](user-access-management-old-authorization-concept-6fa5e4e.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+**Previous:** [Extended What's New: Switch of Authorization Concept](extended-what-s-new-switch-of-authorization-concept-3155ba8.md "Understand the consequences of the retirement of the old authorization concept.")
 

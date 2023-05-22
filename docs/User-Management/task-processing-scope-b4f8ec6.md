@@ -15,11 +15,10 @@ Grant access to process and approve or reject tasks.
 ### Apps in This Scope
 
 -   *Process Closing Tasks*
-
 -   *Approve Closing Tasks*
-
+-   *Financial Close Overview*
+-   *Closing Task Completion*
 -   *Change Log*
-
 
 
 
@@ -165,7 +164,7 @@ Authorization to approve and reject tasks that require approval. This authorizat
 
 ## Actions Allowed Based on Authorization of Scoped User Roles
 
-****
+** **
 
 
 <table>
@@ -376,6 +375,57 @@ Change Task Status
 <tr>
 <td valign="top">
 
+Process
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X`
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Schedule
 
 
@@ -427,7 +477,7 @@ Schedule
 <tr>
 <td valign="top">
 
-Delete Scheduling
+Cancel Run
 
 
 
@@ -529,7 +579,7 @@ Start Test Run
 <tr>
 <td valign="top">
 
-Delete Test Run
+Cancel Test Run
 
 
 
@@ -622,7 +672,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- 
+`X`
 
 
 

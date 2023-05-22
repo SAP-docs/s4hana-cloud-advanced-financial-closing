@@ -12,6 +12,4 @@ More information:
 
 -   For user group management within the new authorization concept, see [How to Manage User Groups](../User-Management/how-to-manage-user-groups-45bb6c9.md).
 
--   For user group management within the old authorization concept, see [How to Manage User Groups](../User-Management/how-to-manage-user-groups-6d5d683.md).
-
 

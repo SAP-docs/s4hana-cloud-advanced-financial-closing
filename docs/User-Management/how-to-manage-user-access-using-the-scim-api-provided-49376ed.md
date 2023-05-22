@@ -35,8 +35,6 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 > If this information isn't identical even though the data refers to the same user, multiple users will be maintained.
 
 > ### Note:  
-> User-to-role assignments can be maintained for scoped user roles only, since they're part of the new authorization concept. Assignments to user roles that are part of the old authorization concept aren't possible.
-> 
 > Deleted users are not available through the SCIM API, even if assignments still exist in advanced financial closing.
 
 > ### Restriction:  
@@ -206,9 +204,9 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 
 
 
-3.  \(Optional\) Maintain the API information for your source system:
+3.  **Optional:** Maintain the API information for your source system:
 
-    As a source system, you can use an identity authentication, for example. To do this, follow the steps described under [Identity Authentication](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/e4e25f1fae094c2a89ad62159e1cd230.html).
+    As a source system, you can use an identity authentication, for example. To do this, follow the steps described under [SAP S/4HANA Cloud for advanced financial closing \(Identity Provisioning documentation for source systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-s-4hana-cloud-for-advanced-financial-closing).
 
     > ### Note:  
     > Other identity provisioning services may require a different configuration.
@@ -223,7 +221,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
     > ### Remember:  
     > The login name of a user maintained in Identity Provisioning has to be identical to the user ID in advanced financial closing.
 
-    1.  Follow the steps described under [SCIM System](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/04278923ec8b4b34ac912897062be317.html).
+    1.  Follow the steps described under [SAP S/4HANA Cloud for advanced financial closing \(Identity Provisioning documentation for target systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/target-sap-s-4hana-cloud-for-advanced-financial-closing).
 
     2.  For the properties referred to, enter the following information:
 
@@ -376,7 +374,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         > ### Note:  
         > Some of the information you need to provide may be sensitive data for which security recommendations apply. For more information, see [Data Used for SCIM API](../Security/data-used-for-scim-api-62f0a49.md).
 
-    3.  \(Optional\) The SCIM implementation offers further possibilities that you can leverage with the following modifications to the target system properties you've maintained. To perform any of the following modifications, go to the *Transformations* tab in your target system details:
+    3.  **Optional:** The SCIM implementation offers further possibilities that you can leverage with the following modifications to the target system properties you've maintained. To perform any of the following modifications, go to the *Transformations* tab in your target system details:
 
         -   **Enterprise User:** To transfer enterprise user information, remove the following section under *user* \> *menu*:
 
@@ -454,7 +452,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         ```
 
 
-5.  \(Optional\) After you've configured the source and target system information, you can also use runs in Identity Provisioning to synchronize users and user groups:
+5.  **Optional:** After you've configured the source and target system information, you can also use runs in Identity Provisioning to synchronize users and user groups:
 
     1.  Go to the *Source System Details* menu.
 
@@ -483,5 +481,5 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 
 [Access SAP Authorization and Trust Management Service APIs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/ebc9113a520e495ea5fb759b9a7929f2.html)
 
-[SCIM System](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/04278923ec8b4b34ac912897062be317.html)
+[SAP Cloud Identity Services – Identity Provisioning](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-cloud-identity-services-identity-provisioning)
 

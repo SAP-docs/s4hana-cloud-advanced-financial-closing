@@ -9,9 +9,6 @@ Understand how you can grant which access.
 
 The following table explains through which means you can grant which access. For more detailed information, see the documentation on the following pages of this administration guide.
 
-> ### Note:  
-> For compatibility reasons, some authorizations are currently granted to achieve alignment with the old authorization concept. These authorizations will be removed as soon as the old authorization concept is deactivated.
-
 
 
 **Access Granted Through Scope-Related Authorizations or Direct Assignment**
@@ -21,14 +18,14 @@ The following table explains through which means you can grant which access. For
 <tr>
 <th valign="top">
 
- 
+App Affected
 
 
 
 </th>
 <th valign="top">
 
- 
+Action
 
 
 
@@ -73,137 +70,395 @@ Access is granted through the following authorizations:
 
 [Direct User Assignment](direct-user-assignment-f96b217.md)
 
+Access is granted through the following authorizations:
+
 
 
 </th>
 </tr>
 <tr>
-<th valign="top">
+<td valign="top">
 
-App Affected
+-   *Financial Close Overview*
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-Action
+Read
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Read*
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Create*
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Write*
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Generate*
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*User Assignment*
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Read*
+ *Read* authorization in the *Task Processing* scope
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Process*
+ *Process* authorization in the *Task Processing* scope
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Plan*
+ *Plan* authorization in the *Task Processing* scope
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Parameters*
+ *Parameters* authorization in the *Task Processing* scope
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*User Assignment*
+ *User Assignment* authorization in the *Task Processing* scope
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-*Approve / Reject*
+ *Approve / Reject* authorization in the *Task Processing* scope
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-Owner / Owner Group
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-User / User Group Responsible \(Task List Template / Task List\)
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-User / User Group Responsible \(Organizational Unit Folder\)
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-User / User Group Responsible \(Task\)
+ 
 
 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-Processing User / User Group
+ 
 
 
 
-</th>
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Closing Task Completion*
+
+
+
+</td>
+<td valign="top">
+
+Read
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ *Read* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Process* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Plan* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Parameters* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *User Assignment* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Approve / Reject* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Change Log*
+
+
+
+</td>
+<td valign="top">
+
+Read
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ *Read* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Process* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Plan* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Parameters* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *User Assignment* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ *Approve / Reject* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -222,42 +477,35 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+ *Read* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Create* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Write* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Generate* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
-
-
-
-</td>
-<td valign="top">
-
- 
+ *User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -299,14 +547,21 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+Direct assignment as owner or owner group
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -357,7 +612,7 @@ Create
 </td>
 <td valign="top">
 
- `X` 
+ *Create* authorization in the *Task List Creation* scope
 
 
 
@@ -485,7 +740,7 @@ Copy
 </td>
 <td valign="top">
 
- `X` 
+ *Create* authorization in the *Task List Creation* scope
 
 
 
@@ -620,7 +875,7 @@ Edit / Save
 </td>
 <td valign="top">
 
- `X` 
+ *Write* authorization in the *Task List Creation* scope
 
 
 
@@ -683,14 +938,142 @@ Edit / Save
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as owner or owner group
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Recalculate Paths
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ *Write* authorization in the *Task List Creation* scope
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Direct assignment as owner or owner group
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -748,7 +1131,7 @@ Delete
 </td>
 <td valign="top">
 
- `X` 
+ *Write* authorization in the *Task List Creation* scope
 
 
 
@@ -811,14 +1194,14 @@ Delete
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as owner or owner group
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -883,7 +1266,7 @@ Generate
 </td>
 <td valign="top">
 
- `X` 
+ *Generate* authorization in the *Task List Creation* scope
 
 
 
@@ -939,14 +1322,14 @@ Generate
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1011,7 +1394,7 @@ Change Task List Status
 </td>
 <td valign="top">
 
- `X` 
+ *Generate* authorization in the *Task List Creation* scope
 
 
 
@@ -1067,14 +1450,14 @@ Change Task List Status
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1146,7 +1529,7 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
- `X` 
+ *User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -1195,14 +1578,14 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as owner or owner group
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -1246,42 +1629,35 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
- `X` 
+ *Read* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Create* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Write* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Generate* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
-
-
-
-</td>
-<td valign="top">
-
- 
+ *User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -1323,14 +1699,21 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
- `X` 
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+Direct assignment as owner or owner group
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -1374,42 +1757,35 @@ Check Compatibility
 </td>
 <td valign="top">
 
- `X` 
+ *Read* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Create* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Write* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Generate* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
-
-
-
-</td>
-<td valign="top">
-
- 
+ *User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -1451,14 +1827,21 @@ Check Compatibility
 </td>
 <td valign="top">
 
- `X` 
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+Direct assignment as owner or owner group
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -1537,77 +1920,77 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+ *Read* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Plan* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Parameters* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *User Assignment* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Approve / Reject* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as processing user or user group
 
 
 
@@ -1665,77 +2048,77 @@ Download Results
 </td>
 <td valign="top">
 
- `X` 
+ *Read* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Plan* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Parameters* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *User Assignment* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+ *Approve / Reject* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as processing user or user group
 
 
 
@@ -1800,7 +2183,7 @@ Change Task Status
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
@@ -1835,35 +2218,163 @@ Change Task Status
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as processing user or user group
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Process
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ *Process* authorization in the *Task Processing* scope
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+Direct assignment as processing user or user group
 
 
 
@@ -1928,7 +2439,7 @@ Schedule
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
@@ -1963,35 +2474,35 @@ Schedule
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as processing user or user group
 
 
 
@@ -2007,7 +2518,7 @@ Schedule
 </td>
 <td valign="top">
 
-Delete Scheduling
+Cancel Run
 
 
 
@@ -2056,7 +2567,7 @@ Delete Scheduling
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
@@ -2091,35 +2602,35 @@ Delete Scheduling
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as processing user or user group
 
 
 
@@ -2184,7 +2695,7 @@ Start Test Run
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
@@ -2219,35 +2730,35 @@ Start Test Run
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as processing user or user group
 
 
 
@@ -2263,7 +2774,7 @@ Start Test Run
 </td>
 <td valign="top">
 
-Delete Test Run
+Cancel Test Run
 
 
 
@@ -2312,7 +2823,7 @@ Delete Test Run
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
@@ -2347,35 +2858,35 @@ Delete Test Run
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as processing user or user group
 
 
 
@@ -2440,7 +2951,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- `X` 
+ *Process* authorization in the *Task Processing* scope
 
 
 
@@ -2468,58 +2979,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
--   *Process Closing Tasks*
-
-
-
-</td>
-<td valign="top">
-
-Change Offset/Start Time
+ *Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -2533,105 +2993,28 @@ Change Offset/Start Time
 </td>
 <td valign="top">
 
- 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- 
+Direct assignment as user or user group responsible on task
 
 
 
 </td>
 <td valign="top">
 
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- `X` 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- `X` \(compatibility\)
-
-
-
-</td>
-<td valign="top">
-
- 
+Direct assignment as processing user or user group
 
 
 
@@ -2703,7 +3086,7 @@ Change Planned Start
 </td>
 <td valign="top">
 
- `X` 
+ *Plan* authorization in the *Task Processing* scope
 
 
 
@@ -2731,28 +3114,28 @@ Change Planned Start
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -2831,7 +3214,7 @@ Change Planned Duration
 </td>
 <td valign="top">
 
- `X` 
+ *Plan* authorization in the *Task Processing* scope
 
 
 
@@ -2859,28 +3242,156 @@ Change Planned Duration
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Process Closing Tasks*
+
+
+
+</td>
+<td valign="top">
+
+Recalculate Paths
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ *Plan* authorization in the *Task Processing* scope through task list authorization of authorization groups
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -2966,7 +3477,7 @@ Change Parameters
 </td>
 <td valign="top">
 
- `X` 
+ *Parameters* authorization in the *Task Processing* scope
 
 
 
@@ -2994,28 +3505,28 @@ Change Parameters
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
 </td>
 <td valign="top">
 
- `X` \(compatibility\)
+ 
 
 
 
@@ -3101,7 +3612,7 @@ Change User / User Group Responsible
 </td>
 <td valign="top">
 
- `X` 
+ *User Assignment* authorization in the *Task Processing* scope
 
 
 
@@ -3122,21 +3633,21 @@ Change User / User Group Responsible
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task
 
 
 
@@ -3229,7 +3740,7 @@ Change Processing User / User Group
 </td>
 <td valign="top">
 
- `X` 
+ *User Assignment* authorization in the *Task Processing* scope
 
 
 
@@ -3250,21 +3761,21 @@ Change Processing User / User Group
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task
 
 
 
@@ -3365,7 +3876,7 @@ Approve
 </td>
 <td valign="top">
 
- `X` 
+ *Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -3379,21 +3890,21 @@ Approve
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task
 
 
 
@@ -3494,7 +4005,7 @@ Reject
 </td>
 <td valign="top">
 
- `X` 
+ *Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -3508,21 +4019,21 @@ Reject
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+Direct assignment as user or user group responsible on task
 
 
 
@@ -3622,7 +4133,7 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+ *Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -3636,21 +4147,21 @@ Read
 </td>
 <td valign="top">
 
- 
+Direct assignment as user or user group responsible on task list template or task list
 
 
 
 </td>
 <td valign="top">
 
- 
+Direct assignment as user or user group responsible on organizational unit folder
 
 
 
 </td>
 <td valign="top">
 
- 
+Direct assignment as user or user group responsible on task
 
 
 

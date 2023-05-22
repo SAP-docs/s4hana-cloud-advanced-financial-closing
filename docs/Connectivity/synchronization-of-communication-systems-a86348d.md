@@ -77,6 +77,11 @@ Task list models
 
 Factory calendars
 
+> ### Note:  
+> Synchronization considers only factory calendars from two years before until four years after the current year. Previously synchronized factory calendars aren't deleted from existing task lists, but they might no longer be available for new assignment.
+> 
+> For example, let's assume you ran your first synchronization in 2020. If you then check the synchronization results for 2023, you'll see that the synchronization covers the years 2021 until 2027. The factory calendars for 2020, however, are no longer synchronized and you might therefore no longer be able to assign them to your task lists.
+
 
 
 </td>

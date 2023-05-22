@@ -39,7 +39,8 @@ The following graphic shows a high-level architecture. The solution is an applic
 Some areas of this image are interactive. Hover over the areas for a description. Click highlighted areas for more information.
 
 ![Diagram of the solution's high-level architecture with an SAP Fiori UI,
-							the advanced financial closing
+							the advanced financial
+                                                closing
 							back end, the SAP HANA
 							database, as well as the object store on SAP BTP: Either
 							an SAP IdP or a customer IdP serves as entry point to the advanced
@@ -48,11 +49,13 @@ Some areas of this image are interactive. Hover over the areas for a description
 							subaccount for the Cloud Foundry environment on SAP side. The SAP HANA
 							database and the object store on SAP BTP form
 							the database component. The front end is represented by the SAP Fiori
-							UI. The advanced financial closing back
+							UI. The advanced financial
+                                                closing back
 							end has two communication channels: one with SAP S/4HANA Cloud on SAP
 							side and one with the customer’s SAP BTP
 							subaccount. The customer’s SAP BTP
-							subaccount contains three components: subscription to advanced financial closing,
+							subaccount contains three components: subscription to advanced financial
+                                                closing,
 							security controlled through roles and role collections, and the
 							connectivity component represented by destination service and cloud
 							connectors. This connectivity component is connected to the customer’s
@@ -60,10 +63,12 @@ Some areas of this image are interactive. Hover over the areas for a description
 							Some of the graphic's areas are interactive and link to more information
 							within this administration guide.](images/AFC_High-Level_Architecture_Diagram_726b4eb.png)
 
--   **[Data Flow from and to Advanced Financial Closing](data-flow-from-and-to-advanced-financial-closing-56103b0.md "Understand the data flow between advanced financial closing and connected financial communication
+-   **[Data Flow from and to Advanced Financial Closing](data-flow-from-and-to-advanced-financial-closing-56103b0.md "Understand the data flow between advanced financial
+                                                closing and connected financial communication
 		systems.")**  
 Understand the data flow between advanced financial closing and connected financial communication systems.
--   **[Language Scope](language-scope-4f635b9.md "See in which languages advanced financial closing is available.")**  
+-   **[Language Scope](language-scope-4f635b9.md "See in which languages advanced financial
+                                                closing is available.")**  
 See in which languages advanced financial closing is available.
 
 **Related Information**  

@@ -647,6 +647,57 @@ SAP ERP
 </td>
 <td valign="top">
 
+`SP14`
+
+
+
+</td>
+<td valign="top">
+
+[3332291](https://launchpad.support.sap.com/#/notes/3332291) \(Prevent accidental deletion of messages \(FCCX\_TASK\_EXEC\_M within New Scheduling\)
+
+
+
+</td>
+<td valign="top">
+
+Prevent deletion of messages relating to advanced financial closing.
+
+
+
+</td>
+<td valign="top">
+
+Required
+
+
+
+</td>
+<td valign="top">
+
+2023-05-12
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP ERP
+
+
+
+</td>
+<td valign="top">
+
+`6.0`
+
+
+
+</td>
+<td valign="top">
+
 `SP10`
 
 

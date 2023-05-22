@@ -152,7 +152,7 @@ Authorization to change processing users or user groups, and users responsible o
 
 ## Actions Allowed Based on Authorization of Scoped User Roles
 
-****
+** **
 
 
 <table>
