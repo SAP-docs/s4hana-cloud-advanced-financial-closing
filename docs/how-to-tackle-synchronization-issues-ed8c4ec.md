@@ -65,15 +65,15 @@ The synchronization check follows the frequency and rules as described under [Sy
     </tr>
     <tr>
     <td valign="top">
-
-    *Status*
+    
+        *Status*
 
 
     
     </td>
     <td valign="top">
-
-    Shows the status of the synchronization. The status you see was set either after the last synchronization run was attempted or due to connection issues. The following statuses are possible:
+    
+        Shows the status of the synchronization. The status you see was set either after the last synchronization run was attempted or due to connection issues. The following statuses are possible:
 
     -   *Completed*
 
@@ -96,15 +96,15 @@ The synchronization check follows the frequency and rules as described under [Sy
     </tr>
     <tr>
     <td valign="top">
-
-    *Last Checked On*
+    
+        *Last Checked On*
 
 
     
     </td>
     <td valign="top">
-
-    Shows the date and time of the last attempt to perform a synchronization run, independently of whether the run was successful or not.
+    
+        Shows the date and time of the last attempt to perform a synchronization run, independently of whether the run was successful or not.
 
 
     
@@ -112,15 +112,15 @@ The synchronization check follows the frequency and rules as described under [Sy
     </tr>
     <tr>
     <td valign="top">
-
-    *Last Successful Run*
+    
+        *Last Successful Run*
 
 
     
     </td>
     <td valign="top">
-
-    Shows the date and time of the last successful run.
+    
+        Shows the date and time of the last successful run.
 
 
     

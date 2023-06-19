@@ -78,15 +78,15 @@ Notifications can be sent for the following cases:
         </tr>
         <tr>
         <td valign="top">
-
-        *Connection Error*
+        
+                *Connection Error*
 
 
         
         </td>
         <td valign="top">
-
-        Users who are selected as recipients receive notifications for connection errors only.
+        
+                Users who are selected as recipients receive notifications for connection errors only.
 
         A notification for this error is sent within 20 minutes after an issue was detected.
 
@@ -96,15 +96,15 @@ Notifications can be sent for the following cases:
         </tr>
         <tr>
         <td valign="top">
-
-        *Master Data Synchronization Error*
+        
+                *Master Data Synchronization Error*
 
 
         
         </td>
         <td valign="top">
-
-        Users who are selected as recipients receive notifications for master data synchronization errors only.
+        
+                Users who are selected as recipients receive notifications for master data synchronization errors only.
 
 
         
@@ -112,15 +112,15 @@ Notifications can be sent for the following cases:
         </tr>
         <tr>
         <td valign="top">
-
-        *All Errors*
+        
+                *All Errors*
 
 
         
         </td>
         <td valign="top">
-
-        Users who are selected as recipients receive notifications for all scenarios available.
+        
+                Users who are selected as recipients receive notifications for all scenarios available.
 
 
         

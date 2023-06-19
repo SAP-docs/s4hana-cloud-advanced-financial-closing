@@ -61,6 +61,7 @@
         -   [How to Configure Local Settings in Communication Systems](Connectivity/how-to-configure-local-settings-in-communication-systems-38f2e79.md)
     -   [How to Delete the Connection to a Communication System](Connectivity/how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md)
     -   [Synchronization of Communication Systems](Connectivity/synchronization-of-communication-systems-a86348d.md)
+    -   [Communication System Unavailable - Resilience of SAP S/4HANA Cloud for Advanced Financial Closing](Connectivity/communication-system-unavailable-resilience-of-sap-s-4hana-cloud-for-advanced-financial-c-727d2ee.md)
 -   [System Monitoring](system-monitoring-babec34.md)
     -   [Monitor Communication Systems](monitor-communication-systems-a215069.md)
         -   [How to Check the System Information Provided](how-to-check-the-system-information-provided-1f3c6dd.md)

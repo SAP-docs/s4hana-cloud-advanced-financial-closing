@@ -8,8 +8,5 @@ Use user roles to manage role-based access.
 
 ## Context
 
-More information:
-
--   [User Access Management](../User-Management/user-access-management-d974847.md)
-
+For more information about user role management, see [User Access Management](../User-Management/user-access-management-d974847.md).
 

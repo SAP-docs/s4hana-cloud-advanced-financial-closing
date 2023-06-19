@@ -115,15 +115,15 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     <tr>
     <td valign="top">
-
-    *Read*
+    
+        *Read*
 
 
     
     </td>
     <td valign="top">
-
-    Read authorization within the scope of this user role. This is the minimum authorization, and it's included in all others.
+    
+        Read authorization within the scope of this user role. This is the minimum authorization, and it's included in all others.
 
 
     
@@ -131,15 +131,15 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     <tr>
     <td valign="top">
-
-    *Create*
+    
+        *Create*
 
 
     
     </td>
     <td valign="top">
-
-    Authorization to create and copy task list templates. This authorization always includes *Read* authorization.
+    
+        Authorization to create and copy task list templates. This authorization always includes *Read* authorization.
 
     This authorization can't be assigned to restricted user roles.
 
@@ -149,31 +149,15 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     <tr>
     <td valign="top">
-
-    *Write*
+    
+        *Write*
 
 
     
     </td>
     <td valign="top">
-
-    Authorization to edit and delete task list templates and task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Generate*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Authorization to generate task lists and change the status of task lists. This authorization always includes *Read* authorization.
+        Authorization to edit and delete task list templates and task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
 
 
     
@@ -181,15 +165,31 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     <tr>
     <td valign="top">
-
-    *User Assignment*
+    
+        *Generate*
 
 
     
     </td>
     <td valign="top">
+    
+        Authorization to generate task lists and change the status of task lists. This authorization always includes *Read* authorization.
 
-    Authorization to change processing users or user groups, and users responsible or responsible user groups within the scope of this user role. This authorization allows changes **only through quick actions**. This authorization always includes *Read* authorization.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *User Assignment*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Authorization to change processing users or user groups, and users responsible or responsible user groups within the scope of this user role. This authorization allows changes **only through quick actions**. This authorization always includes *Read* authorization.
 
 
     

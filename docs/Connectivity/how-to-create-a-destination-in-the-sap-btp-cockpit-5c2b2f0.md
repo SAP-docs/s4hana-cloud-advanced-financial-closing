@@ -56,31 +56,15 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    Specify a name for the destination configuration.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Type*
-
-
-    
-    </td>
-    <td valign="top">
-
-     ***HTTP*** 
+        Specify a name for the destination configuration.
 
 
     
@@ -88,15 +72,31 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </tr>
     <tr>
     <td valign="top">
-
-    *URL*
+    
+        *Type*
 
 
     
     </td>
     <td valign="top">
+    
+         ***HTTP*** 
 
-    Enter the back-end URL of the communication system that you've received from the system administrator. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the back-end URL of the communication system that you've received from the system administrator. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
     <code>http://www.example.com:[port number]<b>/sap/opu/odata/sap/fccx_communication_services_srv?sap-client</b>=[client]</code>
 
@@ -108,31 +108,15 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </tr>
     <tr>
     <td valign="top">
-
-    *Proxy Type*
+    
+        *Proxy Type*
 
 
     
     </td>
     <td valign="top">
-
-    ***OnPremise*** 
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-
-    ***BasicAuthentication***
+        ***OnPremise*** 
 
 
     
@@ -140,15 +124,15 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </tr>
     <tr>
     <td valign="top">
-
-    *User*
+    
+        *Authentication*
 
 
     
     </td>
     <td valign="top">
-
-    Technical communication user that you've received from the SAP S/4HANA system administrator.
+    
+        ***BasicAuthentication***
 
 
     
@@ -156,15 +140,31 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     </tr>
     <tr>
     <td valign="top">
-
-    *Password*
+    
+        *User*
 
 
     
     </td>
     <td valign="top">
+    
+        Technical communication user that you've received from the SAP S/4HANA system administrator.
 
-    Password of the selected user
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *Password*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Password of the selected user
 
 
     

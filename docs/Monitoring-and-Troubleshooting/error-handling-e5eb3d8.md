@@ -41,3 +41,10 @@ Depending on what has caused the error, please do the following:
 
 For all other unexpected issues, create an incident under the component `FIN-FIO-FCC` in the [SAP Support Portal](https://support.sap.com).
 
+**Related Information**  
+
+
+[Communication System Unavailable - Resilience of SAP S/4HANA Cloud for Advanced Financial Closing](../Connectivity/communication-system-unavailable-resilience-of-sap-s-4hana-cloud-for-advanced-financial-c-727d2ee.md "Understand how advanced financial closing behaves if a communication system is unavailable.")
+
+[Monitor Communication Systems](../monitor-communication-systems-a215069.md "You use the Monitor Communication Systems app to check the status of your connected communication systems and tackle any issues.")
+

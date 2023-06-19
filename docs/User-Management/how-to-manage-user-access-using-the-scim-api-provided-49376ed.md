@@ -97,31 +97,15 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         </tr>
         <tr>
         <td valign="top">
-
-        *Service*
+        
+                *Service*
 
 
         
         </td>
         <td valign="top">
-
-        Keep the default value.
-
-
         
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-
-        *Plan*
-
-
-        
-        </td>
-        <td valign="top">
-
-        Keep the default value.
+                Keep the default value.
 
 
         
@@ -129,31 +113,15 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         </tr>
         <tr>
         <td valign="top">
-
-        *Runtime Environment*
+        
+                *Plan*
 
 
         
         </td>
         <td valign="top">
-
-        Enter ***Cloud Foundry***.
-
-
         
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-
-        *Space*
-
-
-        
-        </td>
-        <td valign="top">
-
-        Keep the default value.
+                Keep the default value.
 
 
         
@@ -161,15 +129,47 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         </tr>
         <tr>
         <td valign="top">
-
-        *Instance Name*
+        
+                *Runtime Environment*
 
 
         
         </td>
         <td valign="top">
+        
+                Enter ***Cloud Foundry***.
 
-        Enter a name for this instance.
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+                *Space*
+
+
+        
+        </td>
+        <td valign="top">
+        
+                Keep the default value.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+                *Instance Name*
+
+
+        
+        </td>
+        <td valign="top">
+        
+                Enter a name for this instance.
 
 
         
@@ -247,31 +247,15 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         </tr>
         <tr>
         <td valign="top">
-
-        `Type`
+        
+                `Type`
 
 
         
         </td>
         <td valign="top">
-
-        ***HTTP***
-
-
         
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-
-        `URL`
-
-
-        
-        </td>
-        <td valign="top">
-
-        Enter the URL provided by the service key under *"endpoints"* \> *"scim2"*.
+                ***HTTP***
 
 
         
@@ -279,31 +263,15 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         </tr>
         <tr>
         <td valign="top">
-
-        `ProxyType`
+        
+                `URL`
 
 
         
         </td>
         <td valign="top">
-
-        ***Internet***
-
-
         
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-
-        `Authentication`
-
-
-        
-        </td>
-        <td valign="top">
-
-        ***BasicAuthentication***
+                Enter the URL provided by the service key under *"endpoints"* \> *"scim2"*.
 
 
         
@@ -311,31 +279,15 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         </tr>
         <tr>
         <td valign="top">
-
-        `User`
+        
+                `ProxyType`
 
 
         
         </td>
         <td valign="top">
-
-        Enter the user ID provided by the service key under *"uaa"* \> *"clientid"*.
-
-
         
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-
-        `Password`
-
-
-        
-        </td>
-        <td valign="top">
-
-        Enter the password provided by the service key under *"uaa"* \> *"clientsecret"*.
+                ***Internet***
 
 
         
@@ -343,15 +295,63 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         </tr>
         <tr>
         <td valign="top">
-
-        `OAuth2TokenServiceURL`
+        
+                `Authentication`
 
 
         
         </td>
         <td valign="top">
+        
+                ***BasicAuthentication***
 
-        Enter the following URL concatenation:
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+                `User`
+
+
+        
+        </td>
+        <td valign="top">
+        
+                Enter the user ID provided by the service key under *"uaa"* \> *"clientid"*.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+                `Password`
+
+
+        
+        </td>
+        <td valign="top">
+        
+                Enter the password provided by the service key under *"uaa"* \> *"clientsecret"*.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+                `OAuth2TokenServiceURL`
+
+
+        
+        </td>
+        <td valign="top">
+        
+                Enter the following URL concatenation:
 
         -   Enter the URL provided by the service key under *"uaa"* \> *"url"*.
 

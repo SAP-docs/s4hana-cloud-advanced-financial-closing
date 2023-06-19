@@ -190,15 +190,15 @@ Connection issues can originate from different sources within the environment. T
     </tr>
     <tr>
     <td valign="top">
-
-    *Status*
+    
+        *Status*
 
 
     
     </td>
     <td valign="top">
-
-    Shows the status of the connection. The status you see was set after the last connection check. The following statuses are possible:
+    
+        Shows the status of the connection. The status you see was set after the last connection check. The following statuses are possible:
 
     -   *OK*
 
@@ -211,15 +211,15 @@ Connection issues can originate from different sources within the environment. T
     </tr>
     <tr>
     <td valign="top">
-
-    *Last Checked On*
+    
+        *Last Checked On*
 
 
     
     </td>
     <td valign="top">
-
-    Shows the date and time of the last attempt to perform a connection check, independently of whether the check was successful or not.
+    
+        Shows the date and time of the last attempt to perform a connection check, independently of whether the check was successful or not.
 
 
     
@@ -227,15 +227,15 @@ Connection issues can originate from different sources within the environment. T
     </tr>
     <tr>
     <td valign="top">
-
-    *Status Changed On*
+    
+        *Status Changed On*
 
 
     
     </td>
     <td valign="top">
-
-    Shows the date and time of when the current status was set.
+    
+        Shows the date and time of when the current status was set.
 
 
     

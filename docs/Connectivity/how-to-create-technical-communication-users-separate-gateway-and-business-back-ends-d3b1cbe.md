@@ -71,15 +71,15 @@ If you use separate systems for the gateway back end and the business back end, 
     </tr>
     <tr>
     <td valign="top">
-
-    `R3TR`
+    
+        `R3TR`
 
 
     
     </td>
     <td valign="top">
-
-    `IWSG`
+    
+        `IWSG`
 
 
     
@@ -150,15 +150,15 @@ If you use separate systems for the gateway back end and the business back end, 
     </tr>
     <tr>
     <td valign="top">
-
-    `R3TR`
+    
+        `R3TR`
 
 
     
     </td>
     <td valign="top">
-
-    `IWSV`
+    
+        `IWSV`
 
 
     
@@ -213,36 +213,36 @@ If you use separate systems for the gateway back end and the business back end, 
         </tr>
         <tr>
         <td valign="top">
-
-        ***Selected***
+        
+                ***Selected***
 
 
         
         </td>
         <td valign="top">
-
-        SAP Gateway Business Suite Enablement - Service
+        
+                SAP Gateway Business Suite Enablement - Service
 
 
         
         </td>
         <td valign="top">
-
-        `FCCX_COMMUNICATION_SERVICES_SRV 0001`
+        
+                `FCCX_COMMUNICATION_SERVICES_SRV 0001`
 
 
         
         </td>
         <td valign="top">
-
-        `FCCX_COMMUNICATION_SERVICES_SRVO`
+        
+                `FCCX_COMMUNICATION_SERVICES_SRVO`
 
 
         
         </td>
         <td valign="top">
-
-        `OP Variant`
+        
+                `OP Variant`
 
 
         
@@ -279,22 +279,22 @@ If you use separate systems for the gateway back end and the business back end, 
         </tr>
         <tr>
         <td valign="top" rowspan="2">
-
-        `S_BTCH_NA1`
+        
+                `S_BTCH_NA1`
 
 
         
         </td>
         <td valign="top">
-
-        `PROGRAM`
+        
+                `PROGRAM`
 
 
         
         </td>
         <td valign="top">
-
-        `FCCX_APJ_PROCESSOR`
+        
+                `FCCX_APJ_PROCESSOR`
 
 
         
@@ -302,15 +302,15 @@ If you use separate systems for the gateway back end and the business back end, 
         </tr>
         <tr>
         <td valign="top">
-
-        `BTCUNAME`: *Background User Name for Authorization Check*
+        
+                `BTCUNAME`: *Background User Name for Authorization Check*
 
 
         
         </td>
         <td valign="top">
-
-        Enter one of the following:
+        
+                Enter one of the following:
 
         -   `*`: Using the asterisk, you ensure that you don't have to list all relevant users explicitly.
 
@@ -323,22 +323,22 @@ If you use separate systems for the gateway back end and the business back end, 
         </tr>
         <tr>
         <td valign="top" rowspan="2">
-
-        `S_BTCH_JOB`
+        
+                `S_BTCH_JOB`
 
 
         
         </td>
         <td valign="top">
-
-        `JOBACTION`
+        
+                `JOBACTION`
 
 
         
         </td>
         <td valign="top">
-
-        `RELE`
+        
+                `RELE`
 
 
         
@@ -346,15 +346,15 @@ If you use separate systems for the gateway back end and the business back end, 
         </tr>
         <tr>
         <td valign="top">
-
-        `JOBGROUP`
+        
+                `JOBGROUP`
 
 
         
         </td>
         <td valign="top">
-
-        `*` \(asterisk\)
+        
+                `*` \(asterisk\)
 
 
         

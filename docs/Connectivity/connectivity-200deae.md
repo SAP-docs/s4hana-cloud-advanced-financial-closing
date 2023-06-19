@@ -92,4 +92,8 @@ Perform the following steps to connect SAP S/4HANA Cloud for advanced financial 
 Delete the connection between advanced financial closing and the communication system.
 -   **[Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md "Get an overview of the synchronization and validation of data.")**  
 Get an overview of the synchronization and validation of data.
+-   **[Communication System Unavailable - Resilience of SAP S/4HANA Cloud for Advanced Financial Closing](communication-system-unavailable-resilience-of-sap-s-4hana-cloud-for-advanced-financial-c-727d2ee.md "Understand how advanced financial
+                                                closing
+		behaves if a communication system is unavailable.")**  
+Understand how advanced financial closing behaves if a communication system is unavailable.
 

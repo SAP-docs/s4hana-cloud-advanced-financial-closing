@@ -8,8 +8,5 @@ A user group represents a group of users who can be assigned to a particular set
 
 ## Context
 
-More information:
-
--   For user group management within the new authorization concept, see [How to Manage User Groups](../User-Management/how-to-manage-user-groups-45bb6c9.md).
-
+For more information about user group management, see [How to Manage User Groups](../User-Management/how-to-manage-user-groups-45bb6c9.md).
 

@@ -18,15 +18,15 @@ As soon as you connect a communication system to SAP S/4HANA Cloud for advanced 
 
 ## Synchronization
 
-Synchronization between the communication system and advanced financial closing involves two sets of data: business configuration data and master data.
+Synchronization between the communication system and advanced financial closing involves two sets of data: business configuration data and master data. It always covers both sets of data. Accordingly, if an error in one set causes synchronization to fail, synchronization fails for both data sets.
 
- ![Graphic depicting synchronization between advanced financial closing and the communication system: On the one hand, you have the communication system with its business configuration data and master data. On the other hand, you have advanced financial closing with business configuration data and master data that has already been received from the communication system. These two sets of data are synchronized during synchronization. During this process, business logs are created for both data sets. The logs consist of success, warning, and error messages.](images/Image_System_Synchronization_9881c12.png) 
+ ![Animated GIF depicting synchronization between advanced financial closing and the communication system: On the one hand, you have the communication system with its business configuration data and master data. On the other hand, you have advanced financial closing with business configuration data and master data that has already been received from the communication system. These two sets of data are synchronized during synchronization. During this process, business logs are created for both data sets. The logs consist of success, warning, and error messages. If error messages are created in the business logs during synchronization, they cause synchronization to fail for both data sets.](images/GIF_System_Synchronization_in_AFC_7caefb4.gif) 
 
-Synchronization always covers both sets of data. Accordingly, if an error in one set causes synchronization to fail, synchronization fails for both data sets.
 
- ![Graphic depicting the same synchronization setup as the previous graphic: On the one hand, you have the communication system with its business configuration data and its master data. On the other hand, you have advanced financial closing with business configuration data and master data that has already been received from the communication system. Error messages in the business logs created during synchronization cause synchronization to fail for both data sets.](images/Image_System_Synchronization_Fails_0c014b2.png) 
 
-The following data in advanced financial closing is synchronized with the connected system:
+### Data Scope for Synchronization
+
+The following data in the connected system is synchronized with advanced financial closing:
 
 
 <table>
@@ -112,7 +112,7 @@ Task models
 </td>
 <td valign="top">
 
-Ledgers
+Ledgers \(only if assigned to company codes\)
 
 
 
@@ -128,7 +128,7 @@ Task dependencies
 </td>
 <td valign="top">
 
-Organizational units
+Organizational units \(only if they aren't templates\)
 
 
 
@@ -175,16 +175,22 @@ Task parameters
 
 
 
-### Daily and Immediate Synchronization
+<a name="loioa86348d6459a4c929ec1f389e38827ad__section_ekz_klc_sxb"/>
+
+## Daily and Immediate Synchronization
 
 To synchronize data \(for example, if you have changes in your communication system\), you have two options:
 
-1.  You can wait for the **daily synchronization** to run.
+1.  **Daily synchronization:**
+
+    SAP S/4HANA Cloud for advanced financial closing checks automatically for changes in the connected communication system once every day, except if synchronization has been paused due to connection issues. For more information, see [Monitor Communication Systems](../monitor-communication-systems-a215069.md).
 
     > ### Recommendation:  
     > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
 
-2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+2.  **Immediate synchronization:**
+
+    Trigger immediate synchronization using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
     > ### Tip:  
     > You can use the *Monitor System Status* button to navigate directly to the *Monitor Communication Systems* app.
@@ -195,7 +201,9 @@ To synchronize data \(for example, if you have changes in your communication sys
 
 
 
-### Validation
+<a name="loioa86348d6459a4c929ec1f389e38827ad__section_elr_nlc_sxb"/>
+
+## Validation
 
 The data that is synchronized is always validated to avoid any inconsistencies in advanced financial closing. The data is validated with regard to the following aspects:
 
@@ -213,6 +221,8 @@ The synchronization results can be accessed in the *Monitor Business Logs* app. 
 
 > ### Remember:  
 > In the case of failing synchronizations, check the business logs before opening a ticket. The logs may already reveal the source of the issue.
+
+**Business Log Messages**
 
 
 <table>

@@ -69,31 +69,15 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </tr>
     <tr>
     <td valign="top">
-
-    *Name*
+    
+        *Name*
 
 
     
     </td>
     <td valign="top">
-
-    Enter a name for the communication system.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    *Name of Destination Configuration*
-
-
-    
-    </td>
-    <td valign="top">
-
-    Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
+        Enter a name for the communication system.
 
 
     
@@ -101,15 +85,31 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </tr>
     <tr>
     <td valign="top">
-
-    *UI Domain*
+    
+        *Name of Destination Configuration*
 
 
     
     </td>
     <td valign="top">
+    
+        Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
 
-    Enter the domain of the SAP Fiori launchpad gateway of your target communication system via which users can access the app UI.
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        *UI Domain*
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Enter the domain of the SAP Fiori launchpad gateway of your target communication system via which users can access the app UI.
 
     To get this domain, open the SAP Fiori launchpad of your communication system, copy only the domain, and paste it in the *UI Domain* field.
 
@@ -128,15 +128,15 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </tr>
     <tr>
     <td valign="top">
-
-    *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
+    
+        *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
 
 
     
     </td>
     <td valign="top">
-
-    Enter the UI endpoint for the SAP Fiori launchpad of your communication system.
+    
+        Enter the UI endpoint for the SAP Fiori launchpad of your communication system.
 
     > ### Example:  
     > Given the complete URL is as follows:
@@ -162,15 +162,15 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </tr>
     <tr>
     <td valign="top">
-
-    *UI Parameters* \(optional\)
+    
+        *UI Parameters* \(optional\)
 
 
     
     </td>
     <td valign="top">
-
-    Enter the UI parameters that are to be applied for the connection with the communication system.
+    
+        Enter the UI parameters that are to be applied for the connection with the communication system.
 
     > ### Example:  
     > Given the complete URL is as follows:
@@ -189,15 +189,15 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </tr>
     <tr>
     <td valign="top">
-
-    *Is Production System*
+    
+        *Is Production System*
 
 
     
     </td>
     <td valign="top">
-
-    Decide whether the communication system you want to connect to is a test system or a production system. ***Yes*** indicates that the communication system contains production data, which thereby makes all related task lists potentially relevant to auditing and data retention.
+    
+        Decide whether the communication system you want to connect to is a test system or a production system. ***Yes*** indicates that the communication system contains production data, which thereby makes all related task lists potentially relevant to auditing and data retention.
 
     The default value is ***Yes***.
 
@@ -267,12 +267,16 @@ During daily synchronization between the communication system and advanced finan
 
 You have two options for the initial data synchronization with the communication system:
 
-1.  You can wait for the **daily synchronization** to run.
+1.  **Daily synchronization:**
+
+    SAP S/4HANA Cloud for advanced financial closing checks automatically for changes in the connected communication system once every day, except if synchronization has been paused due to connection issues. For more information, see [Monitor Communication Systems](../monitor-communication-systems-a215069.md).
 
     > ### Recommendation:  
     > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
 
-2.  You can trigger **immediate synchronization** using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
+2.  **Immediate synchronization:**
+
+    Trigger immediate synchronization using the *Synchronize Now* option in the *Monitor Communication Systems* app. If you don't use this option, the communication system will still be synchronized during **daily synchronization**.
 
     > ### Tip:  
     > You can use the *Monitor System Status* button to navigate directly to the *Monitor Communication Systems* app.

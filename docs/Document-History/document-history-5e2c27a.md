@@ -25,6 +25,35 @@ Comment
 <tr>
 <td valign="top">
 
+June 18, 2023
+
+
+
+</td>
+<td valign="top">
+
+-   [How to Set Up the SAP ERP Connector](../Connectivity/how-to-set-up-the-sap-erp-connector-b139d1e.md):
+
+    Link to detailed information about the synchronization was added.
+
+-   [Synchronization of Communication Systems](../Connectivity/synchronization-of-communication-systems-a86348d.md):
+
+    Page was slightly restructured.
+
+    Information about master data synchronization was updated.
+
+-   [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    The new page [Communication System Unavailable - Resilience of SAP S/4HANA Cloud for Advanced Financial Closing](../Connectivity/communication-system-unavailable-resilience-of-sap-s-4hana-cloud-for-advanced-financial-c-727d2ee.md) was added.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 May 21, 2023
 
 
@@ -62,47 +91,6 @@ May 21, 2023
 -   [Archiving](../archiving-032bb8e.md) was added.
 
     It also contains a [How to Restore Task Lists from Archive](../archiving-032bb8e.md#loio032bb8ec94fe4e8a9ff21c156d965060__task_mx3_j2r_gxb) section.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-March 19, 2023
-
-
-
-</td>
-<td valign="top">
-
--   [Onboarding](../Onboarding/onboarding-1987953.md):
-
-    Information about region `cf_eu11` was added.
-
-    Recommendation to add advanced financial closing to Cloud system notification subscriptions added as additional step.
-
--   [How to Manage Users](../User-Management/how-to-manage-users-c338b30.md):
-
-    Tip was added that substitute information of users is now available.
-
--   [How to Manage User Access Using the SCIM API Provided](../User-Management/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md):
-
-    Step 1 was enhanced.
-
--   [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md):
-
-    One SAP note was added to the list.
-
--   [How to Connect to SAP S/4HANA Cloud as a Communication System](../Connectivity/how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md), [How to Connect to SAP S/4HANA as a Communication System](../Connectivity/how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md), and [How to Connect to SAP ERP as a Communication System](../Connectivity/how-to-connect-to-sap-erp-as-a-communication-system-e11be48.md):
-
-    Note about *Is Production System* indicator was added.
-
--   [How to Set Up Notifications About Communication System Errors](../how-to-set-up-notifications-about-communication-system-errors-835b2a2.md):
-
-    Information about *Change* option for notification scenarios was added.
 
 
 

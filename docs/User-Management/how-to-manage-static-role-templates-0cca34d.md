@@ -62,15 +62,15 @@ For more information about how to create roles and how to bundle them in role co
     </tr>
     <tr>
     <td valign="top">
-
-    `AFC_Expert`
+    
+        `AFC_Expert`
 
 
     
     </td>
     <td valign="top">
-
-    -   `AFC_Define`
+    
+        -   `AFC_Define`
     -   `AFC_Config`
 
 
@@ -79,15 +79,15 @@ For more information about how to create roles and how to bundle them in role co
     </tr>
     <tr>
     <td valign="top">
-
-    `AFC_Manager`
+    
+        `AFC_Manager`
 
 
     
     </td>
     <td valign="top">
-
-    -   `AFC_Reporting`
+    
+        -   `AFC_Reporting`
     -   `AFC_Approve`
     -   `AFC_UserManagement`
 
