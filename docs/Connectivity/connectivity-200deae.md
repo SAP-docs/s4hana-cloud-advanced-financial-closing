@@ -63,8 +63,6 @@ The connection allows you to do the following, for example:
 
 The following graphic lists the documentation for connectivity and system monitoring:
 
-Some areas of this image are interactive. Hover over the areas for a description. Click the areas for more information.
-
 ![Graphic depicting a treasure chest on the left and text boxes on the right: The text boxes list the documentation
 							available for this app. For connections to communication systems, find more information under SAP S/4HANA Cloud, SAP
 							S/4HANA, and SAP ERP. For communication system management, find more information about monitoring communication systems

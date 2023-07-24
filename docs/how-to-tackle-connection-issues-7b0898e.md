@@ -137,7 +137,7 @@ Every 24 hours
 > 
 > The following graphic illustrates this process:
 > 
->  ![Graphic depicting the process leading to an additional connection check: First, a regular check is successful and set the connection status to OK. Then, a user tries to schedule a job in the same communication system. The scheduling fails due to connection issues. Accordingly, an additional connection check is planned to start within the next 15 minutes. If this check is successful, the connection status stays in status OK. If the check fails, the connection status for this system is set to Error.](images/Image_Extraordinary_Connection_Check_f12b958.png) 
+> ![Graphic depicting the process leading to an additional connection check: First, a regular check is successful and set the connection status to OK. Then, a user tries to schedule a job in the same communication system. The scheduling fails due to connection issues. Accordingly, an additional connection check is planned to start within the next 15 minutes. If this check is successful, the connection status stays in status OK. If the check fails, the connection status for this system is set to Error.](images/Image_Extraordinary_Connection_Check_f12b958.png)
 
 > ### Remember:  
 > If the connection check doesn't show any successful result for twelve hours, the following processes are deactivated until the connection check is successful again:
@@ -191,14 +191,14 @@ Connection issues can originate from different sources within the environment. T
     <tr>
     <td valign="top">
     
-        *Status*
+    *Status*
 
 
     
     </td>
     <td valign="top">
     
-        Shows the status of the connection. The status you see was set after the last connection check. The following statuses are possible:
+    Shows the status of the connection. The status you see was set after the last connection check. The following statuses are possible:
 
     -   *OK*
 
@@ -212,14 +212,14 @@ Connection issues can originate from different sources within the environment. T
     <tr>
     <td valign="top">
     
-        *Last Checked On*
+    *Last Checked On*
 
 
     
     </td>
     <td valign="top">
     
-        Shows the date and time of the last attempt to perform a connection check, independently of whether the check was successful or not.
+    Shows the date and time of the last attempt to perform a connection check, independently of whether the check was successful or not.
 
 
     
@@ -228,14 +228,14 @@ Connection issues can originate from different sources within the environment. T
     <tr>
     <td valign="top">
     
-        *Status Changed On*
+    *Status Changed On*
 
 
     
     </td>
     <td valign="top">
     
-        Shows the date and time of when the current status was set.
+    Shows the date and time of when the current status was set.
 
 
     

@@ -40,7 +40,7 @@ Perform the steps as described under [Advanced Financial Closing Local Settings 
 
 You have now configured the local settings in your communication system.
 
-**Parent topic:** [SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
-**Next:** [How to Connect to SAP ERP as a Communication System](how-to-connect-to-sap-erp-as-a-communication-system-e11be48.md "Connect to your SAP ERP system to retrieve information about organizational units, the factory calendar, and so on.")
+**Next:**[How to Connect to SAP ERP as a Communication System](how-to-connect-to-sap-erp-as-a-communication-system-e11be48.md "Connect to your SAP ERP system to retrieve information about organizational units, the factory calendar, and so on.")
 

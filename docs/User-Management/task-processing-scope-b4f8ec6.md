@@ -164,7 +164,7 @@ Authorization to approve and reject tasks that require approval. This authorizat
 
 ## Actions Allowed Based on Authorization of Scoped User Roles
 
-** **
+****
 
 
 <table>

@@ -60,7 +60,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 
     4.  From the side panel, choose *Service Marketplace*.
 
-    5.  In the service marketplace, search for ***advanced financial closing***.
+    5.  In the service marketplace, search for `advanced financial closing`.
 
     6.  Choose the *SAP S/4HANA Cloud for advanced financial closing* tile to open the details.
 
@@ -98,30 +98,14 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         <tr>
         <td valign="top">
         
-                *Service*
+        *Service*
 
 
         
         </td>
         <td valign="top">
         
-                Keep the default value.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                *Plan*
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Keep the default value.
+        Keep the default value.
 
 
         
@@ -130,30 +114,14 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         <tr>
         <td valign="top">
         
-                *Runtime Environment*
+        *Plan*
 
 
         
         </td>
         <td valign="top">
         
-                Enter ***Cloud Foundry***.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                *Space*
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Keep the default value.
+        Keep the default value.
 
 
         
@@ -162,14 +130,46 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
         <tr>
         <td valign="top">
         
-                *Instance Name*
+        *Runtime Environment*
 
 
         
         </td>
         <td valign="top">
         
-                Enter a name for this instance.
+        Enter `Cloud Foundry`.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        *Space*
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Keep the default value.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        *Instance Name*
+
+
+        
+        </td>
+        <td valign="top">
+        
+        Enter a name for this instance.
 
 
         
@@ -211,246 +211,17 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
     > ### Note:  
     > Other identity provisioning services may require a different configuration.
 
-4.  Maintain the API information for your target system:
+4.  Maintain the API information for your target system as described under [SAP S/4HANA Cloud for advanced financial closing \(Identity Provisioning documentation for target systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/target-sap-s-4hana-cloud-for-advanced-financial-closing).
 
-    The steps described here refer to Identity Provisioning provided by [SAP Cloud Identity Services](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/2d2685d469a54a56b886105a06ccdae6.html).
+    Some of the information you need to provide may be sensitive data for which security recommendations apply. For more information, see [Data Used for SCIM API](../Security/data-used-for-scim-api-62f0a49.md).
 
     > ### Note:  
+    > The steps described in the documentation refer to Identity Provisioning provided by [SAP Cloud Identity Services](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/2d2685d469a54a56b886105a06ccdae6.html).
+    > 
     > Other identity provisioning services may require a different configuration.
 
     > ### Remember:  
     > The login name of a user maintained in Identity Provisioning has to be identical to the user ID in advanced financial closing.
-
-    1.  Follow the steps described under [SAP S/4HANA Cloud for advanced financial closing \(Identity Provisioning documentation for target systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/target-sap-s-4hana-cloud-for-advanced-financial-closing).
-
-    2.  For the properties referred to, enter the following information:
-
-        **Mandatory Properties**
-
-
-        <table>
-        <tr>
-        <th valign="top">
-
-        Property Name
-
-
-        
-        </th>
-        <th valign="top">
-
-        Value
-
-
-        
-        </th>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Type`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                ***HTTP***
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `URL`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Enter the URL provided by the service key under *"endpoints"* \> *"scim2"*.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `ProxyType`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                ***Internet***
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Authentication`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                ***BasicAuthentication***
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `User`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Enter the user ID provided by the service key under *"uaa"* \> *"clientid"*.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `Password`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Enter the password provided by the service key under *"uaa"* \> *"clientsecret"*.
-
-
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-                `OAuth2TokenServiceURL`
-
-
-        
-        </td>
-        <td valign="top">
-        
-                Enter the following URL concatenation:
-
-        -   Enter the URL provided by the service key under *"uaa"* \> *"url"*.
-
-        -   Add the following suffix: ***/oauth/token***
-
-
-        > ### Example:  
-        > The URL provided by the service key is *www.example.com*.
-        > 
-        > Accordingly, you enter the following value in your identity management:
-        > 
-        > ***www.example.com/oauth/token***
-
-
-        
-        </td>
-        </tr>
-        </table>
-        
-        > ### Note:  
-        > Some of the information you need to provide may be sensitive data for which security recommendations apply. For more information, see [Data Used for SCIM API](../Security/data-used-for-scim-api-62f0a49.md).
-
-    3.  **Optional:** The SCIM implementation offers further possibilities that you can leverage with the following modifications to the target system properties you've maintained. To perform any of the following modifications, go to the *Transformations* tab in your target system details:
-
-        -   **Enterprise User:** To transfer enterprise user information, remove the following section under *user* \> *menu*:
-
-            ```
-            {
-            "targetPath": "$['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']",
-            "type": "remove"
-            }
-            ```
-
-        -   **Groups:** To synchronize groups, remove the following indicator in the *group* section:
-
-            ```
-            "ignore": true
-            ```
-
-
-        If you've performed both modifications, the overall transformation looks as follows:
-
-        ```
-        {
-          "user": {
-            "mappings": [
-              {
-                "sourcePath": "$",
-                "targetPath": "$"
-              },
-              {
-                "targetPath": "$.id",
-                "type": "remove"
-              },
-              {
-                "sourceVariable": "entityIdTargetSystem",
-                "targetPath": "$.id"
-              },
-              {
-                "condition": "$.emails[0].length() > 0",
-                "constant": true,
-                "targetPath": "$.emails[0].primary"
-              }
-            ]
-          },
-          "group": {
-            "mappings": [
-              {
-                "sourcePath": "$",
-                "targetPath": "$"
-              },
-              {
-                "targetPath": "$.id",
-                "type": "remove"
-              },
-              {
-                "sourceVariable": "entityIdTargetSystem",
-                "targetPath": "$.id"
-              },
-              {
-                "targetPath": "$.members",
-                "type": "remove"
-              },
-              {
-                "sourcePath": "$.members[*].value",
-                "preserveArrayWithSingleElement": true,
-                "optional": true,
-                "targetPath": "$.members[?(@.value)]",
-                "functions": [
-                  {
-                    "type": "resolveEntityIds"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-        ```
-
 
 5.  **Optional:** After you've configured the source and target system information, you can also use runs in Identity Provisioning to synchronize users and user groups:
 

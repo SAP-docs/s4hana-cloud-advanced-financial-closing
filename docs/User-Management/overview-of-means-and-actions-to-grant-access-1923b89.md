@@ -236,42 +236,42 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -364,42 +364,42 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -492,42 +492,42 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -585,42 +585,35 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
-
-
-
-</td>
-<td valign="top">
-
- 
+`X` 
 
 
 
@@ -662,7 +655,14 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X` 
 
 
 
@@ -720,7 +720,7 @@ Create
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -848,7 +848,7 @@ Copy
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -983,7 +983,7 @@ Edit / Save
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1046,7 +1046,7 @@ Edit / Save
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1111,7 +1111,7 @@ Recalculate Paths
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1174,7 +1174,7 @@ Recalculate Paths
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1239,7 +1239,7 @@ Delete
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1302,7 +1302,7 @@ Delete
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1374,7 +1374,7 @@ Generate
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1502,7 +1502,7 @@ Change Task List Status
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1637,7 +1637,7 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1686,7 +1686,7 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -1737,42 +1737,35 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
-
-
-
-</td>
-<td valign="top">
-
- 
+`X` 
 
 
 
@@ -1814,7 +1807,14 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
- `X` 
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X` 
 
 
 
@@ -1865,42 +1865,35 @@ Check Compatibility
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
-
-
-
-</td>
-<td valign="top">
-
- 
+`X` 
 
 
 
@@ -1942,7 +1935,14 @@ Check Compatibility
 </td>
 <td valign="top">
 
- `X` 
+ 
+
+
+
+</td>
+<td valign="top">
+
+`X` 
 
 
 
@@ -2028,42 +2028,42 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2077,28 +2077,28 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2156,42 +2156,42 @@ Download Results
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2205,28 +2205,28 @@ Download Results
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2291,7 +2291,7 @@ Change Task Status
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2354,7 +2354,7 @@ Change Task Status
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2419,7 +2419,7 @@ Process
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2482,7 +2482,7 @@ Process
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2547,7 +2547,7 @@ Schedule
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2610,7 +2610,7 @@ Schedule
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2675,7 +2675,7 @@ Cancel Run
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2738,7 +2738,7 @@ Cancel Run
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2803,7 +2803,7 @@ Start Test Run
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2866,7 +2866,7 @@ Start Test Run
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2931,7 +2931,7 @@ Cancel Test Run
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -2994,7 +2994,7 @@ Cancel Test Run
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3059,7 +3059,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3087,7 +3087,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3101,28 +3101,28 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3194,7 +3194,7 @@ Change Planned Start
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3322,7 +3322,7 @@ Change Planned Duration
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3585,7 +3585,7 @@ Change Parameters
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3720,7 +3720,7 @@ Change User / User Group Responsible
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3741,21 +3741,21 @@ Change User / User Group Responsible
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3848,7 +3848,7 @@ Change Processing User / User Group
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3869,21 +3869,21 @@ Change Processing User / User Group
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3984,7 +3984,7 @@ Approve
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -3998,21 +3998,21 @@ Approve
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -4113,7 +4113,7 @@ Reject
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -4127,21 +4127,21 @@ Reject
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -4241,7 +4241,7 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
@@ -4255,21 +4255,21 @@ Read
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 
 </td>
 <td valign="top">
 
- `X` 
+`X` 
 
 
 

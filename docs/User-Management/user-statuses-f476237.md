@@ -8,8 +8,6 @@ For users in advanced financial closing, several statuses are possible. You can 
 
 
 
-Some areas of this image are interactive. Hover over the areas for a description.
-
 ![Graphic depicting the different user statuses and the possible status changes: After user creation through a CSV upload
 							or through an API for advanced financial
                                                 closing, the user has the status

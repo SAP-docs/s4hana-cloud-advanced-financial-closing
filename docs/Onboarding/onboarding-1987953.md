@@ -61,17 +61,17 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
     > ### Example:  
     > Your subaccount details could look something like this:
     > 
-    > -   Display Name: ***AFC Prod***
+    > -   Display Name: `AFC Prod`
     > 
-    > -   Description: ***Subscribed to SAP S/4HANA Cloud for advanced financial closing - Prod***
+    > -   Description: `Subscribed to SAP S/4HANA Cloud for advanced financial closing - Prod`
     > 
-    > -   Environment: ***Cloud Foundry***
+    > -   Environment: `Cloud Foundry`
     > 
-    > -   Provider: ***AWS***
+    > -   Provider: `AWS`
     > 
-    > -   Region: ***Europe \(Frankfurt\) \(cf-eu10\)***
+    > -   Region: `Europe (Frankfurt) (cf-eu10)`
     > 
-    > -   Subdomain: ***\[CustomerNameAbbreviation\]-afc-prod***
+    > -   Subdomain: `[CustomerNameAbbreviation]-afc-prod`
 
 6.  Enable **Cloud Foundry** in your subaccount and provide a name for the organization. We recommend that you use the same name that you used for the subdomain, for example \[CustomerNameAbbreviation\]-afc-prod.
 
@@ -86,7 +86,7 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
     3.  Choose *Add Service Plans*.
 
-    4.  Under *Entitlements*, search for *****advanced financial closing***** and choose **SAP S/4HANA Cloud for advanced financial closing**.
+    4.  Under *Entitlements*, search for **`advanced financial closing`** and choose **SAP S/4HANA Cloud for advanced financial closing**.
 
         > ### Note:  
         > If the correct entry doesn't show, make sure you select *All Categories* as a filter option under *Entitlements*.
@@ -104,9 +104,9 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
     3.  Provide the following information:
 
-        -   *Service*: ***SAP S/4HANA Cloud for advanced financial closing***
+        -   *Service*: `SAP S/4HANA Cloud for advanced financial closing`
 
-        -   *Plan*: ***default***
+        -   *Plan*: `default`
 
 
     4.  Choose *Create*.

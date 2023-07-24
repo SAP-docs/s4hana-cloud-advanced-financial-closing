@@ -42,17 +42,18 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
 
 1.  Go to the *Configuration* app and choose *User Groups* from the table.
 
-2.  **Creating a single user group**
 
-    > ### Example:  
-    > The following quick demo shows how to create a user group performing the steps described below:
-    > 
-    > > ### Note:  
-    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
-    > > 
-    > > Interfaces may differ slightly depending on the version of your apps.
+**Creating a single user group**
 
-3.  To create a new user group, perform the following steps:
+> ### Example:  
+> The following quick demo shows how to create a user group performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
+2.  To create a new user group, perform the following steps:
 
     1.  Go to the *User Groups* tab.
 
@@ -69,17 +70,18 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
     7.  Choose *Create* in the footer to create the user group.
 
 
-4.  **Creating Several User Groups at Once**
 
-    > ### Example:  
-    > The following quick demo shows how to create several user groups at once performing the steps described below:
-    > 
-    > > ### Note:  
-    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
-    > > 
-    > > Interfaces may differ slightly depending on the version of your apps.
+**Creating Several User Groups at Once**
 
-5.  To create several new user groups at once, perform the following steps:
+> ### Example:  
+> The following quick demo shows how to create several user groups at once performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
+3.  To create several new user groups at once, perform the following steps:
 
     1.  Go to the *User Groups* tab.
 
@@ -99,17 +101,18 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
     7.  Choose *Upload* in the dialog footer.
 
 
-6.  **Uploading Several User-to-Group Assignments at Once**
 
-    > ### Example:  
-    > The following quick demo shows how to create several user-to-group assignments at once performing the steps described below:
-    > 
-    > > ### Note:  
-    > > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
-    > > 
-    > > Interfaces may differ slightly depending on the version of your apps.
+**Uploading Several User-to-Group Assignments at Once**
 
-7.  To assign several users in one batch to user groups, perform the following steps:
+> ### Example:  
+> The following quick demo shows how to create several user-to-group assignments at once performing the steps described below:
+> 
+> > ### Note:  
+> > The following multimedia content displays screens and interfaces in English only. It shows sequences based on the UI as delivered standard by SAP.
+> > 
+> > Interfaces may differ slightly depending on the version of your apps.
+
+4.  To assign several users in one batch to user groups, perform the following steps:
 
     > ### Note:  
     > The user groups and users affected have to exist in advanced financial closing before you can upload assignments.

@@ -38,7 +38,7 @@ Perform the steps as described under [Setting Up Advanced Financial Closing Inte
 
 You have now set up the integration of financial task list management.
 
-**Parent topic:** [How to Connect to SAP S/4HANA Cloud, Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+**Parent topic:**[How to Connect to SAP S/4HANA Cloud, Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Previous:** [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpit.")
+**Previous:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpit.")
 

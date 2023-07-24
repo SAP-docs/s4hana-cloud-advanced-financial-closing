@@ -130,7 +130,7 @@ Three months
 
 When a task list is archived, it no longer appears in any of the advanced financial closing apps, except for the *Manage Archived Closing Task Lists* app. In this app, you restore task lists from the archive as described below.
 
- <a name="task_mx3_j2r_gxb"/>
+<a name="task_mx3_j2r_gxb"/>
 
 <!-- task\_mx3\_j2r\_gxb -->
 

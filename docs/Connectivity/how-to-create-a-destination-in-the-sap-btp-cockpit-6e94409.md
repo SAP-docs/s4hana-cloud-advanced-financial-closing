@@ -46,30 +46,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        Specify a name for the destination configuration.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Type*
-
-
-    
-    </td>
-    <td valign="top">
-    
-         ***HTTP*** 
+    Specify a name for the destination configuration.
 
 
     
@@ -78,14 +62,30 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     <tr>
     <td valign="top">
     
-        *URL*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
+    `HTTP` 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the back-end URL of the communication system. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
     <code>https://www.example.com:[port number]<b>/sap/opu/odata/sap/fccx_communication_services_srv?sap-client=100</b></code>
 
@@ -98,30 +98,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        ***Internet***
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        ***BasicAuthentication***
+    `Internet`
 
 
     
@@ -130,14 +114,14 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     <tr>
     <td valign="top">
     
-        *User*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Technical communication user that you've received from the SAP S/4HANA Cloud system administrator.
+    `BasicAuthentication`
 
 
     
@@ -146,14 +130,30 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
     <tr>
     <td valign="top">
     
-        *Password*
+    *User*
 
 
     
     </td>
     <td valign="top">
     
-        Password of the selected user
+    Technical communication user that you've received from the SAP S/4HANA Cloud system administrator.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Password*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Password of the selected user
 
 
     
@@ -170,9 +170,9 @@ Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpi
 
 You have now created a destination for your SAP S/4HANA Cloud system.
 
-**Parent topic:** [How to Connect to SAP S/4HANA Cloud, Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+**Parent topic:**[How to Connect to SAP S/4HANA Cloud, Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Next:** [How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud ES system for the connection with advanced financial closing.")
+**Next:**[How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud ES system for the connection with advanced financial closing.")
 
-**Previous:** [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.")
+**Previous:**[How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.")
 

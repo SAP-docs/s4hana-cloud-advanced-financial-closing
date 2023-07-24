@@ -10,5 +10,5 @@ An individual user is authenticated by the advanced financial closing back end u
 
 The following graphic depicts this connection:
 
- ![Graphic depicting the different steps in the communication process between the advanced financial closing back end and on-premise communication system as described above.](images/Image_Authorization_Flow_d5b02dd.png) 
+![Graphic depicting the different steps in the communication process between the advanced financial closing back end and on-premise communication system as described above.](images/Image_Authorization_Flow_d5b02dd.png)
 

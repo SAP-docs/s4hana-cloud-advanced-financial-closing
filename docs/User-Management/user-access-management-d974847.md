@@ -247,9 +247,9 @@ A user group represents a group of users who can be assigned to a particular set
 -   **[How to Manage User Access Using the SCIM API Provided](how-to-manage-user-access-using-the-scim-api-provided-49376ed.md "Manage users, user groups, and user roles through a dedicated API.")**  
 Manage users, user groups, and user roles through a dedicated API.
 
-**Parent topic:** [User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
+**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
 
-**Next:** [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
+**Next:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
 
-**Previous:** [Extended What's New: Switch of Authorization Concept](extended-what-s-new-switch-of-authorization-concept-3155ba8.md "Understand the consequences of the retirement of the old authorization concept.")
+**Previous:**[Extended What's New: Switch of Authorization Concept](extended-what-s-new-switch-of-authorization-concept-3155ba8.md "Understand the consequences of the retirement of the old authorization concept.")
 

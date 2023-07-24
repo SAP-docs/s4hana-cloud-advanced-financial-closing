@@ -18,9 +18,9 @@ To connect SAP S/4HANA Cloud for advanced financial closing to SAP S/4HANA Cloud
 
 1.  Open a service request ticket with the SAP HANA Enterprise Cloud team to request the Cloud Connector provisioning.
 
-2.  Perform the installation and configuration of the Cloud Connector as described under [How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-4cf0fb0.md).
+2.  Enable the OData Services as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md).
 
-3.  Enable the OData Services as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md).
+3.  Perform the installation and configuration of the Cloud Connector as described under [How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-4cf0fb0.md).
 
 4.  Create a technical communication user as described under [How to Create a Technical Communication User](how-to-create-a-technical-communication-user-c4a9b51.md).
 

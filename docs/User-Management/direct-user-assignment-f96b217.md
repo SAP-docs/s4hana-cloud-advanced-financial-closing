@@ -27,7 +27,7 @@ Find out how to manage user groups under [How to Manage User Groups](how-to-mana
 
 ## Actions Allowed Based on Direct Assignment
 
-** **
+****
 
 
 <table>

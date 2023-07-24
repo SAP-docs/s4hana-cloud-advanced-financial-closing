@@ -6,7 +6,7 @@ Understand where feature availability depends on system releases and support pac
 
 Some features are only available for on-premise systems if your communication system meets specific requirements. The following table lists the affected features and their system requirements:
 
-** **
+****
 
 
 <table>

@@ -33,9 +33,9 @@ The Cloud Connector serves as a link between SAP BTP applications and on-premise
 
 You have now installed and configured the Cloud Connector.
 
-**Parent topic:** [SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Next:** [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md "Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced financial closing.")
+**Next:**[How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md "Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced financial closing.")
 
-**Previous:** [How to Create a Technical Communication User](how-to-create-a-technical-communication-user-c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")
+**Previous:**[How to Create a Technical Communication User](how-to-create-a-technical-communication-user-c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")
 

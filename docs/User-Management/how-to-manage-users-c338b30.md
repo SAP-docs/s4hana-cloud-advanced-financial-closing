@@ -243,9 +243,9 @@ The users are uploaded with source *CSV Upload*. Once the respective users have 
 -   **[User Statuses](user-statuses-f476237.md "Learn which statuses and status changes are possible for users.")**  
 Learn which statuses and status changes are possible for users.
 
-**Parent topic:** [User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
+**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
 
-**Next:** [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")
+**Next:**[How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")
 
-**Previous:** [User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+**Previous:**[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
 

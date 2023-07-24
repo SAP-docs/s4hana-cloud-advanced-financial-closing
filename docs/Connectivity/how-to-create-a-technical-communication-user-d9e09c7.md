@@ -17,10 +17,11 @@ You need to create a technical communication user with specific authorizations t
 
 ## Procedure
 
-1.  **Creating the Technical Communication User**
-2.  In your communication system, run transaction `SU01` and create a user that will be used for the communication between your back end and advanced financial closing.
+**Creating the Technical Communication User**
 
-3.  Go to the *Logon Data* tab.
+1.  In your communication system, run transaction `SU01` and create a user that will be used for the communication between your back end and advanced financial closing.
+
+2.  Go to the *Logon Data* tab.
 
     1.  If required for your system setup, provide an alias.
 
@@ -35,27 +36,29 @@ You need to create a technical communication user with specific authorizations t
         > To set the final password, you must first provide an initial password. Then, you log on to the system whereupon you'll be asked to change the password. This will then be the final password.
 
 
-4.  **Providing the Roles Required for the Technical Communication User**
-5.  In your communication system, run transaction `PFCG`.
 
-6.  Enter an ID for the role and choose *Single Role*.
+**Providing the Roles Required for the Technical Communication User**
 
-7.  Enter a description and choose *Save*.
+3.  In your communication system, run transaction `PFCG`.
 
-8.  In change mode, go to the *Authorizations* tab and choose *Edit*.
+4.  Enter an ID for the role and choose *Single Role*.
 
-9.  Select the role and choose *Edit* \> *Insert Authorization\(s\)* \> *Manual Input*.
+5.  Enter a description and choose *Save*.
 
-10. Maintain the authorization objects listed under [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
+6.  In change mode, go to the *Authorizations* tab and choose *Edit*.
 
-11. When you've added all authorization objects, choose *Generate*.
+7.  Select the role and choose *Edit* \> *Insert Authorization\(s\)* \> *Manual Input*.
+
+8.  Maintain the authorization objects listed under [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
+
+9.  When you've added all authorization objects, choose *Generate*.
 
     > ### Note:  
     > If you later perform any changes to this role, be sure to also choose *User Comparison* on the *User* tab in the role view.
 
-12. Back in the role view, go to the *User* tab and add the technical communication user.
+10. Back in the role view, go to the *User* tab and add the technical communication user.
 
-13. Save the role.
+11. Save the role.
 
 
 
@@ -74,9 +77,9 @@ You have now created a technical communication user that can be used to connect 
 
 Provide your BTP account administrator for advanced financial closing with the information for the technical communication user.
 
-**Parent topic:** [SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
-**Next:** [How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md "If you want to connect to SAP ERP, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing as additional software.")
+**Next:**[How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md "If you want to connect to SAP ERP, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing as additional software.")
 
-**Previous:** [How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-3d19a8a.md "If you want to connect to SAP ERP, you need to install and configure the Cloud Connector as additional software.")
+**Previous:**[How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-3d19a8a.md "If you want to connect to SAP ERP, you need to install and configure the Cloud Connector as additional software.")
 

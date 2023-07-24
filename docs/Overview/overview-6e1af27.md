@@ -36,8 +36,6 @@ SAP S/4HANA Cloud for advanced financial closing is an SAP BTP application that 
 
 The following graphic shows a high-level architecture. The solution is an application on SAP BTP in the Cloud Foundry environment, which you can connect to SAP S/4HANA Cloud, SAP S/4HANA, or SAP ERP as your financial communication systems. The integration scenario to SAP systems uses OData services for SAP S/4HANA Cloud and SAP S/4HANA systems, and a REST service for SAP ERP systems. SAP HANA is used as a database, and attachments are stored in the Object Store on SAP BTP. You must have an identity provider \(IdP\) to be able to configure your user management.
 
-Some areas of this image are interactive. Hover over the areas for a description. Click highlighted areas for more information.
-
 ![Diagram of the solution's high-level architecture with an SAP Fiori UI,
 							the advanced financial
                                                 closing

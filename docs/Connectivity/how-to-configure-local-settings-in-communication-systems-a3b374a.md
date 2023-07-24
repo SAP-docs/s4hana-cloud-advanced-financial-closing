@@ -40,7 +40,7 @@ Perform the steps as described under [Advanced Financial Closing Local Settings 
 
 You have now configured the local settings in your communication system.
 
-**Parent topic:** [SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Next:** [How to Upgrade from an SAP ERP System to SAP S/4HANA](how-to-upgrade-from-an-sap-erp-system-to-sap-s-4hana-1fdf114.md "If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")
+**Next:**[How to Upgrade from an SAP ERP System to SAP S/4HANA](how-to-upgrade-from-an-sap-erp-system-to-sap-s-4hana-1fdf114.md "If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")
 

@@ -29,7 +29,7 @@ Definition
 <tr>
 <td valign="top">
 
- **Artificial Intelligence \(AI\)** 
+**Artificial Intelligence \(AI\)** 
 
 
 
@@ -77,7 +77,7 @@ A method of restricting access to data for which the primary business purpose ha
 <tr>
 <td valign="top">
 
- **Business Purpose** 
+**Business Purpose** 
 
 
 
@@ -93,7 +93,7 @@ The legal, contractual, or in other form justified reason for the processing of 
 <tr>
 <td valign="top">
 
- **Consent** 
+**Consent** 
 
 
 
@@ -109,7 +109,7 @@ The action of the data subject confirming that the usage of his or her personal 
 <tr>
 <td valign="top">
 
- **Data Subject** 
+**Data Subject** 
 
 
 
@@ -125,7 +125,7 @@ Any information relating to an identified or identifiable natural person \("data
 <tr>
 <td valign="top">
 
- **Deletion** 
+**Deletion** 
 
 
 
@@ -141,7 +141,7 @@ Deletion of **personal data** so that the data is no longer available.
 <tr>
 <td valign="top">
 
- **End of Business** 
+**End of Business** 
 
 
 
@@ -157,7 +157,7 @@ Defines the end of active business and the start of residence time and retention
 <tr>
 <td valign="top">
 
- **End of Purpose \(EoP\)** 
+**End of Purpose \(EoP\)** 
 
 
 
@@ -173,7 +173,7 @@ The point in time when the processing of a set of personal data is no longer req
 <tr>
 <td valign="top">
 
- **End of Purpose \(EoP\) check** 
+**End of Purpose \(EoP\) check** 
 
 
 
@@ -189,7 +189,7 @@ A method of identifying the point in time for a data set when the processing of 
 <tr>
 <td valign="top">
 
- **Personal data** 
+**Personal data** 
 
 
 
@@ -237,7 +237,7 @@ The information that specifies the reason and the goal for the processing of a s
 <tr>
 <td valign="top">
 
- **Residence period** 
+**Residence period** 
 
 
 
@@ -253,7 +253,7 @@ The period of time between the end of business and the end of purpose \(EoP\) fo
 <tr>
 <td valign="top">
 
- **Retention period** 
+**Retention period** 
 
 
 
@@ -269,7 +269,7 @@ The period of time between the end of the last business activity involving a spe
 <tr>
 <td valign="top">
 
- **Sensitive personal data** 
+**Sensitive personal data** 
 
 
 

@@ -188,7 +188,7 @@ The table below highlights the authorizations for direct assignments that were p
 > ### Note:  
 > Since authorizations for substitutes are derived from the user they're substituting for, the substitutes' authorizations are affected in the same way as the user they're assigned.
 
-** **
+****
 
 
 <table>
@@ -1622,7 +1622,7 @@ Reject
 </tr>
 </table>
 
-**Parent topic:** [User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
+**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
 
-**Next:** [User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+**Next:**[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
 

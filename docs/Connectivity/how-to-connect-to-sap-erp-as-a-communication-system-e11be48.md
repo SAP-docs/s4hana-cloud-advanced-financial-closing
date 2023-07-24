@@ -68,30 +68,14 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        Enter a name for the communication system.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Name of Destination Configuration*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
+    Enter a name for the communication system.
 
 
     
@@ -100,14 +84,30 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <tr>
     <td valign="top">
     
-        *UI Domain*
+    *Name of Destination Configuration*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the domain of the SAP Fiori launchpad gateway of your target communication system via which users can access the app UI.
+    Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *UI Domain*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the domain of the SAP Fiori launchpad gateway of your target communication system via which users can access the app UI.
 
     To get this domain, open the SAP Fiori launchpad of your communication system, copy only the domain, and paste it in the *UI Domain* field.
 
@@ -127,14 +127,14 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <tr>
     <td valign="top">
     
-        *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
+    *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
 
 
     
     </td>
     <td valign="top">
     
-        Enter the UI endpoint for the SAP Fiori launchpad of your communication system.
+    Enter the UI endpoint for the SAP Fiori launchpad of your communication system.
 
     > ### Example:  
     > Given the complete URL is as follows:
@@ -161,23 +161,23 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <tr>
     <td valign="top">
     
-        *UI Parameters* \(optional\)
+    *UI Parameters* \(optional\)
 
 
     
     </td>
     <td valign="top">
     
-        Enter the UI parameters that are to be applied for the connection with the communication system.
+    Enter the UI parameters that are to be applied for the connection with the communication system.
 
     > ### Example:  
     > Given the complete URL is as follows:
     > 
-    > `https://mylaunchpad.mycompany.corp/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-language=en&sap-client=230#Shell-home/`
+    > `https://mylaunchpad.mycompany.corp/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=230#Shell-home/`
     > 
-    > Then the UI parameters are as follows: `sap-language=en&sap-client=230`
+    > Then the UI parameter is as follows: `sap-client=230`
 
-    Enter only the parameters in the format shown in the example without any additional characters.
+    Enter only the parameters in the format shown in the example without any additional characters. If you want to add more than one parameter, add an ampersand \(&\) between them.
 
     The UI parameters are later added to the URL of the communication system after the UI endpoint.
 
@@ -188,16 +188,16 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <tr>
     <td valign="top">
     
-        *Is Production System*
+    *Is Production System*
 
 
     
     </td>
     <td valign="top">
     
-        Decide whether the communication system you want to connect to is a test system or a production system. ***Yes*** indicates that the communication system contains production data, which thereby makes all related task lists potentially relevant to auditing and data retention.
+    Decide whether the communication system you want to connect to is a test system or a production system. `Yes` indicates that the communication system contains production data, which thereby makes all related task lists potentially relevant to auditing and data retention.
 
-    The default value is ***Yes***.
+    The default value is `Yes`.
 
     > ### Note:  
     > Define a communication system as a production system to prevent the untimely deletion of related task lists. Mark communication systems as test systems only if they do not contain audit- or retention-relevant data. However, use this setting to allow enhanced testing capabilities for your non-production systems.
@@ -283,11 +283,11 @@ You have two options for the initial data synchronization with the communication
 > ### Note:  
 > Synchronization always uses the active state of the communication system entry in advanced financial closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
 
-**Parent topic:** [SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
-**Next:** [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
+**Next:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
 
-**Previous:** [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-38f2e79.md "Configure your local settings for better use with advanced financial closing.")
+**Previous:**[How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-38f2e79.md "Configure your local settings for better use with advanced financial closing.")
 
 **Related Information**  
 

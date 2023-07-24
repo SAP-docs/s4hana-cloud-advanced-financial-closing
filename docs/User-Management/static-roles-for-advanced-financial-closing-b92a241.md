@@ -57,7 +57,7 @@ Description for Display-Only Role
 <tr>
 <td valign="top">
 
- `AFC_SystemAdmin` 
+`AFC_SystemAdmin` 
 
 
 
@@ -74,9 +74,9 @@ Description for Display-Only Role
 
     For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
--   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
+-   Creates public views \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information, see [How to Share Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share views you&apos;ve adjusted with other users.") :arrow_upper_right:.
+    For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
 
 
 
@@ -111,7 +111,7 @@ System administration:
 <tr>
 <td valign="top">
 
- `AFC_SpecifySystemsApp` 
+`AFC_SpecifySystemsApp` 
 
 
 
@@ -157,7 +157,7 @@ Maintains connections to financial communication systems
 <tr>
 <td valign="top">
 
- `AFC_MonitorSystemsApp` 
+`AFC_MonitorSystemsApp` 
 
 
 
@@ -206,7 +206,7 @@ To be able to view synchronization logs, a user additionally requires role templ
 <tr>
 <td valign="top">
 
- `AFC_Migration` 
+`AFC_Migration` 
 
 
 
@@ -244,7 +244,7 @@ Migrates data if a migration from SAP S/4HANA Cloud for advanced financial closi
 <tr>
 <td valign="top">
 
- `AFC_Compliance` 
+`AFC_Compliance` 
 
 
 
@@ -286,7 +286,7 @@ Maintains general compliance settings
 <tr>
 <td valign="top">
 
- `AFC_UserAdmin` 
+`AFC_UserAdmin` 
 
 
 
@@ -328,7 +328,7 @@ Maintains general compliance settings
 <tr>
 <td valign="top">
 
- `AFC_API_Access` 
+`AFC_API_Access` 
 
 
 
@@ -365,7 +365,7 @@ Uses the UI to access API information and documentation
 <tr>
 <td valign="top">
 
- `AFC_Config` 
+`AFC_Config` 
 
 
 
@@ -406,7 +406,7 @@ Maintains application-specific data, for example, configuration settings, or mas
 <tr>
 <td valign="top">
 
- `AFC_Settings` 
+`AFC_Settings` 
 
 
 
@@ -444,7 +444,7 @@ Maintains application-specific settings, such as notifications and country/regio
 <tr>
 <td valign="top">
 
- `AFC_UserRoles` 
+`AFC_UserRoles` 
 
 
 
@@ -482,7 +482,7 @@ Maintains user roles and authorization groups
 <tr>
 <td valign="top">
 
- `AFC_AuthGroupsApp` 
+`AFC_AuthGroupsApp` 
 
 
 
@@ -524,7 +524,7 @@ Maintains authorization groups
 <tr>
 <td valign="top">
 
- `AFC_CountryGroupsApp` 
+`AFC_CountryGroupsApp` 
 
 
 
@@ -566,7 +566,7 @@ Maintains country/region groups
 <tr>
 <td valign="top">
 
- `AFC_NotificationsApp` 
+`AFC_NotificationsApp` 
 
 
 
@@ -608,7 +608,7 @@ Maintains email notification configurations
 <tr>
 <td valign="top">
 
- `AFC_UserGroupsApp` 
+`AFC_UserGroupsApp` 
 
 
 
@@ -654,7 +654,7 @@ Maintains user groups
 <tr>
 <td valign="top">
 
- `AFC_UserRolesSingleApp` 
+`AFC_UserRolesSingleApp` 
 
 
 
@@ -696,7 +696,7 @@ Maintains user roles
 <tr>
 <td valign="top">
 
- `AFC_ManageUsersApp` 
+`AFC_ManageUsersApp` 
 
 
 
@@ -740,7 +740,7 @@ Maintains and deletes users
 <tr>
 <td valign="top">
 
- `AFC_UserManagement` 
+`AFC_UserManagement` 
 
 
 
@@ -821,7 +821,7 @@ Views archived task lists
 <tr>
 <td valign="top">
 
- `AFC_Define` 
+`AFC_Define` 
 
 
 
@@ -859,7 +859,7 @@ Maintains task list templates and task lists
 <tr>
 <td valign="top">
 
- `AFC_Process` 
+`AFC_Process` 
 
 
 
@@ -897,7 +897,7 @@ Processes task lists and tasks
 <tr>
 <td valign="top">
 
- `AFC_Approve` 
+`AFC_Approve` 
 
 
 
@@ -935,7 +935,7 @@ Approves tasks
 <tr>
 <td valign="top">
 
- `AFC_Reporting` 
+`AFC_Reporting` 
 
 
 
@@ -973,7 +973,7 @@ Monitors overall progress of closing activities and tracks task completion
 <tr>
 <td valign="top">
 
- `Business_Process_Specialist_BL_AccessAll` 
+`Business_Process_Specialist_BL_AccessAll` 
 
 
 
@@ -1010,7 +1010,7 @@ Reviews logs as an administrator
 <tr>
 <td valign="top">
 
- `AFC_KeyUser` 
+`AFC_KeyUser` 
 
 
 
@@ -1021,9 +1021,9 @@ Reviews logs as an administrator
 
     For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
--   Creates public view variants \(additionally, the role template `FlexKeyUser` is needed\).
+-   Creates public views \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information, see [How to Share Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share views you&apos;ve adjusted with other users.") :arrow_upper_right:.
+    For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
 
 
 
@@ -1054,7 +1054,7 @@ All apps in advanced financial closing
 <tr>
 <td valign="top">
 
- `FlexKeyUser` 
+`FlexKeyUser` 
 
 
 
@@ -1065,9 +1065,9 @@ All apps in advanced financial closing
 
     For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
--   Creates public view variants \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
+-   Creates public views \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 
-    For more information, see [How to Share Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Share views you&apos;ve adjusted with other users.") :arrow_upper_right:.
+    For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
 
 
 

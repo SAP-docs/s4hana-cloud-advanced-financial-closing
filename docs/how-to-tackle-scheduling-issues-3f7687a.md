@@ -68,30 +68,14 @@ The scheduling queue information reflects the status of the scheduling queue of 
     <tr>
     <td valign="top">
     
-        *Status*
+    *Status*
 
 
     
     </td>
     <td valign="top">
     
-        The status is displayed only when a connection issue has caused the scheduling to be deactivated for the moment. The status is then *Paused*.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *In Preparation*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        Shows the number of task executions that are currently being worked on and that are yet to be scheduled.
+    The status is displayed only when a connection issue has caused the scheduling to be deactivated for the moment. The status is then *Paused*.
 
 
     
@@ -100,14 +84,30 @@ The scheduling queue information reflects the status of the scheduling queue of 
     <tr>
     <td valign="top">
     
-        *Overdue*
+    *In Preparation*
 
 
     
     </td>
     <td valign="top">
     
-        Shows the number of tasks that are still in the scheduling queue but haven't been scheduled in time. A task is considered overdue under the following conditions:
+    Shows the number of task executions that are currently being worked on and that are yet to be scheduled.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Overdue*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Shows the number of tasks that are still in the scheduling queue but haven't been scheduled in time. A task is considered overdue under the following conditions:
 
     -   **Tasks for which a planned start time is maintained:** A task is considered overdue as of 15 minutes before the planned start time if the scheduling hasn't happened yet.
 

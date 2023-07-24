@@ -14,7 +14,7 @@ In general, it's recommended that you install the newest support and feature pac
 
 The following table lists by release the SAP Notes and correction measures that are recommended to ensure that you can use all functions of advanced financial closing:
 
-** **
+****
 
 
 <table>
@@ -574,57 +574,6 @@ Recommended
 <td valign="top">
 
 2022-02-22
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP S/4HANA
-
-
-
-</td>
-<td valign="top">
-
-`1809`
-
-
-
-</td>
-<td valign="top">
-
-``
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
 
 
 

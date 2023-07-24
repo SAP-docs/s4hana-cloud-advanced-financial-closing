@@ -128,42 +128,42 @@ Read
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task Processing* scope
+*Read* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope
+*Plan* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Parameters* authorization in the *Task Processing* scope
+*Parameters* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task Processing* scope
+*User Assignment* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -256,42 +256,42 @@ Read
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task Processing* scope
+*Read* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope
+*Plan* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Parameters* authorization in the *Task Processing* scope
+*Parameters* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task Processing* scope
+*User Assignment* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -384,42 +384,42 @@ Read
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task Processing* scope
+*Read* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope
+*Plan* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Parameters* authorization in the *Task Processing* scope
+*Parameters* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task Processing* scope
+*User Assignment* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -477,35 +477,35 @@ Read
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task List Creation* scope
+*Read* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Create* authorization in the *Task List Creation* scope
+*Create* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Write* authorization in the *Task List Creation* scope
+*Write* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Generate* authorization in the *Task List Creation* scope
+*Generate* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task List Creation* scope
+*User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -612,7 +612,7 @@ Create
 </td>
 <td valign="top">
 
- *Create* authorization in the *Task List Creation* scope
+*Create* authorization in the *Task List Creation* scope
 
 
 
@@ -740,7 +740,7 @@ Copy
 </td>
 <td valign="top">
 
- *Create* authorization in the *Task List Creation* scope
+*Create* authorization in the *Task List Creation* scope
 
 
 
@@ -875,7 +875,7 @@ Edit / Save
 </td>
 <td valign="top">
 
- *Write* authorization in the *Task List Creation* scope
+*Write* authorization in the *Task List Creation* scope
 
 
 
@@ -1003,7 +1003,7 @@ Recalculate Paths
 </td>
 <td valign="top">
 
- *Write* authorization in the *Task List Creation* scope
+*Write* authorization in the *Task List Creation* scope
 
 
 
@@ -1131,7 +1131,7 @@ Delete
 </td>
 <td valign="top">
 
- *Write* authorization in the *Task List Creation* scope
+*Write* authorization in the *Task List Creation* scope
 
 
 
@@ -1266,7 +1266,7 @@ Generate
 </td>
 <td valign="top">
 
- *Generate* authorization in the *Task List Creation* scope
+*Generate* authorization in the *Task List Creation* scope
 
 
 
@@ -1394,7 +1394,7 @@ Change Task List Status
 </td>
 <td valign="top">
 
- *Generate* authorization in the *Task List Creation* scope
+*Generate* authorization in the *Task List Creation* scope
 
 
 
@@ -1529,7 +1529,7 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task List Creation* scope
+*User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -1629,35 +1629,35 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task List Creation* scope
+*Read* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Create* authorization in the *Task List Creation* scope
+*Create* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Write* authorization in the *Task List Creation* scope
+*Write* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Generate* authorization in the *Task List Creation* scope
+*Generate* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task List Creation* scope
+*User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -1757,35 +1757,35 @@ Check Compatibility
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task List Creation* scope
+*Read* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Create* authorization in the *Task List Creation* scope
+*Create* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Write* authorization in the *Task List Creation* scope
+*Write* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *Generate* authorization in the *Task List Creation* scope
+*Generate* authorization in the *Task List Creation* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task List Creation* scope
+*User Assignment* authorization in the *Task List Creation* scope
 
 
 
@@ -1920,42 +1920,42 @@ Read
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task Processing* scope
+*Read* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope
+*Plan* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Parameters* authorization in the *Task Processing* scope
+*Parameters* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task Processing* scope
+*User Assignment* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -2048,42 +2048,42 @@ Download Results
 </td>
 <td valign="top">
 
- *Read* authorization in the *Task Processing* scope
+*Read* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope
+*Plan* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Parameters* authorization in the *Task Processing* scope
+*Parameters* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task Processing* scope
+*User Assignment* authorization in the *Task Processing* scope
 
 
 
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -2183,7 +2183,7 @@ Change Task Status
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
@@ -2311,7 +2311,7 @@ Process
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
@@ -2439,7 +2439,7 @@ Schedule
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
@@ -2567,7 +2567,7 @@ Cancel Run
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
@@ -2695,7 +2695,7 @@ Start Test Run
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
@@ -2823,7 +2823,7 @@ Cancel Test Run
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
@@ -2951,7 +2951,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- *Process* authorization in the *Task Processing* scope
+*Process* authorization in the *Task Processing* scope
 
 
 
@@ -2979,7 +2979,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -3086,7 +3086,7 @@ Change Planned Start
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope
+*Plan* authorization in the *Task Processing* scope
 
 
 
@@ -3214,7 +3214,7 @@ Change Planned Duration
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope
+*Plan* authorization in the *Task Processing* scope
 
 
 
@@ -3342,7 +3342,7 @@ Recalculate Paths
 </td>
 <td valign="top">
 
- *Plan* authorization in the *Task Processing* scope through task list authorization of authorization groups
+*Plan* authorization in the *Task Processing* scope through task list authorization of authorization groups
 
 
 
@@ -3477,7 +3477,7 @@ Change Parameters
 </td>
 <td valign="top">
 
- *Parameters* authorization in the *Task Processing* scope
+*Parameters* authorization in the *Task Processing* scope
 
 
 
@@ -3612,7 +3612,7 @@ Change User / User Group Responsible
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task Processing* scope
+*User Assignment* authorization in the *Task Processing* scope
 
 
 
@@ -3740,7 +3740,7 @@ Change Processing User / User Group
 </td>
 <td valign="top">
 
- *User Assignment* authorization in the *Task Processing* scope
+*User Assignment* authorization in the *Task Processing* scope
 
 
 
@@ -3876,7 +3876,7 @@ Approve
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -4005,7 +4005,7 @@ Reject
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 
@@ -4133,7 +4133,7 @@ Read
 </td>
 <td valign="top">
 
- *Approve / Reject* authorization in the *Task Processing* scope
+*Approve / Reject* authorization in the *Task Processing* scope
 
 
 

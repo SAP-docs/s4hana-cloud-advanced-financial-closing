@@ -14,36 +14,39 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
 ## Procedure
 
-1.  **Enabling OData Services**
-2.  In the SAP Reference IMG \(transaction `SPRO`\) of your SAP S/4HANA system, navigate to *SAP NetWeaver* \> *SAP Gateway* \> *OData Channel* \> *Administration* \> *General Settings* \> *Activate and Maintain Services*
+**Enabling OData Services**
 
-3.  Choose *Add Service*.
+1.  In the SAP Reference IMG \(transaction `SPRO`\) of your SAP S/4HANA system, navigate to *SAP NetWeaver* \> *SAP Gateway* \> *OData Channel* \> *Administration* \> *General Settings* \> *Activate and Maintain Services*
 
-4.  In the *Filter* section, make the following entries and press [Enter\]:
+2.  Choose *Add Service*.
 
-    -   *System Alias*: for example, ***LOCAL***
+3.  In the *Filter* section, make the following entries and press [Enter\]:
 
-    -   *External Service Name*: ***FCCX\_COMMUNICATION\_SERVICES\_SRV***
+    -   *System Alias*: for example, `LOCAL`
+
+    -   *External Service Name*: `FCCX_COMMUNICATION_SERVICES_SRV`
 
         > ### Tip:  
-        > Search for ***\*FCCX\**** to ensure that you find the external service name.
+        > Search for `*FCCX*` to ensure that you find the external service name.
 
 
     > ### Note:  
     > The *System Alias* refers to the RFC Destination that points to the system where your service is running.
 
-5.  Select the service and choose *Add Selected Services*.
+4.  Select the service and choose *Add Selected Services*.
 
-6.  On the *Add Service* screen, you can change the technical service name. However, it is recommended that you keep the default setting: *****ZFCCX\_COMMUNICATION\_SERVICES*****.
+5.  On the *Add Service* screen, you can change the technical service name. However, it is recommended that you keep the default setting: **`ZFCCX_COMMUNICATION_SERVICES`**.
 
-7.  On the *Activate and Maintain Services* screen, you can test the service by double-clicking it and choosing *Call Browser*. Please note down the URL.
+6.  On the *Activate and Maintain Services* screen, you can test the service by double-clicking it and choosing *Call Browser*. Please note down the URL.
 
-8.  **Checking Virus Scan Profile**
-9.  In the SAP Reference IMG \(transaction `SPRO`\) of your SAP S/4HANA system, navigate to *SAP NetWeaver* \> *SAP Gateway* \> *OData Channel* \> *Administration* \> *General Settings* \> *Define Virus Scan Profiles*.
 
-10. Under *V2 Virus Scan Options*, check that a virus scan profile is selected and that the *Virus Scan Switched Off* option is **not** selected.
+**Checking Virus Scan Profile**
 
-11. Open transaction `VSCAN` and check whether a virus scan definition is maintained.
+7.  In the SAP Reference IMG \(transaction `SPRO`\) of your SAP S/4HANA system, navigate to *SAP NetWeaver* \> *SAP Gateway* \> *OData Channel* \> *Administration* \> *General Settings* \> *Define Virus Scan Profiles*.
+
+8.  Under *V2 Virus Scan Options*, check that a virus scan profile is selected and that the *Virus Scan Switched Off* option is **not** selected.
+
+9.  Open transaction `VSCAN` and check whether a virus scan definition is maintained.
 
     1.  If none is maintained, maintain a definition.
 
@@ -61,7 +64,7 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
 Provide the system administrator of advanced financial closing with the URL you've just copied when you called up the browser.
 
-**Parent topic:** [SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Previous:** [How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as additional software.")
+**Previous:**[How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as additional software.")
 

@@ -16,10 +16,11 @@ You need to create a technical communication user with specific authorizations t
 
 ## Procedure
 
-1.  **Creating the Technical Communication User**
-2.  In your gateway and business back end, run transaction `SU01` and create a user that will be used for the communication between your back end and advanced financial closing.
+**Creating the Technical Communication User**
 
-3.  Go to the *Logon Data* tab.
+1.  In your gateway and business back end, run transaction `SU01` and create a user that will be used for the communication between your back end and advanced financial closing.
+
+2.  Go to the *Logon Data* tab.
 
     1.  If required for your system setup, provide an alias.
 
@@ -34,61 +35,20 @@ You need to create a technical communication user with specific authorizations t
         > To set the final password, you may first need to provide an initial password. Then, you log on to the system whereupon you'll be asked to change the password. This will then be the final password.
 
 
-4.  **Providing the Roles Required for the Technical Communication User**
-5.  Run transaction `PFCG`.
 
-6.  Enter an ID for the role and choose *Single Role*.
+**Providing the Roles Required for the Technical Communication User**
 
-7.  Enter a description and choose *Save*.
+3.  Run transaction `PFCG`.
 
-8.  In change mode, go to the *Menu* tab and choose *Insert*.
+4.  Enter an ID for the role and choose *Single Role*.
 
-9.  Go to *Edit* \> *Insert Authorization Default*.
+5.  Enter a description and choose *Save*.
 
-10. Under *Default Authorization*, select ***SAP Gateway: Service Group Metadata***.
+6.  In change mode, go to the *Menu* tab and choose *Insert*.
 
-    The following information is filled automatically:
+7.  Go to *Edit* \> *Insert Authorization Default*.
 
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Program ID
-
-
-    
-    </th>
-    <th valign="top">
-
-    Object Type
-
-
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        `R3TR`
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `IWSG`
-
-
-    
-    </td>
-    </tr>
-    </table>
-    
-    1.  Under *TADIR Service*, use the value help to search for the technical service name that was used during service activation as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md). For example, the default *****\[ZFCCX\_COMMUNICATION\_SERVICES\_SRV\]\******.
-
-
-11. Under *Default Authorization*, select ***SAP Gateway Business Suite Enablement - Service***.
+8.  Under *Default Authorization*, select `SAP Gateway: Service Group Metadata`.
 
     The following information is filled automatically:
 
@@ -113,14 +73,14 @@ You need to create a technical communication user with specific authorizations t
     <tr>
     <td valign="top">
     
-        `R3TR`
+    `R3TR`
 
 
     
     </td>
     <td valign="top">
     
-        `IWSV`
+    `IWSG`
 
 
     
@@ -128,7 +88,50 @@ You need to create a technical communication user with specific authorizations t
     </tr>
     </table>
     
-    1.  Under *TADIR Service*, use the value help to search for ***FCCX\_COMMUNICATION\_SERVICES\_SRV 0001***, and apply this service.
+    1.  Under *TADIR Service*, use the value help to search for the technical service name that was used during service activation as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md). For example, the default **`[ZFCCX_COMMUNICATION_SERVICES_SRV]*`**.
+
+
+9.  Under *Default Authorization*, select `SAP Gateway Business Suite Enablement - Service`.
+
+    The following information is filled automatically:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Program ID
+
+
+    
+    </th>
+    <th valign="top">
+
+    Object Type
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `R3TR`
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `IWSV`
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+    1.  Under *TADIR Service*, use the value help to search for `FCCX_COMMUNICATION_SERVICES_SRV 0001`, and apply this service.
 
     2.  Choose *Copy*.
 
@@ -176,35 +179,35 @@ You need to create a technical communication user with specific authorizations t
         <tr>
         <td valign="top">
         
-                ***Selected***
+        `Selected`
 
 
         
         </td>
         <td valign="top">
         
-                SAP Gateway Business Suite Enablement - Service
+        SAP Gateway Business Suite Enablement - Service
 
 
         
         </td>
         <td valign="top">
         
-                `FCCX_COMMUNICATION_SERVICES_SRV 0001`
+        `FCCX_COMMUNICATION_SERVICES_SRV 0001`
 
 
         
         </td>
         <td valign="top">
         
-                `FCCX_COMMUNICATION_SERVICES_SRVO`
+        `FCCX_COMMUNICATION_SERVICES_SRVO`
 
 
         
         </td>
         <td valign="top">
         
-                `OP Variant`
+        `OP Variant`
 
 
         
@@ -242,21 +245,21 @@ You need to create a technical communication user with specific authorizations t
         <tr>
         <td valign="top" rowspan="2">
         
-                `S_BTCH_NA1`
+        `S_BTCH_NA1`
 
 
         
         </td>
         <td valign="top">
         
-                `PROGRAM`
+        `PROGRAM`
 
 
         
         </td>
         <td valign="top">
         
-                `FCCX_APJ_PROCESSOR`
+        `FCCX_APJ_PROCESSOR`
 
 
         
@@ -265,14 +268,14 @@ You need to create a technical communication user with specific authorizations t
         <tr>
         <td valign="top">
         
-                `BTCUNAME`: *Background User Name for Authorization Check*
+        `BTCUNAME`: *Background User Name for Authorization Check*
 
 
         
         </td>
         <td valign="top">
         
-                Enter one of the following:
+        Enter one of the following:
 
         -   `*`: Using the asterisk, you ensure that you don't have to list all relevant users explicitly.
 
@@ -286,21 +289,21 @@ You need to create a technical communication user with specific authorizations t
         <tr>
         <td valign="top" rowspan="2">
         
-                `S_BTCH_JOB`
+        `S_BTCH_JOB`
 
 
         
         </td>
         <td valign="top">
         
-                `JOBACTION`
+        `JOBACTION`
 
 
         
         </td>
         <td valign="top">
         
-                `RELE`
+        `RELE`
 
 
         
@@ -309,14 +312,14 @@ You need to create a technical communication user with specific authorizations t
         <tr>
         <td valign="top">
         
-                `JOBGROUP`
+        `JOBGROUP`
 
 
         
         </td>
         <td valign="top">
         
-                `*` \(asterisk\)
+        `*` \(asterisk\)
 
 
         
@@ -325,12 +328,12 @@ You need to create a technical communication user with specific authorizations t
         </table>
         
 
-12. On the *User* tab, add the technical communication user.
+10. On the *User* tab, add the technical communication user.
 
     > ### Recommendation:  
     > We do **not** recommend adding any other or additional profiles to the technical communication user.
 
-13. Save the role.
+11. Save the role.
 
 
 

@@ -63,14 +63,14 @@ For more information about how to create roles and how to bundle them in role co
     <tr>
     <td valign="top">
     
-        `AFC_Expert`
+    `AFC_Expert`
 
 
     
     </td>
     <td valign="top">
     
-        -   `AFC_Define`
+    -   `AFC_Define`
     -   `AFC_Config`
 
 
@@ -80,14 +80,14 @@ For more information about how to create roles and how to bundle them in role co
     <tr>
     <td valign="top">
     
-        `AFC_Manager`
+    `AFC_Manager`
 
 
     
     </td>
     <td valign="top">
     
-        -   `AFC_Reporting`
+    -   `AFC_Reporting`
     -   `AFC_Approve`
     -   `AFC_UserManagement`
 
@@ -114,9 +114,9 @@ For more information about how to create roles and how to bundle them in role co
 		launchpad.")**  
 Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
-**Parent topic:** [User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
+**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
 
-**Previous:** [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
+**Previous:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
 
 **Related Information**  
 

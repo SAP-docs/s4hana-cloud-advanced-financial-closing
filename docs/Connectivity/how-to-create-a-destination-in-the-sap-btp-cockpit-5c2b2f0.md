@@ -57,30 +57,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     <tr>
     <td valign="top">
     
-        *Name*
+    *Name*
 
 
     
     </td>
     <td valign="top">
     
-        Specify a name for the destination configuration.
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Type*
-
-
-    
-    </td>
-    <td valign="top">
-    
-         ***HTTP*** 
+    Specify a name for the destination configuration.
 
 
     
@@ -89,14 +73,30 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     <tr>
     <td valign="top">
     
-        *URL*
+    *Type*
 
 
     
     </td>
     <td valign="top">
     
-        Enter the back-end URL of the communication system that you've received from the system administrator. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
+    `HTTP` 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *URL*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Enter the back-end URL of the communication system that you've received from the system administrator. Make sure to add the SAP client number at the end of the URL. Accordingly, the back-end URL has to have the following format:
 
     <code>http://www.example.com:[port number]<b>/sap/opu/odata/sap/fccx_communication_services_srv?sap-client</b>=[client]</code>
 
@@ -109,30 +109,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     <tr>
     <td valign="top">
     
-        *Proxy Type*
+    *Proxy Type*
 
 
     
     </td>
     <td valign="top">
     
-        ***OnPremise*** 
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        *Authentication*
-
-
-    
-    </td>
-    <td valign="top">
-    
-        ***BasicAuthentication***
+    `OnPremise` 
 
 
     
@@ -141,14 +125,14 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     <tr>
     <td valign="top">
     
-        *User*
+    *Authentication*
 
 
     
     </td>
     <td valign="top">
     
-        Technical communication user that you've received from the SAP S/4HANA system administrator.
+    `BasicAuthentication`
 
 
     
@@ -157,14 +141,30 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
     <tr>
     <td valign="top">
     
-        *Password*
+    *User*
 
 
     
     </td>
     <td valign="top">
     
-        Password of the selected user
+    Technical communication user that you've received from the SAP S/4HANA system administrator.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Password*
+
+
+    
+    </td>
+    <td valign="top">
+    
+    Password of the selected user
 
 
     
@@ -181,9 +181,9 @@ Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 
 You have now created a destination for your SAP S/4HANA system.
 
-**Parent topic:** [SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Next:** [How to Create a Technical Communication User](how-to-create-a-technical-communication-user-c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")
+**Next:**[How to Create a Technical Communication User](how-to-create-a-technical-communication-user-c4a9b51.md "Create a technical communication user for your SAP S/4HANA system.")
 
-**Previous:** [How to Connect to SAP S/4HANA as a Communication System](how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
+**Previous:**[How to Connect to SAP S/4HANA as a Communication System](how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
 

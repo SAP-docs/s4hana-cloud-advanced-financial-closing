@@ -31,9 +31,9 @@ The Cloud Connector serves as a link between SAP BTP applications and on-premise
 
 You have now installed and configured the Cloud Connector.
 
-**Parent topic:** [SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
-**Next:** [How to Create a Technical Communication User](how-to-create-a-technical-communication-user-d9e09c7.md "Create a technical communication user for your SAP ERP system.")
+**Next:**[How to Create a Technical Communication User](how-to-create-a-technical-communication-user-d9e09c7.md "Create a technical communication user for your SAP ERP system.")
 
-**Previous:** [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
+**Previous:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
 

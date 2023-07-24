@@ -21,10 +21,11 @@ If you use separate systems for the gateway back end and the business back end, 
 
 ## Procedure
 
-1.  **Creating the Technical Communication User for a Business Back End**
-2.  In your business back end, run transaction `SU01` and create a user that will be used for the communication between your business back end and advanced financial closing.
+**Creating the Technical Communication User for a Business Back End**
 
-3.  Go to the *Logon Data* tab.
+1.  In your business back end, run transaction `SU01` and create a user that will be used for the communication between your business back end and advanced financial closing.
+
+2.  Go to the *Logon Data* tab.
 
     1.  If required for your system setup, provide an alias.
 
@@ -36,18 +37,20 @@ If you use separate systems for the gateway back end and the business back end, 
         > To set the final password, you may first need to provide an initial password. Then, you log on to the system whereupon you'll be asked to change the password. This will then be the final password.
 
 
-4.  **Providing the Roles Required for the Technical Communication User**
-5.  Run transaction `PFCG`.
 
-6.  Enter an ID for the role and choose *Single Role*.
+**Providing the Roles Required for the Technical Communication User**
 
-7.  Enter a description and choose *Save*.
+3.  Run transaction `PFCG`.
 
-8.  In change mode, go to the *Menu* tab. If you use separate systems for the gateway back end and the business back end, choose *Insert*.
+4.  Enter an ID for the role and choose *Single Role*.
 
-9.  Go to *Edit* \> *Insert Authorization Default*.
+5.  Enter a description and choose *Save*.
 
-10. Under *Default Authorization*, select ***SAP Gateway: Service Group Metadata***.
+6.  In change mode, go to the *Menu* tab. If you use separate systems for the gateway back end and the business back end, choose *Insert*.
+
+7.  Go to *Edit* \> *Insert Authorization Default*.
+
+8.  Under *Default Authorization*, select `SAP Gateway: Service Group Metadata`.
 
     The following information is filled automatically:
 
@@ -72,14 +75,14 @@ If you use separate systems for the gateway back end and the business back end, 
     <tr>
     <td valign="top">
     
-        `R3TR`
+    `R3TR`
 
 
     
     </td>
     <td valign="top">
     
-        `IWSG`
+    `IWSG`
 
 
     
@@ -87,10 +90,10 @@ If you use separate systems for the gateway back end and the business back end, 
     </tr>
     </table>
     
-    1.  Under *TADIR Service*, use the value help to search for the technical service name that was used during service activation as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md). For example, the default *****\[ZFCCX\_COMMUNICATION\_SERVICES\_SRV\]\******.
+    1.  Under *TADIR Service*, use the value help to search for the technical service name that was used during service activation as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md). For example, the default **`[ZFCCX_COMMUNICATION_SERVICES_SRV]*`**.
 
 
-11. On the *User* tab, add the technical communication user.
+9.  On the *User* tab, add the technical communication user.
 
     > ### Caution:  
     > If you use separate systems for the gateway back end and the business back end, the users created for both systems **must be dialog users**. These users require authorization object `S_RFCACL`. Depending on your release, this object is provided with the default authorization *SAP Gateway Business Suite Enablement - Service*.
@@ -98,12 +101,14 @@ If you use separate systems for the gateway back end and the business back end, 
     > ### Tip:  
     > We do not recommend adding any alternative or additional profiles to the technical communication user.
 
-12. Save the role.
+10. Save the role.
 
-13. **Creating the Technical Communication User for a Gateway Back End**
-14. In your gateway back end, run transaction `SU01` and create a user that will be used for the communication between your gateway back end and advanced financial closing.
 
-15. Go to the *Logon Data* tab.
+**Creating the Technical Communication User for a Gateway Back End**
+
+11. In your gateway back end, run transaction `SU01` and create a user that will be used for the communication between your gateway back end and advanced financial closing.
+
+12. Go to the *Logon Data* tab.
 
     1.  You may need to provide an alias depending your system.
 
@@ -115,18 +120,20 @@ If you use separate systems for the gateway back end and the business back end, 
         > To set the final password, you may first need to provide an initial password. Then, you log on to the system whereupon you'll be asked to change the password. This will then be the final password.
 
 
-16. **Providing the Roles Required for the Technical Communication User**
-17. Run transaction `PFCG`.
 
-18. Enter an ID for the role and choose *Single Role*.
+**Providing the Roles Required for the Technical Communication User**
 
-19. Enter a description and choose *Save*.
+13. Run transaction `PFCG`.
 
-20. In change mode, go to the *Menu* tab and choose *Insert*.
+14. Enter an ID for the role and choose *Single Role*.
 
-21. Go to *Edit* \> *Insert Authorization Default*.
+15. Enter a description and choose *Save*.
 
-22. Under *Default Authorization*, select ***SAP Gateway Business Suite Enablement - Service***.
+16. In change mode, go to the *Menu* tab and choose *Insert*.
+
+17. Go to *Edit* \> *Insert Authorization Default*.
+
+18. Under *Default Authorization*, select `SAP Gateway Business Suite Enablement - Service`.
 
     The following information is filled automatically:
 
@@ -151,14 +158,14 @@ If you use separate systems for the gateway back end and the business back end, 
     <tr>
     <td valign="top">
     
-        `R3TR`
+    `R3TR`
 
 
     
     </td>
     <td valign="top">
     
-        `IWSV`
+    `IWSV`
 
 
     
@@ -166,7 +173,7 @@ If you use separate systems for the gateway back end and the business back end, 
     </tr>
     </table>
     
-    1.  Under *TADIR Service*, use the value help to search for ***FCCX\_COMMUNICATION\_SERVICES\_SRV 0001***, and apply this service.
+    1.  Under *TADIR Service*, use the value help to search for `FCCX_COMMUNICATION_SERVICES_SRV 0001`, and apply this service.
 
     2.  Choose *Copy*.
 
@@ -214,35 +221,35 @@ If you use separate systems for the gateway back end and the business back end, 
         <tr>
         <td valign="top">
         
-                ***Selected***
+        `Selected`
 
 
         
         </td>
         <td valign="top">
         
-                SAP Gateway Business Suite Enablement - Service
+        SAP Gateway Business Suite Enablement - Service
 
 
         
         </td>
         <td valign="top">
         
-                `FCCX_COMMUNICATION_SERVICES_SRV 0001`
+        `FCCX_COMMUNICATION_SERVICES_SRV 0001`
 
 
         
         </td>
         <td valign="top">
         
-                `FCCX_COMMUNICATION_SERVICES_SRVO`
+        `FCCX_COMMUNICATION_SERVICES_SRVO`
 
 
         
         </td>
         <td valign="top">
         
-                `OP Variant`
+        `OP Variant`
 
 
         
@@ -280,21 +287,21 @@ If you use separate systems for the gateway back end and the business back end, 
         <tr>
         <td valign="top" rowspan="2">
         
-                `S_BTCH_NA1`
+        `S_BTCH_NA1`
 
 
         
         </td>
         <td valign="top">
         
-                `PROGRAM`
+        `PROGRAM`
 
 
         
         </td>
         <td valign="top">
         
-                `FCCX_APJ_PROCESSOR`
+        `FCCX_APJ_PROCESSOR`
 
 
         
@@ -303,14 +310,14 @@ If you use separate systems for the gateway back end and the business back end, 
         <tr>
         <td valign="top">
         
-                `BTCUNAME`: *Background User Name for Authorization Check*
+        `BTCUNAME`: *Background User Name for Authorization Check*
 
 
         
         </td>
         <td valign="top">
         
-                Enter one of the following:
+        Enter one of the following:
 
         -   `*`: Using the asterisk, you ensure that you don't have to list all relevant users explicitly.
 
@@ -324,21 +331,21 @@ If you use separate systems for the gateway back end and the business back end, 
         <tr>
         <td valign="top" rowspan="2">
         
-                `S_BTCH_JOB`
+        `S_BTCH_JOB`
 
 
         
         </td>
         <td valign="top">
         
-                `JOBACTION`
+        `JOBACTION`
 
 
         
         </td>
         <td valign="top">
         
-                `RELE`
+        `RELE`
 
 
         
@@ -347,14 +354,14 @@ If you use separate systems for the gateway back end and the business back end, 
         <tr>
         <td valign="top">
         
-                `JOBGROUP`
+        `JOBGROUP`
 
 
         
         </td>
         <td valign="top">
         
-                `*` \(asterisk\)
+        `*` \(asterisk\)
 
 
         
@@ -363,7 +370,7 @@ If you use separate systems for the gateway back end and the business back end, 
         </table>
         
 
-23. On the *User* tab, add the technical communication user.
+19. On the *User* tab, add the technical communication user.
 
     > ### Caution:  
     > If you use separate systems for the gateway back end and the business back end, the users created for both systems **must be dialog users**. These users require authorization object `S_RFCACL`. Depending on your release, this object is provided with the default authorization *SAP Gateway Business Suite Enablement - Service*.
@@ -371,7 +378,7 @@ If you use separate systems for the gateway back end and the business back end, 
     > ### Recommendation:  
     > We do **not** recommend adding any alternative or additional profiles to the technical communication user.
 
-24. Save the role.
+20. Save the role.
 
 
 

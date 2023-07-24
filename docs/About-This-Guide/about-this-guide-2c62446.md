@@ -10,8 +10,6 @@ Get an overview of what this user guide covers.
 
 This administration guide first gives an overview of SAP S/4HANA Cloud for advanced financial closing on the SAP BTP and then covers the documentation of system setup, system configuration, and other administrative topics:
 
-Some areas of this image are interactive. Hover over the areas for a description. Click the areas for more information.
-
 ![Graphic depicting a treasure chest on the left and text boxes on the right: For an overview, you can find information under Overview, Data Flow
 							from and to Advanced Financial Closing, and Language Scope. For system setup, you can find information under Technical
 							Prerequisites, System Landscape, and Onboarding. For communication system configuration and monitoring, you find
