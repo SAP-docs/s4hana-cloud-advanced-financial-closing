@@ -7,6 +7,8 @@ Understand how archiving and restoring in advanced financial closing works.
 In SAP S/4HANA Cloud for advanced financial closing, generated task lists are archived automatically after a specific **time of inactivity**, independently of their status. The time after which a task list is archived depends on the closing type and on the value set for the *Is Production Task List* indicator, and is currently defined as follows:
 
 
+
+
 <table>
 <tr>
 <th valign="top">
@@ -127,6 +129,8 @@ Three months
 
 > ### Note:  
 > The reference date for this time is either the date when the task list or any of its tasks was last updated or the date when the task list was last restored from the archive.
+> 
+> Task lists with status *Obsolete* are archived after one month, independently of the *Is Production Task List* indicator.
 
 When a task list is archived, it no longer appears in any of the advanced financial closing apps, except for the *Manage Archived Closing Task Lists* app. In this app, you restore task lists from the archive as described below.
 

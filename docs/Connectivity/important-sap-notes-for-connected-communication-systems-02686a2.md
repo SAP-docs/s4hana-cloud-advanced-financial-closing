@@ -93,7 +93,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3120437](https://launchpad.support.sap.com/#/notes/3120437) \(Expose Application Log Messages\)
+[3120437](https://me.sap.com/notes/3120437) \(Expose Application Log Messages\)
 
 
 
@@ -144,7 +144,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3157794](https://launchpad.support.sap.com/#/notes/3157794) \(Make Joblog messages to be returned optional\)
+[3157794](https://me.sap.com/notes/3157794) \(Make Joblog messages to be returned optional\)
 
 
 
@@ -195,7 +195,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3166533](https://launchpad.support.sap.com/#/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
+[3166533](https://me.sap.com/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
 
 
 
@@ -246,7 +246,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3152735](https://launchpad.support.sap.com/#/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
+[3152735](https://me.sap.com/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
 
 
 
@@ -297,7 +297,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3120437](https://launchpad.support.sap.com/#/notes/3120437) \(Expose Application Log Messages\)
+[3120437](https://me.sap.com/notes/3120437) \(Expose Application Log Messages\)
 
 
 
@@ -348,7 +348,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3157794](https://launchpad.support.sap.com/#/notes/3157794) \(Make Joblog messages to be returned optional\)
+[3157794](https://me.sap.com/notes/3157794) \(Make Joblog messages to be returned optional\)
 
 
 
@@ -399,7 +399,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3166533](https://launchpad.support.sap.com/#/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
+[3166533](https://me.sap.com/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
 
 
 
@@ -450,7 +450,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3152735](https://launchpad.support.sap.com/#/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
+[3152735](https://me.sap.com/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
 
 
 
@@ -501,7 +501,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3120437](https://launchpad.support.sap.com/#/notes/3120437) \(Expose Application Log Messages\)
+[3120437](https://me.sap.com/notes/3120437) \(Expose Application Log Messages\)
 
 
 
@@ -552,7 +552,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-[3152735](https://launchpad.support.sap.com/#/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
+[3152735](https://me.sap.com/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
 
 
 
@@ -603,7 +603,7 @@ SAP ERP
 </td>
 <td valign="top">
 
-[3332291](https://launchpad.support.sap.com/#/notes/3332291) \(Prevent accidental deletion of messages \(FCCX\_TASK\_EXEC\_M within New Scheduling\)
+[3332291](https://me.sap.com/notes/3332291) \(Prevent accidental deletion of messages \(FCCX\_TASK\_EXEC\_M within New Scheduling\)
 
 
 
@@ -654,7 +654,7 @@ SAP ERP
 </td>
 <td valign="top">
 
-[3252875](https://launchpad.support.sap.com/#/notes/3252875) \(Improve OPVAR Handling in the ABAP Business Backend \(3\)\)
+[3252875](https://me.sap.com/notes/3252875) \(Improve OPVAR Handling in the ABAP Business Backend \(3\)\)
 
 
 
@@ -705,7 +705,7 @@ SAP ERP
 </td>
 <td valign="top">
 
-[3247431](https://launchpad.support.sap.com/#/notes/3247431) \(Handle zero date correctly\)
+[3247431](https://me.sap.com/notes/3247431) \(Handle zero date correctly\)
 
 
 
@@ -756,7 +756,7 @@ SAP ERP
 </td>
 <td valign="top">
 
-[3157794](https://launchpad.support.sap.com/#/notes/3157794) \(Make Joblog messages to be returned optional\)
+[3157794](https://me.sap.com/notes/3157794) \(Make Joblog messages to be returned optional\)
 
 
 
@@ -807,7 +807,7 @@ SAP ERP
 </td>
 <td valign="top">
 
-[3166533](https://launchpad.support.sap.com/#/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
+[3166533](https://me.sap.com/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
 
 
 

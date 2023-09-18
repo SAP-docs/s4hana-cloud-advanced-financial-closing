@@ -13,7 +13,7 @@ When using SAP S/4HANA Cloud for advanced financial closing, you want to include
 > ### Tip:  
 > SAP provides a wide range of predefined content, which serves as an accelerator for implementation projects:
 > 
-> The example business content for SAP ERP systems is documented in SAP Note [3135513](https://launchpad.support.sap.com/#/notes/3135513).
+> The example business content for SAP ERP systems is documented in SAP Note [3135513](https://me.sap.com/notes/3135513).
 
 
 

@@ -16,7 +16,7 @@ This way, you'll receive information relevant for advanced financial closing.
 
 ## Procedure
 
-Follow the steps described in SAP note [2900069](https://launchpad.support.sap.com/#/notes/2900069) and subscribe for notifications for SAP S/4HANA Cloud for advanced financial closing.
+Follow the steps described in SAP note [2900069](https://me.sap.com/notes/2900069) and subscribe for notifications for SAP S/4HANA Cloud for advanced financial closing.
 
 
 

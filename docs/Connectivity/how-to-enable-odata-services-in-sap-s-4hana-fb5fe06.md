@@ -16,7 +16,10 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
 **Enabling OData Services**
 
-1.  In the SAP Reference IMG \(transaction `SPRO`\) of your SAP S/4HANA system, navigate to *SAP NetWeaver* \> *SAP Gateway* \> *OData Channel* \> *Administration* \> *General Settings* \> *Activate and Maintain Services*
+1.  In the SAP Reference IMG \(transaction `SPRO`\) of your SAP S/4HANA system, navigate to *SAP NetWeaver* \> *SAP Gateway* \> *OData Channel* \> *Administration* \> *General Settings* \> *Activate and Maintain Services*.
+
+    > ### Tip:  
+    > Alternatively, you can run transaction `/n/IWFND/MAINT_SERVICE`.
 
 2.  Choose *Add Service*.
 
@@ -37,7 +40,19 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
 5.  On the *Add Service* screen, you can change the technical service name. However, it is recommended that you keep the default setting: **`ZFCCX_COMMUNICATION_SERVICES`**.
 
-6.  On the *Activate and Maintain Services* screen, you can test the service by double-clicking it and choosing *Call Browser*. Please note down the URL.
+6.  On the *Activate and Maintain Services* screen, double-click the service to select it and do the following:
+
+    1.  In the *ICF Nodes* window, choose *Call Browser* to test the service. Please note down the URL.
+
+    2.  Back in the *ICF Nodes* window, choose *ICF Node* \> *Configure \(SICF\)*.
+
+    3.  In the table, navigate to *default\_host* \> *\[namespace\]* \> *opu* \> *odata* \> *sap* and open the underlying *fccx\_communication\_services\_srv* node by double-clicking it.
+
+    4.  On the *Create/Change a Service* screen, navigate to the *Logon Data* tab and define the following settings:
+
+        1.  Under *Procedure*, select *Alternative Logon Procedure* from the dropdown.
+        2.  In the *Logon Procedure List* table at the bottom of the screen, remove all entries except for *Basic Authentication*.
+
 
 
 **Checking Virus Scan Profile**

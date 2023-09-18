@@ -5,6 +5,8 @@
 Provides details about the changes made in each version of this document.
 
 
+
+
 <table>
 <tr>
 <th valign="top">
@@ -16,11 +18,45 @@ Date
 </th>
 <th valign="top">
 
-Comment
+Category
 
 
 
 </th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+September 17, 2023
+
+
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+
+
+</td>
+<td valign="top">
+
+[How to Enable OData Services in SAP S/4HANA](../Connectivity/how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md):
+
+The following information was added:
+
+Logon procedure setup
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -32,38 +68,16 @@ July 23, 2023
 </td>
 <td valign="top">
 
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
+
+
+
+</td>
+<td valign="top">
+
 Several pages under [Connectivity](../Connectivity/connectivity-200deae.md):
 
 Information about the *UI Parameters* field was updated.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-June 18, 2023
-
-
-
-</td>
-<td valign="top">
-
--   [How to Set Up the SAP ERP Connector](../Connectivity/how-to-set-up-the-sap-erp-connector-b139d1e.md):
-
-    Link to detailed information about the synchronization was added.
-
--   [Synchronization of Communication Systems](../Connectivity/synchronization-of-communication-systems-a86348d.md):
-
-    Page was slightly restructured.
-
-    Information about master data synchronization was updated.
-
--   [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    The new page [Communication System Unavailable - Resilience of SAP S/4HANA Cloud for Advanced Financial Closing](../Connectivity/communication-system-unavailable-resilience-of-sap-s-4hana-cloud-for-advanced-financial-c-727d2ee.md) was added.
-
 
 
 

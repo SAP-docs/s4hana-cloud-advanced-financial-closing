@@ -2,7 +2,7 @@
 
 # How to Create a Destination in the SAP BTP Cockpit
 
-Create a destination for your SAP S/4HANA Cloud ES system in your SAP BTP cockpit.
+Create a destination for your SAP S/4HANA Cloud, public edition system in your SAP BTP cockpit.
 
 
 
@@ -172,7 +172,7 @@ You have now created a destination for your SAP S/4HANA Cloud system.
 
 **Parent topic:**[How to Connect to SAP S/4HANA Cloud, Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Next:**[How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud ES system for the connection with advanced financial closing.")
+**Next:**[How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud, public edition system for the connection with advanced financial closing.")
 
 **Previous:**[How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.")
 

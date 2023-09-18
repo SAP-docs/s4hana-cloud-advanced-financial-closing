@@ -125,7 +125,7 @@ Not applicable
 
 `SP03`
 
--   Additional requirement: [3198622](https://launchpad.support.sap.com/#/notes/3198622)
+-   Additional requirement: [3198622](https://me.sap.com/notes/3198622)
 
 
 
@@ -144,7 +144,7 @@ Not applicable
 
 -   `SP05` to `SP07`: Feature is available in add-on.
 
-    -   Additional requirement: [3223775](https://launchpad.support.sap.com/#/notes/3223775)
+    -   Additional requirement: [3223775](https://me.sap.com/notes/3223775)
 
 
 
@@ -173,11 +173,11 @@ Not applicable
 
 -   Additional requirements:
 
-    -   [3157794](https://launchpad.support.sap.com/#/notes/3157794)
+    -   [3157794](https://me.sap.com/notes/3157794)
 
-    -   [3166533](https://launchpad.support.sap.com/#/notes/3166533)
+    -   [3166533](https://me.sap.com/notes/3166533)
 
-    -   [3120437](https://launchpad.support.sap.com/#/notes/3120437)
+    -   [3120437](https://me.sap.com/notes/3120437)
 
 
 
@@ -190,11 +190,11 @@ Not applicable
 
 -   Additional requirements:
 
-    -   [3157794](https://launchpad.support.sap.com/#/notes/3157794)
+    -   [3157794](https://me.sap.com/notes/3157794)
 
-    -   [3166533](https://launchpad.support.sap.com/#/notes/3166533)
+    -   [3166533](https://me.sap.com/notes/3166533)
 
-    -   [3120437](https://launchpad.support.sap.com/#/notes/3120437)
+    -   [3120437](https://me.sap.com/notes/3120437)
 
 
 
@@ -281,9 +281,9 @@ Not applicable
 
 -   Previous support packages: Feature is available if the following requirements are met:
 
-    -   [3107069](https://launchpad.support.sap.com/#/notes/3107069)
+    -   [3107069](https://me.sap.com/notes/3107069)
 
-    -   [3111706](https://launchpad.support.sap.com/#/notes/3111706)
+    -   [3111706](https://me.sap.com/notes/3111706)
 
 
 
@@ -296,9 +296,9 @@ Not applicable
 
 -   Previous support packages: Feature is available if the following requirements are met:
 
-    -   [3107069](https://launchpad.support.sap.com/#/notes/3107069)
+    -   [3107069](https://me.sap.com/notes/3107069)
 
-    -   [3111706](https://launchpad.support.sap.com/#/notes/3111706)
+    -   [3111706](https://me.sap.com/notes/3111706)
 
 
 
@@ -311,9 +311,9 @@ Not applicable
 
 -   `SP02` to `SP05`: Feature is available if the following requirements are met:
 
-    -   [3107069](https://launchpad.support.sap.com/#/notes/3107069)
+    -   [3107069](https://me.sap.com/notes/3107069)
 
-    -   [3111706](https://launchpad.support.sap.com/#/notes/3111706)
+    -   [3111706](https://me.sap.com/notes/3111706)
 
 
 
@@ -328,7 +328,7 @@ Not applicable
 
     -   System release: `6.0`
 
-    -   [3252875](https://launchpad.support.sap.com/#/notes/3252875)
+    -   [3252875](https://me.sap.com/notes/3252875)
 
 
 
@@ -359,7 +359,7 @@ Not applicable
 
     -   `SP02` is installed
 
-    -   [3224957](https://launchpad.support.sap.com/#/notes/3224957)
+    -   [3224957](https://me.sap.com/notes/3224957)
 
 
 
@@ -374,7 +374,7 @@ Not applicable
 
     -   `SP04` is installed
 
-    -   [3224957](https://launchpad.support.sap.com/#/notes/3224957)
+    -   [3224957](https://me.sap.com/notes/3224957)
 
 
 
@@ -408,7 +408,7 @@ Not applicable
 
 `SP02`
 
--   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
 
 
 
@@ -418,7 +418,7 @@ Not applicable
 
 `SP04`
 
--   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
 
 
 
@@ -428,7 +428,7 @@ Not applicable
 
 `SP06`
 
--   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
 
 
 
@@ -445,7 +445,7 @@ Not applicable
 
 `SP11`
 
--   Additional requirement: [3227008](https://launchpad.support.sap.com/#/notes/3227008)
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
 
 
 
