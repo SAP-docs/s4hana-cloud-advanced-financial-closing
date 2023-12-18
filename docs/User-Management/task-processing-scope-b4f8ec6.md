@@ -49,14 +49,10 @@ When creating a user role for this scope, you can choose from the following auth
 
 Authorization
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -65,14 +61,10 @@ Description
 
 *Read*
 
-
-
 </td>
 <td valign="top">
 
 Read authorization within the scope of this user role. This is the minimum authorization, and it's included in all others.
-
-
 
 </td>
 </tr>
@@ -81,14 +73,10 @@ Read authorization within the scope of this user role. This is the minimum autho
 
 *Process*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to process tasks. This authorization covers actions related to task status changes, scheduling, test runs, attachments, and notes. This authorization always includes *Read* authorization.
-
-
 
 </td>
 </tr>
@@ -97,14 +85,10 @@ Authorization to process tasks. This authorization covers actions related to tas
 
 *Plan*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to change attributes that relate to the planning of a task. This authorization covers changes to the planned start and planned duration as well as path recalculation. This authorization always includes *Read* authorization.
-
-
 
 </td>
 </tr>
@@ -113,14 +97,10 @@ Authorization to change attributes that relate to the planning of a task. This a
 
 *Parameters*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to change parameters within the scope of this user role. This authorization always includes *Read* authorization.
-
-
 
 </td>
 </tr>
@@ -129,14 +109,10 @@ Authorization to change parameters within the scope of this user role. This auth
 
 *User Assignment*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to change processing users or user groups, and users responsible or responsible user groups within the scope of this user role. This authorization always includes *Read* authorization.
-
-
 
 </td>
 </tr>
@@ -145,14 +121,10 @@ Authorization to change processing users or user groups, and users responsible o
 
 *Approve / Reject*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to approve and reject tasks that require approval. This authorization always includes *Read* authorization.
-
-
 
 </td>
 </tr>
@@ -173,49 +145,35 @@ Authorization to approve and reject tasks that require approval. This authorizat
 
 Authorization
 
-
-
 </th>
 <th valign="top">
 
 *Read*
-
-
 
 </th>
 <th valign="top">
 
 *Process*
 
-
-
 </th>
 <th valign="top">
 
 *Plan*
-
-
 
 </th>
 <th valign="top">
 
 *Parameters*
 
-
-
 </th>
 <th valign="top">
 
 *User Assignment*
 
-
-
 </th>
 <th valign="top">
 
 *Approve / Reject*
-
-
 
 </th>
 </tr>
@@ -224,49 +182,35 @@ Authorization
 
 Read
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
 
 </td>
 </tr>
@@ -275,49 +219,35 @@ Read
 
 Download Results
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
 
 </td>
 </tr>
@@ -326,49 +256,35 @@ Download Results
 
 Change Task Status
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -377,49 +293,35 @@ Change Task Status
 
 Process
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -428,49 +330,35 @@ Process
 
 Schedule
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -479,49 +367,35 @@ Schedule
 
 Cancel Run
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -530,49 +404,35 @@ Cancel Run
 
 Start Test Run
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -581,49 +441,35 @@ Start Test Run
 
 Cancel Test Run
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -632,49 +478,35 @@ Cancel Test Run
 
 Edit Attachments / Notes
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
-
-
 
 </td>
 </tr>
@@ -683,49 +515,35 @@ Edit Attachments / Notes
 
 Change Planned Start
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -734,49 +552,35 @@ Change Planned Start
 
 Change Planned Duration
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -785,49 +589,35 @@ Change Planned Duration
 
 Recalculate Paths
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X` \(through task list authorization of authorization groups\)
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -836,49 +626,35 @@ Recalculate Paths
 
 Change Parameters
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -887,49 +663,35 @@ Change Parameters
 
 Change User Assignments
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -938,49 +700,35 @@ Change User Assignments
 
 Approve
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
-
-
 
 </td>
 </tr>
@@ -989,49 +737,72 @@ Approve
 
 Reject
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+Read Corresponding Change Log Entries
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 </tr>

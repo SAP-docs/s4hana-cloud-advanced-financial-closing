@@ -2,7 +2,7 @@
 
 # How to Upgrade from an SAP ERP System to SAP S/4HANA
 
-If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.
+If you have already used SAP Advanced Financial Closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.
 
 
 
@@ -34,7 +34,7 @@ If you have already used advanced financial closing in connection with your SAP 
 
 1.  Update the destination in your SAP BTP cockpit: Under *URL* in the destination configuration, enter the back-end URL of the communication system that you've received from the SAP S/4HANA system administrator.
 
-2.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
+2.  In SAP Advanced Financial Closing, go to the *Specify Communication Systems* app.
 
 3.  Update the *UI Domain*:
 
@@ -84,9 +84,9 @@ If you have already used advanced financial closing in connection with your SAP 
     > For systems that have an SAP Fiori launchpad , you can check whether the UI domain, UI endpoint, and possibly UI parameters are correct and lead to the correct URL. Choose *Check UI Settings*. If the settings are correct, you're directed to the SAP Fiori launchpad of your communication system.
 
 
-**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
 **Next:**[How to Connect to SAP S/4HANA as a Communication System](how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md "Connect to SAP S/4HANA as your financial communication system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Previous:**[How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-a3b374a.md "Configure your local settings for better use with advanced financial closing.")
+**Previous:**[How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-a3b374a.md "Configure your local settings for better use with SAP Advanced Financial Closing.")
 

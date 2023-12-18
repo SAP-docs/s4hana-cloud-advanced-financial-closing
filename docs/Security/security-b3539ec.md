@@ -2,7 +2,7 @@
 
 # Security
 
-Find information about the security features of advanced financial closing.
+Find information about the security features of SAP Advanced Financial Closing.
 
 For more information about security on SAP BTP, see the SAP BTP documentation under [Security](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e129aa20c78c4a9fb379b9803b02e5f6.html).
 
@@ -16,6 +16,6 @@ Authorization handling during communication with an on-premise system.
 
 -   **[Data Storage Security](data-storage-security-a086d19.md "")**  
 
--   **[Data Used for SCIM API](data-used-for-scim-api-62f0a49.md "Security considerations for data relevant for the use of the SCIM API.")**  
-Security considerations for data relevant for the use of the SCIM API.
+-   **[Data Used for API Integrations](data-used-for-api-integrations-62f0a49.md "Security considerations for data relevant for the use of the APIs.")**  
+Security considerations for data relevant for the use of the APIs.
 

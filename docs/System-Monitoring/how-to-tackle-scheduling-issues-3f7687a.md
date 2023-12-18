@@ -17,7 +17,7 @@ Your user must have a role collection assigned that includes one of the followin
 -   `AFC_SystemAdmin`
 
 
-For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 
@@ -53,15 +53,11 @@ The scheduling queue information reflects the status of the scheduling queue of 
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -69,15 +65,11 @@ The scheduling queue information reflects the status of the scheduling queue of 
     <td valign="top">
     
     *Status*
-
-
     
     </td>
     <td valign="top">
     
     The status is displayed only when a connection issue has caused the scheduling to be deactivated for the moment. The status is then *Paused*.
-
-
     
     </td>
     </tr>
@@ -85,15 +77,11 @@ The scheduling queue information reflects the status of the scheduling queue of 
     <td valign="top">
     
     *In Preparation*
-
-
     
     </td>
     <td valign="top">
     
     Shows the number of task executions that are currently being worked on and that are yet to be scheduled.
-
-
     
     </td>
     </tr>
@@ -101,8 +89,6 @@ The scheduling queue information reflects the status of the scheduling queue of 
     <td valign="top">
     
     *Overdue*
-
-
     
     </td>
     <td valign="top">

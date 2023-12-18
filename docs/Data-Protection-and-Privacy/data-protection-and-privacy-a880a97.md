@@ -2,7 +2,7 @@
 
 # Data Protection and Privacy
 
-Learn about data protection and privacy in SAP S/4HANA Cloud for advanced financial closing.
+Learn about data protection and privacy in SAP Advanced Financial Closing.
 
 Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries. SAP provides specific features and functions to support compliance with regard to relevant legal requirements, including data protection, which are documented in these templates along with the assumptions that have been guiding the implementation in the software. By nature of legal requirements the conclusion whether these features are covering customer specific demands as well as the conclusion whether additional measures have to be taken is solely with the customer.
 
@@ -18,7 +18,7 @@ Data protection is associated with numerous legal requirements and privacy conce
 
 ## Which Data Is Processed?
 
-SAP S/4HANA Cloud for advanced financial closing stores task schedules needed to perform a financial close. This includes that SAP S/4HANA Cloud for advanced financial closing replicates a limited part of the organizational structure of the affected organization as needed for the scheduling of tasks. In addition, user metadata is processed, for example, roles, authorizations, and last changes to tasks or configurations. At no time does SAP S/4HANA Cloud for advanced financial closing read or store transactional financial data.
+SAP Advanced Financial Closing stores task schedules needed to perform a financial close. This includes that SAP Advanced Financial Closing replicates a limited part of the organizational structure of the affected organization as needed for the scheduling of tasks. In addition, user metadata is processed, for example, roles, authorizations, and last changes to tasks or configurations. At no time does SAP Advanced Financial Closing read or store transactional financial data.
 
 -   **[Glossary](glossary-913b77c.md "")**  
 

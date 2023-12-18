@@ -23,13 +23,13 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
 -   To connect to your SAP ERP system, you need to have installed and configured the Cloud Connector. For more information, see [How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-3d19a8a.md).
 
--   To connect to your SAP ERP system, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing. For more information, see [How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md).
+-   To connect to your SAP ERP system, you require the SAP ERP connector for SAP Advanced Financial Closing. For more information, see [How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md).
 
 -   The SAP ERP system administrator needs to have provided you with the following information:
 
     -   Back-end URL for the communication system
 
-    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing documentation. For more information, see [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
+    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP Advanced Financial Closing documentation. For more information, see [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
 
 
 -   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md).
@@ -41,7 +41,7 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
 ## Procedure
 
-1.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
+1.  In SAP Advanced Financial Closing, go to the *Specify Communication Systems* app.
 
 2.  Choose *Create* in the table toolbar.
 
@@ -53,15 +53,11 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -69,15 +65,11 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Enter a name for the communication system.
-
-
     
     </td>
     </tr>
@@ -85,15 +77,11 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <td valign="top">
     
     *Name of Destination Configuration*
-
-
     
     </td>
     <td valign="top">
     
     Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
-
-
     
     </td>
     </tr>
@@ -101,8 +89,6 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <td valign="top">
     
     *UI Domain*
-
-
     
     </td>
     <td valign="top">
@@ -119,8 +105,6 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     > Then the UI domain is as follows: `https://mylaunchpad.mycompany.corp`
 
     The UI domain is therefore the first part of the URL of the communication system.
-
-
     
     </td>
     </tr>
@@ -128,8 +112,6 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <td valign="top">
     
     *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
-
-
     
     </td>
     <td valign="top">
@@ -153,8 +135,6 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     > -   Entry can't end with /
 
     The UI endpoint is later added to the URL of the communication system after the UI domain.
-
-
     
     </td>
     </tr>
@@ -162,8 +142,6 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <td valign="top">
     
     *UI Parameters* \(optional\)
-
-
     
     </td>
     <td valign="top">
@@ -180,8 +158,6 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     Enter only the parameters in the format shown in the example without any additional characters. If you want to add more than one parameter, add an ampersand \(&\) between them.
 
     The UI parameters are later added to the URL of the communication system after the UI endpoint.
-
-
     
     </td>
     </tr>
@@ -189,8 +165,6 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     <td valign="top">
     
     *Is Production System*
-
-
     
     </td>
     <td valign="top">
@@ -242,9 +216,9 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     > 
     >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Monitoring-and-Troubleshooting/error-handling-e5eb3d8.md).
 
-5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
+5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
 
-6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from advanced financial closing as part of SAP S/4HANA Cloud.
+6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud.
 
     For more information about the migration, refer to the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
 
@@ -255,7 +229,7 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
 ## Results
 
-During daily synchronization between the communication system and advanced financial closing, your business configuration data and master data are synchronized. For more information about the synchronization and validation of data, see [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
+During daily synchronization between the communication system and SAP Advanced Financial Closing, your business configuration data and master data are synchronized. For more information about the synchronization and validation of data, see [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
 
 
 
@@ -267,7 +241,7 @@ You have two options for the initial data synchronization with the communication
 
 1.  **Daily synchronization:**
 
-    SAP S/4HANA Cloud for advanced financial closing checks automatically for changes in the connected communication system once every day, except if synchronization has been paused due to connection issues. For more information, see [Monitor Communication Systems](../monitor-communication-systems-a215069.md).
+    SAP Advanced Financial Closing checks automatically for changes in the connected communication system once every day, except if synchronization has been paused due to connection issues. For more information, see [Monitor Communication Systems](../System-Monitoring/monitor-communication-systems-a215069.md).
 
     > ### Recommendation:  
     > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
@@ -281,13 +255,13 @@ You have two options for the initial data synchronization with the communication
 
 
 > ### Note:  
-> Synchronization always uses the active state of the communication system entry in advanced financial closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
+> Synchronization always uses the active state of the communication system entry in SAP Advanced Financial Closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
 
-**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
 **Next:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
 
-**Previous:**[How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-38f2e79.md "Configure your local settings for better use with advanced financial closing.")
+**Previous:**[How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-38f2e79.md "Configure your local settings for better use with SAP Advanced Financial Closing.")
 
 **Related Information**  
 

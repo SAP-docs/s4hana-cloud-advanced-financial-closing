@@ -15,14 +15,10 @@ The following terms are general to SAP products. Not all terms may be relevant f
 
 Term
 
-
-
 </th>
 <th valign="top">
 
 Definition
-
-
 
 </th>
 </tr>
@@ -31,14 +27,10 @@ Definition
 
 **Artificial Intelligence \(AI\)** 
 
-
-
 </td>
 <td valign="top">
 
 The simulation of human intelligence processes by machines and computer systems – typically by learning, coming to its own conclusions, appearing to understand complex content, engaging in natural dialogs with people, enhancing human cognitive performance \(also known as cognitive computing\) or replacing people on execution of nonroutine tasks. Applications include autonomous vehicles, automatic speech recognition and generation and detecting novel concepts and abstractions \(useful for detecting potential new risks and aiding humans to quickly understand very large bodies of ever-changing information\)
-
-
 
 </td>
 </tr>
@@ -47,14 +39,10 @@ The simulation of human intelligence processes by machines and computer systems 
 
 **Automated Decision Making**
 
-
-
 </td>
 <td valign="top">
 
 The ability to make decisions by technological means without human involvement.
-
-
 
 </td>
 </tr>
@@ -63,14 +51,10 @@ The ability to make decisions by technological means without human involvement.
 
 **Blocking**
 
-
-
 </td>
 <td valign="top">
 
 A method of restricting access to data for which the primary business purpose has ended.
-
-
 
 </td>
 </tr>
@@ -79,14 +63,10 @@ A method of restricting access to data for which the primary business purpose ha
 
 **Business Purpose** 
 
-
-
 </td>
 <td valign="top">
 
 The legal, contractual, or in other form justified reason for the processing of personal data to complete an end-to-end business process. The personal data used to complete the process is predefined in a purpose, which is defined by the data controller. The process must be defined before the personal data required to fulfill the purpose can be determined.
-
-
 
 </td>
 </tr>
@@ -95,14 +75,10 @@ The legal, contractual, or in other form justified reason for the processing of 
 
 **Consent** 
 
-
-
 </td>
 <td valign="top">
 
 The action of the data subject confirming that the usage of his or her personal data shall be allowed for a given purpose. A consent functionality allows the storage of a consent record in relation to a specific purpose and shows if a data subject has granted, withdrawn, or denied consent.
-
-
 
 </td>
 </tr>
@@ -111,14 +87,10 @@ The action of the data subject confirming that the usage of his or her personal 
 
 **Data Subject** 
 
-
-
 </td>
 <td valign="top">
 
 Any information relating to an identified or identifiable natural person \("data subject"\). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
-
-
 
 </td>
 </tr>
@@ -127,14 +99,10 @@ Any information relating to an identified or identifiable natural person \("data
 
 **Deletion** 
 
-
-
 </td>
 <td valign="top">
 
 Deletion of **personal data** so that the data is no longer available.
-
-
 
 </td>
 </tr>
@@ -143,14 +111,10 @@ Deletion of **personal data** so that the data is no longer available.
 
 **End of Business** 
 
-
-
 </td>
 <td valign="top">
 
 Defines the end of active business and the start of residence time and retention period.
-
-
 
 </td>
 </tr>
@@ -159,14 +123,10 @@ Defines the end of active business and the start of residence time and retention
 
 **End of Purpose \(EoP\)** 
 
-
-
 </td>
 <td valign="top">
 
 The point in time when the processing of a set of personal data is no longer required for the primary business purpose, for example, when a contract is fulfilled. After the EoP has been reached, the data is blocked and can only be accessed by users with special authorizations \(for example, tax auditors\).
-
-
 
 </td>
 </tr>
@@ -175,14 +135,10 @@ The point in time when the processing of a set of personal data is no longer req
 
 **End of Purpose \(EoP\) check** 
 
-
-
 </td>
 <td valign="top">
 
 A method of identifying the point in time for a data set when the processing of **personal data** is no longer required for the primary **business purpose**. After the **EoP** has been reached, the data is **blocked** and can only be accessed by users with special authorization, for example, tax auditors.
-
-
 
 </td>
 </tr>
@@ -191,14 +147,10 @@ A method of identifying the point in time for a data set when the processing of 
 
 **Personal data** 
 
-
-
 </td>
 <td valign="top">
 
 Any information relating to an identified or identifiable natural person \("data subject"\). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
-
-
 
 </td>
 </tr>
@@ -207,14 +159,10 @@ Any information relating to an identified or identifiable natural person \("data
 
 Processing of Personal Data
 
-
-
 </td>
 <td valign="top">
 
 Processing means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
-
-
 
 </td>
 </tr>
@@ -223,14 +171,10 @@ Processing means any operation or set of operations which is performed on person
 
 **Purpose**
 
-
-
 </td>
 <td valign="top">
 
 The information that specifies the reason and the goal for the processing of a specific set of personal data. As a rule, the purpose references the relevant legal basis for the processing of personal data.
-
-
 
 </td>
 </tr>
@@ -239,14 +183,10 @@ The information that specifies the reason and the goal for the processing of a s
 
 **Residence period** 
 
-
-
 </td>
 <td valign="top">
 
 The period of time between the end of business and the end of purpose \(EoP\) for a data set during which the data remains in the database and can be used in case of subsequent processes related to the original purpose. At the end of the longest configured residence period, the data is blocked or deleted. The residence period is part of the overall retention period.
-
-
 
 </td>
 </tr>
@@ -255,14 +195,10 @@ The period of time between the end of business and the end of purpose \(EoP\) fo
 
 **Retention period** 
 
-
-
 </td>
 <td valign="top">
 
 The period of time between the end of the last business activity involving a specific object \(for example, a business partner\) and the deletion of the corresponding data, subject to applicable laws. The retention period is a combination of the residence period and the blocking period.
-
-
 
 </td>
 </tr>
@@ -270,8 +206,6 @@ The period of time between the end of the last business activity involving a spe
 <td valign="top">
 
 **Sensitive personal data** 
-
-
 
 </td>
 <td valign="top">
@@ -291,8 +225,6 @@ A category of personal data that usually includes the following type of informat
 <td valign="top">
 
 Technical and organizational measures \(TOM\)
-
-
 
 </td>
 <td valign="top">

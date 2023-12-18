@@ -2,15 +2,15 @@
 
 # Offboarding
 
-Request the deletion of your SAP S/4HANA Cloud for advanced financial closing tenant.
+Request the deletion of your SAP Advanced Financial Closing tenant.
 
 
 
 ## Context
 
-If you want to delete your SAP S/4HANA Cloud for advanced financial closing tenant and your data, you need to create an incident to request the deletion. However, be aware that as a precaution against accidental deletion, the deletion process is blocked for a grace period of 60 days after you have requested the deletion.
+If you want to delete your SAP Advanced Financial Closing tenant and your data, you need to create an incident to request the deletion. However, be aware that as a precaution against accidental deletion, the deletion process is blocked for a grace period of 60 days after you have requested the deletion.
 
-The deletion of your tenant and your data in SAP S/4HANA Cloud for advanced financial closing covers the deletion of **all** of the following:
+The deletion of your tenant and your data in SAP Advanced Financial Closing covers the deletion of **all** of the following:
 
 -   Task list templates and task lists
 
@@ -51,5 +51,5 @@ If you wish to delete your tenant and your data, perform the following steps:
 
 ## Results
 
-Once the deletion process is completed, your tenant has been offboarded and all your data in SAP S/4HANA Cloud for advanced financial closing has been deleted. A resubscription to the same tenant isn't possible anymore.
+Once the deletion process is completed, your tenant has been offboarded and all your data in SAP Advanced Financial Closing has been deleted. A resubscription to the same tenant isn't possible anymore.
 

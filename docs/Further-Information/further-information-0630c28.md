@@ -2,7 +2,7 @@
 
 # Further Information
 
-Find further information about advanced financial closing within the following resources.
+Find further information about SAP Advanced Financial Closing within the following resources.
 
 
 <table>
@@ -11,14 +11,10 @@ Find further information about advanced financial closing within the following r
 
 Content
 
-
-
 </th>
 <th valign="top">
 
 Location
-
-
 
 </th>
 </tr>
@@ -27,14 +23,10 @@ Location
 
 Feature Scope Description
 
-
-
 </td>
 <td valign="top" rowspan="3">
 
 [https://help.sap.com/docs/AFC](https://help.sap.com/docs/AFC)
-
-
 
 </td>
 </tr>
@@ -43,16 +35,12 @@ Feature Scope Description
 
 What's New
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 User Guide
-
-
 
 </td>
 </tr>

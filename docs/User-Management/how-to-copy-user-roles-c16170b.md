@@ -69,14 +69,10 @@ You can edit the information of the copied role the same way as for other user r
     > 
     > Field
     > 
-    > 
-    > 
     > </th>
     > <th valign="top">
     > 
     > Default Value
-    > 
-    > 
     > 
     > </th>
     > </tr>
@@ -85,14 +81,10 @@ You can edit the information of the copied role the same way as for other user r
     > 
     > *Name*
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > Name of the original user role with the suffix *\- Copy* added
-    > 
-    > 
     > 
     > </td>
     > </tr>
@@ -101,14 +93,10 @@ You can edit the information of the copied role the same way as for other user r
     > 
     > *Description*
     > 
-    > 
-    > 
     > </td>
     > <td valign="top">
     > 
     > Description of the original user role
-    > 
-    > 
     > 
     > </td>
     > </tr>

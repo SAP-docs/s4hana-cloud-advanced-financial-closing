@@ -2,7 +2,7 @@
 
 # How to Manage Users
 
-Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.
+Upload new users to SAP Advanced Financial Closing and update certain user attributes.
 
 
 
@@ -37,13 +37,13 @@ Upload new users to SAP S/4HANA Cloud for advanced financial closing and update 
 
 ## Context
 
-Users who are maintained in the IdP are able to sign in to SAP S/4HANA Cloud for advanced financial closing without any additional setting. They can access the apps according to the static role templates that are assigned to them.
+Users who are maintained in the IdP are able to sign in to SAP Advanced Financial Closing without any additional setting. They can access the apps according to the static role templates that are assigned to them.
 
-In addition, you can upload users manually to advanced financial closing in advance so that you can assign user roles to them and enter them as users responsible or processing users, for example. For all user attributes that are maintained in the IdP, you have to do this only once. If certain user attributes aren't maintained in your IdP, you can use the upload function to keep these attributes up to date. In the *Manage Users* app, you can see all users available in advanced financial closing, independently of whether they were uploaded or created through their first sign-in.
+In addition, you can upload users manually to SAP Advanced Financial Closing in advance so that you can assign user roles to them and enter them as users responsible or processing users, for example. For all user attributes that are maintained in the IdP, you have to do this only once. If certain user attributes aren't maintained in your IdP, you can use the upload function to keep these attributes up to date. In the *Manage Users* app, you can see all users available in SAP Advanced Financial Closing, independently of whether they were uploaded or created through their first sign-in.
 
-You **must maintain** the user attributes `logonName`, `givenName`, `familyName`, and `email` in the IdP. In advanced financial closing, you can only maintain these attributes via the initial user upload or until the users have signed in for the first time. You can't use the upload to update these attributes.
+You **must maintain** the user attributes `logonName`, `givenName`, `familyName`, and `email` in the IdP. In SAP Advanced Financial Closing, you can only maintain these attributes via the initial user upload or until the users have signed in for the first time. You can't use the upload to update these attributes.
 
-You **can** maintain the following user attributes in the IdP and have to map them to the corresponding user attributes in advanced financial closing. Alternatively, you can maintain these attributes by uploading users manually.
+You **can** maintain the following user attributes in the IdP and have to map them to the corresponding user attributes in SAP Advanced Financial Closing. Alternatively, you can maintain these attributes by uploading users manually.
 
 **User Attributes**
 
@@ -54,14 +54,10 @@ You **can** maintain the following user attributes in the IdP and have to map th
 
 Identity Provider
 
-
-
 </th>
 <th valign="top">
 
-Advanced Financial Closing
-
-
+SAP Advanced Financial Closing
 
 </th>
 </tr>
@@ -70,14 +66,10 @@ Advanced Financial Closing
 
 `Address`
 
-
-
 </td>
 <td valign="top">
 
 `address`
-
-
 
 </td>
 </tr>
@@ -86,14 +78,10 @@ Advanced Financial Closing
 
 `Phone`
 
-
-
 </td>
 <td valign="top">
 
 `phone`
-
-
 
 </td>
 </tr>
@@ -102,14 +90,10 @@ Advanced Financial Closing
 
 `Mobile`
 
-
-
 </td>
 <td valign="top">
 
 `mobile`
-
-
 
 </td>
 </tr>
@@ -118,14 +102,10 @@ Advanced Financial Closing
 
 `Fax`
 
-
-
 </td>
 <td valign="top">
 
 `fax`
-
-
 
 </td>
 </tr>
@@ -134,14 +114,10 @@ Advanced Financial Closing
 
 `Department`
 
-
-
 </td>
 <td valign="top">
 
 `department`
-
-
 
 </td>
 </tr>
@@ -150,14 +126,10 @@ Advanced Financial Closing
 
 `Function`
 
-
-
 </td>
 <td valign="top">
 
 `function`
-
-
 
 </td>
 </tr>
@@ -166,21 +138,17 @@ Advanced Financial Closing
 
 `Division`
 
-
-
 </td>
 <td valign="top">
 
 `function` \(if function is empty\)
-
-
 
 </td>
 </tr>
 </table>
 
 > ### Note:  
-> The information provided by the IdP always takes precedence. User attributes from the IdP overwrite the information stored in advanced financial closing when the users sign in to the app.
+> The information provided by the IdP always takes precedence. User attributes from the IdP overwrite the information stored in SAP Advanced Financial Closing when the users sign in to the app.
 
 > ### Caution:  
 > Make sure that the user attribute `email` isn't empty and is always maintained correctly. The following features can't be used if the email isn't entered correctly because they rely on the email address to find the respective user in the connected financial communication systems:
@@ -243,9 +211,9 @@ The users are uploaded with source *CSV Upload*. Once the respective users have 
 -   **[User Statuses](user-statuses-f476237.md "Learn which statuses and status changes are possible for users.")**  
 Learn which statuses and status changes are possible for users.
 
-**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
+**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.")
 
 **Next:**[How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")
 
-**Previous:**[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+**Previous:**[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.")
 

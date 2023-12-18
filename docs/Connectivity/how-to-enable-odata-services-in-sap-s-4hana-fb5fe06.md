@@ -2,7 +2,7 @@
 
 # How to Enable OData Services in SAP S/4HANA
 
-Enable OData services to be able to connect SAP S/4HANA to SAP S/4HANA Cloud for advanced financial closing.
+Enable OData services to be able to connect SAP S/4HANA to SAP Advanced Financial Closing.
 
 
 
@@ -77,9 +77,9 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
 ## Next Steps
 
-Provide the system administrator of advanced financial closing with the URL you've just copied when you called up the browser.
+Provide the system administrator of SAP Advanced Financial Closing with the URL you've just copied when you called up the browser.
 
-**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
 **Previous:**[How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as additional software.")
 

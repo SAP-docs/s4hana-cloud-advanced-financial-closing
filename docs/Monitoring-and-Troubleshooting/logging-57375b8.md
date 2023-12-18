@@ -34,14 +34,10 @@ Change logs are available for the following apps:
 
 App
 
-
-
 </th>
 <th valign="top">
 
 Logged Changes
-
-
 
 </th>
 </tr>
@@ -49,8 +45,6 @@ Logged Changes
 <td valign="top">
 
 *Manage Users*
-
-
 
 </td>
 <td valign="top">
@@ -68,8 +62,6 @@ Logged Changes
 <td valign="top">
 
 *Manage User Role Assignments*
-
-
 
 </td>
 <td valign="top">
@@ -134,14 +126,10 @@ The following events are logged in the *Monitor Business Logs* app:
 
 Logging Categories
 
-
-
 </th>
 <th valign="top">
 
 What Is Being Logged?
-
-
 
 </th>
 </tr>
@@ -149,8 +137,6 @@ What Is Being Logged?
 <td valign="top">
 
 Business configuration synchronization
-
-
 
 </td>
 <td valign="top">
@@ -168,8 +154,6 @@ Business configuration synchronization
 <td valign="top">
 
 Gateway feature synchronization
-
-
 
 </td>
 <td valign="top">
@@ -190,8 +174,6 @@ Gateway feature synchronization
 
 Master data synchronization
 
-
-
 </td>
 <td valign="top">
 
@@ -209,8 +191,6 @@ Master data synchronization
 
 Related to communication system
 
-
-
 </td>
 <td valign="top">
 
@@ -225,8 +205,6 @@ Related to communication system
 <td valign="top">
 
 Related to task processing
-
-
 
 </td>
 <td valign="top">
@@ -243,5 +221,5 @@ Related to task processing
 </table>
 
 > ### Note:  
-> Your user needs the correct role assignment as stated under [Static Roles for Advanced Financial Closing](../User-Management/static-roles-for-advanced-financial-closing-b92a241.md).
+> Your user needs the correct role assignment as stated under [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 

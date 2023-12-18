@@ -38,7 +38,7 @@ For more information about how to create roles and how to bundle them in role co
 
 ## Procedure
 
-1.  Familiarize yourself with the available role templates that are described under [Static Roles for Advanced Financial Closing](static-roles-for-advanced-financial-closing-b92a241.md).
+1.  Familiarize yourself with the available role templates that are described under [Static Roles for SAP Advanced Financial Closing](static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 2.  Additionally, decide whether you want to use the available composite role templates.
 
@@ -48,15 +48,11 @@ For more information about how to create roles and how to bundle them in role co
     <th valign="top">
 
     Role Template
-
-
     
     </th>
     <th valign="top">
 
     Included Role Templates
-
-
     
     </th>
     </tr>
@@ -64,8 +60,6 @@ For more information about how to create roles and how to bundle them in role co
     <td valign="top">
     
     `AFC_Expert`
-
-
     
     </td>
     <td valign="top">
@@ -81,8 +75,6 @@ For more information about how to create roles and how to bundle them in role co
     <td valign="top">
     
     `AFC_Manager`
-
-
     
     </td>
     <td valign="top">
@@ -97,7 +89,7 @@ For more information about how to create roles and how to bundle them in role co
     </tr>
     </table>
     
-3.  Create role collections from the role templates provided by advanced financial closing. Follow the steps under [Maintain Role Collections](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d5f1612d8230448bb6c02a7d9c8ac0d1.html).
+3.  Create role collections from the role templates provided by SAP Advanced Financial Closing. Follow the steps under [Maintain Role Collections](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d5f1612d8230448bb6c02a7d9c8ac0d1.html).
 
     > ### Caution:  
     > To ensure a separation of concerns, you might want to avoid combining the role templates `AFC_Define` and `AFC_Process` into one role collection.
@@ -110,16 +102,16 @@ For more information about how to create roles and how to bundle them in role co
 5.  Add roles to role collections. Follow the steps under [Add Roles to Role Collections on the Application Level](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7596a0bdab4649ac8a6f6721dc72db19.html).
 
 
--   **[Static Roles for Advanced Financial Closing](static-roles-for-advanced-financial-closing-b92a241.md "Static roles enable users to see the affected apps on their SAP Fiori
+-   **[Static Roles for SAP Advanced Financial Closing](static-roles-for-sap-advanced-financial-closing-b92a241.md "Static roles enable users to see the affected apps on their SAP Fiori
 		launchpad.")**  
 Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
-**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
+**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.")
 
-**Previous:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
+**Previous:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP Advanced Financial Closing and update certain user attributes.")
 
 **Related Information**  
 
 
-[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.")
 

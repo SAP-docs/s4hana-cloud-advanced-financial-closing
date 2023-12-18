@@ -85,15 +85,11 @@ You can grant access that applies to all objects within the scope, independently
     <th valign="top">
 
     Authorization
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -101,15 +97,11 @@ You can grant access that applies to all objects within the scope, independently
     <td valign="top">
     
     *Read*
-
-
     
     </td>
     <td valign="top">
     
     Read authorization within the scope of this user role. This is the minimum authorization, and it's included in all others.
-
-
     
     </td>
     </tr>
@@ -117,8 +109,6 @@ You can grant access that applies to all objects within the scope, independently
     <td valign="top">
     
     *Create*
-
-
     
     </td>
     <td valign="top">
@@ -126,8 +116,6 @@ You can grant access that applies to all objects within the scope, independently
     Authorization to create and copy task list templates. This authorization always includes *Read* authorization.
 
     This authorization can't be assigned to restricted user roles.
-
-
     
     </td>
     </tr>
@@ -135,15 +123,11 @@ You can grant access that applies to all objects within the scope, independently
     <td valign="top">
     
     *Write*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to edit and delete task list templates and task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
-
-
     
     </td>
     </tr>
@@ -151,15 +135,11 @@ You can grant access that applies to all objects within the scope, independently
     <td valign="top">
     
     *Generate*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to generate task lists and change the status of task lists. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -167,15 +147,11 @@ You can grant access that applies to all objects within the scope, independently
     <td valign="top">
     
     *User Assignment*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to change processing users or user groups, and users responsible or responsible user groups within the scope of this user role. This authorization allows changes **only through quick actions**. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>

@@ -10,7 +10,7 @@ Create a technical communication user for your SAP S/4HANA system.
 
 ## Context
 
-You need to create a technical communication user with specific authorizations to enable the connection between advanced financial closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
+You need to create a technical communication user with specific authorizations to enable the connection between SAP Advanced Financial Closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
 
 
 
@@ -32,7 +32,7 @@ Create a technical communication user for your gateway and business back end.
 		ends.")**  
 Create technical communication users for your separate gateway and business back ends.
 
-**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
 **Next:**[How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-4cf0fb0.md "If you want to connect to SAP S/4HANA, you need to install and configure the Cloud Connector as additional software.")
 

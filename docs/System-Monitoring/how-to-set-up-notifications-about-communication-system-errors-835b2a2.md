@@ -10,9 +10,9 @@ Maintain settings for notifications about communication system errors.
 
 ## Prerequisites
 
--   You've established a connection between advanced financial closing and the communication system for which you want to set up notifications.
+-   You've established a connection between SAP Advanced Financial Closing and the communication system for which you want to set up notifications.
 
-    For information about how to set up the connection, see [Connectivity](Connectivity/connectivity-200deae.md).
+    For information about how to set up the connection, see [Connectivity](../Connectivity/connectivity-200deae.md).
 
 -   Your user must have a role collection assigned that includes one of the following role templates:
 
@@ -26,7 +26,7 @@ Maintain settings for notifications about communication system errors.
 
 ## Context
 
-To stay on top of any issues that may occur with the connection between your communication system and advanced financial closing, you can define who should receive notifications if issues are detected.
+To stay on top of any issues that may occur with the connection between your communication system and SAP Advanced Financial Closing, you can define who should receive notifications if issues are detected.
 
 Notifications can be sent for the following cases:
 
@@ -64,15 +64,11 @@ Notifications can be sent for the following cases:
         <th valign="top">
 
         Scenario
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -80,8 +76,6 @@ Notifications can be sent for the following cases:
         <td valign="top">
         
         *Connection Error*
-
-
         
         </td>
         <td valign="top">
@@ -89,8 +83,6 @@ Notifications can be sent for the following cases:
         Users who are selected as recipients receive notifications for connection errors only.
 
         A notification for this error is sent within 20 minutes after an issue was detected.
-
-
         
         </td>
         </tr>
@@ -98,15 +90,11 @@ Notifications can be sent for the following cases:
         <td valign="top">
         
         *Master Data Synchronization Error*
-
-
         
         </td>
         <td valign="top">
         
         Users who are selected as recipients receive notifications for master data synchronization errors only.
-
-
         
         </td>
         </tr>
@@ -114,15 +102,11 @@ Notifications can be sent for the following cases:
         <td valign="top">
         
         *All Errors*
-
-
         
         </td>
         <td valign="top">
         
         Users who are selected as recipients receive notifications for all scenarios available.
-
-
         
         </td>
         </tr>

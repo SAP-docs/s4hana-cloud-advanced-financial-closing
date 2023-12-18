@@ -1,8 +1,8 @@
 <!-- loio51b6705400504ef1b9faa22e24995f91 -->
 
-# Migration from Advanced Financial Closing as Part of SAP S/4HANA Cloud \(Optional\)
+# Migration from SAP Advanced Financial Closing as Part of SAP S/4HANA Cloud \(Optional\)
 
-Migrate your data from advanced financial closing as part of SAP S/4HANA Cloud to the SAP BTP solution.
+Migrate your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud to the SAP BTP solution.
 
 
 
@@ -10,7 +10,7 @@ Migrate your data from advanced financial closing as part of SAP S/4HANA Cloud t
 
 ## Context
 
-You've already used SAP S/4HANA Cloud for advanced financial closing as part of **SAP S/4HANA Cloud**, and you now want to migrate your data to SAP S/4HANA Cloud for advanced financial closing on the **SAP Business Technology Platform \(SAP BTP\)**.
+You've already used SAP S/4HANA Cloud for advanced financial closing as part of **SAP S/4HANA Cloud**, and you now want to migrate your data to SAP Advanced Financial Closing on the **SAP Business Technology Platform \(SAP BTP\)**.
 
 
 

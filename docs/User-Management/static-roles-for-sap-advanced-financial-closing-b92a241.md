@@ -1,6 +1,6 @@
 <!-- loiob92a2411e4164270964903c502e22340 -->
 
-# Static Roles for Advanced Financial Closing
+# Static Roles for SAP Advanced Financial Closing
 
 Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
@@ -22,35 +22,25 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 Role Template
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Tiles on SAP Fiori Launchpad
 
-
-
 </th>
 <th valign="top">
 
 Display-Only Role Template
 
-
-
 </th>
 <th valign="top">
 
 Description for Display-Only Role
-
-
 
 </th>
 </tr>
@@ -58,8 +48,6 @@ Description for Display-Only Role
 <td valign="top">
 
 `AFC_SystemAdmin` 
-
-
 
 </td>
 <td valign="top">
@@ -97,14 +85,10 @@ System administration:
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -113,14 +97,10 @@ System administration:
 
 `AFC_SpecifySystemsApp` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains connections to financial communication systems
-
-
 
 </td>
 <td valign="top">
@@ -133,8 +113,6 @@ Maintains connections to financial communication systems
 <td valign="top">
 
 `AFC_SpecifySystemsApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -159,8 +137,6 @@ Maintains connections to financial communication systems
 
 `AFC_MonitorSystemsApp` 
 
-
-
 </td>
 <td valign="top">
 
@@ -173,8 +149,6 @@ Maintains connections to financial communication systems
 
 To be able to view synchronization logs, a user additionally requires role template `Business_Process_Specialist_BL_AccessAll`.
 
-
-
 </td>
 <td valign="top">
 
@@ -186,8 +160,6 @@ To be able to view synchronization logs, a user additionally requires role templ
 <td valign="top">
 
 `AFC_MonitorSystemsApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -208,14 +180,10 @@ To be able to view synchronization logs, a user additionally requires role templ
 
 `AFC_Migration` 
 
-
-
 </td>
 <td valign="top">
 
-Migrates data if a migration from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud to the SAP BTP solution takes place.
-
-
+Migrates data if a migration from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud to the SAP BTP solution takes place.
 
 </td>
 <td valign="top">
@@ -230,14 +198,10 @@ Migrates data if a migration from SAP S/4HANA Cloud for advanced financial closi
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -246,14 +210,10 @@ Migrates data if a migration from SAP S/4HANA Cloud for advanced financial closi
 
 `AFC_Compliance` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains general compliance settings
-
-
 
 </td>
 <td valign="top">
@@ -266,8 +226,6 @@ Maintains general compliance settings
 <td valign="top">
 
 `AFC_Compliance_Display`
-
-
 
 </td>
 <td valign="top">
@@ -287,8 +245,6 @@ Maintains general compliance settings
 <td valign="top">
 
 `AFC_UserAdmin` 
-
-
 
 </td>
 <td valign="top">
@@ -314,14 +270,10 @@ Maintains general compliance settings
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -330,35 +282,25 @@ Maintains general compliance settings
 
 `AFC_API_Access` 
 
-
-
 </td>
 <td valign="top">
 
 Uses the UI to access API information and documentation
-
-
 
 </td>
 <td valign="top">
 
 *Public API*
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -367,14 +309,10 @@ Uses the UI to access API information and documentation
 
 `AFC_Config` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains application-specific data, for example, configuration settings, or master data
-
-
 
 </td>
 <td valign="top">
@@ -392,14 +330,10 @@ Maintains application-specific data, for example, configuration settings, or mas
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -408,14 +342,10 @@ Maintains application-specific data, for example, configuration settings, or mas
 
 `AFC_Settings` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains application-specific settings, such as notifications and country/region groups
-
-
 
 </td>
 <td valign="top">
@@ -430,14 +360,10 @@ Maintains application-specific settings, such as notifications and country/regio
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -446,14 +372,10 @@ Maintains application-specific settings, such as notifications and country/regio
 
 `AFC_UserRoles` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains user roles and authorization groups
-
-
 
 </td>
 <td valign="top">
@@ -468,14 +390,10 @@ Maintains user roles and authorization groups
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -484,14 +402,10 @@ Maintains user roles and authorization groups
 
 `AFC_AuthGroupsApp` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains authorization groups
-
-
 
 </td>
 <td valign="top">
@@ -504,8 +418,6 @@ Maintains authorization groups
 <td valign="top">
 
 `AFC_AuthGroupsApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -526,14 +438,10 @@ Maintains authorization groups
 
 `AFC_CountryGroupsApp` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains country/region groups
-
-
 
 </td>
 <td valign="top">
@@ -546,8 +454,6 @@ Maintains country/region groups
 <td valign="top">
 
 `AFC_CountryGroupsApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -568,14 +474,10 @@ Maintains country/region groups
 
 `AFC_NotificationsApp` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains email notification configurations
-
-
 
 </td>
 <td valign="top">
@@ -588,8 +490,6 @@ Maintains email notification configurations
 <td valign="top">
 
 `AFC_NotificationsApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -610,14 +510,10 @@ Maintains email notification configurations
 
 `AFC_UserGroupsApp` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains user groups
-
-
 
 </td>
 <td valign="top">
@@ -630,8 +526,6 @@ Maintains user groups
 <td valign="top">
 
 `AFC_UserGroupsApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -656,14 +550,10 @@ Maintains user groups
 
 `AFC_UserRolesSingleApp` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains user roles
-
-
 
 </td>
 <td valign="top">
@@ -676,8 +566,6 @@ Maintains user roles
 <td valign="top">
 
 `AFC_UserRolesSingleApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -698,14 +586,10 @@ Maintains user roles
 
 `AFC_ManageUsersApp` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains and deletes users
-
-
 
 </td>
 <td valign="top">
@@ -718,8 +602,6 @@ Maintains and deletes users
 <td valign="top">
 
 `AFC_ManageUsersApp_Display`
-
-
 
 </td>
 <td valign="top">
@@ -742,14 +624,10 @@ Maintains and deletes users
 
 `AFC_UserManagement` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains assignments between user and roles
-
-
 
 </td>
 <td valign="top">
@@ -762,8 +640,6 @@ Maintains assignments between user and roles
 <td valign="top">
 
 `AFC_UserManagement_Display`
-
-
 
 </td>
 <td valign="top">
@@ -786,14 +662,10 @@ Maintains assignments between user and roles
 
 `AFC_Archiving`
 
-
-
 </td>
 <td valign="top">
 
 Restores task lists from archive
-
-
 
 </td>
 <td valign="top">
@@ -807,14 +679,10 @@ Restores task lists from archive
 
 `AFC_Archiving_Display`
 
-
-
 </td>
 <td valign="top">
 
 Views archived task lists
-
-
 
 </td>
 </tr>
@@ -823,14 +691,10 @@ Views archived task lists
 
 `AFC_Define` 
 
-
-
 </td>
 <td valign="top">
 
 Maintains task list templates and task lists
-
-
 
 </td>
 <td valign="top">
@@ -845,14 +709,10 @@ Maintains task list templates and task lists
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -861,14 +721,10 @@ Maintains task list templates and task lists
 
 `AFC_Process` 
 
-
-
 </td>
 <td valign="top">
 
 Processes task lists and tasks
-
-
 
 </td>
 <td valign="top">
@@ -883,14 +739,10 @@ Processes task lists and tasks
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -899,14 +751,10 @@ Processes task lists and tasks
 
 `AFC_Approve` 
 
-
-
 </td>
 <td valign="top">
 
 Approves tasks
-
-
 
 </td>
 <td valign="top">
@@ -921,14 +769,10 @@ Approves tasks
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -937,14 +781,10 @@ Approves tasks
 
 `AFC_Reporting` 
 
-
-
 </td>
 <td valign="top">
 
 Monitors overall progress of closing activities and tracks task completion
-
-
 
 </td>
 <td valign="top">
@@ -959,14 +799,10 @@ Monitors overall progress of closing activities and tracks task completion
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -975,14 +811,10 @@ Monitors overall progress of closing activities and tracks task completion
 
 `Business_Process_Specialist_BL_AccessAll` 
 
-
-
 </td>
 <td valign="top">
 
 Reviews logs as an administrator
-
-
 
 </td>
 <td valign="top">
@@ -996,14 +828,10 @@ Reviews logs as an administrator
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1011,8 +839,6 @@ Reviews logs as an administrator
 <td valign="top">
 
 `AFC_KeyUser` 
-
-
 
 </td>
 <td valign="top">
@@ -1031,23 +857,17 @@ Reviews logs as an administrator
 </td>
 <td valign="top">
 
-All apps in advanced financial closing
-
-
+All apps in SAP Advanced Financial Closing
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1055,8 +875,6 @@ All apps in advanced financial closing
 <td valign="top">
 
 `FlexKeyUser` 
-
-
 
 </td>
 <td valign="top">
@@ -1075,23 +893,17 @@ All apps in advanced financial closing
 </td>
 <td valign="top">
 
-All apps in advanced financial closing
-
-
+All apps in SAP Advanced Financial Closing
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -1110,14 +922,10 @@ All apps in advanced financial closing
 
 Role Template
 
-
-
 </th>
 <th valign="top">
 
 Included Role Templates
-
-
 
 </th>
 </tr>
@@ -1125,8 +933,6 @@ Included Role Templates
 <td valign="top">
 
 `AFC_Expert`
-
-
 
 </td>
 <td valign="top">
@@ -1142,8 +948,6 @@ Included Role Templates
 <td valign="top">
 
 `AFC_Manager`
-
-
 
 </td>
 <td valign="top">

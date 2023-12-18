@@ -2,9 +2,9 @@
 
 # Archiving
 
-Understand how archiving and restoring in advanced financial closing works.
+Understand how archiving and restoring in SAP Advanced Financial Closing works.
 
-In SAP S/4HANA Cloud for advanced financial closing, generated task lists are archived automatically after a specific **time of inactivity**, independently of their status. The time after which a task list is archived depends on the closing type and on the value set for the *Is Production Task List* indicator, and is currently defined as follows:
+In SAP Advanced Financial Closing, generated task lists are archived automatically after a specific **time of inactivity**, independently of their status. The time after which a task list is archived depends on the closing type and on the value set for the *Is Production Task List* indicator, and is currently defined as follows:
 
 
 
@@ -15,21 +15,15 @@ In SAP S/4HANA Cloud for advanced financial closing, generated task lists are ar
 
 Closing Type
 
-
-
 </th>
 <th valign="top">
 
 Production Task Lists
 
-
-
 </th>
 <th valign="top">
 
 Non-Production Task Lists
-
-
 
 </th>
 </tr>
@@ -38,21 +32,15 @@ Non-Production Task Lists
 
 Month-End Closing
 
-
-
 </td>
 <td valign="top">
 
 Six months
 
-
-
 </td>
 <td valign="top">
 
 Three months
-
-
 
 </td>
 </tr>
@@ -61,21 +49,15 @@ Three months
 
 Quarter-End Closing
 
-
-
 </td>
 <td valign="top">
 
 Nine months
 
-
-
 </td>
 <td valign="top">
 
 Three months
-
-
 
 </td>
 </tr>
@@ -84,21 +66,15 @@ Three months
 
 Year-End Closing
 
-
-
 </td>
 <td valign="top">
 
 18 months
 
-
-
 </td>
 <td valign="top">
 
 Three months
-
-
 
 </td>
 </tr>
@@ -107,21 +83,15 @@ Three months
 
 Special-End Closing
 
-
-
 </td>
 <td valign="top">
 
 Six months
 
-
-
 </td>
 <td valign="top">
 
 Three months
-
-
 
 </td>
 </tr>
@@ -132,7 +102,7 @@ Three months
 > 
 > Task lists with status *Obsolete* are archived after one month, independently of the *Is Production Task List* indicator.
 
-When a task list is archived, it no longer appears in any of the advanced financial closing apps, except for the *Manage Archived Closing Task Lists* app. In this app, you restore task lists from the archive as described below.
+When a task list is archived, it no longer appears in any of the SAP Advanced Financial Closing apps, except for the *Manage Archived Closing Task Lists* app. In this app, you restore task lists from the archive as described below.
 
 <a name="task_mx3_j2r_gxb"/>
 
@@ -150,7 +120,7 @@ Restore archived task lists.
 
 Your user must have a role collection assigned that includes the role template `AFC_Archiving`.
 
-For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 > ### Note:  
 > If your user has the role template `AFC_Archiving_Display` assigned instead, you can see which task lists are archived, but you can't restore them.

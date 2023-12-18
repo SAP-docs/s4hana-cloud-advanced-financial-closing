@@ -27,14 +27,10 @@ The following notification scenarios are available:
 
 Scenario
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -43,16 +39,12 @@ Description
 
 *Connection Error*
 
-
-
 </td>
 <td valign="top">
 
 Users who are selected as recipients receive notifications for connection errors only.
 
 A notification for this error is sent within 20 minutes after an issue was detected.
-
-
 
 </td>
 </tr>
@@ -61,14 +53,10 @@ A notification for this error is sent within 20 minutes after an issue was detec
 
 *Master Data Synchronization Error*
 
-
-
 </td>
 <td valign="top">
 
 Users who are selected as recipients receive notifications for master data synchronization errors only.
-
-
 
 </td>
 </tr>
@@ -77,14 +65,10 @@ Users who are selected as recipients receive notifications for master data synch
 
 *All Errors*
 
-
-
 </td>
 <td valign="top">
 
 Users who are selected as recipients receive notifications for all scenarios available.
-
-
 
 </td>
 </tr>

@@ -51,14 +51,10 @@ When creating a user role for this scope, you can choose from the following auth
 
 Authorization
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -67,14 +63,10 @@ Description
 
 *Read*
 
-
-
 </td>
 <td valign="top">
 
 Read authorization within the scope of this user role. This is the minimum authorization, and it's included in all others.
-
-
 
 </td>
 </tr>
@@ -83,16 +75,12 @@ Read authorization within the scope of this user role. This is the minimum autho
 
 *Create*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to create and copy task list templates. This authorization always includes *Read* authorization.
 
 This authorization can't be assigned to restricted user roles.
-
-
 
 </td>
 </tr>
@@ -101,14 +89,10 @@ This authorization can't be assigned to restricted user roles.
 
 *Write*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to edit and delete task list templates and task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
-
-
 
 </td>
 </tr>
@@ -117,14 +101,10 @@ Authorization to edit and delete task list templates and task lists. This author
 
 *Generate*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to generate task lists and change the status of task lists. This authorization always includes *Read* authorization.
-
-
 
 </td>
 </tr>
@@ -133,14 +113,10 @@ Authorization to generate task lists and change the status of task lists. This a
 
 *User Assignment*
 
-
-
 </td>
 <td valign="top">
 
 Authorization to change processing users or user groups, and users responsible or responsible user groups within the scope of this user role. This authorization allows changes **only through quick actions**. This authorization always includes *Read* authorization.
-
-
 
 </td>
 </tr>
@@ -161,42 +137,30 @@ Authorization to change processing users or user groups, and users responsible o
 
 Actions Allowed
 
-
-
 </th>
 <th valign="top">
 
 *Read*
-
-
 
 </th>
 <th valign="top">
 
 *Create* \(only for unrestricted roles\)
 
-
-
 </th>
 <th valign="top">
 
 *Write*
-
-
 
 </th>
 <th valign="top">
 
 *Generate*
 
-
-
 </th>
 <th valign="top">
 
 *User Assignment*
-
-
 
 </th>
 </tr>
@@ -205,42 +169,30 @@ Actions Allowed
 
 Read
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
 
 </td>
 </tr>
@@ -249,42 +201,30 @@ Read
 
 Create
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -293,42 +233,30 @@ Create
 
 Copy
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -337,42 +265,30 @@ Copy
 
 Edit / Save
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -381,42 +297,30 @@ Edit / Save
 
 Recalculate Paths
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -425,42 +329,30 @@ Recalculate Paths
 
 Delete
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -469,42 +361,30 @@ Delete
 
 Generate
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -513,42 +393,30 @@ Generate
 
 Change Task List Status
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -557,42 +425,30 @@ Change Task List Status
 
 Change User Assignments \(Quick Actions\)
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
-
-
 
 </td>
 </tr>
@@ -601,42 +457,30 @@ Change User Assignments \(Quick Actions\)
 
 Check SOX Compliance
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
 
 </td>
 </tr>
@@ -645,42 +489,62 @@ Check SOX Compliance
 
 Check Compatibility
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Read Corresponding Change Log Entries
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 </tr>

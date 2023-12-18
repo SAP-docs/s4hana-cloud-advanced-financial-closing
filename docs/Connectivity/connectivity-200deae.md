@@ -2,9 +2,9 @@
 
 # Connectivity
 
-Connect your financial cloud or on-premise systems to SAP S/4HANA Cloud for advanced financial closing.
+Connect your financial cloud or on-premise systems to SAP Advanced Financial Closing.
 
-You can connect SAP S/4HANA Cloud for advanced financial closing to the following solutions:
+You can connect SAP Advanced Financial Closing to the following solutions:
 
 -   SAP S/4HANA Cloud, public edition
 
@@ -51,7 +51,7 @@ The connection allows you to do the following, for example:
         > -   Context parameters such as fiscal year, fiscal year period and company code are **not** handed over to the target window.
 
 
-    -   When you process tasks of type *Job* that are run in the communication system, the status and results of these scheduling jobs are returned to SAP S/4HANA Cloud for advanced financial closing. You can see the details for each task in the *Monitor Business Logs* app. For more information, see [Logging](../Monitoring-and-Troubleshooting/logging-57375b8.md).
+    -   When you process tasks of type *Job* that are run in the communication system, the status and results of these scheduling jobs are returned to SAP Advanced Financial Closing. You can see the details for each task in the *Monitor Business Logs* app. For more information, see [Logging](../Monitoring-and-Troubleshooting/logging-57375b8.md).
 
 
 
@@ -69,29 +69,34 @@ The following graphic lists the documentation for connectivity and system monito
 							and about deleting the connection to communication systems. For more details about the synchronization with communication
 							systems, find more information under Synchronization of Communication Systems.](images/Image_Map_Cover_for_Connectivity_Section_d09ddd1.png)
 
--   **[Requirements for On-Premise Systems](requirements-for-on-premise-systems-12f664f.md "Understand which system releases and SAP Notes are required for advanced financial
-                                                closing to run
+-   **[Specify Communication Systems](specify-communication-systems-7e2136a.md "You use the Specify Communication
+                                                  Systems app
+		to connect your communication systems to SAP Advanced Financial
+                                                  Closing.")**  
+You use the *Specify Communication Systems* app to connect your communication systems to SAP Advanced Financial Closing.
+-   **[Requirements for On-Premise Systems](requirements-for-on-premise-systems-12f664f.md "Understand which system releases and SAP Notes are required for SAP Advanced Financial
+                                                  Closing to run
 		correctly.")**  
-Understand which system releases and SAP Notes are required for advanced financial closing to run correctly.
--   **[SAP S/4HANA Cloud](sap-s-4hana-cloud-60448a7.md "Depending on your system, follow one of the instructions listed here to connect SAP S/4HANA Cloud for advanced
-                                                  financial closing to your SAP S/4HANA Cloud system.")**  
-Depending on your system, follow one of the instructions listed here to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA Cloud system.
--   **[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced
-                                                  financial closing to your SAP S/4HANA system. Perform the last
+Understand which system releases and SAP Notes are required for SAP Advanced Financial Closing to run correctly.
+-   **[SAP S/4HANA Cloud](sap-s-4hana-cloud-60448a7.md "Depending on your system, follow one of the instructions listed here to connect SAP Advanced Financial
+                                                  Closing to your SAP S/4HANA Cloud system.")**  
+Depending on your system, follow one of the instructions listed here to connect SAP Advanced Financial Closing to your SAP S/4HANA Cloud system.
+-   **[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP Advanced Financial
+                                                  Closing to your SAP S/4HANA system. Perform the last
 		two steps only if they apply to your use case.")**  
-Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.
--   **[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced
-                                                  financial closing to your SAP ERP system. Perform the last
+Perform the following steps to connect SAP Advanced Financial Closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.
+-   **[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP Advanced Financial
+                                                  Closing to your SAP ERP system. Perform the last
 		step only if it applies to your use case.")**  
-Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.
--   **[How to Delete the Connection to a Communication System](how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md "Delete the connection between advanced financial
-                                                closing and the communication
+Perform the following steps to connect SAP Advanced Financial Closing to your SAP ERP system. Perform the last step only if it applies to your use case.
+-   **[How to Delete the Connection to a Communication System](how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md "Delete the connection between SAP Advanced Financial
+                                                  Closing and the communication
 		system.")**  
-Delete the connection between advanced financial closing and the communication system.
+Delete the connection between SAP Advanced Financial Closing and the communication system.
 -   **[Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md "Get an overview of the synchronization and validation of data.")**  
 Get an overview of the synchronization and validation of data.
--   **[Communication System Unavailable - Resilience of SAP S/4HANA Cloud for Advanced Financial Closing](communication-system-unavailable-resilience-of-sap-s-4hana-cloud-for-advanced-financial-c-727d2ee.md "Understand how advanced financial
-                                                closing
+-   **[Communication System Unavailable - Resilience of SAP Advanced Financial Closing](communication-system-unavailable-resilience-of-sap-advanced-financial-closing-727d2ee.md "Understand how SAP Advanced Financial
+                                                  Closing
 		behaves if a communication system is unavailable.")**  
-Understand how advanced financial closing behaves if a communication system is unavailable.
+Understand how SAP Advanced Financial Closing behaves if a communication system is unavailable.
 

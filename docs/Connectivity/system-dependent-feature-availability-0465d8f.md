@@ -15,42 +15,30 @@ Some features are only available for on-premise systems if your communication sy
 
 Feature
 
-
-
 </th>
 <th valign="top">
 
 SAP S/4HANA 2022
-
-
 
 </th>
 <th valign="top">
 
 SAP S/4HANA 2021
 
-
-
 </th>
 <th valign="top">
 
 SAP S/4HANA 2020
-
-
 
 </th>
 <th valign="top">
 
 SAP S/4HANA 1909
 
-
-
 </th>
 <th valign="top">
 
 SAP ERP
-
-
 
 </th>
 </tr>
@@ -67,35 +55,25 @@ SAP ERP
 
 Not applicable
 
+</td>
+<td valign="top">
 
+Not applicable
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
-
-</td>
-<td valign="top">
-
-Not applicable
-
-
 
 </td>
 </tr>
@@ -104,21 +82,15 @@ Not applicable
 
 **Spool Lists as CSV Downloads**
 
-
-
 </td>
 <td valign="top">
 
 `SP00`
 
-
-
 </td>
 <td valign="top">
 
 `SP01`
-
-
 
 </td>
 <td valign="top">
@@ -134,8 +106,6 @@ Not applicable
 <td valign="top">
 
 `SP05`
-
-
 
 </td>
 <td valign="top">
@@ -157,14 +127,10 @@ Not applicable
 
 **New Scheduling**
 
-
-
 </td>
 <td valign="top">
 
 `SP00`
-
-
 
 </td>
 <td valign="top">
@@ -205,14 +171,10 @@ Not applicable
 
 `SP06` \(partially\)
 
-
-
 </td>
 <td valign="top">
 
 Partially
-
-
 
 </td>
 </tr>
@@ -221,42 +183,30 @@ Partially
 
 **Status Source Code Displayed**
 
-
-
 </td>
 <td valign="top">
 
 `SP00`
-
-
 
 </td>
 <td valign="top">
 
 `SP02`
 
-
-
 </td>
 <td valign="top">
 
 `SP04`
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 </tr>
@@ -265,14 +215,10 @@ Not applicable
 
 **Parameter Type OPVAR \(Posting Period Variant\)**
 
-
-
 </td>
 <td valign="top">
 
 `SP00`
-
-
 
 </td>
 <td valign="top">
@@ -341,14 +287,10 @@ Not applicable
 
 **Display Parameters Used for Processing**
 
-
-
 </td>
 <td valign="top">
 
 `SP00`
-
-
 
 </td>
 <td valign="top">
@@ -385,14 +327,10 @@ Not applicable
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 `SP09`
-
-
 
 </td>
 </tr>
@@ -400,8 +338,6 @@ Not applicable
 <td valign="top">
 
 **Use of Validation Class `CL_FCCX_VALIDATION_BY_JOBLOG_M`**
-
-
 
 </td>
 <td valign="top">
@@ -437,8 +373,6 @@ Not applicable
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">

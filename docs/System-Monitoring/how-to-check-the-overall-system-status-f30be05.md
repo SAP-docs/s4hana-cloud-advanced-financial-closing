@@ -17,7 +17,7 @@ Your user must have a role collection assigned that includes one of the followin
 -   `AFC_SystemAdmin`
 
 
-For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 
@@ -40,14 +40,10 @@ The following system statuses are possible:
 
 System Status
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -56,14 +52,10 @@ Description
 
 *OK*
 
-
-
 </td>
 <td valign="top">
 
 No connection or synchronization issues were detected. No further action required.
-
-
 
 </td>
 </tr>
@@ -72,14 +64,10 @@ No connection or synchronization issues were detected. No further action require
 
 *Error*
 
-
-
 </td>
 <td valign="top">
 
 One or more issues were detected. Check the *Status Source* column and the system details for more information. Tackle any issues and restart the check or synchronization run affected.
-
-
 
 </td>
 </tr>

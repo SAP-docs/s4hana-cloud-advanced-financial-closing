@@ -55,6 +55,12 @@ The default notification configuration is prefilled when you create a new task l
 
 7.  In the *Scenarios* table, select who should receive an email notification for each scenario by checking the box in the corresponding table column.
 
+    You have the following recipients or recipient groups available:
+
+    -   Users responsible
+    -   Processing users
+    -   Interested users
+
 8.  Choose *Create* in the footer to create the configuration.
 
 

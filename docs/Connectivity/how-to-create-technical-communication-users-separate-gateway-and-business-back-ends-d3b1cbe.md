@@ -10,7 +10,7 @@ Create technical communication users for your separate gateway and business back
 
 ## Context
 
-If you use separate systems for the gateway back end and the business back end, you need to create two technical communication users - one for each system - with specific authorizations to enable the connection between advanced financial closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
+If you use separate systems for the gateway back end and the business back end, you need to create two technical communication users - one for each system - with specific authorizations to enable the connection between SAP Advanced Financial Closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
 
 > ### Caution:  
 > If you use separate systems for the gateway back end and the business back end, the users created for both systems **must be dialog users**. These users require authorization object `S_RFCACL`. Depending on your release, this object is provided with the default authorization *SAP Gateway Business Suite Enablement - Service*.
@@ -23,7 +23,7 @@ If you use separate systems for the gateway back end and the business back end, 
 
 **Creating the Technical Communication User for a Business Back End**
 
-1.  In your business back end, run transaction `SU01` and create a user that will be used for the communication between your business back end and advanced financial closing.
+1.  In your business back end, run transaction `SU01` and create a user that will be used for the communication between your business back end and SAP Advanced Financial Closing.
 
 2.  Go to the *Logon Data* tab.
 
@@ -60,15 +60,11 @@ If you use separate systems for the gateway back end and the business back end, 
     <th valign="top">
 
     Program ID
-
-
     
     </th>
     <th valign="top">
 
     Object Type
-
-
     
     </th>
     </tr>
@@ -76,15 +72,11 @@ If you use separate systems for the gateway back end and the business back end, 
     <td valign="top">
     
     `R3TR`
-
-
     
     </td>
     <td valign="top">
     
     `IWSG`
-
-
     
     </td>
     </tr>
@@ -106,7 +98,7 @@ If you use separate systems for the gateway back end and the business back end, 
 
 **Creating the Technical Communication User for a Gateway Back End**
 
-11. In your gateway back end, run transaction `SU01` and create a user that will be used for the communication between your gateway back end and advanced financial closing.
+11. In your gateway back end, run transaction `SU01` and create a user that will be used for the communication between your gateway back end and SAP Advanced Financial Closing.
 
 12. Go to the *Logon Data* tab.
 
@@ -143,15 +135,11 @@ If you use separate systems for the gateway back end and the business back end, 
     <th valign="top">
 
     Program ID
-
-
     
     </th>
     <th valign="top">
 
     Object Type
-
-
     
     </th>
     </tr>
@@ -159,15 +147,11 @@ If you use separate systems for the gateway back end and the business back end, 
     <td valign="top">
     
     `R3TR`
-
-
     
     </td>
     <td valign="top">
     
     `IWSV`
-
-
     
     </td>
     </tr>
@@ -185,36 +169,26 @@ If you use separate systems for the gateway back end and the business back end, 
         <th valign="top">
 
         Active
-
-
         
         </th>
         <th valign="top">
 
         Type
-
-
         
         </th>
         <th valign="top">
 
         Name
-
-
         
         </th>
         <th valign="top">
 
         Variant
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -222,36 +196,26 @@ If you use separate systems for the gateway back end and the business back end, 
         <td valign="top">
         
         `Selected`
-
-
         
         </td>
         <td valign="top">
         
         SAP Gateway Business Suite Enablement - Service
-
-
         
         </td>
         <td valign="top">
         
         `FCCX_COMMUNICATION_SERVICES_SRV 0001`
-
-
         
         </td>
         <td valign="top">
         
         `FCCX_COMMUNICATION_SERVICES_SRVO`
-
-
         
         </td>
         <td valign="top">
         
         `OP Variant`
-
-
         
         </td>
         </tr>
@@ -265,22 +229,16 @@ If you use separate systems for the gateway back end and the business back end, 
         <th valign="top">
 
         Authorization Object
-
-
         
         </th>
         <th valign="top">
 
         Field Name \(Heading\)
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -288,22 +246,16 @@ If you use separate systems for the gateway back end and the business back end, 
         <td valign="top" rowspan="2">
         
         `S_BTCH_NA1`
-
-
         
         </td>
         <td valign="top">
         
         `PROGRAM`
-
-
         
         </td>
         <td valign="top">
         
         `FCCX_APJ_PROCESSOR`
-
-
         
         </td>
         </tr>
@@ -311,8 +263,6 @@ If you use separate systems for the gateway back end and the business back end, 
         <td valign="top">
         
         `BTCUNAME`: *Background User Name for Authorization Check*
-
-
         
         </td>
         <td valign="top">
@@ -332,22 +282,16 @@ If you use separate systems for the gateway back end and the business back end, 
         <td valign="top" rowspan="2">
         
         `S_BTCH_JOB`
-
-
         
         </td>
         <td valign="top">
         
         `JOBACTION`
-
-
         
         </td>
         <td valign="top">
         
         `RELE`
-
-
         
         </td>
         </tr>
@@ -355,15 +299,11 @@ If you use separate systems for the gateway back end and the business back end, 
         <td valign="top">
         
         `JOBGROUP`
-
-
         
         </td>
         <td valign="top">
         
         `*` \(asterisk\)
-
-
         
         </td>
         </tr>
@@ -387,7 +327,7 @@ If you use separate systems for the gateway back end and the business back end, 
 
 ## Results
 
-You have now created technical communication users that can be used to connect your communication system to SAP S/4HANA Cloud for advanced financial closing.
+You have now created technical communication users that can be used to connect your communication system to SAP Advanced Financial Closing.
 
 
 
@@ -395,5 +335,5 @@ You have now created technical communication users that can be used to connect y
 
 ## Next Steps
 
-Provide your BTP account administrator for advanced financial closing with the information for the technical communication users.
+Provide your BTP account administrator for SAP Advanced Financial Closing with the information for the technical communication users.
 

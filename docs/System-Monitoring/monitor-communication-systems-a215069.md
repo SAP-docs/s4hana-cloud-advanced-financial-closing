@@ -4,6 +4,8 @@
 
 You use the *Monitor Communication Systems* app to check the status of your connected communication systems and tackle any issues.
 
+
+
 To perform your financial close, you have connected one or more financial communication systems as described in the previous topics. For your financial close to work, the connection to the systems has to work and synchronization of data has to be successful. To get an overview of the current statuses of your systems, you can use the *Monitor Communication Systems* app. The app shows you an overall status for each system and provides detailed information about the source of any issues.
 
 
@@ -11,6 +13,8 @@ To perform your financial close, you have connected one or more financial commun
 <a name="loioa215069e4c534617acde3e03393b3168__section_yzc_lwt_ytb"/>
 
 ## Key Features
+
+
 
 -   Overview of overall system statuses
 
@@ -44,14 +48,10 @@ The following system statuses are possible:
 
 System Status
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -60,14 +60,10 @@ Description
 
 *OK*
 
-
-
 </td>
 <td valign="top">
 
 No connection or synchronization issues were detected. No further action required.
-
-
 
 </td>
 </tr>
@@ -76,14 +72,10 @@ No connection or synchronization issues were detected. No further action require
 
 *Error*
 
-
-
 </td>
 <td valign="top">
 
 One or more issues were detected. Check the *Status Source* column and the system details for more information. Tackle any issues and restart the check or synchronization run affected.
-
-
 
 </td>
 </tr>
@@ -104,21 +96,15 @@ The connection status is checked regularly. However, the frequency depends on th
 
 Status During Last Check
 
-
-
 </th>
 <th valign="top">
 
 Time Period After Status Was Set
 
-
-
 </th>
 <th valign="top">
 
 Check Frequency
-
-
 
 </th>
 </tr>
@@ -127,21 +113,15 @@ Check Frequency
 
 *OK*
 
-
-
 </td>
 <td valign="top">
 
 Always
 
-
-
 </td>
 <td valign="top">
 
 Every three hours
-
-
 
 </td>
 </tr>
@@ -150,21 +130,15 @@ Every three hours
 
 *Error*
 
-
-
 </td>
 <td valign="top">
 
 First 24 hours
 
-
-
 </td>
 <td valign="top">
 
 Every 15 minutes
-
-
 
 </td>
 </tr>
@@ -173,14 +147,10 @@ Every 15 minutes
 
 Days 1 to 30
 
-
-
 </td>
 <td valign="top">
 
 Decreasing frequency between every hour and every 12 hours
-
-
 
 </td>
 </tr>
@@ -189,14 +159,10 @@ Decreasing frequency between every hour and every 12 hours
 
 After 30 Days
 
-
-
 </td>
 <td valign="top">
 
 Every 24 hours
-
-
 
 </td>
 </tr>
@@ -227,7 +193,7 @@ Every 24 hours
 
 ### Synchronization Status
 
-The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](Connectivity/synchronization-of-communication-systems-a86348d.md).
+The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](../Connectivity/synchronization-of-communication-systems-a86348d.md).
 
 
 
@@ -247,8 +213,8 @@ The scheduling queue information reflects the status of the scheduling queue of 
 > 
 > -   Scheduling of *Job* tasks
 
--   **[How to Check the System Information Provided](how-to-check-the-system-information-provided-1f3c6dd.md "Check that the system information provided is correct.")**  
-Check that the system information provided is correct.
+-   **[How to Check the System Information](how-to-check-the-system-information-1f3c6dd.md "Check that the system information available is correct.")**  
+Check that the system information available is correct.
 -   **[How to Check the Overall System Status](how-to-check-the-overall-system-status-f30be05.md "Check the overall statuses of your connected communication systems.")**  
 Check the overall statuses of your connected communication systems.
 -   **[How to Tackle Connection Issues](how-to-tackle-connection-issues-7b0898e.md "Check the connection status of your communication system and tackle any existing

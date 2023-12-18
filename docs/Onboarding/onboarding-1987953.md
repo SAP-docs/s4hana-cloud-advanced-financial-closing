@@ -2,7 +2,7 @@
 
 # Onboarding
 
-Add SAP S/4HANA Cloud for advanced financial closing to your global account and subscribe to the product.
+Add SAP Advanced Financial Closing to your global account and subscribe to the product.
 
 
 
@@ -10,7 +10,7 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
 ## Prerequisites
 
--   You have already received the email from SAP Business Technology Platform with the technical information regarding your global account for SAP S/4HANA Cloud for advanced financial closing.
+-   You have already received the email from SAP Business Technology Platform with the technical information regarding your global account for SAP Advanced Financial Closing.
 
 
 > ### Tip:  
@@ -28,13 +28,13 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 2.  Choose the global account for which you received the email.
 
     > ### Note:  
-    > If your organization has multiple global accounts, be sure to choose the global account that contains the entitlement to SAP S/4HANA Cloud for advanced financial closing. This account is mentioned in the email you've received.
+    > If your organization has multiple global accounts, be sure to choose the global account that contains the entitlement to SAP Advanced Financial Closing. This account is mentioned in the email you've received.
 
 3.  Add members to your global account. Go to *Members* and choose *Add Members*. Add the relevant members in the dialog box. Choose the ID format according to the IdP you use.
 
 4.  Go to *Subaccounts* and choose *New Subaccount*:
 
-    Create the relevant subaccounts in your global account. On global account level, the number of subscriptions for this application is limited. Specifically, you can subscribe only once to SAP S/4HANA Cloud for advanced financial closing in your global account.
+    Create the relevant subaccounts in your global account. On global account level, the number of subscriptions for this application is limited. Specifically, you can subscribe only once to SAP Advanced Financial Closing in your global account.
 
 5.  Provide the following information for each subaccount you create and choose *Create*:
 
@@ -51,7 +51,7 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
         The combination of provider and region represents the data center you are using.
 
         > ### Note:  
-        > For SAP S/4HANA Cloud for advanced financial closing, the subaccount needs to be in the same region as the application. Currently `Europe (Frankfurt) (cf-eu10)` and `US (Virginia) (cf-us10)` are available as standard regions. If you have an EU access contract for advanced financial closing, the region `Europe (Frankfurt) (cf-eu11)` is shown.
+        > For SAP Advanced Financial Closing, the subaccount needs to be in the same region as the application. Currently `Europe (Frankfurt) (cf-eu10)` and `US (Virginia) (cf-us10)` are available as standard regions. If you have an EU access contract for SAP Advanced Financial Closing, the region `Europe (Frankfurt) (cf-eu11)` is shown.
 
     6.  *Subdomain*:
 
@@ -63,7 +63,7 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
     > 
     > -   Display Name: `AFC Prod`
     > 
-    > -   Description: `Subscribed to SAP S/4HANA Cloud for advanced financial closing - Prod`
+    > -   Description: `Subscribed to SAP Advanced Financial Closing - Prod`
     > 
     > -   Environment: `Cloud Foundry`
     > 
@@ -86,14 +86,14 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
     3.  Choose *Add Service Plans*.
 
-    4.  Under *Entitlements*, search for **`advanced financial closing`** and choose **SAP S/4HANA Cloud for advanced financial closing**.
+    4.  Under *Entitlements*, search for **`advanced financial closing`** and choose **SAP Advanced Financial Closing**.
 
         > ### Note:  
         > If the correct entry doesn't show, make sure you select *All Categories* as a filter option under *Entitlements*.
 
     5.  Select *Standard \(Application\)* and add the service plan.
 
-        **Result:** **SAP S/4HANA Cloud for advanced financial closing** is now shown in the list of your subaccount's entitlements.
+        **Result:** **SAP Advanced Financial Closing** is now shown in the list of your subaccount's entitlements.
 
 
 8.  Subscribe to the application:
@@ -104,17 +104,17 @@ Add SAP S/4HANA Cloud for advanced financial closing to your global account and 
 
     3.  Provide the following information:
 
-        -   *Service*: `SAP S/4HANA Cloud for advanced financial closing`
+        -   *Service*: `SAP Advanced Financial Closing`
 
-        -   *Plan*: `default`
+        -   *Plan*: `Application - standard`
 
 
     4.  Choose *Create*.
 
-        **Result:** **SAP S/4HANA Cloud for advanced financial closing** is now shown in the list of your subaccount's instances and subscriptions, and the status is *Subscribed*.
+        **Result:** **SAP Advanced Financial Closing** is now shown in the list of your subaccount's instances and subscriptions, and the status is *Subscribed*.
 
 
-9.  \(**Recommended**\) Add SAP S/4HANA Cloud for advanced financial closing to your Cloud system notification subscriptions as described under [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md).
+9.  \(**Recommended**\) Add SAP Advanced Financial Closing to your Cloud system notification subscriptions as described under [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md).
 
 
 **Related Information**  

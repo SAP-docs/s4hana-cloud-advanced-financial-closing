@@ -12,5 +12,5 @@ Consider the following user management best practices:
 **Related Information**  
 
 
-[User Access Management](../User-Management/user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.")
+[User Access Management](../User-Management/user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.")
 

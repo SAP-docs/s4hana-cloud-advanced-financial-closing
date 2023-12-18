@@ -10,7 +10,7 @@ Create a technical communication user for your gateway and business back end.
 
 ## Context
 
-You need to create a technical communication user with specific authorizations to enable the connection between advanced financial closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
+You need to create a technical communication user with specific authorizations to enable the connection between SAP Advanced Financial Closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
 
 
 
@@ -18,7 +18,7 @@ You need to create a technical communication user with specific authorizations t
 
 **Creating the Technical Communication User**
 
-1.  In your gateway and business back end, run transaction `SU01` and create a user that will be used for the communication between your back end and advanced financial closing.
+1.  In your gateway and business back end, run transaction `SU01` and create a user that will be used for the communication between your back end and SAP Advanced Financial Closing.
 
 2.  Go to the *Logon Data* tab.
 
@@ -58,15 +58,11 @@ You need to create a technical communication user with specific authorizations t
     <th valign="top">
 
     Program ID
-
-
     
     </th>
     <th valign="top">
 
     Object Type
-
-
     
     </th>
     </tr>
@@ -74,15 +70,11 @@ You need to create a technical communication user with specific authorizations t
     <td valign="top">
     
     `R3TR`
-
-
     
     </td>
     <td valign="top">
     
     `IWSG`
-
-
     
     </td>
     </tr>
@@ -101,15 +93,11 @@ You need to create a technical communication user with specific authorizations t
     <th valign="top">
 
     Program ID
-
-
     
     </th>
     <th valign="top">
 
     Object Type
-
-
     
     </th>
     </tr>
@@ -117,15 +105,11 @@ You need to create a technical communication user with specific authorizations t
     <td valign="top">
     
     `R3TR`
-
-
     
     </td>
     <td valign="top">
     
     `IWSV`
-
-
     
     </td>
     </tr>
@@ -143,36 +127,26 @@ You need to create a technical communication user with specific authorizations t
         <th valign="top">
 
         Active
-
-
         
         </th>
         <th valign="top">
 
         Type
-
-
         
         </th>
         <th valign="top">
 
         Name
-
-
         
         </th>
         <th valign="top">
 
         Variant
-
-
         
         </th>
         <th valign="top">
 
         Description
-
-
         
         </th>
         </tr>
@@ -180,36 +154,26 @@ You need to create a technical communication user with specific authorizations t
         <td valign="top">
         
         `Selected`
-
-
         
         </td>
         <td valign="top">
         
         SAP Gateway Business Suite Enablement - Service
-
-
         
         </td>
         <td valign="top">
         
         `FCCX_COMMUNICATION_SERVICES_SRV 0001`
-
-
         
         </td>
         <td valign="top">
         
         `FCCX_COMMUNICATION_SERVICES_SRVO`
-
-
         
         </td>
         <td valign="top">
         
         `OP Variant`
-
-
         
         </td>
         </tr>
@@ -223,22 +187,16 @@ You need to create a technical communication user with specific authorizations t
         <th valign="top">
 
         Authorization Object
-
-
         
         </th>
         <th valign="top">
 
         Field Name \(Heading\)
-
-
         
         </th>
         <th valign="top">
 
         Value
-
-
         
         </th>
         </tr>
@@ -246,22 +204,16 @@ You need to create a technical communication user with specific authorizations t
         <td valign="top" rowspan="2">
         
         `S_BTCH_NA1`
-
-
         
         </td>
         <td valign="top">
         
         `PROGRAM`
-
-
         
         </td>
         <td valign="top">
         
         `FCCX_APJ_PROCESSOR`
-
-
         
         </td>
         </tr>
@@ -269,8 +221,6 @@ You need to create a technical communication user with specific authorizations t
         <td valign="top">
         
         `BTCUNAME`: *Background User Name for Authorization Check*
-
-
         
         </td>
         <td valign="top">
@@ -290,22 +240,16 @@ You need to create a technical communication user with specific authorizations t
         <td valign="top" rowspan="2">
         
         `S_BTCH_JOB`
-
-
         
         </td>
         <td valign="top">
         
         `JOBACTION`
-
-
         
         </td>
         <td valign="top">
         
         `RELE`
-
-
         
         </td>
         </tr>
@@ -313,15 +257,11 @@ You need to create a technical communication user with specific authorizations t
         <td valign="top">
         
         `JOBGROUP`
-
-
         
         </td>
         <td valign="top">
         
         `*` \(asterisk\)
-
-
         
         </td>
         </tr>
@@ -342,7 +282,7 @@ You need to create a technical communication user with specific authorizations t
 
 ## Results
 
-You have now created a technical communication user that can be used to connect your communication system to SAP S/4HANA Cloud for advanced financial closing.
+You have now created a technical communication user that can be used to connect your communication system to SAP Advanced Financial Closing.
 
 
 
@@ -350,5 +290,5 @@ You have now created a technical communication user that can be used to connect 
 
 ## Next Steps
 
-Provide your BTP account administrator for advanced financial closing with the information for the technical communication user.
+Provide your BTP account administrator for SAP Advanced Financial Closing with the information for the technical communication user.
 

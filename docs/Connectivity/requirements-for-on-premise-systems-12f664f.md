@@ -2,9 +2,9 @@
 
 # Requirements for On-Premise Systems
 
-Understand which system releases and SAP Notes are required for advanced financial closing to run correctly.
+Understand which system releases and SAP Notes are required for SAP Advanced Financial Closing to run correctly.
 
-Some features or performance enhancements in SAP S/4HANA Cloud for advanced financial closing may require your on-premise communication system to meet specific requirements. These requirements can be one or several of the following:
+Some features or performance enhancements in SAP Advanced Financial Closing may require your on-premise communication system to meet specific requirements. These requirements can be one or several of the following:
 
 -   A specific system release has to be installed.
 

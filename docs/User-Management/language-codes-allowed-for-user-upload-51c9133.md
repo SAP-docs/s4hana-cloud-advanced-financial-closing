@@ -4,7 +4,7 @@
 
 
 
-Refer to the following table for more information about which language codes are allowed when you upload users to SAP S/4HANA Cloud for advanced financial closing:
+Refer to the following table for more information about which language codes are allowed when you upload users to SAP Advanced Financial Closing:
 
 **Allowed Language Codes**
 
@@ -15,14 +15,10 @@ Refer to the following table for more information about which language codes are
 
 Language Code
 
-
-
 </th>
 <th valign="top">
 
 Language
-
-
 
 </th>
 </tr>
@@ -31,14 +27,10 @@ Language
 
 `ar`
 
-
-
 </td>
 <td valign="top">
 
 Arabic
-
-
 
 </td>
 </tr>
@@ -47,14 +39,10 @@ Arabic
 
 `cs`
 
-
-
 </td>
 <td valign="top">
 
 Czech
-
-
 
 </td>
 </tr>
@@ -63,14 +51,10 @@ Czech
 
 `da`
 
-
-
 </td>
 <td valign="top">
 
 Danish
-
-
 
 </td>
 </tr>
@@ -79,14 +63,10 @@ Danish
 
 `de`
 
-
-
 </td>
 <td valign="top">
 
 German
-
-
 
 </td>
 </tr>
@@ -95,14 +75,10 @@ German
 
 `en`
 
-
-
 </td>
 <td valign="top">
 
 English
-
-
 
 </td>
 </tr>
@@ -111,14 +87,10 @@ English
 
 `es`
 
-
-
 </td>
 <td valign="top">
 
 Spanish
-
-
 
 </td>
 </tr>
@@ -127,14 +99,10 @@ Spanish
 
 `fi`
 
-
-
 </td>
 <td valign="top">
 
 Finnish
-
-
 
 </td>
 </tr>
@@ -143,14 +111,10 @@ Finnish
 
 `fr`
 
-
-
 </td>
 <td valign="top">
 
 French
-
-
 
 </td>
 </tr>
@@ -159,14 +123,10 @@ French
 
 `hu`
 
-
-
 </td>
 <td valign="top">
 
 Hungarian
-
-
 
 </td>
 </tr>
@@ -175,14 +135,10 @@ Hungarian
 
 `it`
 
-
-
 </td>
 <td valign="top">
 
 Italian
-
-
 
 </td>
 </tr>
@@ -191,14 +147,10 @@ Italian
 
 `ja`
 
-
-
 </td>
 <td valign="top">
 
 Japanese
-
-
 
 </td>
 </tr>
@@ -207,14 +159,10 @@ Japanese
 
 `ko`
 
-
-
 </td>
 <td valign="top">
 
 Korean
-
-
 
 </td>
 </tr>
@@ -223,14 +171,10 @@ Korean
 
 `ms`
 
-
-
 </td>
 <td valign="top">
 
 Malay
-
-
 
 </td>
 </tr>
@@ -239,14 +183,10 @@ Malay
 
 `nl`
 
-
-
 </td>
 <td valign="top">
 
 Dutch
-
-
 
 </td>
 </tr>
@@ -255,14 +195,10 @@ Dutch
 
 `no`
 
-
-
 </td>
 <td valign="top">
 
 Norwegian
-
-
 
 </td>
 </tr>
@@ -271,14 +207,10 @@ Norwegian
 
 `pl`
 
-
-
 </td>
 <td valign="top">
 
 Polish
-
-
 
 </td>
 </tr>
@@ -287,14 +219,10 @@ Polish
 
 `pt`
 
-
-
 </td>
 <td valign="top">
 
 Portuguese
-
-
 
 </td>
 </tr>
@@ -303,14 +231,10 @@ Portuguese
 
 `ro`
 
-
-
 </td>
 <td valign="top">
 
 Romanian
-
-
 
 </td>
 </tr>
@@ -319,14 +243,10 @@ Romanian
 
 `ru`
 
-
-
 </td>
 <td valign="top">
 
 Russian
-
-
 
 </td>
 </tr>
@@ -335,14 +255,10 @@ Russian
 
 `sv`
 
-
-
 </td>
 <td valign="top">
 
 Swedish
-
-
 
 </td>
 </tr>
@@ -351,14 +267,10 @@ Swedish
 
 `th`
 
-
-
 </td>
 <td valign="top">
 
 Thai
-
-
 
 </td>
 </tr>
@@ -367,14 +279,10 @@ Thai
 
 `tr`
 
-
-
 </td>
 <td valign="top">
 
 Turkish
-
-
 
 </td>
 </tr>
@@ -383,14 +291,10 @@ Turkish
 
 `zh_CN`
 
-
-
 </td>
 <td valign="top">
 
 Chinese \(Simplified\)
-
-
 
 </td>
 </tr>
@@ -399,14 +303,10 @@ Chinese \(Simplified\)
 
 `zh_TW`
 
-
-
 </td>
 <td valign="top">
 
 Chinese \(Traditional\)
-
-
 
 </td>
 </tr>

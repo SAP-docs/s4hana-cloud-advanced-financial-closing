@@ -6,9 +6,9 @@
 
 
 
-### What personal data does advanced financial closing process?
+### What personal data does SAP Advanced Financial Closing process?
 
-The solution doesn't deliver any functions primarily concerned with processing personal data. SAP S/4HANA Cloud for advanced financial closing processes user-identifying data only in order to authenticate users, to display \(error\) messages, and to write audit logs of business-relevant or security-relevant events.
+The solution doesn't deliver any functions primarily concerned with processing personal data. SAP Advanced Financial Closing processes user-identifying data only in order to authenticate users, to display \(error\) messages, and to write audit logs of business-relevant or security-relevant events.
 
 The following data is processed:
 
@@ -26,5 +26,5 @@ The following data is processed:
 
 ### What is the legal basis for data processing by SAP?
 
-SAP processes personal data in SAP S/4HANA Cloud for advanced financial closing as a subprocessor for SAP's cloud customers. Therefore, SAP acts as a processor according to the European Union's General Data Protection Regulation \(GDPR\) Article 28. The legal basis for processing by SAP's customers, who are the data controllers, has to be ensured by the customers themselves.
+SAP processes personal data in SAP Advanced Financial Closing as a subprocessor for SAP's cloud customers. Therefore, SAP acts as a processor according to the European Union's General Data Protection Regulation \(GDPR\) Article 28. The legal basis for processing by SAP's customers, who are the data controllers, has to be ensured by the customers themselves.
 

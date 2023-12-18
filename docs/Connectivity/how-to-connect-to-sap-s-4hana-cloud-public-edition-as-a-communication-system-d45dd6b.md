@@ -4,17 +4,17 @@
 
 Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.
 
-Perform the following steps to connect your SAP S/4HANA Cloud, public edition system to advanced financial closing:
+Perform the following steps to connect your SAP S/4HANA Cloud, public edition system to SAP Advanced Financial Closing:
 
 1.  [How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud, public
-                                                  edition system for the connection with advanced financial
-                                                closing.")  
-Configure your SAP S/4HANA Cloud, public edition system for the connection with advanced financial closing.
+                                                  edition system for the connection with SAP Advanced Financial
+                                                  Closing.")  
+Configure your SAP S/4HANA Cloud, public edition system for the connection with SAP Advanced Financial Closing.
 2.  [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud, public
                                                   edition system in your
 			SAP BTP cockpit.")  
 Create a destination for your SAP S/4HANA Cloud, public edition system in your SAP BTP cockpit.
-3.  [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md "Connect to your financial cloud system to SAP S/4HANA Cloud for advanced
-                                                  financial closing.")  
-Connect to your financial cloud system to SAP S/4HANA Cloud for advanced financial closing.
+3.  [How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md "Connect to your financial cloud system to SAP Advanced Financial
+                                                  Closing.")  
+Connect to your financial cloud system to SAP Advanced Financial Closing.
 

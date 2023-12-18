@@ -2,7 +2,7 @@
 
 # How to Manage Compliance Settings
 
-The compliance settings apply to all apps that are part of advanced financial closing.
+The compliance settings apply to all apps that are part of SAP Advanced Financial Closing.
 
 
 
@@ -29,14 +29,10 @@ The following settings are available:
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Effect
-
-
 
 </th>
 </tr>
@@ -45,14 +41,10 @@ Effect
 
 *Anonymize Names in Emails*
 
-
-
 </td>
 <td valign="top">
 
-Specify whether you want real names to be removed from emails sent by the advanced financial closing notification service. The default value is `No`.
-
-
+Specify whether you want real names to be removed from emails sent by the SAP Advanced Financial Closing notification service. The default value is `No`.
 
 </td>
 </tr>
@@ -60,8 +52,6 @@ Specify whether you want real names to be removed from emails sent by the advanc
 <td valign="top">
 
 *Anonymize Completed Task Lists After*
-
-
 
 </td>
 <td valign="top">
@@ -82,8 +72,6 @@ Define a number of months as the time offset after which user names are removed 
 
 *Notify User Before Task Is Due*
 
-
-
 </td>
 <td valign="top">
 
@@ -100,8 +88,6 @@ To help ensure that tasks are completed before their scheduled end date, you can
 <td valign="top">
 
 *Enforce SOX Requirements*
-
-
 
 </td>
 <td valign="top">
@@ -145,5 +131,5 @@ Determine whether the Sarbanes-Oxley Act \(SOX\) compliance applies. The default
 
 ## Results
 
-The compliance settings for your SAP S/4HANA Cloud for advanced financial closing have been updated.
+The compliance settings for your SAP Advanced Financial Closing have been updated.
 

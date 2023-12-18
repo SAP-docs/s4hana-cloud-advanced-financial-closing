@@ -2,7 +2,7 @@
 
 # User Access Management
 
-You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.
+You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.
 
 
 
@@ -22,7 +22,7 @@ Users who have been assigned a static role can see the respective apps in the SA
 
 -   *Closing Task Completion* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
--   *Change Log* \(derived from the *Read* authorization in the *Task Processing* scope\)
+-   *Change Log* \(derived from the *Read* authorization in the *Task List Creation* scope and the *Task Processing* scope\)
 
 
 In all other apps, users only require a matching static role. A display-only role provides them with read access, while the standard roles always grant full access so that no further access needs to be granted on object level. This affects access to the following apps:
@@ -34,28 +34,20 @@ In all other apps, users only require a matching static role. A display-only rol
 
 Administration Apps
 
-
-
 </th>
 <th valign="top">
 
 Configuration Apps
-
-
 
 </th>
 <th valign="top">
 
 System Configuration and Monitoring Apps
 
-
-
 </th>
 <th valign="top">
 
 Migration Apps
-
-
 
 </th>
 </tr>
@@ -73,8 +65,6 @@ Migration Apps
 <td valign="top">
 
 All apps accessed through the *Configuration* tile
-
-
 
 </td>
 <td valign="top">
@@ -113,7 +103,7 @@ To grant access for specific scopes, you have two options: scoped user roles and
 
 Provided that users have the corresponding static role templates assigned, you control and grant specific access on a first level based on user roles assigned to a specific scope. Within each scope, you can control access in more detail by granting, for example, access in general, system-wide access, or access according to objects or organizational units.
 
-You can create scoped user roles to grant access to the different scopes defined for advanced financial closing.
+You can create scoped user roles to grant access to the different scopes defined for SAP Advanced Financial Closing.
 
 Within each scope, there are different authorizations that you can assign to a user role. These authorizations take effect as soon as you assign a user to the role or the role to a user.
 
@@ -133,21 +123,15 @@ User roles apply explicitly to one of the following scopes:
 
 Scope
 
-
-
 </th>
 <th valign="top">
 
 Apps in Scope
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -155,8 +139,6 @@ Description
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
@@ -175,16 +157,12 @@ Grant access to create and edit task list templates as well as to generate task 
 
 For more information, see [Task List Creation Scope](task-list-creation-scope-ba4100e.md).
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
@@ -195,9 +173,9 @@ For more information, see [Task List Creation Scope](task-list-creation-scope-ba
 
 -   *Change Log*
 
--   *Closing Task Completion*
-
 -   *Financial Close Overview*
+
+-   *Closing Task Completion*
 
 
 
@@ -208,8 +186,6 @@ For more information, see [Task List Creation Scope](task-list-creation-scope-ba
 Grant access to process and approve tasks. Users who are granted access for this scope automatically get access to the related entries in the change log and the apps for reporting.
 
 For more information, see [Task Processing Scope](task-processing-scope-b4f8ec6.md).
-
-
 
 </td>
 </tr>
@@ -227,7 +203,7 @@ You can assign users either as **owner**, **user responsible**, or **processing 
 
 For more information about direct assignments, see [Direct User Assignment](direct-user-assignment-f96b217.md).
 
--   **[Overview of Means and Actions to Grant Access](overview-of-means-and-actions-to-grant-access-1923b89.md "Understand how you can grant which access.")**  
+-   **[Overview of Actions and Means to Grant Access](overview-of-actions-and-means-to-grant-access-1923b89.md "Understand how you can grant which access.")**  
 Understand how you can grant which access.
 -   **[Task List Creation Scope](task-list-creation-scope-ba4100e.md "Grant access to create and edit task list templates and to generate task
 		lists.")**  
@@ -244,12 +220,12 @@ Specify the users to whom the user roles you've created apply.
 -   **[How to Manage User Groups](how-to-manage-user-groups-45bb6c9.md "A user group represents a group of users who can be assigned to a particular set of
 		closing tasks.")**  
 A user group represents a group of users who can be assigned to a particular set of closing tasks.
--   **[How to Manage User Access Using the SCIM API Provided](how-to-manage-user-access-using-the-scim-api-provided-49376ed.md "Manage users, user groups, and user roles through a dedicated API.")**  
+-   **[How to Manage User Access Using the SCIM API Provided](how-to-manage-user-access-using-the-scim-api-provided-4c0a63c.md "Manage users, user groups, and user roles through a dedicated API.")**  
 Manage users, user groups, and user roles through a dedicated API.
 
-**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.")
+**Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.")
 
-**Next:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.")
+**Next:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP Advanced Financial Closing and update certain user attributes.")
 
 **Previous:**[Extended What's New: Switch of Authorization Concept](extended-what-s-new-switch-of-authorization-concept-3155ba8.md "Understand the consequences of the retirement of the old authorization concept.")
 

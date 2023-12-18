@@ -14,13 +14,13 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
 -   To connect to your SAP ERP system, you need to have installed and configured the Cloud Connector. For more information, see [How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-3d19a8a.md).
 
--   To connect to your SAP ERP system, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing. For more information, see [How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md).
+-   To connect to your SAP ERP system, you require the SAP ERP connector for SAP Advanced Financial Closing. For more information, see [How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md).
 
 -   The SAP ERP system administrator needs to have provided you with the following information:
 
     -   Back-end URL for the communication system
 
-    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing documentation. For more information, see [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
+    -   The technical communication user with the authorization objects mentioned in the SAP ERP connector for SAP Advanced Financial Closing documentation. For more information, see [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
 
 
 
@@ -40,15 +40,11 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     What to Enter
-
-
     
     </th>
     </tr>
@@ -56,15 +52,11 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Specify a name for the destination configuration.
-
-
     
     </td>
     </tr>
@@ -72,15 +64,11 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <td valign="top">
     
     *Type*
-
-
     
     </td>
     <td valign="top">
     
     `HTTP` 
-
-
     
     </td>
     </tr>
@@ -88,8 +76,6 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <td valign="top">
     
     *URL*
-
-
     
     </td>
     <td valign="top">
@@ -102,8 +88,6 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
 
     The highlighted parts are the same for all corresponding SAP ERP systems.
-
-
     
     </td>
     </tr>
@@ -111,15 +95,11 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <td valign="top">
     
     *Proxy Type*
-
-
     
     </td>
     <td valign="top">
     
     `OnPremise` or `Internet`
-
-
     
     </td>
     </tr>
@@ -127,15 +107,11 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <td valign="top">
     
     *Authentication*
-
-
     
     </td>
     <td valign="top">
     
     `BasicAuthentication`
-
-
     
     </td>
     </tr>
@@ -143,15 +119,11 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <td valign="top">
     
     *User*
-
-
     
     </td>
     <td valign="top">
     
     Technical user or other authenticated user
-
-
     
     </td>
     </tr>
@@ -159,15 +131,11 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
     <td valign="top">
     
     *Password*
-
-
     
     </td>
     <td valign="top">
     
     Password of the selected user
-
-
     
     </td>
     </tr>
@@ -182,7 +150,7 @@ Create a destination for your SAP ERP system in your SAP BTP cockpit.
 
 You have now created a destination for your SAP ERP system.
 
-**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
 **Next:**[How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-3d19a8a.md "If you want to connect to SAP ERP, you need to install and configure the Cloud Connector as additional software.")
 

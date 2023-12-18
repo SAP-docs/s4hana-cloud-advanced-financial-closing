@@ -8,7 +8,7 @@ Create a technical communication user for your SAP ERP system.
 
 ## Context
 
-You need to create a technical communication user with specific authorizations to enable the connection between advanced financial closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
+You need to create a technical communication user with specific authorizations to enable the connection between SAP Advanced Financial Closing and the communication system. The required authorizations can't be granted by assigning the technical communication user to a `SAPALL` profile. Instead, the technical communication user needs to have a specific `PFCG` role assigned as described here.
 
 > ### Caution:  
 > The technical communication user needs to have the authorization objects assigned that are listed under [Security Considerations](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING/c56f7dab0ed341afad9581be5651184f/c552f0649acd42a7bb8638359ca82897.html).
@@ -19,7 +19,7 @@ You need to create a technical communication user with specific authorizations t
 
 **Creating the Technical Communication User**
 
-1.  In your communication system, run transaction `SU01` and create a user that will be used for the communication between your back end and advanced financial closing.
+1.  In your communication system, run transaction `SU01` and create a user that will be used for the communication between your back end and SAP Advanced Financial Closing.
 
 2.  Go to the *Logon Data* tab.
 
@@ -67,7 +67,7 @@ You need to create a technical communication user with specific authorizations t
 
 ## Results
 
-You have now created a technical communication user that can be used to connect your communication system to SAP S/4HANA Cloud for advanced financial closing.
+You have now created a technical communication user that can be used to connect your communication system to SAP Advanced Financial Closing.
 
 
 
@@ -75,11 +75,11 @@ You have now created a technical communication user that can be used to connect 
 
 ## Next Steps
 
-Provide your BTP account administrator for advanced financial closing with the information for the technical communication user.
+Provide your BTP account administrator for SAP Advanced Financial Closing with the information for the technical communication user.
 
-**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
+**Parent topic:**[SAP ERP](sap-erp-7b85121.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP ERP system. Perform the last step only if it applies to your use case.")
 
-**Next:**[How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md "If you want to connect to SAP ERP, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing as additional software.")
+**Next:**[How to Set Up the SAP ERP Connector](how-to-set-up-the-sap-erp-connector-b139d1e.md "If you want to connect to SAP ERP, you require the SAP ERP connector for SAP Advanced Financial Closing as additional software.")
 
 **Previous:**[How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-3d19a8a.md "If you want to connect to SAP ERP, you need to install and configure the Cloud Connector as additional software.")
 

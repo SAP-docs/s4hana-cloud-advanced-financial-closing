@@ -43,7 +43,7 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
 
 ## Procedure
 
-1.  In SAP S/4HANA Cloud for advanced financial closing, go to the *Specify Communication Systems* app.
+1.  In SAP Advanced Financial Closing, go to the *Specify Communication Systems* app.
 
 2.  Choose *Create* in the table toolbar.
 
@@ -55,15 +55,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -71,15 +67,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <td valign="top">
     
     *Name*
-
-
     
     </td>
     <td valign="top">
     
     Enter a name for the communication system.
-
-
     
     </td>
     </tr>
@@ -87,15 +79,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <td valign="top">
     
     *Name of Destination Configuration*
-
-
     
     </td>
     <td valign="top">
     
     Enter the name of the destination configuration that was configured in the SAP BTP cockpit.
-
-
     
     </td>
     </tr>
@@ -103,8 +91,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <td valign="top">
     
     *UI Domain*
-
-
     
     </td>
     <td valign="top">
@@ -121,8 +107,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     > Then the UI domain is as follows: `https://mylaunchpad.mycompany.corp`
 
     The UI domain is therefore the first part of the URL of the communication system.
-
-
     
     </td>
     </tr>
@@ -130,8 +114,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <td valign="top">
     
     *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
-
-
     
     </td>
     <td valign="top">
@@ -155,8 +137,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     > -   Entry can't end with /
 
     The UI endpoint is later added to the URL of the communication system after the UI domain.
-
-
     
     </td>
     </tr>
@@ -164,8 +144,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <td valign="top">
     
     *UI Parameters* \(optional\)
-
-
     
     </td>
     <td valign="top">
@@ -182,8 +160,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     Enter only the parameters in the format shown in the example without any additional characters. If you want to add more than one parameter, add an ampersand \(&\) between them.
 
     The UI parameters are later added to the URL of the communication system after the UI endpoint.
-
-
     
     </td>
     </tr>
@@ -191,8 +167,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <td valign="top">
     
     *Is Production System*
-
-
     
     </td>
     <td valign="top">
@@ -244,9 +218,9 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     > 
     >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Monitoring-and-Troubleshooting/error-handling-e5eb3d8.md).
 
-5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
+5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
 
-6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from advanced financial closing as part of SAP S/4HANA Cloud.
+6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud.
 
     For more information about the migration, refer to the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
 
@@ -257,7 +231,7 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
 
 ## Results
 
-During daily synchronization between the communication system and advanced financial closing, your business configuration data and master data are synchronized. For more information about the synchronization and validation of data, see [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
+During daily synchronization between the communication system and SAP Advanced Financial Closing, your business configuration data and master data are synchronized. For more information about the synchronization and validation of data, see [Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md).
 
 
 
@@ -269,7 +243,7 @@ You have two options for the initial data synchronization with the communication
 
 1.  **Daily synchronization:**
 
-    SAP S/4HANA Cloud for advanced financial closing checks automatically for changes in the connected communication system once every day, except if synchronization has been paused due to connection issues. For more information, see [Monitor Communication Systems](../monitor-communication-systems-a215069.md).
+    SAP Advanced Financial Closing checks automatically for changes in the connected communication system once every day, except if synchronization has been paused due to connection issues. For more information, see [Monitor Communication Systems](../System-Monitoring/monitor-communication-systems-a215069.md).
 
     > ### Recommendation:  
     > Ensure that you always have the latest support package \(SP\) installed on your communication system. If this is not the case, synchronization may only take place every seven days instead of daily.
@@ -283,13 +257,13 @@ You have two options for the initial data synchronization with the communication
 
 
 > ### Note:  
-> Synchronization always uses the active state of the communication system entry in advanced financial closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
+> Synchronization always uses the active state of the communication system entry in SAP Advanced Financial Closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
 
-**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP S/4HANA Cloud for advanced financial closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
+**Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
 **Next:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
 
-**Previous:**[How to Upgrade from an SAP ERP System to SAP S/4HANA](how-to-upgrade-from-an-sap-erp-system-to-sap-s-4hana-1fdf114.md "If you have already used advanced financial closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")
+**Previous:**[How to Upgrade from an SAP ERP System to SAP S/4HANA](how-to-upgrade-from-an-sap-erp-system-to-sap-s-4hana-1fdf114.md "If you have already used SAP Advanced Financial Closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")
 
 **Related Information**  
 

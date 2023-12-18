@@ -2,9 +2,9 @@
 
 # Language Scope
 
-See in which languages advanced financial closing is available.
+See in which languages SAP Advanced Financial Closing is available.
 
-Apart from the system user interface, SAP S/4HANA Cloud for advanced financial closing comes with different means of documentation and help. The following table shows you which deliverable is available in which languages:
+Apart from the system user interface, SAP Advanced Financial Closing comes with different means of documentation and help. The following table shows you which deliverable is available in which languages:
 
 **Language Scope of System and Product Assistance**
 
@@ -15,23 +15,17 @@ Apart from the system user interface, SAP S/4HANA Cloud for advanced financial c
 
 Deliverable
 
-
-
 </th>
 <th valign="top">
 
 Available Languages
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-User interface of SAP S/4HANA Cloud for advanced financial closing \(exception: *Monitor Business Logs* app\)
-
-
+User interface of SAP Advanced Financial Closing \(exception: *Monitor Business Logs* app\)
 
 </td>
 <td valign="top">
@@ -70,8 +64,6 @@ User interface of SAP S/4HANA Cloud for advanced financial closing \(exception: 
 
 User interface of the *Monitor Business Logs* app
 
-
-
 </td>
 <td valign="top">
 
@@ -95,8 +87,6 @@ User interface of the *Monitor Business Logs* app
 
 In-app help and in-app what's new
 
-
-
 </td>
 <td valign="top">
 
@@ -132,9 +122,7 @@ In-app help and in-app what's new
 <tr>
 <td valign="top">
 
-Product page for SAP S/4HANA Cloud for advanced financial closing on the SAP Help Portal
-
-
+Product page for SAP Advanced Financial Closing on the SAP Help Portal
 
 </td>
 <td valign="top">
@@ -157,8 +145,6 @@ Product page for SAP S/4HANA Cloud for advanced financial closing on the SAP Hel
 
 Feature scope description
 
-
-
 </td>
 <td valign="top">
 
@@ -173,8 +159,6 @@ Feature scope description
 
 Administration guide
 
-
-
 </td>
 <td valign="top">
 
@@ -188,8 +172,6 @@ Administration guide
 <td valign="top">
 
 User guide
-
-
 
 </td>
 <td valign="top">
@@ -212,8 +194,6 @@ User guide
 
 Migration guide
 
-
-
 </td>
 <td valign="top">
 
@@ -229,8 +209,6 @@ Migration guide
 
 Local settings guide \(on-premise systems\)
 
-
-
 </td>
 <td valign="top">
 
@@ -244,8 +222,6 @@ Local settings guide \(on-premise systems\)
 <td valign="top">
 
 Set-up guide based on scope item 4HG \(Cloud systems\)
-
-
 
 </td>
 <td valign="top">
@@ -261,8 +237,6 @@ Set-up guide based on scope item 4HG \(Cloud systems\)
 
 What's new documents on the SAP Help Portal
 
-
-
 </td>
 <td valign="top">
 
@@ -277,8 +251,6 @@ What's new documents on the SAP Help Portal
 
 How-to videos \(audio\)
 
-
-
 </td>
 <td valign="top">
 
@@ -292,8 +264,6 @@ How-to videos \(audio\)
 <td valign="top">
 
 How-to videos \(subtitles\)
-
-
 
 </td>
 <td valign="top">
@@ -330,25 +300,7 @@ How-to videos \(subtitles\)
 <tr>
 <td valign="top">
 
-What's new videos \(callouts in video only\)
-
-
-
-</td>
-<td valign="top">
-
--   English
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Interactive tutorials
-
-
 
 </td>
 <td valign="top">

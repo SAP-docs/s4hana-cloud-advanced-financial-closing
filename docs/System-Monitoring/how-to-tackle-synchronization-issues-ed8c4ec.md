@@ -20,13 +20,13 @@ Check the synchronization status of your communication system and tackle any iss
 -   Additionally, your user must have a role collection assigned that includes the role template `Business_Process_Specialist_BL_AccessAll`.
 
 
-For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 
 ## Context
 
-The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](Connectivity/synchronization-of-communication-systems-a86348d.md).
+The synchronization check follows the frequency and rules as described under [Synchronization of Communication Systems](../Connectivity/synchronization-of-communication-systems-a86348d.md).
 
 > ### Remember:  
 > If the connection check doesn't show any successful result for twelve hours, the following processes are deactivated until the connection check is successful again:
@@ -51,15 +51,11 @@ The synchronization check follows the frequency and rules as described under [Sy
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -67,8 +63,6 @@ The synchronization check follows the frequency and rules as described under [Sy
     <td valign="top">
     
     *Status*
-
-
     
     </td>
     <td valign="top">
@@ -98,15 +92,11 @@ The synchronization check follows the frequency and rules as described under [Sy
     <td valign="top">
     
     *Last Checked On*
-
-
     
     </td>
     <td valign="top">
     
     Shows the date and time of the last attempt to perform a synchronization run, independently of whether the run was successful or not.
-
-
     
     </td>
     </tr>
@@ -114,15 +104,11 @@ The synchronization check follows the frequency and rules as described under [Sy
     <td valign="top">
     
     *Last Successful Run*
-
-
     
     </td>
     <td valign="top">
     
     Shows the date and time of the last successful run.
-
-
     
     </td>
     </tr>

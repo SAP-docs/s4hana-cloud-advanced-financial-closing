@@ -115,7 +115,7 @@ In the *Manage Closing Task Lists* app, task lists, tasks, or folders can be ass
 4.  To assign several users in one batch to user groups, perform the following steps:
 
     > ### Note:  
-    > The user groups and users affected have to exist in advanced financial closing before you can upload assignments.
+    > The user groups and users affected have to exist in SAP Advanced Financial Closing before you can upload assignments.
 
     1.  Go to the *User-to-Group Assignments* tab.
 

@@ -2,7 +2,7 @@
 
 # How to Delete the Connection to a Communication System
 
-Delete the connection between advanced financial closing and the communication system.
+Delete the connection between SAP Advanced Financial Closing and the communication system.
 
 
 
@@ -38,7 +38,7 @@ The connection to a communication system can be removed only if no synchronizati
 
 1.  Open the *Specify Communication Systems* app.
 
-2.  From the table, select the communication system for which you want to delete the connection to advanced financial closing.
+2.  From the table, select the communication system for which you want to delete the connection to SAP Advanced Financial Closing.
 
 3.  Choose *Delete* in the table toolbar.
 
@@ -49,8 +49,8 @@ The connection to a communication system can be removed only if no synchronizati
 
 ## Results
 
-You have now deleted the connection between advanced financial closing and the selected communication system.
+You have now deleted the connection between SAP Advanced Financial Closing and the selected communication system.
 
 > ### Note:  
-> Deleting the connection between the communication system and advanced financial closing doesn't delete the destination on the SAP BTP. If you want to delete the SAP BTP destination as well, you need to do this in the SAP BTP cockpit.
+> Deleting the connection between the communication system and SAP Advanced Financial Closing doesn't delete the destination on the SAP BTP. If you want to delete the SAP BTP destination as well, you need to do this in the SAP BTP cockpit.
 

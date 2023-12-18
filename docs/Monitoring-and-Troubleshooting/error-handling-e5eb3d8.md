@@ -23,11 +23,11 @@ Depending on what has caused the error, please do the following:
 
     3.  For systems using the Cloud Connector, check that the settings in the Cloud Connector are correct. Additionally, check that the system can be reached from the Cloud Connector. You do this by checking the system availability using the corresponding option in the *Actions* column.
 
-    4.  For SAP ERP systems, check that the settings in the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing are correct.
+    4.  For SAP ERP systems, check that the settings in the SAP ERP connector for SAP Advanced Financial Closing are correct.
 
-    5.  Check that the synchronization run between SAP S/4HANA Cloud for advanced financial closing and the communication system was successful. You can find this information in the *Monitor Business Logs* app in advanced financial closing.
+    5.  Check that the synchronization run between SAP Advanced Financial Closing and the communication system was successful. You can find this information in the *Monitor Business Logs* app in SAP Advanced Financial Closing.
 
-    6.  If the settings are correct and the synchronization was successful, but the data isn't displayed in advanced financial closing, for example in the *Manage Closing Task Lists* app, please go to the [SAP Support Portal](https://support.sap.com) and create an incident under the component `FIN-FIO-FCC`.
+    6.  If the settings are correct and the synchronization was successful, but the data isn't displayed in SAP Advanced Financial Closing, for example in the *Manage Closing Task Lists* app, please go to the [SAP Support Portal](https://support.sap.com) and create an incident under the component `FIN-FIO-FCC`.
 
 
 -   **Issues when connecting to your on-premise communication system with the Cloud Connector**
@@ -44,7 +44,7 @@ For all other unexpected issues, create an incident under the component `FIN-FIO
 **Related Information**  
 
 
-[Communication System Unavailable - Resilience of SAP S/4HANA Cloud for Advanced Financial Closing](../Connectivity/communication-system-unavailable-resilience-of-sap-s-4hana-cloud-for-advanced-financial-c-727d2ee.md "Understand how advanced financial closing behaves if a communication system is unavailable.")
+[Communication System Unavailable - Resilience of SAP Advanced Financial Closing](../Connectivity/communication-system-unavailable-resilience-of-sap-advanced-financial-closing-727d2ee.md "Understand how SAP Advanced Financial Closing behaves if a communication system is unavailable.")
 
-[Monitor Communication Systems](../monitor-communication-systems-a215069.md "You use the Monitor Communication Systems app to check the status of your connected communication systems and tackle any issues.")
+[Monitor Communication Systems](../System-Monitoring/monitor-communication-systems-a215069.md "You use the Monitor Communication Systems app to check the status of your connected communication systems and tackle any issues.")
 

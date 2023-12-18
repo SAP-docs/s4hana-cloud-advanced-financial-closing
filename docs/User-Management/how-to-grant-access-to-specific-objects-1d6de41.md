@@ -39,14 +39,10 @@ You can grant access that is restricted to specific task list template, task lis
 
 Access to Task List Templates and Task Lists
 
-
-
 </th>
 <th valign="top">
 
 Access to Tasks
-
-
 
 </th>
 </tr>
@@ -55,14 +51,10 @@ Access to Tasks
 
 ![Graphic depicting the relationship between objects and user roles: A user is assigned to a user role, which in turn has authorizations assigned. Additionally, authorization groups are assigned to the user role and to task lists at the same time. This assignment on both sides (user role and task list) establishes the relationship between user and object and it grants access. Access to the task list automatically grants access to underlying tasks.](images/Image_New_Auth_Concept_-_PROC_Access_to_Specific_Task_Lists_Templates_fbedd15.png)
 
-
-
 </td>
 <td valign="top">
 
 ![Graphic depicting the relationship between objects and user roles: A user is assigned to a user role, which in turn has authorizations assigned. Additionally, authorization groups are assigned to the user role and to tasks at the same time. This assignment on both sides (user role and task) establishes the relationship between user and object and it grants access.](images/Image_New_Auth_Concept_-_PROC_Access_to_Specific_Tasks_8e356bb.png)
-
-
 
 </td>
 </tr>
@@ -141,15 +133,11 @@ The abstraction level between user roles and specific objects enables you to gra
     <th valign="top">
 
     Authorization
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -157,15 +145,11 @@ The abstraction level between user roles and specific objects enables you to gra
     <td valign="top">
     
     *Read*
-
-
     
     </td>
     <td valign="top">
     
     Read authorization within the scope of this user role. This is the minimum authorization, and it's included in all others.
-
-
     
     </td>
     </tr>
@@ -173,15 +157,11 @@ The abstraction level between user roles and specific objects enables you to gra
     <td valign="top">
     
     *Process*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to process tasks. This authorization covers actions related to task status changes, scheduling, test runs, attachments, and notes. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -189,15 +169,11 @@ The abstraction level between user roles and specific objects enables you to gra
     <td valign="top">
     
     *Plan*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to change attributes that relate to the planning of a task. This authorization covers changes to the planned start and planned duration as well as path recalculation. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -205,15 +181,11 @@ The abstraction level between user roles and specific objects enables you to gra
     <td valign="top">
     
     *Parameters*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to change parameters within the scope of this user role. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -221,15 +193,11 @@ The abstraction level between user roles and specific objects enables you to gra
     <td valign="top">
     
     *User Assignment*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to change processing users or user groups, and users responsible or responsible user groups within the scope of this user role. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -237,15 +205,11 @@ The abstraction level between user roles and specific objects enables you to gra
     <td valign="top">
     
     *Approve / Reject*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to approve and reject tasks that require approval. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>

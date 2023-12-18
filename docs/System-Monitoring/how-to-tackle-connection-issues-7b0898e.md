@@ -17,7 +17,7 @@ Your user must have a role collection assigned that includes one of the followin
 -   `AFC_SystemAdmin`
 
 
-For more information about role templates, see [How to Manage Static Role Templates](User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
 
 
@@ -34,21 +34,15 @@ The connection status is checked regularly. However, the frequency depends on th
 
 Status During Last Check
 
-
-
 </th>
 <th valign="top">
 
 Time Period After Status Was Set
 
-
-
 </th>
 <th valign="top">
 
 Check Frequency
-
-
 
 </th>
 </tr>
@@ -57,21 +51,15 @@ Check Frequency
 
 *OK*
 
-
-
 </td>
 <td valign="top">
 
 Always
 
-
-
 </td>
 <td valign="top">
 
 Every three hours
-
-
 
 </td>
 </tr>
@@ -80,21 +68,15 @@ Every three hours
 
 *Error*
 
-
-
 </td>
 <td valign="top">
 
 First 24 hours
 
-
-
 </td>
 <td valign="top">
 
 Every 15 minutes
-
-
 
 </td>
 </tr>
@@ -103,14 +85,10 @@ Every 15 minutes
 
 Days 1 to 30
 
-
-
 </td>
 <td valign="top">
 
 Decreasing frequency between every hour and every 12 hours
-
-
 
 </td>
 </tr>
@@ -119,14 +97,10 @@ Decreasing frequency between every hour and every 12 hours
 
 After 30 Days
 
-
-
 </td>
 <td valign="top">
 
 Every 24 hours
-
-
 
 </td>
 </tr>
@@ -176,15 +150,11 @@ Connection issues can originate from different sources within the environment. T
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -192,8 +162,6 @@ Connection issues can originate from different sources within the environment. T
     <td valign="top">
     
     *Status*
-
-
     
     </td>
     <td valign="top">
@@ -213,15 +181,11 @@ Connection issues can originate from different sources within the environment. T
     <td valign="top">
     
     *Last Checked On*
-
-
     
     </td>
     <td valign="top">
     
     Shows the date and time of the last attempt to perform a connection check, independently of whether the check was successful or not.
-
-
     
     </td>
     </tr>
@@ -229,15 +193,11 @@ Connection issues can originate from different sources within the environment. T
     <td valign="top">
     
     *Status Changed On*
-
-
     
     </td>
     <td valign="top">
     
     Shows the date and time of when the current status was set.
-
-
     
     </td>
     </tr>

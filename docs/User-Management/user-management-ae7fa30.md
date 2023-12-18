@@ -2,7 +2,7 @@
 
 # User Management
 
-Understand how you can manage users and their authorizations in SAP S/4HANA Cloud for advanced financial closing.
+Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.
 
 This section describes how to configure user management for your application. As a prerequisite, you have created business users and user groups in your identity provider \(IdP\). SAP ID service is configured as the default IdP, but you can also add your instance of SAP Cloud Identity Services - Identity Authentication or a different IdP.
 
@@ -10,23 +10,23 @@ If you use the Identity Authentication service, you can find more information in
 
 If you use a different IdP, you can find more information under[Establish Trust and Federation with UAA Using Any SAML Identity Provider](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2ce3938c66d94479848bff3090999027.html).
 
-Users provisioned by the configured IdP are allowed to start the applications that are part of SAP S/4HANA Cloud for advanced financial closing. User information is automatically synchronized on application start.
+Users provisioned by the configured IdP are allowed to start the applications that are part of SAP Advanced Financial Closing. User information is automatically synchronized on application start.
 
 Users must have static roles assigned to be able to see the respective SAP Fiori apps in their SAP Fiori launchpad.
 
-The following documents explain how to manage static roles and assign them to users using the SAP BTP cockpit, and how to create users and manage user access in advanced financial closing:
+The following documents explain how to manage static roles and assign them to users using the SAP BTP cockpit, and how to create users and manage user access in SAP Advanced Financial Closing:
 
 1.  [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")  
 Define and bundle static roles and assign them to users.
-2.  [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP S/4HANA Cloud for advanced
-                                                  financial closing and update certain
+2.  [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP Advanced Financial
+                                                  Closing and update certain
 		user attributes.")  
-Upload new users to SAP S/4HANA Cloud for advanced financial closing and update certain user attributes.
+Upload new users to SAP Advanced Financial Closing and update certain user attributes.
 3.  [User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in
-			SAP S/4HANA Cloud for advanced
-                                                  financial closing. By default,
+			SAP Advanced Financial
+                                                  Closing. By default,
 		users don't have access to these objects.")  
-You can control and grant access to task list templates, task lists, and tasks in SAP S/4HANA Cloud for advanced financial closing. By default, users don't have access to these objects.
+You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.
 4.  [Extended What's New: Switch of Authorization Concept](extended-what-s-new-switch-of-authorization-concept-3155ba8.md "Understand the consequences of the retirement of the old authorization
 		concept.")  
 Understand the consequences of the retirement of the old authorization concept.

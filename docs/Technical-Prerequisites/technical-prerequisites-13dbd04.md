@@ -2,10 +2,10 @@
 
 # Technical Prerequisites
 
-Before you start to use SAP S/4HANA Cloud for advanced financial closing, check the requirements and recommendations in this section.
+Before you start to use SAP Advanced Financial Closing, check the requirements and recommendations in this section.
 
 > ### Note:  
-> The software and services listed here are not part of the functional scope of SAP S/4HANA Cloud for advanced financial closing and must be licensed separately.
+> The software and services listed here are not part of the functional scope of SAP Advanced Financial Closing and must be licensed separately.
 
 
 
@@ -17,7 +17,7 @@ Before you start to use SAP S/4HANA Cloud for advanced financial closing, check 
 
 ### Financial Communication System
 
-You need to connect SAP S/4HANA Cloud for advanced financial closing to one of these financial communication systems:
+You need to connect SAP Advanced Financial Closing to one of these financial communication systems:
 
 -   SAP S/4HANA
 
@@ -32,9 +32,9 @@ For more information about system-specific requirements, see [Connectivity](../C
 
 ### SAP ERP Connector
 
-To be able to connect to SAP ERP, you require the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing.
+To be able to connect to SAP ERP, you require the SAP ERP connector for SAP Advanced Financial Closing.
 
-For more information about the connector, such as how to get the connector and activate the service, see [SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING).
+For more information about the connector, such as how to get the connector and activate the service, see [SAP ERP connector for SAP Advanced Financial Closing](https://help.sap.com/docs/SAP_ERP_CONNECTOR_FOR_ADVANCED_FINANCIAL_CLOSING).
 
 
 
@@ -54,9 +54,9 @@ If you want to connect your application to an on-premise system, you must have i
 
 You require an identity provider to create business users and user groups. You can use the following options:
 
--   SAP Cloud Identity Services:
+-   SAP Cloud Identity Services - Identity Authentication:
 
-    -   You can leverage the capabilities of SAP Cloud Identity Services. For more information, see [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d17a116432d24470930ebea41977a888.html).
+    -   You can leverage the capabilities of SAP Cloud Identity Services - Identity Authentication. For more information, see [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d17a116432d24470930ebea41977a888.html).
 
 
 

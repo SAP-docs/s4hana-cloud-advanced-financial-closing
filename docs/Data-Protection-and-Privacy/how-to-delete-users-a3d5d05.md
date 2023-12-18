@@ -22,9 +22,9 @@ For more information about role templates, see [How to Manage Static Role Templa
 ## Context
 
 > ### Caution:  
-> To revoke all access to SAP S/4HANA Cloud for advanced financial closing from users, it is not enough to delete them using the *Manage Users* app. You need to **revoke further access rights**. For more information, see the procedure, results, and next steps described below.
+> To revoke all access to SAP Advanced Financial Closing from users, it is not enough to delete them using the *Manage Users* app. You need to **revoke further access rights**. For more information, see the procedure, results, and next steps described below.
 
-When you delete users from SAP S/4HANA Cloud for advanced financial closing, there is no retention period, which means that the user data is deleted directly. However, there are different means to reactivate deleted users.
+When you delete users from SAP Advanced Financial Closing, there is no retention period, which means that the user data is deleted directly. However, there are different means to reactivate deleted users.
 
 To delete a user, do the following:
 
@@ -39,7 +39,7 @@ To delete a user, do the following:
     > ### Note:  
     > You can display all deleted users by selecting *Deleted* in the *Status* filter.
 
-3.  To avoid the reactivation of a user through a new logon via the IdP, you also need to unassign the user from all role collections **relevant for SAP S/4HANA Cloud for advanced financial closing**. This way, access to all apps for advanced financial closing is revoked. You can delete the user from role collections using the SAP BTP cockpit. For more information, see [Delete Users from Role Collections](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/4f8a242839a947f9a6f379650480c776.html).
+3.  To avoid the reactivation of a user through a new logon via the IdP, you also need to unassign the user from all role collections **relevant for SAP Advanced Financial Closing**. This way, access to all apps for SAP Advanced Financial Closing is revoked. You can delete the user from role collections using the SAP BTP cockpit. For more information, see [Delete Users from Role Collections](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/4f8a242839a947f9a6f379650480c776.html).
 
 
 

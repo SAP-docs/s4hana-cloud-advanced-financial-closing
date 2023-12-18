@@ -4,7 +4,7 @@
 
 Get an overview of SAP Notes that you need to implement for your connected on-premise systems.
 
-In general, it's recommended that you install the newest support and feature packages for your on-premise communication systems to ensure that you can use all functions of SAP S/4HANA Cloud for advanced financial closing. In addition, we strongly recommend that you also implement certain SAP Notes and corrections.
+In general, it's recommended that you install the newest support and feature packages for your on-premise communication systems to ensure that you can use all functions of SAP Advanced Financial Closing. In addition, we strongly recommend that you also implement certain SAP Notes and corrections.
 
 
 
@@ -12,7 +12,7 @@ In general, it's recommended that you install the newest support and feature pac
 
 ## SAP Note Recommendations and Requirements by System Release
 
-The following table lists by release the SAP Notes and correction measures that are recommended to ensure that you can use all functions of advanced financial closing:
+The following table lists by release the SAP Notes and correction measures that are recommended to ensure that you can use all functions of SAP Advanced Financial Closing:
 
 ****
 
@@ -23,49 +23,35 @@ The following table lists by release the SAP Notes and correction measures that 
 
 System
 
-
-
 </th>
 <th valign="top">
 
 Release
-
-
 
 </th>
 <th valign="top">
 
 Solved With
 
-
-
 </th>
 <th valign="top">
 
 SAP Note
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Severity
 
-
-
 </th>
 <th valign="top">
 
-Available for Advanced Financial Closing As Of
-
-
+Available for SAP Advanced Financial Closing As Of
 
 </th>
 </tr>
@@ -74,49 +60,35 @@ Available for Advanced Financial Closing As Of
 
 SAP S/4HANA
 
-
-
 </td>
 <td valign="top">
 
 `2021`
-
-
 
 </td>
 <td valign="top">
 
 `SP01`
 
-
-
 </td>
 <td valign="top">
 
 [3120437](https://me.sap.com/notes/3120437) \(Expose Application Log Messages\)
-
-
 
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
 
-
-
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>
@@ -125,49 +97,35 @@ Recommended
 
 SAP S/4HANA
 
-
-
 </td>
 <td valign="top">
 
 `2021`
 
-
-
 </td>
 <td valign="top">
 
 `SP02`
-
-
 
 </td>
 <td valign="top">
 
 [3157794](https://me.sap.com/notes/3157794) \(Make Joblog messages to be returned optional\)
 
-
-
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
-
-
 
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>
@@ -176,100 +134,72 @@ Recommended
 
 SAP S/4HANA
 
-
-
 </td>
 <td valign="top">
 
 `2021`
 
-
-
 </td>
 <td valign="top">
 
 `SP02`
-
-
 
 </td>
 <td valign="top">
 
 [3166533](https://me.sap.com/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
 
-
-
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
 
-
-
 </td>
 <td valign="top">
 
 Recommended
-
-
 
 </td>
 <td valign="top">
 
 2022-09-18
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP S/4HANA
-
-
 
 </td>
 <td valign="top">
 
 `2021`
 
-
-
 </td>
 <td valign="top">
 
 `SP02`
-
-
 
 </td>
 <td valign="top">
 
 [3152735](https://me.sap.com/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
 
-
-
 </td>
 <td valign="top">
 
 Adoption of batch job name generation to handle new pattern
-
-
 
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>
@@ -278,49 +208,35 @@ Recommended
 
 SAP S/4HANA
 
-
-
 </td>
 <td valign="top">
 
 `2020`
 
-
-
 </td>
 <td valign="top">
 
 `SP04`
-
-
 
 </td>
 <td valign="top">
 
 [3120437](https://me.sap.com/notes/3120437) \(Expose Application Log Messages\)
 
-
-
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
-
-
 
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>
@@ -329,49 +245,35 @@ Recommended
 
 SAP S/4HANA
 
-
-
 </td>
 <td valign="top">
 
 `2020`
 
-
-
 </td>
 <td valign="top">
 
 `SP04`
-
-
 
 </td>
 <td valign="top">
 
 [3157794](https://me.sap.com/notes/3157794) \(Make Joblog messages to be returned optional\)
 
-
-
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
-
-
 
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>
@@ -380,100 +282,72 @@ Recommended
 
 SAP S/4HANA
 
-
-
 </td>
 <td valign="top">
 
 `2020`
 
-
-
 </td>
 <td valign="top">
 
 `SP04`
-
-
 
 </td>
 <td valign="top">
 
 [3166533](https://me.sap.com/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
 
-
-
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
 
-
-
 </td>
 <td valign="top">
 
 Recommended
-
-
 
 </td>
 <td valign="top">
 
 2022-09-18
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 SAP S/4HANA
-
-
 
 </td>
 <td valign="top">
 
 `2020`
 
-
-
 </td>
 <td valign="top">
 
 `SP04`
-
-
 
 </td>
 <td valign="top">
 
 [3152735](https://me.sap.com/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
 
-
-
 </td>
 <td valign="top">
 
 Adoption of batch job name generation to handle new pattern
-
-
 
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-02-22
-
-
 
 </td>
 </tr>
@@ -481,50 +355,36 @@ Recommended
 <td valign="top">
 
 SAP S/4HANA
-
-
 
 </td>
 <td valign="top">
 
 `1909`
 
-
-
 </td>
 <td valign="top">
 
 `SP06`
-
-
 
 </td>
 <td valign="top">
 
 [3120437](https://me.sap.com/notes/3120437) \(Expose Application Log Messages\)
 
-
-
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
-
-
 
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>
@@ -533,50 +393,36 @@ Recommended
 
 SAP S/4HANA
 
-
-
 </td>
 <td valign="top">
 
 `2019`
 
-
-
 </td>
 <td valign="top">
 
 `SP06`
-
-
 
 </td>
 <td valign="top">
 
 [3152735](https://me.sap.com/notes/3152735) \(Enable support BTC JobName creation for new Define App Tasks\)
 
-
-
 </td>
 <td valign="top">
 
 Adoption of batch job name generation to handle new pattern
 
-
-
 </td>
 <td valign="top">
 
 Recommended
-
-
 
 </td>
 <td valign="top">
 
 2022-02-22
 
-
-
 </td>
 </tr>
 <tr>
@@ -584,50 +430,36 @@ Recommended
 
 SAP ERP
 
-
-
 </td>
 <td valign="top">
 
 `6.0`
-
-
 
 </td>
 <td valign="top">
 
 `SP14`
 
-
-
 </td>
 <td valign="top">
 
 [3332291](https://me.sap.com/notes/3332291) \(Prevent accidental deletion of messages \(FCCX\_TASK\_EXEC\_M within New Scheduling\)
 
-
-
 </td>
 <td valign="top">
 
-Prevent deletion of messages relating to advanced financial closing.
-
-
+Prevent deletion of messages relating to SAP Advanced Financial Closing.
 
 </td>
 <td valign="top">
 
 Required
-
-
 
 </td>
 <td valign="top">
 
 2023-05-12
 
-
-
 </td>
 </tr>
 <tr>
@@ -635,50 +467,36 @@ Required
 
 SAP ERP
 
-
-
 </td>
 <td valign="top">
 
 `6.0`
-
-
 
 </td>
 <td valign="top">
 
 `SP10`
 
-
-
 </td>
 <td valign="top">
 
 [3252875](https://me.sap.com/notes/3252875) \(Improve OPVAR Handling in the ABAP Business Backend \(3\)\)
-
-
 
 </td>
 <td valign="top">
 
 Improve handling of posting period variants
 
-
-
 </td>
 <td valign="top">
 
 Required
-
-
 
 </td>
 <td valign="top">
 
 2022-09-29
 
-
-
 </td>
 </tr>
 <tr>
@@ -686,49 +504,35 @@ Required
 
 SAP ERP
 
-
-
 </td>
 <td valign="top">
 
 `6.0`
-
-
 
 </td>
 <td valign="top">
 
 `SP09`
 
-
-
 </td>
 <td valign="top">
 
 [3247431](https://me.sap.com/notes/3247431) \(Handle zero date correctly\)
 
-
-
 </td>
 <td valign="top">
 
-For use with the SAP ERP connector for SAP S/4HANA Cloud for advanced financial closing with `SP08`
-
-
+For use with the SAP ERP connector for SAP Advanced Financial Closing with `SP08`
 
 </td>
 <td valign="top">
 
 Required
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>
@@ -737,49 +541,35 @@ Required
 
 SAP ERP
 
-
-
 </td>
 <td valign="top">
 
 `6.0`
 
-
-
 </td>
 <td valign="top">
 
 `SP06`
-
-
 
 </td>
 <td valign="top">
 
 [3157794](https://me.sap.com/notes/3157794) \(Make Joblog messages to be returned optional\)
 
-
-
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
-
-
 
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>
@@ -788,49 +578,35 @@ Recommended
 
 SAP ERP
 
-
-
 </td>
 <td valign="top">
 
 `6.0`
-
-
 
 </td>
 <td valign="top">
 
 `SP06`
 
-
-
 </td>
 <td valign="top">
 
 [3166533](https://me.sap.com/notes/3166533) \(Expose feature for Make Joblog messages to be returned optional\)
-
-
 
 </td>
 <td valign="top">
 
 Improvement of the performance of job result synchronization
 
-
-
 </td>
 <td valign="top">
 
 Recommended
 
-
-
 </td>
 <td valign="top">
 
 2022-09-18
-
-
 
 </td>
 </tr>

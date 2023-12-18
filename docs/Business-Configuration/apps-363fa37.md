@@ -1,0 +1,34 @@
+<!-- loio363fa3721fce4718a5a69191123485d0 -->
+
+# Apps
+
+Learn more about the apps that are available for business configuration.
+
+-   **[Manage Authorization Groups](manage-authorization-groups-0ea3430.md "You use the Manage
+                                                  Authorization Groups
+		app to grant users object-specific access.")**  
+You use the *Manage Authorization Groups* app to grant users object-specific access.
+-   **[Manage Country/Region Groups](manage-country-region-groups-e130df4.md "You use the Manage
+                                                  Country/Region Groups app to create
+		country/region groups.")**  
+You use the *Manage Country/Region Groups* app to create country/region groups.
+-   **[Manage Email Notification Configurations](manage-email-notification-configurations-6f4c0b4.md "You use the Manage Email
+                                                  Notification Configurations app to create configurations of email notifications.")**  
+You use the *Manage Email Notification Configurations* app to create configurations of email notifications.
+-   **[Manage User Groups](manage-user-groups-3e8208b.md "You use the Manage User
+                                                  Groups
+		app to create user groups.")**  
+You use the *Manage User Groups* app to create user groups.
+-   **[Manage User Roles](manage-user-roles-a6e1ae0.md "You use the Manage User
+                                                  Roles
+		app to create user roles.")**  
+You use the *Manage User Roles* app to create user roles.
+-   **[Manage Compliance Settings](manage-compliance-settings-73412af.md "You use the Manage Compliance
+                                                  Settings
+		app to define several compliance settings.")**  
+You use the *Manage Compliance Settings* app to define several compliance settings.
+-   **[Manage User Role Assignments](manage-user-role-assignments-c606666.md "You use the Manage
+                                                  User Role Assignments app to maintain
+		user-to-role assignments.")**  
+You use the *Manage User Role Assignments* app to maintain user-to-role assignments.
+

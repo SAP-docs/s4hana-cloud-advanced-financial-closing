@@ -85,15 +85,11 @@ You can grant access that is tied to a specific communication system without bei
     <th valign="top">
 
     Authorization
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -101,15 +97,11 @@ You can grant access that is tied to a specific communication system without bei
     <td valign="top">
     
     *Read*
-
-
     
     </td>
     <td valign="top">
     
     Read authorization within the scope of this user role. This is the minimum authorization, and it's included in all others.
-
-
     
     </td>
     </tr>
@@ -117,15 +109,11 @@ You can grant access that is tied to a specific communication system without bei
     <td valign="top">
     
     *Process*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to process tasks. This authorization covers actions related to task status changes, scheduling, test runs, attachments, and notes. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -133,15 +121,11 @@ You can grant access that is tied to a specific communication system without bei
     <td valign="top">
     
     *Plan*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to change attributes that relate to the planning of a task. This authorization covers changes to the planned start and planned duration as well as path recalculation. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -149,15 +133,11 @@ You can grant access that is tied to a specific communication system without bei
     <td valign="top">
     
     *Parameters*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to change parameters within the scope of this user role. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -165,15 +145,11 @@ You can grant access that is tied to a specific communication system without bei
     <td valign="top">
     
     *User Assignment*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to change processing users or user groups, and users responsible or responsible user groups within the scope of this user role. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>
@@ -181,15 +157,11 @@ You can grant access that is tied to a specific communication system without bei
     <td valign="top">
     
     *Approve / Reject*
-
-
     
     </td>
     <td valign="top">
     
     Authorization to approve and reject tasks that require approval. This authorization always includes *Read* authorization.
-
-
     
     </td>
     </tr>

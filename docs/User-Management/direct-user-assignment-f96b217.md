@@ -36,49 +36,45 @@ Find out how to manage user groups under [How to Manage User Groups](how-to-mana
 
 Scope Affected
 
-
-
 </th>
 <th valign="top">
 
 Actions
-
-
 
 </th>
 <th valign="top">
 
 Owner / Owner Group
 
-
-
 </th>
 <th valign="top">
 
 User / User Group Responsible \(Task List Template / Task List\)
-
-
 
 </th>
 <th valign="top">
 
 User / User Group Responsible \(Organizational Unit Folder\)
 
-
-
 </th>
 <th valign="top">
 
 User / User Group Responsible \(Task\)
-
-
 
 </th>
 <th valign="top">
 
 Processing User / User Group
 
+</th>
+<th valign="top">
 
+Interested User / User Group \(Folder\)
+
+</th>
+<th valign="top">
+
+Interested User / User Group \(Task\)
 
 </th>
 </tr>
@@ -87,49 +83,45 @@ Processing User / User Group
 
 *Task List Creation*
 
-
-
 </td>
 <td valign="top">
 
 Read
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -137,50 +129,46 @@ Read
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Create
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -188,50 +176,46 @@ Create
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Copy
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -239,50 +223,46 @@ Copy
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Edit / Save
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -290,50 +270,46 @@ Edit / Save
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Delete
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -341,50 +317,46 @@ Delete
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Generate
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -392,50 +364,46 @@ Generate
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Change Task List Status
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -443,50 +411,46 @@ Change Task List Status
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Change User Assignments \(Quick Actions\)
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -494,50 +458,46 @@ Change User Assignments \(Quick Actions\)
 <td valign="top">
 
 *Task List Creation*
-
-
 
 </td>
 <td valign="top">
 
 Check SOX Compliance
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -546,49 +506,45 @@ Check SOX Compliance
 
 *Task List Creation*
 
-
-
 </td>
 <td valign="top">
 
 Check Compatibility
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
 
 </td>
 </tr>
@@ -596,50 +552,46 @@ Check Compatibility
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Read
 
-
-
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
-
-
 
 </td>
 </tr>
@@ -647,50 +599,46 @@ Read
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Download Results
 
-
-
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+`X`
 
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
 
-
-
 </td>
 <td valign="top">
 
 `X`
-
-
 
 </td>
 </tr>
@@ -698,50 +646,46 @@ Download Results
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Change Task Status
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -749,50 +693,46 @@ Change Task Status
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Process
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -800,50 +740,46 @@ Process
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Schedule
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -851,50 +787,46 @@ Schedule
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Cancel Run
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -902,50 +834,46 @@ Cancel Run
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Start Test Run
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -953,50 +881,46 @@ Start Test Run
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Cancel Test Run
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 <td valign="top">
 
 `X`
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -1004,50 +928,46 @@ Cancel Test Run
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Edit Attachments/Notes
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
+ 
 
 </td>
 </tr>
@@ -1055,50 +975,46 @@ Edit Attachments/Notes
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Change Planned Start
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -1106,50 +1022,46 @@ Change Planned Start
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Change Planned Duration
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -1157,50 +1069,46 @@ Change Planned Duration
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Change Parameters
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
  
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
 
 </td>
 </tr>
@@ -1208,50 +1116,46 @@ Change Parameters
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Change User Assignments
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">
 
  
 
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 </tr>
@@ -1259,50 +1163,46 @@ Change User Assignments
 <td valign="top">
 
 *Task Processing*
-
-
 
 </td>
 <td valign="top">
 
 Approve
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">
 
  
 
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 </tr>
@@ -1311,49 +1211,45 @@ Approve
 
 *Task Processing*
 
-
-
 </td>
 <td valign="top">
 
 Reject
 
+</td>
+<td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">
 
  
 
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
-</td>
-<td valign="top">
-
-`X`
-
-
-
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+ 
 
 </td>
 </tr>
