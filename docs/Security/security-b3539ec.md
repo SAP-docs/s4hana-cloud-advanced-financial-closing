@@ -18,4 +18,6 @@ Authorization handling during communication with an on-premise system.
 
 -   **[Data Used for API Integrations](data-used-for-api-integrations-62f0a49.md "Security considerations for data relevant for the use of the APIs.")**  
 Security considerations for data relevant for the use of the APIs.
+-   **[Audit Log Integration](audit-log-integration-5839c73.md "Audit logs for security-relevant events.")**  
+Audit logs for security-relevant events.
 

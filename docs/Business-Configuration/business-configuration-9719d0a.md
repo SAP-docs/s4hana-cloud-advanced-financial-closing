@@ -13,6 +13,8 @@ Define country/region groups for reports about financial closing activities.
 -   **[How to Manage Email Notification Configurations](how-to-manage-email-notification-configurations-c4e2569.md "Create notification configurations and assign a set of email notification scenarios to a
 		task list.")**  
 Create notification configurations and assign a set of email notification scenarios to a task list.
+-   **[How to Manage Company Code Groups](how-to-manage-company-code-groups-a79d8dc.md "Create and manage company code groups.")**  
+Create and manage company code groups.
 -   **[How to Manage User Groups](how-to-manage-user-groups-e2f793a.md "A user group represents a group of users who can be assigned to a particular set of
 		tasks.")**  
 A user group represents a group of users who can be assigned to a particular set of tasks.

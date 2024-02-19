@@ -87,12 +87,24 @@ This authorization can't be assigned to restricted user roles.
 <tr>
 <td valign="top">
 
+*Delete*
+
+</td>
+<td valign="top">
+
+Authorization to delete task lists irrespective of their status. This authorization always includes *Read* authorization.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Write*
 
 </td>
 <td valign="top">
 
-Authorization to edit and delete task list templates and task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
+Authorization to edit task list templates and task lists. Additionally, authorization to delete task list templates and non-released task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
 
 </td>
 </tr>
@@ -150,6 +162,11 @@ Actions Allowed
 </th>
 <th valign="top">
 
+*Delete*
+
+</th>
+<th valign="top">
+
 *Write*
 
 </th>
@@ -168,6 +185,11 @@ Actions Allowed
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">
@@ -227,6 +249,11 @@ Create
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -259,11 +286,21 @@ Copy
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
 Edit / Save
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -310,6 +347,11 @@ Recalculate Paths
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -327,7 +369,12 @@ Recalculate Paths
 <tr>
 <td valign="top">
 
-Delete
+Delete Task List Templates and Task Lists with Status *Not Released*
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -379,6 +426,11 @@ Generate
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -411,6 +463,11 @@ Change Task List Status
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -423,7 +480,49 @@ Change Task List Status
 <tr>
 <td valign="top">
 
+Delete Task Lists
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Change User Assignments \(Quick Actions\)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -470,6 +569,11 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -502,6 +606,11 @@ Check Compatibility
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -530,6 +639,11 @@ Read Corresponding Change Log Entries
 <td valign="top">
 
 `X`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

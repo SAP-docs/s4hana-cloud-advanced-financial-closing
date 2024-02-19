@@ -27,7 +27,4 @@ Upload new users to SAP Advanced Financial Closing and update certain user attri
                                                   Closing. By default,
 		users don't have access to these objects.")  
 You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.
-4.  [Extended What's New: Switch of Authorization Concept](extended-what-s-new-switch-of-authorization-concept-3155ba8.md "Understand the consequences of the retirement of the old authorization
-		concept.")  
-Understand the consequences of the retirement of the old authorization concept.
 

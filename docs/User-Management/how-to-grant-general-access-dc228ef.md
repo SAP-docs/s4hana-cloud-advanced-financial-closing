@@ -122,12 +122,24 @@ You can grant access that applies to all objects within the scope, independently
     <tr>
     <td valign="top">
     
+    *Delete*
+    
+    </td>
+    <td valign="top">
+    
+    Authorization to delete task lists irrespective of their status. This authorization always includes *Read* authorization.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     *Write*
     
     </td>
     <td valign="top">
     
-    Authorization to edit and delete task list templates and task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
+    Authorization to edit task list templates and task lists. Additionally, authorization to delete task list templates and non-released task lists. This authorization always includes *Read* authorization and *User Assignment* authorization.
     
     </td>
     </tr>

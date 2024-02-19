@@ -42,7 +42,7 @@ As the first step to set up an API integration scenario for SAP Advanced Financi
 
     8.  In the table, look for an entry called *API - standard*.
 
-    9.  Open the additional options for this entry using the *More* icon <span class="SAP-icons"></span>.
+    9.  Open the additional options for this entry using the *More* icon <span class="SAP-icons-V5"></span>.
 
     10. Choose *Create*.
 

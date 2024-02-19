@@ -28,7 +28,91 @@ Description
 <tr>
 <td valign="top" rowspan="2">
 
-December 10, 2023
+February 18, 2024
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [Language Scope](../Overview/language-scope-4f635b9.md):
+
+    The following information was added:
+
+    Additional languages for user interface and in-app help
+
+-   [How to Manage Users](../User-Management/how-to-manage-users-c338b30.md):
+
+    The following information was added:
+
+    Information about use of user template
+
+-   [Overview of Actions and Means to Grant Access](../User-Management/overview-of-actions-and-means-to-grant-access-1923b89.md) and [Overview of Actions and Means to Grant Access \(for Use of Screenreaders\)](../User-Management/overview-of-actions-and-means-to-grant-access-for-use-of-screenreaders-ade4735.md):
+
+    The following information was added:
+
+    *Delete* authorization in *Task List Creation* scope
+
+-   [Task List Creation Scope](../User-Management/task-list-creation-scope-ba4100e.md):
+
+    The following information was added:
+
+    *Delete* authorization in *Task List Creation* scope
+
+-   [Direct User Assignment](../User-Management/direct-user-assignment-f96b217.md):
+
+    The following information was added:
+
+    Authorization to delete task lists through direct assignment
+
+-   [How to Manage User Groups](../User-Management/how-to-manage-user-groups-45bb6c9.md) and [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md):
+
+    The following information was added:
+
+    Information about different means to manage user access
+
+-   [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md)
+
+    The following information was added:
+
+    SAP Note to implement a fix for SAP S/4HANA 2022 and 2023 communication systems
+
+-   [Security](../Security/security-b3539ec.md):
+
+    The following underlying page was added:
+
+    [Audit Log Integration](../Security/audit-log-integration-5839c73.md)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+![Content removed](images/Icon_Content_Removed_Bin_18baa68.png)
+
+</td>
+<td valign="top">
+
+[User Management](../User-Management/user-management-ae7fa30.md):
+
+The following underlying page was removed:
+
+*Extended What's New: Switch of Authorization Concept*
+
+You can still find this information under [What's New Archive](https://help.sap.com/viewer/63a47d78868a40019d316c52e2ed597f/SHIP/en-US/522f30a85a594fca9507d6896be76142.html "Overview of new and changed features of SAP Advanced Financial Closing.") :arrow_upper_right:.
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+December 17, 2023
 
 </td>
 <td valign="top">
@@ -75,85 +159,6 @@ December 10, 2023
 
 
 
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="3">
-
-November 12, 2023
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [Overview of Actions and Means to Grant Access](../User-Management/overview-of-actions-and-means-to-grant-access-1923b89.md) and [Overview of Actions and Means to Grant Access \(for Use of Screenreaders\)](../User-Management/overview-of-actions-and-means-to-grant-access-for-use-of-screenreaders-ade4735.md):
-
-    The following information was added:
-
-    Interested user and user group
-
--   [Direct User Assignment](../User-Management/direct-user-assignment-f96b217.md):
-
-    The following information was added:
-
-    Interested user and user group
-
--   [Connectivity](../Connectivity/connectivity-200deae.md):
-
-    The following underlying page was added:
-
-    [Specify Communication Systems](../Connectivity/specify-communication-systems-7e2136a.md)
-
--   [How to Check the System Information](../System-Monitoring/how-to-check-the-system-information-1f3c6dd.md):
-
-    The following information was added:
-
-    Checking ITS settings
-
--   The following page was added to this guide: [Integration Capabilities](../Integration-Capabilities/integration-capabilities-8aa10e1.md).
-
-    The following underlying page was added:
-
-    [SCIM API for User Access Management](../Integration-Capabilities/scim-api-for-user-access-management-3f44fda.md)
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
-
-</td>
-<td valign="top">
-
--   [System Landscape](../System-Landscape/system-landscape-3b9f341.md)
-
-    The following information was changed:
-
-    System landscape information regarding test tenant connection
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-![Content moved](images/Icon_Content_Moved_Arrow_adc9bb4.png)
-
-</td>
-<td valign="top">
-
-The page [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md) was moved to the section [Integration Capabilities](../Integration-Capabilities/integration-capabilities-8aa10e1.md).
 
 </td>
 </tr>

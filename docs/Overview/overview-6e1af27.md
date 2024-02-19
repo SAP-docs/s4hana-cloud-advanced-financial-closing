@@ -11,7 +11,7 @@ Get an overview of SAP Advanced Financial Closing.
 ## About This Guide
 
 > ### Note:  
-> This documentation refers to the solution on SAP BTP. For the SAP S/4HANA Cloud version, see [Entity Close](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f28f75c165cc4626ba0359dc47edc4de/5e4381c85a544720920b78d20d656a4c.html?locale=en-US).
+> This documentation refers to the solution on SAP BTP. For the deprecated version that was released as part of SAP S/4HANA Cloud, see [Entity Close](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f28f75c165cc4626ba0359dc47edc4de/5e4381c85a544720920b78d20d656a4c.html?locale=en-US) \(SAP S/4HANA Cloud documentation\).
 
 This administration guide describes the steps you need to perform as an administrator to set up and run SAP Advanced Financial Closing. It covers application-specific information only. For general information about SAP Business Technology Platform \(SAP BTP\), see the [documentation on the SAP Help Portal](https://help.sap.com/docs/BTP?locale=en-US).
 

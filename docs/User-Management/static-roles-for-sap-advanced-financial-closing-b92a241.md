@@ -6,6 +6,14 @@ Static roles enable users to see the affected apps on their SAP Fiori launchpad.
 
 
 
+<a name="loiob92a2411e4164270964903c502e22340__section_y4b_2xk_21c"/>
+
+## Context
+
+Static role templates are assigned to users to grant them access to apps that are part of SAP Advanced Financial Closing. In the end, these role templates allow the corresponding app tiles to be shown on a user's launchpad.
+
+
+
 ## Available Role Templates
 
 > ### Note:  
@@ -67,6 +75,12 @@ Description for Display-Only Role
     For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
 
 
+**App Details:**
+
+-   [Manage Users](../Business-Configuration/manage-users-85bfe2f.md)
+-   [Specify Communication Systems](../Connectivity/specify-communication-systems-7e2136a.md)
+-   [Monitor Communication Systems](../System-Monitoring/monitor-communication-systems-a215069.md)
+
 
 
 </td>
@@ -101,6 +115,10 @@ System administration:
 <td valign="top">
 
 Maintains connections to financial communication systems
+
+**App Details:**
+
+[Specify Communication Systems](../Connectivity/specify-communication-systems-7e2136a.md)
 
 </td>
 <td valign="top">
@@ -149,6 +167,10 @@ Maintains connections to financial communication systems
 
 To be able to view synchronization logs, a user additionally requires role template `Business_Process_Specialist_BL_AccessAll`.
 
+**App Details:**
+
+[Monitor Communication Systems](../System-Monitoring/monitor-communication-systems-a215069.md)
+
 </td>
 <td valign="top">
 
@@ -185,6 +207,13 @@ To be able to view synchronization logs, a user additionally requires role templ
 
 Migrates data if a migration from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud to the SAP BTP solution takes place.
 
+**App Details:**
+
+-   [Migrate Configuration Data](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/643f4e8eef5d4eb6bc3baa621a9ed1f5.html "You use the Migrate Configuration Data app to migrate your configuration data before migrating the task lists.") :arrow_upper_right:
+-   [Migrate Closing Task Lists](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/45712c68d98e4bbbbb7ce947fc265ad0.html "You use the Migrate Closing Task Lists app to migrate your financial closing task lists.") :arrow_upper_right:
+
+
+
 </td>
 <td valign="top">
 
@@ -214,6 +243,10 @@ Migrates data if a migration from SAP Advanced Financial Closing as part of SAP 
 <td valign="top">
 
 Maintains general compliance settings
+
+**App Details:**
+
+[Manage Compliance Settings](../Business-Configuration/manage-compliance-settings-73412af.md)
 
 </td>
 <td valign="top">
@@ -253,6 +286,12 @@ Maintains general compliance settings
 
 -   Maintains user groups
 
+
+**App Details:**
+
+-   [Manage Users](../Business-Configuration/manage-users-85bfe2f.md)
+-   [Manage User Role Assignments](../Business-Configuration/manage-user-role-assignments-c606666.md)
+-   [Manage User Groups](../Business-Configuration/manage-user-groups-3e8208b.md)
 
 
 
@@ -314,6 +353,16 @@ Uses the UI to access API information and documentation
 
 Maintains application-specific data, for example, configuration settings, or master data
 
+**App Details:**
+
+-   [Manage Authorization Groups](../Business-Configuration/manage-authorization-groups-0ea3430.md)
+-   [Manage Country/Region Groups](../Business-Configuration/manage-country-region-groups-e130df4.md)
+-   [Manage Email Notification Configurations](../Business-Configuration/manage-email-notification-configurations-6f4c0b4.md)
+-   [Manage User Groups](../Business-Configuration/manage-user-groups-3e8208b.md)
+-   [Manage User Roles](../Business-Configuration/manage-user-roles-a6e1ae0.md)
+
+
+
 </td>
 <td valign="top">
 
@@ -347,6 +396,13 @@ Maintains application-specific data, for example, configuration settings, or mas
 
 Maintains application-specific settings, such as notifications and country/region groups
 
+**App Details:**
+
+-   [Manage Country/Region Groups](../Business-Configuration/manage-country-region-groups-e130df4.md)
+-   [Manage Email Notification Configurations](../Business-Configuration/manage-email-notification-configurations-6f4c0b4.md)
+
+
+
 </td>
 <td valign="top">
 
@@ -377,6 +433,13 @@ Maintains application-specific settings, such as notifications and country/regio
 
 Maintains user roles and authorization groups
 
+**App Details:**
+
+-   [Manage User Roles](../Business-Configuration/manage-user-roles-a6e1ae0.md)
+-   [Manage Authorization Groups](../Business-Configuration/manage-authorization-groups-0ea3430.md)
+
+
+
 </td>
 <td valign="top">
 
@@ -406,6 +469,10 @@ Maintains user roles and authorization groups
 <td valign="top">
 
 Maintains authorization groups
+
+**App Details:**
+
+[Manage Authorization Groups](../Business-Configuration/manage-authorization-groups-0ea3430.md)
 
 </td>
 <td valign="top">
@@ -443,6 +510,10 @@ Maintains authorization groups
 
 Maintains country/region groups
 
+**App Details:**
+
+[Manage Country/Region Groups](../Business-Configuration/manage-country-region-groups-e130df4.md)
+
 </td>
 <td valign="top">
 
@@ -472,12 +543,53 @@ Maintains country/region groups
 <tr>
 <td valign="top">
 
+`AFC_CompanyCodeGroupsApp`
+
+</td>
+<td valign="top">
+
+Maintains company code groups
+
+**App Details:**
+
+[Manage Company Code Groups](../Business-Configuration/manage-company-code-groups-90a2ae4.md)
+
+</td>
+<td valign="top">
+
+-   *Manage Company Code Groups* \(Configuration\)
+
+
+
+</td>
+<td valign="top">
+
+`AFC_CompanyCodeGroupsApp_Display`
+
+</td>
+<td valign="top">
+
+-   Views and exports information about company code group assignments
+-   Views and exports in-app change logs
+-   **Cannot** create, edit, or delete company code group assignments
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `AFC_NotificationsApp` 
 
 </td>
 <td valign="top">
 
 Maintains email notification configurations
+
+**App Details:**
+
+[Manage Email Notification Configurations](../Business-Configuration/manage-email-notification-configurations-6f4c0b4.md)
 
 </td>
 <td valign="top">
@@ -514,6 +626,10 @@ Maintains email notification configurations
 <td valign="top">
 
 Maintains user groups
+
+**App Details:**
+
+[Manage User Groups](../Business-Configuration/manage-user-groups-3e8208b.md)
 
 </td>
 <td valign="top">
@@ -555,6 +671,10 @@ Maintains user groups
 
 Maintains user roles
 
+**App Details:**
+
+[Manage User Roles](../Business-Configuration/manage-user-roles-a6e1ae0.md)
+
 </td>
 <td valign="top">
 
@@ -590,6 +710,10 @@ Maintains user roles
 <td valign="top">
 
 Maintains and deletes users
+
+**App Details:**
+
+[Manage Users](../Business-Configuration/manage-users-85bfe2f.md)
 
 </td>
 <td valign="top">
@@ -629,6 +753,10 @@ Maintains and deletes users
 
 Maintains assignments between user and roles
 
+**App Details:**
+
+[Manage User Role Assignments](../Business-Configuration/manage-user-role-assignments-c606666.md)
+
 </td>
 <td valign="top">
 
@@ -667,6 +795,10 @@ Maintains assignments between user and roles
 
 Restores task lists from archive
 
+**App Details:**
+
+[Manage Archived Closing Task Lists](../Archiving/manage-archived-closing-task-lists-9d9c629.md)
+
 </td>
 <td valign="top">
 
@@ -695,6 +827,13 @@ Views archived task lists
 <td valign="top">
 
 Maintains task list templates and task lists
+
+**App Details:**
+
+-   [Manage Closing Task Lists](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
+-   [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:
+
+
 
 </td>
 <td valign="top">
@@ -726,6 +865,13 @@ Maintains task list templates and task lists
 
 Processes task lists and tasks
 
+**App Details:**
+
+-   [Process Closing Tasks](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/ae51205499f549558eadd8a2c190d1b5.html "You use the Process Closing Tasks app to manually process, schedule, or automate your closing tasks.") :arrow_upper_right:
+-   [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:
+
+
+
 </td>
 <td valign="top">
 
@@ -755,6 +901,13 @@ Processes task lists and tasks
 <td valign="top">
 
 Approves tasks
+
+**App Details:**
+
+-   [Approve Closing Tasks](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/0080c46144184fd7941121527575f2cd.html "You use the Approve Closing Tasks app to check and approve critical closing tasks.") :arrow_upper_right:
+-   [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:
+
+
 
 </td>
 <td valign="top">
@@ -786,11 +939,92 @@ Approves tasks
 
 Monitors overall progress of closing activities and tracks task completion
 
+**App Details:**
+
+-   [Financial Close Overview](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/4f84841c40384a4dbb9d3841f3a0b5a3.html "This app enables you to access key information and KPIs to monitor the completion of closing tasks.") :arrow_upper_right:
+-   [Closing Task Completion](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/b83de37c24b34c14a6cae849b3161fab.html "This app enables you to analyze the status and the completion rate of active closing tasks as a summary.") :arrow_upper_right:
+
+
+
 </td>
 <td valign="top">
 
 -   *Financial Close Overview*
 -   *Closing Task Completion*
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`AFC_ReportingTaskView`
+
+</td>
+<td valign="top">
+
+Monitors overall progress of closing activities and tracks the financial close with focus on task overall status
+
+**App Details:**
+
+-   [Financial Close Overview - Task View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/3da7158ea6674b70bf7ba3cbd83c8c25.html "You use the Financial Close Overview - Task View app to do your reporting based on the overall task statuses.") :arrow_upper_right:
+-   [Closing Task Completion - Task View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/92dd6f8e5e8e49ce831381fbb1d9908d.html "You use the Closing Task Completion - Task View app to do your detailed reporting based on the overall task statuses.") :arrow_upper_right:
+
+
+
+</td>
+<td valign="top">
+
+-   *Financial Close Overview - Task View*
+-   *Closing Task Completion - Task View*
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`AFC_ReportingOrgUnitView`
+
+</td>
+<td valign="top">
+
+Monitors overall progress of closing activities and tracks the financial close with focus on task execution statuses
+
+**App Details:**
+
+-   [Financial Close Overview - Organizational Unit View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/22861d7f90764ac3b48d60cc96d9e55e.html "You use the Financial Close Overview - Organizational Unit View app to do your reporting based on the individual task execution statuses.") :arrow_upper_right:
+-   [Closing Task Completion - Organizational Unit View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/8c7230c7cbd7410ea8a26682afb4657e.html "You use the Closing Task Completion - Organizational Unit View app to do your detailed reporting based on the individual task execution statuses.") :arrow_upper_right:
+
+
+
+</td>
+<td valign="top">
+
+-   *Financial Close Overview - Organizational Unit View*
+-   *Closing Task Completion - Organizational Unit View*
 
 
 

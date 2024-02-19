@@ -26,3 +26,8 @@ With the *Manage User Roles* app, you can create user roles to specify the obj
 -   Desktop
 
 
+**Related Information**  
+
+
+[How to Manage User Roles](how-to-manage-user-roles-c621794.md "Use user roles to manage role-based access.")
+

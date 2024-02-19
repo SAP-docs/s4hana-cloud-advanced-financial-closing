@@ -15,8 +15,7 @@ Manage users, user groups, and user roles through a dedicated API.
 		that supports global user IDs.")**  
 To use SAP Task Center together with your SAP Advanced Financial Closing subaccount, you need to configure a custom Identity Authentication service that supports global user IDs.
 -   **[Process Automation Integration for SAP Advanced Financial Closing](process-automation-integration-for-sap-advanced-financial-closing-a1d7fe3.md "Set up process automation using SAP Build Process
-                                                  Automation or SAP Intelligent
-                                                RPA to automate job
+                                                  Automation or SAP Intelligent RPA to automate job
 		processing.")**  
 Set up process automation using SAP Build Process Automation or SAP Intelligent RPA to automate job processing.
 -   **[Additional Setup Information](additional-setup-information-bc2c8fc.md "")**  

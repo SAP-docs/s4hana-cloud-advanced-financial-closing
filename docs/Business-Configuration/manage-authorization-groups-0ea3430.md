@@ -28,3 +28,8 @@ With the *Manage Authorization Groups* app, you can create and edit authorizatio
 -   Desktop
 
 
+**Related Information**  
+
+
+[How to Manage Authorization Groups](how-to-manage-authorization-groups-d3c02b0.md "Use authorization groups to grant object-specific access.")
+

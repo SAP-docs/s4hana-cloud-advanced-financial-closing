@@ -15,6 +15,10 @@ You use the *Manage Country/Region Groups* app to create country/region groups.
 -   **[Manage Email Notification Configurations](manage-email-notification-configurations-6f4c0b4.md "You use the Manage Email
                                                   Notification Configurations app to create configurations of email notifications.")**  
 You use the *Manage Email Notification Configurations* app to create configurations of email notifications.
+-   **[Manage Company Code Groups](manage-company-code-groups-90a2ae4.md "You use the Manage
+                                                  Company Code Groups app to create
+		company code groups.")**  
+You use the *Manage Company Code Groups* app to create company code groups.
 -   **[Manage User Groups](manage-user-groups-3e8208b.md "You use the Manage User
                                                   Groups
 		app to create user groups.")**  
@@ -27,6 +31,8 @@ You use the *Manage User Roles* app to create user roles.
                                                   Settings
 		app to define several compliance settings.")**  
 You use the *Manage Compliance Settings* app to define several compliance settings.
+-   **[Manage Users](manage-users-85bfe2f.md)**  
+
 -   **[Manage User Role Assignments](manage-user-role-assignments-c606666.md "You use the Manage
                                                   User Role Assignments app to maintain
 		user-to-role assignments.")**  

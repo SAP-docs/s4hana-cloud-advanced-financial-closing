@@ -34,6 +34,12 @@ For more information about how to create roles and how to bundle them in role co
 
 
 
+### What is the Purpose of Static Roles in SAP Advanced Financial Closing?
+
+Static role templates are assigned to users to grant them access to apps that are part of SAP Advanced Financial Closing. In the end, these role templates allow the corresponding app tiles to be shown on a user's launchpad.
+
+
+
 <a name="loio0cca34d98080443b8ce7294e9b4977b4__steps_uj3_43n_sjb"/>
 
 ## Procedure

@@ -47,16 +47,39 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 
 
 
+### Different Means to Manage User Access
+
+In SAP Advanced Financial Closing, you have different means to manage specific aspects of user access:
+
+-   Manage user access in SAP Advanced Financial Closing directly.
+-   Manage user access through an identity provider.
+-   Manage user access using the SCIM API provided.
+
+Some of these different means to manage user access offer a subset of available functions. Additionally, when using the SCIM API provided, you need to pay attention to the following effects:
+
+-   You can't synchronize a user group using the SCIM API if a draft already exists for this user group in SAP Advanced Financial Closing. You may find corresponding error messages in the synchronization log.
+-   A user group that has been synchronized using the SCIM API becomes a read-only group in SAP Advanced Financial Closing. However, you can reactivate the *Edit* function in SAP Advanced Financial Closing by choosing *Reactivate Edit Function* for the affected group in the *Manage User Groups* app.
+
+    > ### Note:  
+    > After another synchronization through the SCIM API, the changes you made in SAP Advanced Financial Closing after reactivating the *Edit* function will be overwritten and the group will become read-only again.
+
+-   Ensure that you don't synchronize empty user groups using the SCIM API, since users may be able to assign these groups to objects in SAP Advanced Financial Closing.
+
+> ### Tip:  
+> To have a better overview of the source of a user or user group, you can add the *Source* column to the lists in the *Manage Users* app and in the *Manage User Groups* app.
+
+
+
 ## Procedure
 
 1.  **Optional:** Maintain the API information for your source system:
 
-    As a source system, you can use an identity authentication, for example. To do this, follow the steps described under [SAP S/4HANA Cloud for advanced financial closing \(Identity Provisioning documentation for source systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-s-4hana-cloud-for-advanced-financial-closing).
+    As a source system, you can use an identity authentication, for example. To do this, follow the steps described under [SAP Advanced Financial Closing \(Identity Provisioning documentation for source systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-s-4hana-cloud-for-advanced-financial-closing).
 
     > ### Note:  
     > Other identity provisioning services may require a different configuration.
 
-2.  Maintain the API information for your target system as described under [SAP S/4HANA Cloud for advanced financial closing \(Identity Provisioning documentation for target systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/target-sap-s-4hana-cloud-for-advanced-financial-closing).
+2.  Maintain the API information for your target system as described under [SAP Advanced Financial Closing \(Identity Provisioning documentation for target systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/target-sap-s-4hana-cloud-for-advanced-financial-closing).
 
     Some of the information you need to provide may be sensitive data for which security recommendations apply. For more information, see [Data Used for API Integrations](../Security/data-used-for-api-integrations-62f0a49.md).
 

@@ -20,7 +20,15 @@ Users who have been assigned a static role can see the respective apps in the SA
 
 -   *Financial Close Overview* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
+-   *Financial Close Overview - Organizational Unit View* \(derived from the *Read* authorization in the *Task Processing* scope\)
+
+-   *Financial Close Overview - Task View* \(derived from the *Read* authorization in the *Task Processing* scope\)
+
 -   *Closing Task Completion* \(derived from the *Read* authorization in the *Task Processing* scope\)
+
+-   *Closing Task Completion - Organizational Unit View* \(derived from the *Read* authorization in the *Task Processing* scope\)
+
+-   *Closing Task Completion - Organizational Unit View* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
 -   *Change Log* \(derived from the *Read* authorization in the *Task List Creation* scope and the *Task Processing* scope\)
 
@@ -175,8 +183,12 @@ For more information, see [Task List Creation Scope](task-list-creation-scope-ba
 
 -   *Financial Close Overview*
 
+-   *Financial Close Overview - Organizational Unit View*
+-   *Financial Close Overview - Task View*
 -   *Closing Task Completion*
 
+-   *Closing Task Completion - Organizational Unit View*
+-   *Closing Task Completion - Task View*
 
 
 
@@ -226,6 +238,4 @@ Manage users, user groups, and user roles through a dedicated API.
 **Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.")
 
 **Next:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP Advanced Financial Closing and update certain user attributes.")
-
-**Previous:**[Extended What's New: Switch of Authorization Concept](extended-what-s-new-switch-of-authorization-concept-3155ba8.md "Understand the consequences of the retirement of the old authorization concept.")
 

@@ -29,3 +29,8 @@ With the *Manage Compliance Settings* app, you can define several compliance s
 -   Desktop
 
 
+**Related Information**  
+
+
+[How to Manage Compliance Settings](how-to-manage-compliance-settings-835ce12.md "The compliance settings apply to all apps that are part of SAP Advanced Financial Closing.")
+

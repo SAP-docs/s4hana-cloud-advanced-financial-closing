@@ -17,7 +17,11 @@ Grant access to process and approve or reject tasks.
 -   *Process Closing Tasks*
 -   *Approve Closing Tasks*
 -   *Financial Close Overview*
+-   *Financial Close Overview - Task View*
+-   *Financial Close Overview - Organizational Unit View*
 -   *Closing Task Completion*
+-   *Closing Task Completion - Task View*
+-   *Closing Task Completion - Organizational Unit View*
 -   *Change Log*
 
 

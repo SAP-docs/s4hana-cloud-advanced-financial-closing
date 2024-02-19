@@ -20,7 +20,7 @@ For more detailed information about granting access, see the documentation on th
 
 
 
-<a name="loio1923b891a7b8471ab1f30eca89fef261__section_vrn_jx1_w5b"/>
+<a name="loio1923b891a7b8471ab1f30eca89fef261__section_wfd_m45_11c"/>
 
 ## Access Granted Through Scope-Related Authorizations or Direct Assignment
 
@@ -49,6 +49,13 @@ Action
 <th valign="top">
 
 *Create* 
+
+\([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
+
+</th>
+<th valign="top">
+
+*Delete*
 
 \([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
 
@@ -170,6 +177,8 @@ Interested User / User Group \(Task\)
 <td valign="top">
 
 -   *Financial Close Overview*
+-   *Financial Close Overview - Task View*
+-   *Financial Close Overview - Organizational Unit View*
 
 
 
@@ -177,6 +186,11 @@ Interested User / User Group \(Task\)
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -274,6 +288,8 @@ Read
 <td valign="top">
 
 -   *Closing Task Completion*
+-   *Closing Task Completion - Task View*
+-   *Closing Task Completion - Organizational Unit View*
 
 
 
@@ -281,6 +297,11 @@ Read
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -414,6 +435,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -489,6 +515,11 @@ Read
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+`X` 
 
 </td>
 <td valign="top">
@@ -685,6 +716,11 @@ Create
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -789,6 +825,11 @@ Copy
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -801,6 +842,11 @@ Copy
 <td valign="top">
 
 Edit / Save
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -919,6 +965,11 @@ Recalculate Paths
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -1008,7 +1059,12 @@ Recalculate Paths
 </td>
 <td valign="top">
 
-Delete
+Delete Task List Templates and Task Lists with Status *Not Released* 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1132,6 +1188,11 @@ Generate
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -1236,6 +1297,11 @@ Change Task List Status
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -1320,7 +1386,121 @@ Change Task List Status
 </td>
 <td valign="top">
 
+Delete Task Lists
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
 Change User Assignments \(Quick Actions\)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1439,6 +1619,11 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -1539,6 +1724,11 @@ Check Compatibility
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1662,6 +1852,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -1737,6 +1932,11 @@ Read
 <td valign="top">
 
 Download Results
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1875,6 +2075,11 @@ Change Task Status
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -1945,6 +2150,11 @@ Change Task Status
 <td valign="top">
 
 Process
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2083,6 +2293,11 @@ Schedule
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2153,6 +2368,11 @@ Schedule
 <td valign="top">
 
 Cancel Run
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2291,6 +2511,11 @@ Start Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2395,6 +2620,11 @@ Cancel Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2465,6 +2695,11 @@ Cancel Test Run
 <td valign="top">
 
 Edit Attachments / Notes
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2608,6 +2843,11 @@ Change Planned Start
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2712,6 +2952,11 @@ Change Planned Duration
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2777,6 +3022,11 @@ Change Planned Duration
 <td valign="top">
 
 Recalculate Paths
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2925,6 +3175,11 @@ Change Parameters
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2985,6 +3240,11 @@ Change Parameters
 <td valign="top">
 
 Change User Assignments
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3144,6 +3404,11 @@ Approve
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -3249,6 +3514,11 @@ Reject
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -3297,6 +3567,11 @@ Reject
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

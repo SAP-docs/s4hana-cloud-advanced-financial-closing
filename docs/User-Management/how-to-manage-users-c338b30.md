@@ -174,6 +174,9 @@ SAP Advanced Financial Closing
     > 
     > -   Use semicolons as column separators.
     > 
+    >     > ### Note:  
+    >     > If the application you're using to fill out the template has a setting that indicates that the system-defined separators are being used, deactivate this option and define semicolons as column separators.
+    > 
     > -   Save the file with UTF-8 encoding.
     > 
     > -   The fields containing numbers have to be formatted as **text** prior to saving the CSV file.

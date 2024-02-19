@@ -14,7 +14,7 @@ You have one subaccount in which SAP Advanced Financial Closing and SAP Task Cen
 
     Make sure that you have the following service key values, which you'll need to set up the destination:
 
-    -   *endpoints* \> *api*
+    -   *endpoints* \> *task-center*
     -   *uaa* \> *clientid*
     -   *uaa* \> *clientsecret*
     -   *uaa* \> *url*

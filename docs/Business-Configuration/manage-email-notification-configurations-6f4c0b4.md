@@ -29,3 +29,8 @@ With the *Manage Email Notification Configurations* app, you can create several 
 -   Desktop
 
 
+**Related Information**  
+
+
+[How to Manage Email Notification Configurations](how-to-manage-email-notification-configurations-c4e2569.md "Create notification configurations and assign a set of email notification scenarios to a task list.")
+

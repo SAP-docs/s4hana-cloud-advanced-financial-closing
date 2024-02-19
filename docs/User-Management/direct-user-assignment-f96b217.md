@@ -274,7 +274,7 @@ Edit / Save
 </td>
 <td valign="top">
 
-Delete
+Delete Task List Templates and Task Lists with Status *Not Released* 
 
 </td>
 <td valign="top">
@@ -369,6 +369,53 @@ Generate
 <td valign="top">
 
 Change Task List Status
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task List Creation*
+
+</td>
+<td valign="top">
+
+Delete Task Lists
 
 </td>
 <td valign="top">

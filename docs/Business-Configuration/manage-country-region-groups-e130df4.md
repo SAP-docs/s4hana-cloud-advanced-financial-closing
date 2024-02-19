@@ -28,3 +28,8 @@ With the *Manage Country/Region Groups* app, you can create and edit country/reg
 -   Desktop
 
 
+**Related Information**  
+
+
+[How to Manage Country/Region Groups](how-to-manage-country-region-groups-9236c05.md "Define country/region groups for reports about financial closing activities.")
+

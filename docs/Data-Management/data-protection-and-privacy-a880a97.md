@@ -20,10 +20,3 @@ Data protection is associated with numerous legal requirements and privacy conce
 
 SAP Advanced Financial Closing stores task schedules needed to perform a financial close. This includes that SAP Advanced Financial Closing replicates a limited part of the organizational structure of the affected organization as needed for the scheduling of tasks. In addition, user metadata is processed, for example, roles, authorizations, and last changes to tasks or configurations. At no time does SAP Advanced Financial Closing read or store transactional financial data.
 
--   **[Glossary](glossary-913b77c.md "")**  
-
--   **[Legal Basis for Data Processing](legal-basis-for-data-processing-cb3111b.md "")**  
-
--   **[Deletion of Personal Data](deletion-of-personal-data-aeaafcc.md "")**  
-
-
