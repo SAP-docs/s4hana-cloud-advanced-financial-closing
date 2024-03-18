@@ -18,5 +18,5 @@ You've already used SAP S/4HANA Cloud for advanced financial closing as part of 
 
 ## Procedure
 
-Familiarize yourself with the information about the migration and perform the steps required. For more information, see the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
+Familiarize yourself with the information about the migration and perform the steps required. For more information, see the <?sap-ot O2O class="- topic/xref " href="025204e29f8b43b282099d44470de1fc.xml" text="Migration Guide" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/51b6705400504ef1b9faa22e24995f91.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
 

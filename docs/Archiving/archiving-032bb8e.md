@@ -176,5 +176,5 @@ You can now make changes to the task list or process tasks it contains.
 **Related Information**  
 
 
-[Allowed Attribute Changes Depending on Task List Status](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/21e491bf621d499fbeef037c2ee55742.html "See which attributes you can change in which app depending on the task list status.") :arrow_upper_right:
+<?sap-ot O2O class="- topic/link " href="21e491bf621d499fbeef037c2ee55742.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/032bb8ec94fe4e8a9ff21c156d965060.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
 

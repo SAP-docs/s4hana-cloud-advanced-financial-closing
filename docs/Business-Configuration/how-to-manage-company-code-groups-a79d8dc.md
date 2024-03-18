@@ -18,7 +18,7 @@ Create and manage company code groups.
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
 
--   Get a good understanding of how company code groups work in SAP Advanced Financial Closing. For more information, see [Company Code Groups](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/d673a87cfa484a35a241b3eadc7ba815.html "Understand how company code groups work.") :arrow_upper_right:.
+-   Get a good understanding of how company code groups work in SAP Advanced Financial Closing. For more information, see <?sap-ot O2O class="- topic/xref " href="d673a87cfa484a35a241b3eadc7ba815.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/a79d8dc4e7d84253a8996338b88efd96.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
 
 
 
@@ -33,6 +33,8 @@ The following video gives you a quick overview about how to work with company co
 
 > ### Note:  
 > For this video, audio is only available in English. However, captions/subtitles may already be available in other languages. Simply click the *CC* button at the bottom right of the video player to see which languages are supported.
+> 
+> Additionally, using the *Search within video* box, you can run a search on the captions for English and German.
 
 
 
@@ -140,5 +142,5 @@ You have now updated the group assignments of several company codes.
 **Related Information**  
 
 
-[Company Code Groups](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/d673a87cfa484a35a241b3eadc7ba815.html "Understand how company code groups work.") :arrow_upper_right:
+<?sap-ot O2O class="- topic/link " href="d673a87cfa484a35a241b3eadc7ba815.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/a79d8dc4e7d84253a8996338b88efd96.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
 

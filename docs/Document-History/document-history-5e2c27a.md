@@ -26,6 +26,30 @@ Description
 </th>
 </tr>
 <tr>
+<td valign="top">
+
+March 17, 2024
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md):
+
+    The following information was added:
+
+    New SAP Note added to list
+
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="2">
 
 February 18, 2024
@@ -105,60 +129,7 @@ The following underlying page was removed:
 
 *Extended What's New: Switch of Authorization Concept*
 
-You can still find this information under [What's New Archive](https://help.sap.com/viewer/63a47d78868a40019d316c52e2ed597f/SHIP/en-US/522f30a85a594fca9507d6896be76142.html "Overview of new and changed features of SAP Advanced Financial Closing.") :arrow_upper_right:.
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="2">
-
-December 17, 2023
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [Integration Capabilities](../Integration-Capabilities/integration-capabilities-8aa10e1.md):
-    -   The following underlying page was added:
-
-        [Process Automation Integration for SAP Advanced Financial Closing](../Integration-Capabilities/process-automation-integration-for-sap-advanced-financial-closing-a1d7fe3.md)
-
-    -   The following underlying page was added:
-
-        [SAP Task Center Integration for SAP Advanced Financial Closing](../Integration-Capabilities/sap-task-center-integration-for-sap-advanced-financial-closing-625bfc3.md)
-
-
--   [Business Configuration](../Business-Configuration/business-configuration-9719d0a.md):
-
-    The following underlying page was added:
-
-    [Apps](../Business-Configuration/apps-363fa37.md) and underlying pages
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
-
-</td>
-<td valign="top">
-
--   Several pages in this guide:
-
-    The following information was changed:
-
-    Product name has been changed to the new product name as announced under [What's New for SAP Advanced Financial Closing](https://help.sap.com/viewer/4cfbc69dfae645ff83d29380ec35750c/SHIP/en-US/54a5ce2b9dd84cf08b9e29760136e6d5.html "Overview of new and changed features of SAP Advanced Financial Closing.") :arrow_upper_right:.
-
-
-
+You can still find this information under <?sap-ot O2O class="- topic/xref " href="522f30a85a594fca9507d6896be76142.xml" text="" desc="" xtrc="xref:17" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/5e2c27a01c0f45f394a81b3f97eaf66d.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
 
 </td>
 </tr>
@@ -167,5 +138,5 @@ December 17, 2023
 **Related Information**  
 
 
-[What's New for SAP Advanced Financial Closing](https://help.sap.com/viewer/4cfbc69dfae645ff83d29380ec35750c/SHIP/en-US/54a5ce2b9dd84cf08b9e29760136e6d5.html "Overview of new and changed features of SAP Advanced Financial Closing.") :arrow_upper_right:
+<?sap-ot O2O class="- topic/link " href="54a5ce2b9dd84cf08b9e29760136e6d5.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/5e2c27a01c0f45f394a81b3f97eaf66d.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
 

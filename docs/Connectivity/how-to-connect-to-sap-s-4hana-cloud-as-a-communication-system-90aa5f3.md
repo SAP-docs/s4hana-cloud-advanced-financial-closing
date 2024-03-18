@@ -2,7 +2,7 @@
 
 # How to Connect to SAP S/4HANA Cloud as a Communication System
 
-Connect to your financial cloud system to SAP Advanced Financial Closing.
+Connect your financial Cloud system to SAP Advanced Financial Closing.
 
 
 
@@ -212,7 +212,7 @@ Connect to your financial cloud system to SAP Advanced Financial Closing.
 
 6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud.
 
-    For more information about the migration, refer to the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
+    For more information about the migration, refer to the <?sap-ot O2O class="- topic/xref " href="025204e29f8b43b282099d44470de1fc.xml" text="Migration Guide" desc="" xtrc="xref:5" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/90aa5f3dd1124a54b8bd33ba5b5868bd.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
 
 
 
@@ -251,5 +251,5 @@ You have two options for the initial data synchronization with the communication
 
 **Parent topic:**[How to Connect to SAP S/4HANA Cloud, Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Next:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud, public edition system in your SAP BTP cockpit.")
+**Next:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.")
 

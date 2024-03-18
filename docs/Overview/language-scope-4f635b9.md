@@ -31,8 +31,10 @@ User interface of SAP Advanced Financial Closing \(exception: *Monitor Business 
 <td valign="top">
 
 -   Arabic
+-   Bulgarian
 -   Chinese \(Simplified\)
 -   Chinese \(Traditional\)
+-   Croatian
 -   Czech
 -   Danish
 -   Dutch
@@ -40,9 +42,12 @@ User interface of SAP Advanced Financial Closing \(exception: *Monitor Business 
 -   Finnish
 -   French
 -   German
+-   Greek
+-   Hebrew
 -   Hungarian
 -   Italian
 -   Japanese
+-   Kazakh
 -   Korean
 -   Malay
 -   Norwegian
@@ -50,10 +55,14 @@ User interface of SAP Advanced Financial Closing \(exception: *Monitor Business 
 -   Portuguese
 -   Romanian
 -   Russian
+-   Serbian
+-   Slovak
+-   Slovenian
 -   Spanish
 -   Swedish
 -   Thai
 -   Turkish
+-   Ukrainian
 
 
 
@@ -91,8 +100,10 @@ In-app help and in-app what's new
 <td valign="top">
 
 -   Arabic
+-   Bulgarian
 -   Chinese \(Simplified\)
 -   Chinese \(Traditional\)
+-   Croatian
 -   Czech
 -   Danish
 -   Dutch
@@ -100,9 +111,12 @@ In-app help and in-app what's new
 -   Finnish
 -   French
 -   German
+-   Greek
+-   Hebrew
 -   Hungarian
 -   Italian
 -   Japanese
+-   Kazakh
 -   Korean
 -   Malay
 -   Norwegian
@@ -110,10 +124,14 @@ In-app help and in-app what's new
 -   Portuguese
 -   Romanian
 -   Russian
+-   Serbian
+-   Slovak
+-   Slovenian
 -   Spanish
 -   Swedish
 -   Thai
 -   Turkish
+-   Ukrainian
 
 
 
@@ -269,8 +287,10 @@ How-to videos \(subtitles\)
 <td valign="top">
 
 -   Arabic
+-   Bulgarian
 -   Chinese \(Simplified\)
 -   Chinese \(Traditional\)
+-   Croatian
 -   Czech
 -   Danish
 -   Dutch
@@ -278,9 +298,12 @@ How-to videos \(subtitles\)
 -   Finnish
 -   French
 -   German
+-   Greek
+-   Hebrew
 -   Hungarian
 -   Italian
 -   Japanese
+-   Kazakh
 -   Korean
 -   Malay
 -   Norwegian
@@ -288,10 +311,28 @@ How-to videos \(subtitles\)
 -   Portuguese
 -   Romanian
 -   Russian
+-   Serbian
+-   Slovak
+-   Slovenian
 -   Spanish
 -   Swedish
 -   Thai
 -   Turkish
+-   Ukrainian
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Highlight videos \(callouts in video only\)
+
+</td>
+<td valign="top">
+
+-   English
 
 
 

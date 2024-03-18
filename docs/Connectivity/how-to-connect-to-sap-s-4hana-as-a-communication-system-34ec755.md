@@ -222,7 +222,7 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
 
 6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud.
 
-    For more information about the migration, refer to the [Migration Guide](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
+    For more information about the migration, refer to the <?sap-ot O2O class="- topic/xref " href="025204e29f8b43b282099d44470de1fc.xml" text="Migration Guide" desc="" xtrc="xref:5" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/34ec75546e6842f98fb0c31f889f8603.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
 
 
 

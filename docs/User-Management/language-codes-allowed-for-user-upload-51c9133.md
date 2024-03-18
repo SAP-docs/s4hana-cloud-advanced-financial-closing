@@ -37,6 +37,18 @@ Arabic
 <tr>
 <td valign="top">
 
+`bg`
+
+</td>
+<td valign="top">
+
+Bulgarian
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `cs`
 
 </td>
@@ -67,6 +79,18 @@ Danish
 <td valign="top">
 
 German
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`el`
+
+</td>
+<td valign="top">
+
+Greek
 
 </td>
 </tr>
@@ -121,6 +145,30 @@ French
 <tr>
 <td valign="top">
 
+`he`
+
+</td>
+<td valign="top">
+
+Hebrew
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`hr`
+
+</td>
+<td valign="top">
+
+Croatian
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `hu`
 
 </td>
@@ -151,6 +199,18 @@ Italian
 <td valign="top">
 
 Japanese
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`kk`
+
+</td>
+<td valign="top">
+
+Kazakh
 
 </td>
 </tr>
@@ -253,6 +313,42 @@ Russian
 <tr>
 <td valign="top">
 
+`sh`
+
+</td>
+<td valign="top">
+
+Serbian \(Latin\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sk`
+
+</td>
+<td valign="top">
+
+Slovak
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sl`
+
+</td>
+<td valign="top">
+
+Slovenian
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `sv`
 
 </td>
@@ -283,6 +379,18 @@ Thai
 <td valign="top">
 
 Turkish
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`uk`
+
+</td>
+<td valign="top">
+
+Ukrainian
 
 </td>
 </tr>

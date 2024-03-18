@@ -18,6 +18,11 @@ Feature
 </th>
 <th valign="top">
 
+SAP S/4HANA 2023
+
+</th>
+<th valign="top">
+
 SAP S/4HANA 2022
 
 </th>
@@ -45,10 +50,54 @@ SAP ERP
 <tr>
 <td valign="top">
 
--   ***Migrate Closing Task Lists*** app
--   ***Migrate Configuration Data*** app
+Task Rule Displayed on User Interface in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+`SP18`
+
+Additional requirement: [3426341](https://me.sap.com/notes/3426341)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Migrate Closing Task Lists* app
+-   *Migrate Configuration Data* app
 
 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -80,7 +129,12 @@ Not applicable
 <tr>
 <td valign="top">
 
-**Spool Lists as CSV Downloads**
+Spool Lists as CSV Downloads
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -125,7 +179,12 @@ Not applicable
 <tr>
 <td valign="top">
 
-**New Scheduling**
+New Scheduling
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -181,7 +240,12 @@ Partially
 <tr>
 <td valign="top">
 
-**Status Source Code Displayed**
+Status Source Code Displayed
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -213,7 +277,12 @@ Not applicable
 <tr>
 <td valign="top">
 
-**Parameter Type OPVAR \(Posting Period Variant\)**
+Parameter Type OPVAR \(Posting Period Variant\)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -285,7 +354,12 @@ Not applicable
 <tr>
 <td valign="top">
 
-**Display Parameters Used for Processing**
+Display Parameters Used for Processing
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -337,7 +411,12 @@ Not applicable
 <tr>
 <td valign="top">
 
-**Use of Validation Class `CL_FCCX_VALIDATION_BY_JOBLOG_M`**
+Use of Validation Class `CL_FCCX_VALIDATION_BY_JOBLOG_M`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

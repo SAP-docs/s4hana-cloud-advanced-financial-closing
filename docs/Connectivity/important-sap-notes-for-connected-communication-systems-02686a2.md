@@ -512,6 +512,43 @@ SAP ERP
 </td>
 <td valign="top">
 
+`SP18`
+
+</td>
+<td valign="top">
+
+[3438025](https://me.sap.com/notes/3438025) \(Correct SP number in response body\)
+
+</td>
+<td valign="top">
+
+Correction of wrong SP number in responses
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+2024-02-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP ERP
+
+</td>
+<td valign="top">
+
+`6.0`
+
+</td>
+<td valign="top">
+
 `SP14`
 
 </td>
