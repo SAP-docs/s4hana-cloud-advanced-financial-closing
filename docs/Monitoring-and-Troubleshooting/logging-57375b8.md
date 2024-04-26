@@ -14,7 +14,7 @@ The *Change Log* app shows you as a business user a change history of closing ta
 
 You can see what was changed or deleted, by whom, and when. You can filter by *Type of Change* \(*Delete*, *Insert*, or *Change*\). And you can filter for changes made to a particular template, task list, or closing task or by a particular user.
 
-For more information about using this app, see <?sap-ot O2O class="- topic/xref " href="e08df37697ed4d8c8b3e4826c203dc6e.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/57375b87280a4ae8bfe2f622e2c2cbf4.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
+For more information about using this app, see [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:.
 
 
 

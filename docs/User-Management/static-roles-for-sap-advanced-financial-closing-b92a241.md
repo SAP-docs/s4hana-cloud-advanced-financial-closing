@@ -72,7 +72,7 @@ Description for Display-Only Role
 
 -   Creates public views \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information, see <?sap-ot O2O class="- topic/xref " href="2fee7b5a83294d748953a9db5cc96326.xml" text="" desc="" xtrc="xref:4" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
+    For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
 
 
 **App Details:**
@@ -209,8 +209,8 @@ Migrates data if a migration from SAP Advanced Financial Closing as part of SAP 
 
 **App Details:**
 
--   <?sap-ot O2O class="- topic/xref " href="643f4e8eef5d4eb6bc3baa621a9ed1f5.xml" text="" desc="" xtrc="xref:10" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
--   <?sap-ot O2O class="- topic/xref " href="45712c68d98e4bbbbb7ce947fc265ad0.xml" text="" desc="" xtrc="xref:11" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
+-   [Migrate Configuration Data](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/643f4e8eef5d4eb6bc3baa621a9ed1f5.html "You use the Migrate Configuration Data app to migrate your configuration data before migrating the task lists.") :arrow_upper_right:
+-   [Migrate Closing Task Lists](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/45712c68d98e4bbbbb7ce947fc265ad0.html "You use the Migrate Closing Task Lists app to migrate your financial closing task lists.") :arrow_upper_right:
 
 
 
@@ -830,8 +830,8 @@ Maintains task list templates and task lists
 
 **App Details:**
 
--   <?sap-ot O2O class="- topic/xref " href="c197c2fef140441dac407f5b4d7877f7.xml" text="" desc="" xtrc="xref:34" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
--   <?sap-ot O2O class="- topic/xref " href="e08df37697ed4d8c8b3e4826c203dc6e.xml" text="" desc="" xtrc="xref:35" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
+-   [Manage Closing Task Lists](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/c197c2fef140441dac407f5b4d7877f7.html "You use this app to model, plan, and start a workflow comprising all activities required to close your entities.") :arrow_upper_right:
+-   [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:
 
 
 
@@ -867,8 +867,8 @@ Processes task lists and tasks
 
 **App Details:**
 
--   <?sap-ot O2O class="- topic/xref " href="ae51205499f549558eadd8a2c190d1b5.xml" text="" desc="" xtrc="xref:36" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
--   <?sap-ot O2O class="- topic/xref " href="e08df37697ed4d8c8b3e4826c203dc6e.xml" text="" desc="" xtrc="xref:37" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
+-   [Process Closing Tasks](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/ae51205499f549558eadd8a2c190d1b5.html "You use the Process Closing Tasks app to manually process, schedule, or automate your closing tasks.") :arrow_upper_right:
+-   [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:
 
 
 
@@ -904,8 +904,8 @@ Approves tasks
 
 **App Details:**
 
--   <?sap-ot O2O class="- topic/xref " href="0080c46144184fd7941121527575f2cd.xml" text="" desc="" xtrc="xref:38" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
--   <?sap-ot O2O class="- topic/xref " href="e08df37697ed4d8c8b3e4826c203dc6e.xml" text="" desc="" xtrc="xref:39" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
+-   [Approve Closing Tasks](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/0080c46144184fd7941121527575f2cd.html "You use the Approve Closing Tasks app to check and approve critical closing tasks.") :arrow_upper_right:
+-   [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:
 
 
 
@@ -941,8 +941,8 @@ Monitors overall progress of closing activities and tracks task completion
 
 **App Details:**
 
--   <?sap-ot O2O class="- topic/xref " href="4f84841c40384a4dbb9d3841f3a0b5a3.xml" text="" desc="" xtrc="xref:40" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
--   <?sap-ot O2O class="- topic/xref " href="b83de37c24b34c14a6cae849b3161fab.xml" text="" desc="" xtrc="xref:41" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
+-   [Financial Close Overview](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/4f84841c40384a4dbb9d3841f3a0b5a3.html "This app enables you to access key information and KPIs to monitor the completion of closing tasks.") :arrow_upper_right:
+-   [Closing Task Completion](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/b83de37c24b34c14a6cae849b3161fab.html "This app enables you to analyze the status and the completion rate of active closing tasks as a summary.") :arrow_upper_right:
 
 
 
@@ -978,8 +978,8 @@ Monitors overall progress of closing activities and tracks the financial close w
 
 **App Details:**
 
--   <?sap-ot O2O class="- topic/xref " href="3da7158ea6674b70bf7ba3cbd83c8c25.xml" text="" desc="" xtrc="xref:42" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
--   <?sap-ot O2O class="- topic/xref " href="92dd6f8e5e8e49ce831381fbb1d9908d.xml" text="" desc="" xtrc="xref:43" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
+-   [Financial Close Overview - Task View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/3da7158ea6674b70bf7ba3cbd83c8c25.html "You use the Financial Close Overview - Task View app to do your reporting based on the overall task statuses.") :arrow_upper_right:
+-   [Closing Task Completion - Task View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/92dd6f8e5e8e49ce831381fbb1d9908d.html "You use the Closing Task Completion - Task View app to do your detailed reporting based on the overall task statuses.") :arrow_upper_right:
 
 
 
@@ -1015,8 +1015,8 @@ Monitors overall progress of closing activities and tracks the financial close w
 
 **App Details:**
 
--   <?sap-ot O2O class="- topic/xref " href="22861d7f90764ac3b48d60cc96d9e55e.xml" text="" desc="" xtrc="xref:44" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
--   <?sap-ot O2O class="- topic/xref " href="8c7230c7cbd7410ea8a26682afb4657e.xml" text="" desc="" xtrc="xref:45" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>
+-   [Financial Close Overview - Organizational Unit View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/22861d7f90764ac3b48d60cc96d9e55e.html "You use the Financial Close Overview - Organizational Unit View app to do your reporting based on the individual task execution statuses.") :arrow_upper_right:
+-   [Closing Task Completion - Organizational Unit View](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/8c7230c7cbd7410ea8a26682afb4657e.html "You use the Closing Task Completion - Organizational Unit View app to do your detailed reporting based on the individual task execution statuses.") :arrow_upper_right:
 
 
 
@@ -1083,7 +1083,7 @@ Reviews logs as an administrator
 
 -   Creates public views \(additionally, the role template `FlexKeyUser` is needed\).
 
-    For more information, see <?sap-ot O2O class="- topic/xref " href="2fee7b5a83294d748953a9db5cc96326.xml" text="" desc="" xtrc="xref:47" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
+    For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
 
 
 
@@ -1119,7 +1119,7 @@ All apps in SAP Advanced Financial Closing
 
 -   Creates public views \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 
-    For more information, see <?sap-ot O2O class="- topic/xref " href="2fee7b5a83294d748953a9db5cc96326.xml" text="" desc="" xtrc="xref:49" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/1eea9eb2478e4504b9d7e4ed09754612.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
+    For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
 
 
 

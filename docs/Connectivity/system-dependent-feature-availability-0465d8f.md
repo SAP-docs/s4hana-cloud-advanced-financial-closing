@@ -465,5 +465,119 @@ Not applicable
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Archiving / ILM and Data Desctruction
+
+</td>
+<td valign="top">
+
+`SP02`
+
+</td>
+<td valign="top">
+
+`SP04`
+
+</td>
+<td valign="top">
+
+`SP06`
+
+</td>
+<td valign="top">
+
+`SP08`
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Marked for Deletion* Flag in Communication System
+
+</td>
+<td valign="top">
+
+`SP01`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+<td valign="top">
+
+`SP03`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+<td valign="top">
+
+`SP05`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+<td valign="top">
+
+`SP07`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+`SP18`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+</tr>
 </table>
 

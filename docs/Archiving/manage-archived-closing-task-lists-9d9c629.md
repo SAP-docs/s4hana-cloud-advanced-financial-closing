@@ -31,5 +31,5 @@ With the *Manage Archived Closing Task Lists* app, you can view and restore arch
 **Related Information**  
 
 
-[Archiving](archiving-032bb8e.md "Understand how archiving and restoring in SAP Advanced Financial Closing works.")
+[Task List Archiving](task-list-archiving-032bb8e.md "Understand how archiving and restoring in SAP Advanced Financial Closing works.")
 

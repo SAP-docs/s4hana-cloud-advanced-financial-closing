@@ -30,7 +30,7 @@ This guide addresses the following target audience:
 
 ## About SAP Advanced Financial Closing
 
-SAP Advanced Financial Closing supports you in planning, processing, monitoring, and analyzing financial closing tasks for the entities of your group. For more information about using the functions and features provided, see the <?sap-ot O2O class="- topic/xref " href="239ab375e0334c149082cc6851644e8b.xml" text="user guide" desc="" xtrc="xref:3" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/6e1af2743721420782fcb82472c9ce86.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
+SAP Advanced Financial Closing supports you in planning, processing, monitoring, and analyzing financial closing tasks for the entities of your group. For more information about using the functions and features provided, see the [user guide](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/239ab375e0334c149082cc6851644e8b.html "Provides details about the changes made in each version of this document.") :arrow_upper_right:.
 
 SAP Advanced Financial Closing is an SAP BTP application that runs in an SAP BTP subaccount. The SAP BTP subaccount is associated with an SAP BTP global account. Your organization may have several SAP BTP global accounts. Please clarify with your sales representative in which SAP BTP global account your entitlement to SAP Advanced Financial Closing should be contained. If you have no previous SAP BTP global account, a new one needs to be created. Your sales representative will assist you.
 

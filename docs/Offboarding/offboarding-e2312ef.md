@@ -42,7 +42,7 @@ If you wish to delete your tenant and your data, perform the following steps:
     > If your data is subject to any litigation, the data must be retained until all legal concerns are resolved.
 
     > ### Remember:  
-    > Once the process to unsubscribe is initiated, a resubscription is no longer possible.
+    > Once the process to unsubscribe is initiated, a resubscription to the same tenant is no longer possible. You can, however, subscribe to a new tenant provided that your contract is valid.
 
 
 
@@ -51,5 +51,5 @@ If you wish to delete your tenant and your data, perform the following steps:
 
 ## Results
 
-Once the deletion process is completed, your tenant has been offboarded and all your data in SAP Advanced Financial Closing has been deleted. A resubscription to the same tenant isn't possible anymore.
+Once the deletion process is completed, your tenant has been offboarded and all your data in SAP Advanced Financial Closing has been deleted. A resubscription to the same tenant is no longer possible. You can, however, subscribe to a new tenant provided that your contract is valid.
 

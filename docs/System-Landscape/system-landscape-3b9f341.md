@@ -26,7 +26,7 @@ Task list templates and task lists are created for specific communication system
 In addition to the production instance of SAP Advanced Financial Closing, you can acquire an additional license to use a test tenant too. You can then connect a non-production ERP system to this tenant.
 
 > ### Tip:  
-> For information about the release times for test and production tenant, see <?sap-ot O2O class="- topic/xref " href="8256792f91704e89ac296ede87327510.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/3b9f341b96864674b22e11925cb6a6bb.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>.
+> For information about the release times for test and production tenant, see [Release Schedules and Maintenance Windows](https://help.sap.com/viewer/8958d29f959749afa3a30f9bf562aaca/SHIP/en-US/8256792f91704e89ac296ede87327510.html "More information about release schedules and maintenance windows") :arrow_upper_right:.
 
 The following graphic shows the recommended system landscape if you're using a test tenant, that is, keeping the test tenant environment completely separated from the production tenant environment.
 
