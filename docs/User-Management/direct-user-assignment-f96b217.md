@@ -274,6 +274,53 @@ Edit / Save
 </td>
 <td valign="top">
 
+Activate/Deactivate Tasks
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task List Creation*
+
+</td>
+<td valign="top">
+
 Delete Task List Templates and Task Lists with Status *Not Released* 
 
 </td>

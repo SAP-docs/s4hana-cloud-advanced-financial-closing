@@ -21,7 +21,7 @@ Grant general access by assigning one or more authorizations available within th
     -   `AFC_UserRolesSingleApp`
 
 
-    For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
+    For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 -   You've familiarized yourself with the information under [Task List Creation Scope](task-list-creation-scope-ba4100e.md) to ensure that you're using the right means to grant access.
 

@@ -117,6 +117,9 @@ The *Monitor Business Logs* app shows you as an administrator logs of possible t
 
 The following events are logged in the *Monitor Business Logs* app:
 
+> ### Note:  
+> Business logs are automatically deleted after 30 days.
+
 ****
 
 

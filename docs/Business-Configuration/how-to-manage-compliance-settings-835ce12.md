@@ -12,7 +12,7 @@ The compliance settings apply to all apps that are part of SAP Advanced Financia
 
 Your user must have a role collection assigned that includes the role template `AFC_Compliance`.
 
-For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 
 

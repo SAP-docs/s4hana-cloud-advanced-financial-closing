@@ -144,6 +144,8 @@ Task parameters
 > Only consistent data is synchronized. If data is deleted in your communication system, it will be set to *orphaned* in SAP Advanced Financial Closing with the next synchronization. This means that the orphaned data can't be used for new task list templates or task lists and their referenced objects.
 > 
 > If necessary, check the business logs for more information as described under [Logging](../Monitoring-and-Troubleshooting/logging-57375b8.md).
+> 
+> If data in the communication system is maintained in a language that is not supported by SAP Advanced Financial Closing, English is used instead. For more information about the languages supported by the user interface of SAP Advanced Financial Closing, see [Language Scope](../Overview/language-scope-4f635b9.md).
 
 
 
@@ -191,8 +193,10 @@ The data that is synchronized is always validated to avoid any inconsistencies i
 
 The synchronization results can be accessed in the *Monitor Business Logs* app. They're grouped into the following severity categories:
 
-> ### Remember:  
+> ### Note:  
 > In the case of failing synchronizations, check the business logs before opening a ticket. The logs may already reveal the source of the issue.
+> 
+> Business logs are automatically deleted after 30 days.
 
 **Business Log Messages**
 
@@ -306,4 +310,10 @@ Synchronization of the remaining data **cannot** continue and synchronization co
 </td>
 </tr>
 </table>
+
+> ### Tip:  
+> For more information plus possible recommendations and solutions, see [Synchronization Business Logs](synchronization-business-logs-c4a31b9.md).
+
+-   **[Synchronization Business Logs](synchronization-business-logs-c4a31b9.md "Get an overview of synchronization logs and possible solutions.")**  
+Get an overview of synchronization logs and possible solutions.
 

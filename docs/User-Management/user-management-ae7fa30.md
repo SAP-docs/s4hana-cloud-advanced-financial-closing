@@ -22,7 +22,9 @@ Define and bundle static roles and assign them to users.
                                                   Closing and update certain
 		user attributes.")  
 Upload new users to SAP Advanced Financial Closing and update certain user attributes.
-3.  [User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in
+3.  [How to Delete Users](how-to-delete-users-81d47cf.md "Delete users that are no longer required.")  
+Delete users that are no longer required.
+4.  [User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in
 			SAP Advanced Financial
                                                   Closing. By default,
 		users don't have access to these objects.")  

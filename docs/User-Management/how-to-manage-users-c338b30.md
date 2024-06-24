@@ -19,7 +19,7 @@ Upload new users to SAP Advanced Financial Closing and update certain user attri
     -   `AFC_ManageUsersApp`
 
 
-    For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md).
+    For more information about role templates, see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 -   The users you want to upload must be maintained in your identity provider \(IdP\) including the following user attributes:
 
@@ -218,5 +218,5 @@ Learn which statuses and status changes are possible for users.
 
 **Next:**[How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")
 
-**Previous:**[User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.")
+**Previous:**[How to Delete Users](how-to-delete-users-81d47cf.md "Delete users that are no longer required.")
 

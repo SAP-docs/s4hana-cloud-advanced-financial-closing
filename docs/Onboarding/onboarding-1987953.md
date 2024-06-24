@@ -117,6 +117,11 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
 9.  \(**Recommended**\) Add SAP Advanced Financial Closing to your Cloud system notification subscriptions as described under [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md).
 
 
+-   **[Accessing SAP Advanced Financial Closing](accessing-sap-advanced-financial-closing-92e81ed.md#loio92e81ed38757493ca89484bd99e21ab0 "Access SAP Advanced Financial
+                                                  Closing under one of
+		two domains.")**  
+Access SAP Advanced Financial Closing under one of two domains.
+
 **Related Information**  
 
 

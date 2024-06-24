@@ -426,6 +426,35 @@ Maintains application-specific settings, such as notifications and country/regio
 <tr>
 <td valign="top">
 
+`AFC_GeneralSettings` 
+
+</td>
+<td valign="top">
+
+Maintains general settings, such as archiving settings, applying to objects in SAP Advanced Financial Closing.
+
+**App Details:**
+
+</td>
+<td valign="top">
+
+*Manage General Settings*
+
+</td>
+<td valign="top">
+
+`AFC_GeneralSettings_Display`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `AFC_UserRoles` 
 
 </td>

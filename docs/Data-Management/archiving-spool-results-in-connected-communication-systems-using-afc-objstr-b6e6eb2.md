@@ -1,10 +1,13 @@
 <!-- loiob6e6eb25710a4c97b935a69a9bb35ad6 -->
 
-# Archiving Spool Results in Connected Communication Systems Using AFC\_OBJSTR
+# Archiving Spool Results in Connected Communication Systems Using `AFC_OBJSTR`
 
 Archive spool results relating to SAP Advanced Financial Closing.
 
 You can use archiving object `AFC_OBJSTR` to archive spool results in SAP Advanced Financial Closing.
+
+> ### Note:  
+> Data archiving is available for on-premise systems only.
 
 **Tables**
 

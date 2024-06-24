@@ -17,7 +17,7 @@ Your user must have a role collection assigned that includes one of the followin
 -   `AFC_SystemAdmin`
 
 
-For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 
 
@@ -31,7 +31,7 @@ The scheduling queue information reflects the status of the scheduling queue of 
 
 
 > ### Remember:  
-> If the connection check doesn't show any successful result for twelve hours, the following processes are deactivated until the connection check is successful again:
+> If the connection check doesn't show any successful result for three hours, the following processes are deactivated until the connection check is successful again:
 > 
 > -   Synchronization of master data
 > 

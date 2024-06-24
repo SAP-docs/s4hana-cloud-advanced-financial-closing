@@ -9,4 +9,7 @@ Information about data archiving of objects relating to SAP Advanced Financial C
 -   **[Archiving Spool Results in Connected Communication Systems Using AFC\_OBJSTR](archiving-spool-results-in-connected-communication-systems-using-afc-objstr-b6e6eb2.md "Archive spool results relating to SAP Advanced Financial
                                                   Closing.")**  
 Archive spool results relating to SAP Advanced Financial Closing.
+-   **[Archiving Message Results in Connected Communication Systems Using AFC\_MSG](archiving-message-results-in-connected-communication-systems-using-afc-msg-f38da75.md "Archive message results relating to SAP Advanced Financial
+                                                  Closing.")**  
+Archive message results relating to SAP Advanced Financial Closing.
 

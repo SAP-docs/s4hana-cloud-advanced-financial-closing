@@ -4,7 +4,7 @@
 
 Understand how archiving and restoring in SAP Advanced Financial Closing works.
 
-In SAP Advanced Financial Closing, generated task lists are archived automatically after a specific **time of inactivity**, independently of their status. The time after which a task list is archived depends on the closing type and on the value set for the *Is Production Task List* indicator, and is currently defined as follows:
+In SAP Advanced Financial Closing, generated task lists are archived automatically after a specific **time of inactivity**, independently of their status. The time after which a task list is archived depends on the closing type and on the value set for the *Is Production Task List* indicator. You define this time in the *Manage General Settings* app. The **highest values possible** - which are also the default values delivered by SAP - are defined as follows:
 
 
 
@@ -101,6 +101,8 @@ Three months
 > The reference date for this time is either the date when the task list or any of its tasks was last updated or the date when the task list was last restored from the archive.
 > 
 > Task lists with status *Obsolete* are archived after one month, independently of the *Is Production Task List* indicator.
+> 
+> For more information about how to **define the archiving times** for task lists, see [How to Manage General Settings](../Business-Configuration/how-to-manage-general-settings-a4be7f7.md).
 
 When a task list is archived, it no longer appears in any of the SAP Advanced Financial Closing apps, except for the *Manage Archived Closing Task Lists* app. In this app, you restore task lists from the archive as described below.
 
@@ -125,7 +127,7 @@ Restore archived task lists.
 
 Your user must have a role collection assigned that includes the role template `AFC_Archiving`.
 
-For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 > ### Note:  
 > If your user has the role template `AFC_Archiving_Display` assigned instead, you can see which task lists are archived, but you can't restore them.

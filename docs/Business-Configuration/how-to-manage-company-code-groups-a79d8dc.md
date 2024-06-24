@@ -16,7 +16,7 @@ Create and manage company code groups.
     -   `AFC_Config`
 
 
-    For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+    For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 -   Get a good understanding of how company code groups work in SAP Advanced Financial Closing. For more information, see [Company Code Groups](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/d673a87cfa484a35a241b3eadc7ba815.html "Understand how company code groups work.") :arrow_upper_right:.
 

@@ -17,7 +17,7 @@ Delete the connection between SAP Advanced Financial Closing and the communicati
     -   `AFC_SpecifySystemsApp`
 
 
-    For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md).
+    For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
 -   The communication system **must not have been synchronized** yet.
 

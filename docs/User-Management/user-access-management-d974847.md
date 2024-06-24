@@ -237,5 +237,5 @@ Manage users, user groups, and user roles through a dedicated API.
 
 **Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.")
 
-**Next:**[How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP Advanced Financial Closing and update certain user attributes.")
+**Next:**[How to Delete Users](how-to-delete-users-81d47cf.md "Delete users that are no longer required.")
 

@@ -23,4 +23,7 @@ Use user roles to manage role-based access.
 -   **[How to Manage Compliance Settings](how-to-manage-compliance-settings-835ce12.md "The compliance settings apply to all apps that are part of SAP Advanced Financial
                                                   Closing.")**  
 The compliance settings apply to all apps that are part of SAP Advanced Financial Closing.
+-   **[How to Manage General Settings](how-to-manage-general-settings-a4be7f7.md "Maintain settings that apply to all objects in SAP Advanced Financial
+                                                  Closing.")**  
+Maintain settings that apply to all objects in SAP Advanced Financial Closing.
 
