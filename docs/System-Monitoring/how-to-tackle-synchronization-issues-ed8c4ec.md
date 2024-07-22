@@ -71,9 +71,19 @@ The synchronization check follows the frequency and rules as described under [Sy
 
     -   *Completed*
 
+        This status is set if the synchronization was completed without errors or warnings.
+
     -   *In Process*
 
+        This status is set if the synchronization is currently ongoing.
+
+    -   *Completed with Warnings*
+
+        This status is set if the synchronization was completed, but warnings exist. Warnings are available in the synchronization logs.
+
     -   *Error*
+
+        This status is set if the synchronization failed.
 
     -   *Paused*
 
@@ -116,6 +126,9 @@ The synchronization check follows the frequency and rules as described under [Sy
     
 4.  For more information about passed synchronization runs, choose *Show Logs* on the *Synchronization* tile. This brings you to an overview of the logs created for the passed synchronization runs.
 
+    > ### Tip:  
+    > For more information about the synchronization logs provided by SAP Advanced Financial Closing, see [Synchronization Business Logs](synchronization-business-logs-0619d52.md).
+
     1.  If no issues were detected during the last synchronization, no further action is required.
 
     2.  If issues were detected that need to be resolved before a new synchronization can start, solve the issues in the corresponding location.
@@ -148,4 +161,7 @@ The synchronization check follows the frequency and rules as described under [Sy
 ## Results
 
 You have now checked the synchronization status of your communication system and tackled any issues.
+
+-   **[Synchronization Business Logs](synchronization-business-logs-0619d52.md "Get an overview of synchronization logs and possible solutions.")**  
+Get an overview of synchronization logs and possible solutions.
 

@@ -28,6 +28,73 @@ Description
 <tr>
 <td valign="top" rowspan="2">
 
+July 21, 2024
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [Archiving Spool Results in Connected Communication Systems Using AFC\_OBJSTR](../Data-Management/archiving-spool-results-in-connected-communication-systems-using-afc-objstr-b6e6eb2.md):
+
+    The following information was added:
+
+    ILM-related information
+
+-   [Data Management in SAP Advanced Financial Closing](../Data-Management/data-management-in-sap-advanced-financial-closing-966474f.md)
+
+    The following underlying page was added:
+
+    [Data Destruction in Connected Communication System](../Data-Management/data-destruction-in-connected-communication-system-f8c9706.md)
+
+-   **Administration Guide**:
+
+    The following page was added:
+
+    [Theme Customization](../theme-customization-a1d4fa4.md)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
+
+</td>
+<td valign="top">
+
+-   [Onboarding](../Onboarding/onboarding-1987953.md):
+
+    The following information was changed:
+
+    UI terminology changes in SAP BTP cockpit
+
+-   [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md):
+
+    The following information was changed:
+
+    Availability of SCIM standard functions and SCIM extensions
+
+-   [Offboarding](../Offboarding/offboarding-e2312ef.md):
+
+    The following information was changed:
+
+    UI terminology changes in SAP BTP cockpit
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
 June 23, 2024
 
 </td>
@@ -112,42 +179,6 @@ June 23, 2024
     The following information was changed:
 
     General improvements
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-April 21, 2024
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md):
-
-    The following information was added:
-
-    *Marked for Deletion* feature in communication system
-
--   [Data Management in SAP Advanced Financial Closing](../Data-Management/data-management-in-sap-advanced-financial-closing-966474f.md):
-
-    The following underlying page was added:
-
-    [Data Archiving in Connected Communication Systems](../Data-Management/data-archiving-in-connected-communication-systems-2829b08.md) with its underlying page [Archiving Spool Results in Connected Communication Systems Using AFC\_OBJSTR](../Data-Management/archiving-spool-results-in-connected-communication-systems-using-afc-objstr-b6e6eb2.md)
-
--   [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md):
-
-    The following information was added:
-
-    Archiving
 
 
 

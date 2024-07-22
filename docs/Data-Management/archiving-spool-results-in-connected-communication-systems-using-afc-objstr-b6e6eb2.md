@@ -26,6 +26,35 @@ The residence time is fulfilled.
 
 
 
+## ILM-Related Information for the Archiving Object
+
+You can use this archiving object with the ILM object of the same name, `AFC_OBJSTR`, as part of SAP Information Lifecycle Management. In transaction `IRMPOL`, you can create policies for residence or retention rules, depending on the available policy category. Here you can also see the available time references and which condition fields exist \(described here below\), and decide which of them shall be used in which order to define your rule structure.
+
+The following condition fields are available:
+
+-   `STREAM_TYPE` \(file type of the spool list, such as PDF or CSV\)
+
+
+The following time references are available:
+
+-   Creation date
+
+
+For more information, see [SAP Information Lifecycle Management](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/7fe188e04fdd462e8ec330bb80efc389.html?locale=en-US).
+
+
+
+### Data Destruction
+
+Only spools that originate from executions that are already **marked for deletion** can be selected for data destruction. Data destruction is based on the retention time you define in your communication system as described under [Data Controller Rule Framework](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/4a236b5ed814479495fcfc8cd2fa22cd.html?locale=en-US).
+
+For more information about data destruction, see [Destroying Data in a Live Application System](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/90a0446ddd874aaf8b683f77cb3ede8a.html?locale=en-US).
+
+> ### Remember:  
+> For more information about how to mark objects for deletion, see [How to Delete Task List Templates and Task Lists](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fb877991dcb4baf8379972c96ad4c9a.html "Delete task list templates and task lists.") :arrow_upper_right:.
+
+
+
 <a name="loiob6e6eb25710a4c97b935a69a9bb35ad6__section_afc_performing_app-specific_config"/>
 
 ## Performing an Application-Specific Configuration

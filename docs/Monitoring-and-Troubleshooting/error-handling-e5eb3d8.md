@@ -4,9 +4,19 @@
 
 See how to handle issues.
 
-Depending on what has caused the error, please do the following:
 
--   **Issues with the connection to the communication system**
+
+## Context
+
+Depending on what kind of issue you're facing, you need to perform different steps. You can find more details below.
+
+
+
+<a name="loioe5eb3d828cca43fcae562532a43c7bbd__steps-unordered_wsz_pk4_ybc"/>
+
+## Procedure
+
+-   Issues with the connection to the communication system:
 
     The communication issue can have different reasons. Perform the following steps:
 
@@ -30,16 +40,20 @@ Depending on what has caused the error, please do the following:
     6.  If the settings are correct and the synchronization was successful, but the data isn't displayed in SAP Advanced Financial Closing, for example in the *Manage Closing Task Lists* app, please go to the [SAP Support Portal](https://support.sap.com) and create an incident under the component `FIN-FIO-FCC`.
 
 
--   **Issues when connecting to your on-premise communication system with the Cloud Connector**
+-   Issues when connecting to your on-premise communication system with the Cloud Connector:
 
     Please follow the instructions on how to connect to an on-premise communication system under [Connectivity](../Connectivity/connectivity-200deae.md) and the underlying topics.
 
--   **Issues when configuring destinations**
+-   Issues when configuring destinations:
 
     Please follow the instructions under [Connectivity](../Connectivity/connectivity-200deae.md) and the underlying topics. If you still can't solve the issue, create an incident under the component `FIN-FIO-FCC` in the [SAP Support Portal](https://support.sap.com).
 
+-   Issues when using theme customization features:
 
-For all other unexpected issues, create an incident under the component `FIN-FIO-FCC` in the [SAP Support Portal](https://support.sap.com).
+    For more information, see [Monitoring and Troubleshooting](https://help.sap.com/docs/btp/ui-theme-designer/monitoring-and-troubleshooting).
+
+-   For all other issues not mentioned here, create an incident under the component `FIN-FIO-FCC` in the [SAP Support Portal](https://support.sap.com).
+
 
 **Related Information**  
 

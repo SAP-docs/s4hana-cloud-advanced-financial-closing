@@ -16,7 +16,7 @@ You can use this app to do the following:
 
 -   Create users to allow them to work in SAP Advanced Financial Closing.
 -   Update user information.
--   Deleted user from SAP Advanced Financial Closing
+-   Delete user from SAP Advanced Financial Closing
 
 
 

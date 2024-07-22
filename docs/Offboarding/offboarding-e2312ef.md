@@ -1,5 +1,7 @@
 <!-- loioe2312ef61bf84937bac994f4747a89cd -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Offboarding
 
 Request the deletion of your SAP Advanced Financial Closing tenant.
@@ -30,19 +32,28 @@ If you wish to delete your tenant and your data, perform the following steps:
 
 ## Procedure
 
-1.  Go to the [SAP Support Portal](https://support.sap.com) and create an incident under the component `FIN-FIO-FCC`.
+1.  In the SAP BTP cockpit, go to the relevant global account and subaccount.
 
-    Once you've created the incident, a grace period of 60 days starts during which the deletion process is blocked.
+2.  Go to *Services* \> *Instances and Subscriptions*.
 
-2.  You're asked to confirm the intentional deletion of the tenant and that the data isn't subject to any litigation. You need to confirm this within the grace period of 60 days.
+3.  In the *Subscriptions* section, search for `SAP Advanced Financial Closing`.
 
-3.  Once the grace period is over and all the required information is available, the deletion process starts.
+4.  In the corresponding table row, choose <span class="SAP-icons-V5"></span> \(Actions icon\) and then *Delete*.
 
-    > ### Note:  
-    > If your data is subject to any litigation, the data must be retained until all legal concerns are resolved.
+    > ### Caution:  
+    > After you have chosen *Delete*, a resubscription is no longer possible.
 
-    > ### Remember:  
-    > Once the process to unsubscribe is initiated, a resubscription to the same tenant is no longer possible. You can, however, subscribe to a new tenant provided that your contract is valid.
+    ![Screenshot depicting the user interface of the SAP BTP cockpit: The sections for the above-mentioned steps as well as for the following steps are shown.](images/Screenshot_BTP_Cockpit_for_Offboarding_7d689ae.png)
+
+5.  **Optional:** If you have an SAP Advanced Financial Closing API, perform the same steps in the *Instances* section as follows:
+
+    1.  In the *Instances* section, search again for `SAP Advanced Financial Closing`.
+
+    2.  In the corresponding table row, choose <span class="SAP-icons-V5"></span> \(Actions icon\) and then *Delete*.
+
+        > ### Caution:  
+        > After you have chosen *Delete*, a resubscription is no longer possible.
+
 
 
 

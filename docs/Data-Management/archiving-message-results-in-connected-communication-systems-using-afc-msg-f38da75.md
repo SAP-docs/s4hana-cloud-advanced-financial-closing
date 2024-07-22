@@ -17,7 +17,7 @@ You can use archiving object `AFC_MSG` to archive message results in SAP Advance
 
 ## Prerequisites
 
-The following prerequisite must be fulfilled before a spool list relating to SAP Advanced Financial Closing can be archived:
+The following prerequisite must be fulfilled before a message result relating to SAP Advanced Financial Closing can be archived:
 
 The residence time is fulfilled.
 
@@ -36,7 +36,7 @@ The following condition fields are available:
 
 The following time references are available:
 
--   *Create Date*
+-   Creation date
 
 
 For more information, see [SAP Information Lifecycle Management](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/7fe188e04fdd462e8ec330bb80efc389.html?locale=en-US).
@@ -45,7 +45,7 @@ For more information, see [SAP Information Lifecycle Management](https://help.sa
 
 ### Data Destruction
 
-Only message results that originate from executions that are already **marked for deletion** can be selected for data destruction. Data destruction is based on the retention time you define in your communication system as described under [Data Controller Rule Framework](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/4a236b5ed814479495fcfc8cd2fa22cd.html?locale=en-US).
+Only message results that originate from task executions that are already **marked for deletion** can be selected for data destruction. Data destruction is based on the retention time you define in your communication system as described under [Data Controller Rule Framework](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/4a236b5ed814479495fcfc8cd2fa22cd.html?locale=en-US).
 
 For more information about data destruction, see [Destroying Data in a Live Application System](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/90a0446ddd874aaf8b683f77cb3ede8a.html?locale=en-US).
 

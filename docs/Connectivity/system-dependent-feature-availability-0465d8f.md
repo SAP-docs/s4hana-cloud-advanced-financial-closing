@@ -510,7 +510,7 @@ Not applicable
 </td>
 <td valign="top">
 
-`SP01`
+`SP02`
 
 -   Previous support packages: Feature is available if the following requirements are met:
 
@@ -523,7 +523,7 @@ Not applicable
 </td>
 <td valign="top">
 
-`SP03`
+`SP04`
 
 -   Previous support packages: Feature is available if the following requirements are met:
 
@@ -536,7 +536,7 @@ Not applicable
 </td>
 <td valign="top">
 
-`SP05`
+`SP06`
 
 -   Previous support packages: Feature is available if the following requirements are met:
 
@@ -549,7 +549,7 @@ Not applicable
 </td>
 <td valign="top">
 
-`SP07`
+`SP08`
 
 -   Previous support packages: Feature is available if the following requirements are met:
 

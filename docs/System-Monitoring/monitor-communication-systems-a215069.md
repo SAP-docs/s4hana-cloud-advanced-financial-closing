@@ -70,6 +70,18 @@ No connection or synchronization issues were detected. No further action require
 <tr>
 <td valign="top">
 
+*Warning*
+
+</td>
+<td valign="top">
+
+Warnings for this system exist. Check the *Status Source* column and the system details for more information.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Error*
 
 </td>

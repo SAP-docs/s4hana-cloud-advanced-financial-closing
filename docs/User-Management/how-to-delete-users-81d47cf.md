@@ -29,7 +29,7 @@ Delete users that are no longer required.
     2.  An authorized user needs to check task list templates for assignments of the affected user and update them if required.
 
         > ### Note:  
-        > If a deleted user is assigned to a generated task list or its tasks, the next consistency check will return error or warning messages. Task list generation may not be possible.
+        > If a deleted user is assigned to a task list template, the next consistency check will return error or warning messages. Task list generation may not be possible.
 
 
 

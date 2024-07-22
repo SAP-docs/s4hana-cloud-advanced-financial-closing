@@ -1,4 +1,4 @@
-<!-- loioc4a31b93b52d4fe98566eeb348a3c4e4 -->
+<!-- copy0619d5229e4d4af0adec147a83355654 -->
 
 # Synchronization Business Logs
 
@@ -153,7 +153,7 @@ Communication system “\{0\}” doesn't fulfill the technical prerequisites. Ch
 For more information, see the following pages:
 
 -   [Technical Prerequisites](../Technical-Prerequisites/technical-prerequisites-13dbd04.md)
--   [Connectivity](connectivity-200deae.md)
+-   [Connectivity](../Connectivity/connectivity-200deae.md)
 
 
 

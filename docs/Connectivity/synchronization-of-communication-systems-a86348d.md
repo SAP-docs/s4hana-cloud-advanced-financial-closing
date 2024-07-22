@@ -149,6 +149,39 @@ Task parameters
 
 
 
+### Synchronization Statuses
+
+The synchronization run can result in the following statuses:
+
+-   *Completed*
+
+    This status is set if the synchronization was completed without errors or warnings.
+
+-   *In Process*
+
+    This status is set if the synchronization is currently ongoing.
+
+-   *Completed with Warnings*
+
+    This status is set if the synchronization was completed, but warnings exist. Warnings are available in the synchronization logs.
+
+-   *Error*
+
+    This status is set if the synchronization failed.
+
+-   *Paused*
+
+    This status is set if a connection issue persists.
+
+-   *Open*
+
+    This status is set only if there has not yet been an attempt to run a synchronization. This is usually the case for new systems that were connected.
+
+
+For more information about the synchronization logs provided by SAP Advanced Financial Closing, see [Synchronization Business Logs](synchronization-business-logs-c4a31b9.md).
+
+
+
 <a name="loioa86348d6459a4c929ec1f389e38827ad__section_ekz_klc_sxb"/>
 
 ## Daily and Immediate Synchronization

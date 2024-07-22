@@ -30,9 +30,9 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
     > ### Note:  
     > If your organization has multiple global accounts, be sure to choose the global account that contains the entitlement to SAP Advanced Financial Closing. This account is mentioned in the email you've received.
 
-3.  Add members to your global account. Go to *Members* and choose *Add Members*. Add the relevant members in the dialog box. Choose the ID format according to the IdP you use.
+3.  Add users to your global account. Go to *Security* \> *Users* and add the relevant users in the dialog box. Choose the ID format according to the identity provider \(IdP\) you use.
 
-4.  Go to *Subaccounts* and choose *New Subaccount*:
+4.  Go to *Account Explorer* and choose *Create* \> *Subaccount*:
 
     Create the relevant subaccounts in your global account. On global account level, the number of subscriptions for this application is limited. Specifically, you can subscribe only once to SAP Advanced Financial Closing in your global account.
 
@@ -42,20 +42,21 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
 
     2.  *Description*
 
-    3.  *Environment*
-
-    4.  *Provider*
-
-    5.  *Region*:
+    3.  *Region*:
 
         The combination of provider and region represents the data center you are using.
 
         > ### Note:  
         > For SAP Advanced Financial Closing, the subaccount needs to be in the same region as the application. Currently `Europe (Frankfurt) (cf-eu10)` and `US (Virginia) (cf-us10)` are available as standard regions. If you have an EU access contract for SAP Advanced Financial Closing, the region `Europe (Frankfurt) (cf-eu11)` is shown.
 
-    6.  *Subdomain*:
+    4.  *Subdomain*:
 
         The subdomain name must be unique for each data center. Therefore, we strongly recommend including a **customer-specific prefix** in the name of the subdomain. Please note that this subdomain is later part of your URL with which you access the application in the browser and also part of the API URL that you provide to your external trading platform.
+
+    5.  *Advanced*:
+
+        -   If SAP Advanced Financial Closing should be used productively, select the *Used for production* checkbox.
+        -   For SAP Advanced Financial Closing beta features don't need to be enabled.
 
 
     > ### Example:  
@@ -64,10 +65,6 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
     > -   Display Name: `AFC Prod`
     > 
     > -   Description: `Subscribed to SAP Advanced Financial Closing - Prod`
-    > 
-    > -   Environment: `Cloud Foundry`
-    > 
-    > -   Provider: `AWS`
     > 
     > -   Region: `Europe (Frankfurt) (cf-eu10)`
     > 
@@ -82,14 +79,14 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
         > ### Note:  
         > Make sure that you are in the correct subaccount. You can see the path of the account and subaccount on the top of your screen.
 
-    2.  Choose *Configure Entitlements*.
+    2.  Choose *Edit*.
 
     3.  Choose *Add Service Plans*.
 
-    4.  Under *Entitlements*, search for **`advanced financial closing`** and choose **SAP Advanced Financial Closing**.
+    4.  Under *Services*, search for **`advanced financial closing`** and choose **SAP Advanced Financial Closing**.
 
         > ### Note:  
-        > If the correct entry doesn't show, make sure you select *All Categories* as a filter option under *Entitlements*.
+        > If the correct entry doesn't show, make sure you select *All Solutions* as a filter option under *Services*.
 
     5.  Select *Standard \(Application\)* and add the service plan.
 
@@ -106,7 +103,7 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
 
         -   *Service*: `SAP Advanced Financial Closing`
 
-        -   *Plan*: `Application - standard`
+        -   *Plan*: `Subscriptions - standard`
 
 
     4.  Choose *Create*.
@@ -114,7 +111,7 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
         **Result:** **SAP Advanced Financial Closing** is now shown in the list of your subaccount's instances and subscriptions, and the status is *Subscribed*.
 
 
-9.  \(**Recommended**\) Add SAP Advanced Financial Closing to your Cloud system notification subscriptions as described under [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md).
+9.  **Recommended:** Add SAP Advanced Financial Closing to your Cloud system notification subscriptions as described under [How to Sign Up for Update Notifications](../Monitoring-and-Troubleshooting/how-to-sign-up-for-update-notifications-77c4077.md).
 
 
 -   **[Accessing SAP Advanced Financial Closing](accessing-sap-advanced-financial-closing-92e81ed.md#loio92e81ed38757493ca89484bd99e21ab0 "Access SAP Advanced Financial

@@ -19,7 +19,7 @@ Manage users, user groups, and user roles through a dedicated API.
 
 ## Context
 
-You can use the SCIM API to change users, user groups, and user-to-group assignments. You can also perform user-to-role assignments.
+Working with the Identity Provisioning service or Identity Authentication service, you can use the SCIM API to change users, user groups, and user-to-group assignments following the SCIM standard. User role assignments are an SCIM extension. Accordingly, you can perform user-to-role assignments using the SCIM API only when you work with a custom implementation instead of the Identity Provisioning service or Identity Authentication service.
 
 > ### Caution:  
 > If you use the SCIM API, keep in mind that certain user information is case-sensitive and has to be identical between the different sources. The following user data is affected and has to be identical:
@@ -36,7 +36,7 @@ You can use the SCIM API to change users, user groups, and user-to-group assignm
 > If this information isn't identical even though the data refers to the same user, multiple users will be maintained.
 
 > ### Note:  
-> Deleted users are not available through the SCIM API, even if assignments still exist in SAP Advanced Financial Closing.
+> -   Deleted users are not available through the SCIM API, even if assignments still exist in SAP Advanced Financial Closing.
 
 > ### Restriction:  
 > The following rate limits apply when using the SCIM API:
