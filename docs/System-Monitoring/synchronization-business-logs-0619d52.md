@@ -281,6 +281,40 @@ Check further details in the error message or contact your system administrator.
 <tr>
 <td valign="top">
 
+Error
+
+</td>
+<td valign="top">
+
+Synchronization failed due to an empty report metadata response from configured communication system "\{0\}". Check the destination configuration with name "\{1\}" and the connected ABAP system.
+
+</td>
+<td valign="top">
+
+Check the destination configuration and the connected ABAP system, and provide the required report metadata. Additionally, check the configuration and system setup and the implementation of SAP Notes and service packs of the system or technical component.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Error
+
+</td>
+<td valign="top">
+
+Synchronization failed due to an empty task parameter registration response from configured communication system "\{0\}". Check the destination configuration with name "\{1\}" and the connected ABAP system.
+
+</td>
+<td valign="top">
+
+Check the destination configuration and the connected ABAP system, and maintain the required task parameter registration. Additionally, check the configuration and system setup and the implementation of SAP Notes and service packs of the system or technical component.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Warning
 
 </td>

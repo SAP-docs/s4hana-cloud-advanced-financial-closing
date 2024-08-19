@@ -221,7 +221,7 @@ Read
 <tr>
 <td valign="top">
 
-Create
+Create Task List Templates
 
 </td>
 <td valign="top">
@@ -258,7 +258,7 @@ Create
 <tr>
 <td valign="top">
 
-Copy
+Copy Task List Templates
 
 </td>
 <td valign="top">
@@ -295,7 +295,7 @@ Copy
 <tr>
 <td valign="top">
 
-Edit / Save
+Edit Task List Templates and Task Lists
 
 </td>
 <td valign="top">
@@ -443,7 +443,7 @@ Delete Task List Templates and Task Lists with Status *Not Released*
 <tr>
 <td valign="top">
 
-Generate
+Generate Task Lists
 
 </td>
 <td valign="top">

@@ -21,7 +21,7 @@ Delete the connection between SAP Advanced Financial Closing and the communicati
 
 -   The communication system **must not have been synchronized** yet.
 
-
+-   
 
 
 <a name="loio9c0a0d9edb744cb8bbfbf7eb55b5b1ab__context_c1x_wx5_3tb"/>

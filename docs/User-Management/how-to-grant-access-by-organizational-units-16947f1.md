@@ -72,7 +72,7 @@ The abstraction level between user roles and specific objects enables you to gra
 6.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
-    > A user role must have at least one authorization assigned.
+    > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
 
     > ### Remember:  
     > Users who have this role assignment have the authorizations across all task list templates and task lists.
@@ -167,9 +167,6 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     </table>
     
-    > ### Note:  
-    > The *Read* authorization will automatically be added if you add another authorization before adding *Read*.
-
 7.  Repeat the previous step to assign additional authorizations.
 
 8.  To remove an authorization, choose the corresponding *Delete* icon :x:.

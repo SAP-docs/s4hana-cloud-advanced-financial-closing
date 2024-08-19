@@ -70,7 +70,7 @@ You can grant access that applies to all objects within the scope, independently
 6.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
-    > A user role must have at least one authorization assigned.
+    > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
 
     > ### Remember:  
     > For users who have this role assignment, the authorizations selected apply across all task lists.
@@ -165,9 +165,6 @@ You can grant access that applies to all objects within the scope, independently
     </tr>
     </table>
     
-    > ### Note:  
-    > The *Read* authorization will automatically be added if you add another authorization before adding *Read*.
-
 7.  Choose *Add* in the dialog footer.
 
 8.  Repeat the previous steps to assign additional authorizations.

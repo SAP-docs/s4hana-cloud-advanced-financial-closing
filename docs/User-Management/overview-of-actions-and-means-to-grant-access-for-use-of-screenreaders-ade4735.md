@@ -518,7 +518,7 @@ Direct assignment as owner or owner group
 </td>
 <td valign="top">
 
-Create
+Create Task List Templates
 
 </td>
 <td valign="top">
@@ -627,7 +627,7 @@ Create
 </td>
 <td valign="top">
 
-Copy
+Copy Task List Templates
 
 </td>
 <td valign="top">
@@ -736,7 +736,7 @@ Copy
 </td>
 <td valign="top">
 
-Edit / Save
+Edit Task List Templates and Task Lists
 
 </td>
 <td valign="top">
@@ -1172,7 +1172,7 @@ Direct assignment as owner or owner group
 </td>
 <td valign="top">
 
-Generate
+Generate Task Lists
 
 </td>
 <td valign="top">
