@@ -1916,7 +1916,7 @@ Direct assignment as processing user or user group
 </td>
 <td valign="top">
 
-Direct assignment as interested user or user group on folder
+ 
 
 </td>
 <td valign="top">
@@ -2025,7 +2025,7 @@ Direct assignment as processing user or user group
 </td>
 <td valign="top">
 
-Direct assignment as interested user or user group on folder
+ 
 
 </td>
 <td valign="top">

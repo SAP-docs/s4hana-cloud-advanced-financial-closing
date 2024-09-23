@@ -291,7 +291,12 @@ If you use separate systems for the gateway back end and the business back end, 
         </td>
         <td valign="top">
         
-        `RELE`
+        -   `DELE`: Delete Background Jobs
+
+        -   `RELE`: Release Jobs
+
+
+
         
         </td>
         </tr>

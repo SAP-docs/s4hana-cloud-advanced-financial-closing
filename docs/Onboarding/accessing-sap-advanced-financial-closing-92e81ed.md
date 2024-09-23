@@ -37,6 +37,8 @@ The distinction between the `afc.cloud.sap` domain and the `hana.ondemand.com` d
 
 > ### Example:  
 > If you've set up integration with SAP Build Work Zone, you need to ensure that your default URL for SAP Advanced Financial Closing uses the same domain as your SAP Build Work Zone instance.
+> 
+> For more information specifically about domain handling in SAP Build Work Zone, see [Using the Common Super Domain](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/using-super-common-domain?locale=en-US) in the SAP Build Work Zone documentation.
 
 <a name="loio26bf9ffa15114bfeb698ef8c35cd78a6"/>
 

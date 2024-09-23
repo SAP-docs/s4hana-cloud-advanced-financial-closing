@@ -2021,7 +2021,7 @@ Read
 </td>
 <td valign="top">
 
-`X` 
+ 
 
 </td>
 <td valign="top">
@@ -2130,7 +2130,7 @@ Download Results
 </td>
 <td valign="top">
 
-`X` 
+ 
 
 </td>
 <td valign="top">

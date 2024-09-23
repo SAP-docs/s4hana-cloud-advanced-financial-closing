@@ -249,7 +249,12 @@ You need to create a technical communication user with specific authorizations t
         </td>
         <td valign="top">
         
-        `RELE`
+        -   `DELE`: Delete Background Jobs
+
+        -   `RELE`: Release Jobs
+
+
+
         
         </td>
         </tr>

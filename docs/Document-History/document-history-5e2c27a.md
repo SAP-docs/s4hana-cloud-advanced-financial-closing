@@ -26,6 +26,30 @@ Description
 </th>
 </tr>
 <tr>
+<td valign="top">
+
+September 22, 2024
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [Accessing SAP Advanced Financial Closing](../Onboarding/accessing-sap-advanced-financial-closing-92e81ed.md#loio92e81ed38757493ca89484bd99e21ab0):
+
+    The following information was added:
+
+    Link to domain handling in SAP Build Work Zone
+
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="2">
 
 August 18, 2024
@@ -68,73 +92,6 @@ August 18, 2024
     The following information was changed:
 
     *Read* authorization is automatically added from the beginning.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="2">
-
-July 21, 2024
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [Archiving Spool Results in Connected Communication Systems Using AFC\_OBJSTR](../Data-Management/archiving-spool-results-in-connected-communication-systems-using-afc-objstr-b6e6eb2.md):
-
-    The following information was added:
-
-    ILM-related information
-
--   [Data Management in SAP Advanced Financial Closing](../Data-Management/data-management-in-sap-advanced-financial-closing-966474f.md)
-
-    The following underlying page was added:
-
-    [Data Destruction in Connected Communication System](../Data-Management/data-destruction-in-connected-communication-system-f8c9706.md)
-
--   **Administration Guide**:
-
-    The following page was added:
-
-    [Theme Customization](../theme-customization-a1d4fa4.md)
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
-
-</td>
-<td valign="top">
-
--   [Onboarding](../Onboarding/onboarding-1987953.md):
-
-    The following information was changed:
-
-    UI terminology changes in SAP BTP cockpit
-
--   [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md):
-
-    The following information was changed:
-
-    Availability of SCIM standard functions and SCIM extensions
-
--   [Offboarding](../Offboarding/offboarding-e2312ef.md):
-
-    The following information was changed:
-
-    UI terminology changes in SAP BTP cockpit
 
 
 

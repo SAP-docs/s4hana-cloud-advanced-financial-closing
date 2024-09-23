@@ -64,7 +64,7 @@ You have one subaccount in which SAP Advanced Financial Closing is set up and an
 
     1.  Add the fully-qualified domain name of the SAP Task Center subaccount as a trusted domain.
 
-        See [Configure Trusted Domains for SAP Authorization and Trust Management Service \[Feature Set B\]](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c5e997235f724ec686dc5dc101a1ccfb.html). If you're using a custom identity provider, follow the instructions of that provider.
+        See [Configure Trusted Domains for Multi-environment Subaccounts](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c5e997235f724ec686dc5dc101a1ccfb.html). If you're using a custom identity provider, follow the instructions of that provider.
 
 
 
