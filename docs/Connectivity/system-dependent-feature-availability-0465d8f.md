@@ -89,8 +89,8 @@ Additional requirement: [3426341](https://me.sap.com/notes/3426341)
 <tr>
 <td valign="top">
 
--   *Migrate Closing Task Lists* app
--   *Migrate Configuration Data* app
+-   *Migrate Closing Task Lists \(read-only\)* app
+-   *Migrate Configuration Data \(read-only\)* app
 
 
 
@@ -498,7 +498,7 @@ Not applicable
 </td>
 <td valign="top">
 
-Not applicable
+`SP20`
 
 </td>
 </tr>

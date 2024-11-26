@@ -82,7 +82,7 @@ Configuration
 
 -   *Manage Authorization Groups*
 
--   *Manage Country/Region Groups*
+-   *Manage Country/Region Groups \(Deprecated\)*
 
 -   *Manage Email Notification Configurations*
 

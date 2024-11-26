@@ -176,7 +176,7 @@ Interested User / User Group \(Task\)
 <tr>
 <td valign="top">
 
--   *Financial Close Overview*
+-   *Financial Close Overview \(Deprecated\)*
 -   *Financial Close Overview - Task View*
 -   *Financial Close Overview - Organizational Unit View*
 
@@ -287,7 +287,7 @@ Read
 <tr>
 <td valign="top">
 
--   *Closing Task Completion*
+-   *Closing Task Completion \(Deprecated\)*
 -   *Closing Task Completion - Task View*
 -   *Closing Task Completion - Organizational Unit View*
 

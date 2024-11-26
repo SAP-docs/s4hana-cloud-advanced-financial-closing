@@ -18,13 +18,13 @@ Users who have been assigned a static role can see the respective apps in the SA
 
 -   *Approve Closing Tasks*
 
--   *Financial Close Overview* \(derived from the *Read* authorization in the *Task Processing* scope\)
+-   *Financial Close Overview \(Deprecated\)* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
 -   *Financial Close Overview - Organizational Unit View* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
 -   *Financial Close Overview - Task View* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
--   *Closing Task Completion* \(derived from the *Read* authorization in the *Task Processing* scope\)
+-   *Closing Task Completion \(Deprecated\)* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
 -   *Closing Task Completion - Organizational Unit View* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
@@ -86,8 +86,8 @@ All apps accessed through the *Configuration* tile
 </td>
 <td valign="top">
 
--   *Migrate Configuration Data*
--   *Migrate Closing Task Lists*
+-   *Migrate Configuration Data \(read-only\)*
+-   *Migrate Closing Task Lists \(read-only\)*
 
 
 
@@ -181,11 +181,11 @@ For more information, see [Task List Creation Scope](task-list-creation-scope-ba
 
 -   *Change Log*
 
--   *Financial Close Overview*
+-   *Financial Close Overview \(Deprecated\)*
 
 -   *Financial Close Overview - Organizational Unit View*
 -   *Financial Close Overview - Task View*
--   *Closing Task Completion*
+-   *Closing Task Completion \(Deprecated\)*
 
 -   *Closing Task Completion - Organizational Unit View*
 -   *Closing Task Completion - Task View*

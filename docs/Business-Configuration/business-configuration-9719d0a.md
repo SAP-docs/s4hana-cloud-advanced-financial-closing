@@ -8,7 +8,7 @@ Understand how you can manage the business configuration in SAP Advanced Financi
 Learn more about the apps that are available for business configuration.
 -   **[How to Manage Authorization Groups](how-to-manage-authorization-groups-d3c02b0.md "Use authorization groups to grant object-specific access.")**  
 Use authorization groups to grant object-specific access.
--   **[How to Manage Country/Region Groups](how-to-manage-country-region-groups-9236c05.md "Define country/region groups for reports about financial closing activities.")**  
+-   **[How to Manage Country/Region Groups \(Process Deprecated\)](how-to-manage-country-region-groups-process-deprecated-9236c05.md "Define country/region groups for reports about financial closing activities.")**  
 Define country/region groups for reports about financial closing activities.
 -   **[How to Manage Email Notification Configurations](how-to-manage-email-notification-configurations-c4e2569.md "Create notification configurations and assign a set of email notification scenarios to a
 		task list.")**  

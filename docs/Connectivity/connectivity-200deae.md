@@ -6,9 +6,9 @@ Connect your financial cloud or on-premise systems to SAP Advanced Financial Clo
 
 You can connect SAP Advanced Financial Closing to the following solutions:
 
--   SAP S/4HANA Cloud, public edition
+-   SAP S/4HANA Cloud Public Edition
 
--   SAP S/4HANA Cloud, private edition 2020 and all following releases
+-   SAP S/4HANA Cloud Private Edition 2020 and all following releases
 
 -   SAP S/4HANA 1809 SPS04 and higher
 

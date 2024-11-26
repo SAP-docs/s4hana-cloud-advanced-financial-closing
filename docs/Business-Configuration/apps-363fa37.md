@@ -8,10 +8,10 @@ Learn more about the apps that are available for business configuration.
                                                   Authorization Groups
 		app to grant users object-specific access.")**  
 You use the *Manage Authorization Groups* app to grant users object-specific access.
--   **[Manage Country/Region Groups](manage-country-region-groups-e130df4.md "You use the Manage
-                                                  Country/Region Groups app to create
+-   **[Manage Country/Region Groups \(Deprecated\)](manage-country-region-groups-deprecated-e130df4.md "You use the Manage
+                                                  Country/Region Groups (Deprecated) app to create
 		country/region groups.")**  
-You use the *Manage Country/Region Groups* app to create country/region groups.
+You use the *Manage Country/Region Groups \(Deprecated\)* app to create country/region groups.
 -   **[Manage Email Notification Configurations](manage-email-notification-configurations-6f4c0b4.md "You use the Manage Email
                                                   Notification Configurations app to create configurations of email notifications.")**  
 You use the *Manage Email Notification Configurations* app to create configurations of email notifications.

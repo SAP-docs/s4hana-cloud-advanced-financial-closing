@@ -33,7 +33,7 @@ As the first step to set up an API integration scenario for SAP Advanced Financi
 
     5.  In the service marketplace, search for `advanced financial closing`.
 
-    6.  Choose the *SAP S/4HANA Cloud for advanced financial closing* tile to open the details.
+    6.  Choose the *SAP Advanced Financial Closing* tile to open the details.
 
     7.  Go to the *Service Plans* tab.
 

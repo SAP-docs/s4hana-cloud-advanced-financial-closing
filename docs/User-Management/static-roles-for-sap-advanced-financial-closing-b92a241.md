@@ -209,16 +209,16 @@ Migrates data if a migration from SAP Advanced Financial Closing as part of SAP 
 
 **App Details:**
 
--   [Migrate Configuration Data](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/643f4e8eef5d4eb6bc3baa621a9ed1f5.html "You use the Migrate Configuration Data app to migrate your configuration data before migrating the task lists.") :arrow_upper_right:
--   [Migrate Closing Task Lists](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/45712c68d98e4bbbbb7ce947fc265ad0.html "You use the Migrate Closing Task Lists app to migrate your financial closing task lists.") :arrow_upper_right:
+-   [Migrate Configuration Data \(read-only\)](../Migration-from-Advanced-Financial-Closing-as-Part-of-SAP-S/4HANA-Cloud-Optional/migrate-configuration-data-read-o-643f4e8.md)
+-   [Migrate Closing Task Lists \(read-only\)](../Migration-from-Advanced-Financial-Closing-as-Part-of-SAP-S/4HANA-Cloud-Optional/migrate-closing-task-lists-read-o-45712c6.md)
 
 
 
 </td>
 <td valign="top">
 
--   *Migrate Configuration Data*
--   *Migrate Closing Task Lists*
+-   *Migrate Configuration Data \(read-only\)*
+-   *Migrate Closing Task Lists \(read-only\)*
 
 
 
@@ -356,7 +356,7 @@ Maintains application-specific data, for example, configuration settings, or mas
 **App Details:**
 
 -   [Manage Authorization Groups](../Business-Configuration/manage-authorization-groups-0ea3430.md)
--   [Manage Country/Region Groups](../Business-Configuration/manage-country-region-groups-e130df4.md)
+-   [Manage Country/Region Groups \(Deprecated\)](../Business-Configuration/manage-country-region-groups-deprecated-e130df4.md)
 -   [Manage Email Notification Configurations](../Business-Configuration/manage-email-notification-configurations-6f4c0b4.md)
 -   [Manage User Groups](../Business-Configuration/manage-user-groups-3e8208b.md)
 -   [Manage User Roles](../Business-Configuration/manage-user-roles-a6e1ae0.md)
@@ -367,7 +367,7 @@ Maintains application-specific data, for example, configuration settings, or mas
 <td valign="top">
 
 -   *Manage Authorization Groups* \(Configuration\)
--   *Manage Country/Region Groups* \(Configuration\)
+-   *Manage Country/Region Groups \(Deprecated\)* \(Configuration\)
 -   *Manage Email Notification Configurations* \(Configuration\)
 -   *Manage User Groups* \(Configuration\)
 -   *Manage User Roles* \(Configuration\)
@@ -398,7 +398,7 @@ Maintains application-specific settings, such as notifications and country/regio
 
 **App Details:**
 
--   [Manage Country/Region Groups](../Business-Configuration/manage-country-region-groups-e130df4.md)
+-   [Manage Country/Region Groups \(Deprecated\)](../Business-Configuration/manage-country-region-groups-deprecated-e130df4.md)
 -   [Manage Email Notification Configurations](../Business-Configuration/manage-email-notification-configurations-6f4c0b4.md)
 
 
@@ -406,7 +406,7 @@ Maintains application-specific settings, such as notifications and country/regio
 </td>
 <td valign="top">
 
--   *Manage Country/Region Groups* \(Configuration\)
+-   *Manage Country/Region Groups \(Deprecated\)* \(Configuration\)
 -   *Manage Email Notification Configurations* \(Configuration\)
 
 
@@ -541,12 +541,12 @@ Maintains country/region groups
 
 **App Details:**
 
-[Manage Country/Region Groups](../Business-Configuration/manage-country-region-groups-e130df4.md)
+[Manage Country/Region Groups \(Deprecated\)](../Business-Configuration/manage-country-region-groups-deprecated-e130df4.md)
 
 </td>
 <td valign="top">
 
--   *Manage Country/Region Groups* \(Configuration\)
+-   *Manage Country/Region Groups \(Deprecated\)* \(Configuration\)
 
 
 
@@ -970,16 +970,16 @@ Monitors overall progress of closing activities and tracks task completion
 
 **App Details:**
 
--   [Financial Close Overview](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/4f84841c40384a4dbb9d3841f3a0b5a3.html "This app enables you to access key information and KPIs to monitor the completion of closing tasks.") :arrow_upper_right:
--   [Closing Task Completion](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/b83de37c24b34c14a6cae849b3161fab.html "This app enables you to analyze the status and the completion rate of active closing tasks as a summary.") :arrow_upper_right:
+-   [Financial Close Overview (Deprecated)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/4f84841c40384a4dbb9d3841f3a0b5a3.html "This app enables you to access key information and KPIs to monitor the completion of closing tasks.") :arrow_upper_right:
+-   [Closing Task Completion (Deprecated)](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/b83de37c24b34c14a6cae849b3161fab.html "This app enables you to analyze the status and the completion rate of active closing tasks as a summary.") :arrow_upper_right:
 
 
 
 </td>
 <td valign="top">
 
--   *Financial Close Overview*
--   *Closing Task Completion*
+-   *Financial Close Overview \(Deprecated\)*
+-   *Closing Task Completion \(Deprecated\)*
 
 
 
@@ -1215,7 +1215,8 @@ Included Role Templates
 </td>
 <td valign="top">
 
--   `AFC_Reporting`
+-   `AFC_ReportingTaskView`
+-   `AFC_ReportingOrgUnitView`
 -   `AFC_Approve`
 -   `AFC_UserManagement`
 

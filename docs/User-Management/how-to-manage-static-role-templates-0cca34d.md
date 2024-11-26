@@ -85,7 +85,8 @@ Static role templates are assigned to users to grant them access to apps that ar
     </td>
     <td valign="top">
     
-    -   `AFC_Reporting`
+    -   `AFC_ReportingTaskView`
+    -   `AFC_ReportingOrgUnitView`
     -   `AFC_Approve`
     -   `AFC_UserManagement`
 

@@ -22,17 +22,136 @@ The logs created by SAP Advanced Financial Closing can be extracted using the SA
 
 SAP Advanced Financial Closing writes audit logs for the following events:
 
--   Malware detection during file upload:
 
-    SAP Advanced Financial Closing runs virus scans when users upload files, such as attachments or template files used to update user details or assignments. If malware is detected during an upload, the upload is prohibited and an audit log about this event is written.
+<table>
+<tr>
+<th valign="top">
 
--   Access to system:
+Event Type
 
-    SAP support may be required to access customer systems to ensure availability of the customer system according to the service level agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and incident prevention. This access always requires SAP support to be authorized to do this. Reasons for system access by SAP support include the following:
+</th>
+<th valign="top">
 
-    -   Issue investigation \(only if the issue can't be reproduced otherwise\)
-    -   Software lifecycle management
+Event Logged
 
+</th>
+<th valign="top">
+
+Event Text
+
+</th>
+<th valign="top">
+
+Additional Information
+
+</th>
+<th valign="top">
+
+Information Included
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Security event
+
+</td>
+<td valign="top">
+
+Malware detection during file upload
+
+</td>
+<td valign="top">
+
+AFC: Malware detected during file upload
+
+</td>
+<td valign="top">
+
+SAP Advanced Financial Closing runs virus scans when users upload files, such as attachments or template files used to update user details or assignments. If malware is detected during an upload, the upload is prohibited and an audit log about this event is written.
+
+</td>
+<td valign="top">
+
+-   Malware scan result
+-   File name
+-   MIME type of file
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Security event
+
+</td>
+<td valign="top">
+
+Access to system
+
+</td>
+<td valign="top">
+
+AFC: Data access by SAP Development Support
+
+</td>
+<td valign="top">
+
+SAP support may be required to access customer systems to ensure availability of the customer system according to the service level agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and incident prevention. This access always requires SAP support to be authorized to do this. Reasons for system access by SAP support include the following:
+
+-   Issue investigation \(only if the issue can't be reproduced otherwise\)
+-   Software lifecycle management
+
+
+
+</td>
+<td valign="top">
+
+-   Description and purpose of the query
+-   SQL query
+-   User
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Security event
+
+</td>
+<td valign="top">
+
+Deletion of communication system
+
+</td>
+<td valign="top">
+
+AFC: Communication System was deleted
+
+</td>
+<td valign="top">
+
+A communication system entry in SAP Advanced Financial Closing was deleted and can no longer be used for task list templates or task lists.
+
+</td>
+<td valign="top">
+
+-   Communication system ID
+-   Communication system name
+-   Destination configuration name
+-   Value of *Is Production System* indicator
+-   URL
+
+
+
+</td>
+</tr>
+</table>
 
 
 

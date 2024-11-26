@@ -1,6 +1,6 @@
 <!-- loio9236c05663354e0d850a86711b57958f -->
 
-# How to Manage Country/Region Groups
+# How to Manage Country/Region Groups \(Process Deprecated\)
 
 Define country/region groups for reports about financial closing activities.
 
