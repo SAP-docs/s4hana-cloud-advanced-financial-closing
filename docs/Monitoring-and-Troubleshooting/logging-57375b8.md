@@ -221,6 +221,21 @@ Related to task processing
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Related to task list templates and task lists
+
+</td>
+<td valign="top">
+
+-   Deletion of task list templates and task lists
+-   Consistency status changes of task list templates
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  

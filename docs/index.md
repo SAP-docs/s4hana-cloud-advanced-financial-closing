@@ -7,6 +7,8 @@
     -   [Language Scope](Overview/language-scope-4f635b9.md)
 -   [Technical Prerequisites](Technical-Prerequisites/technical-prerequisites-13dbd04.md)
 -   [System Landscape](System-Landscape/system-landscape-3b9f341.md)
+-   [Automated Setup](Automated-Setup/automated-setup-08b5486.md#loio08b54863254c43fda04b0726814e5506)
+    -   [How to Automate Setting Up SAP Advanced Financial Closing Using a Booster](Automated-Setup/automated-setup-08b5486.md#loiobc3d834ea2bc4a8fa0bf33cba6cedb1e)
 -   [Onboarding](Onboarding/onboarding-1987953.md)
     -   [Accessing SAP Advanced Financial Closing](Onboarding/accessing-sap-advanced-financial-closing-92e81ed.md#loio92e81ed38757493ca89484bd99e21ab0)
         -   [How to Verify the Default URL](Onboarding/accessing-sap-advanced-financial-closing-92e81ed.md#loio26bf9ffa15114bfeb698ef8c35cd78a6)

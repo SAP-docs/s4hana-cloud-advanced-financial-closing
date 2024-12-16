@@ -17,21 +17,21 @@ Set up an integration between SAP Build Work Zone and SAP Advanced Financial Clo
 
     For more information specifically about domain handling in SAP Build Work Zone, see [Using the Common Super Domain](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/using-super-common-domain?locale=en-US) in the SAP Build Work Zone documentation.
 
--   For the steps to be performed with regards to or in SAP Build Work Zone, you need to have the required authorization.
+-   For the steps to be performed with regard to or in SAP Build Work Zone, you need to have the required authorization.
 
 
 
 ## Context
 
-SAP Build Work Zone allows you to establish a unified point of access to SAP \(e.g. SAP S/4HANA Cloud or SAP S/4HANA\), custom-built, and third-party applications and extensions. Following an integration with SAP Build Work Zone, you can set up one single launchpad page grouping all the relevant apps of the different solutions you have integrated, such as SAP Advanced Financial Closing. You can use this launchpad as single point of entry and access the apps of the different solutions directly from there.
+SAP Build Work Zone allows you to establish a unified point of access to SAP \(such as SAP S/4HANA Cloud or SAP S/4HANA\), custom-built, and third-party applications and extensions. Following an integration with SAP Build Work Zone, you can set up one single launchpad page grouping all the relevant apps of the different solutions you have integrated, such as SAP Advanced Financial Closing. You can use this launchpad as a single point of entry and access the apps of the different solutions directly from there.
 
 
 
 ## Procedure
 
-1.  To set up SAP Build Work Zone for access to SAP Advanced Financial Closing, you can find more information under [Federation of SAP BTP Content Providers](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/federation-of-sap-btp-content-providers) \(SAP Build Work Zone, standard edition documentation\). Please follow the steps described under [Launchpad Modules Content Providers](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/launchpad-modules-content-providers), since this is the process used for solutions provided by SAP, such as SAP Advanced Financial Closing.
+1.  For more information about setting up SAP Build Work Zone for access to SAP Advanced Financial Closing, see under [Federation of SAP BTP Content Providers](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/federation-of-sap-btp-content-providers) \(SAP Build Work Zone, standard edition documentation\). Please follow the steps described under [Launchpad Modules Content Providers](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/launchpad-modules-content-providers), since this is the process used for solutions provided by SAP, such as SAP Advanced Financial Closing.
 
-2.  If the default URL for your SAP Advanced Financial Closing tenant uses the domain **afc.cloud.sap**, you need to maintain the SAP Build Work Zone common super domain as trusted domain as described under [Configure Trusted Domains for Multi-environment Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/c5e997235f724ec686dc5dc101a1ccfb.html).
+2.  If the default URL for your SAP Advanced Financial Closing tenant uses the domain **afc.cloud.sap**, you need to maintain the SAP Build Work Zone common super domain as a trusted domain as described under [Configure Trusted Domains for Multi-Environment Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/c5e997235f724ec686dc5dc101a1ccfb.html).
 
 
 

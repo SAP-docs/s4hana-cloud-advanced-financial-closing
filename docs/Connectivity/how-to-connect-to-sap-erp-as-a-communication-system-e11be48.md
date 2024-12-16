@@ -43,7 +43,9 @@ Connect to your SAP ERP system to retrieve information about organizational unit
 
 1.  In SAP Advanced Financial Closing, go to the *Specify Communication Systems* app.
 
-2.  Enter the following information:
+2.  Choose *Create* \> *Create ABAP System* in the table toolbar.
+
+3.  Enter the following information:
 
 
     <table>
@@ -190,7 +192,7 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     > ### Tip:  
     > You can check whether the connection with the communication system works as expected. Choose *Check Connection*. This will check whether the back-end connection works and whether the system communicates as expected.
 
-3.  Save.
+4.  Save.
 
     > ### Tip:  
     > You can check whether the connection you set up works:
@@ -214,9 +216,9 @@ Connect to your SAP ERP system to retrieve information about organizational unit
     > 
     >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Monitoring-and-Troubleshooting/error-handling-e5eb3d8.md).
 
-4.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
+5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
 
-5.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud.
+6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud.
 
     For more information about the migration, refer to the [Migration Guide (Process Deprecated)](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
 

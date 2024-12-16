@@ -26,6 +26,61 @@ Description
 </th>
 </tr>
 <tr>
+<td valign="top" rowspan="2">
+
+December 15, 2024
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   *Administration Guide*:
+
+    The following underlying page was added:
+
+    [Automated Setup](../Automated-Setup/automated-setup-08b5486.md#loio08b54863254c43fda04b0726814e5506), covering the automated system setup provided by a booster
+
+-   [Audit Log Integration](../Security/audit-log-integration-5839c73.md):
+
+    The following information was added:
+
+    Audit logs for the deletion of task list templates and task lists
+
+-   [Logging](../Monitoring-and-Troubleshooting/logging-57375b8.md):
+
+    The following information was added:
+
+    Business logs for the deletion of task list templates and task lists
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
+
+</td>
+<td valign="top">
+
+-   [System Landscape](../System-Landscape/system-landscape-3b9f341.md):
+
+    The following information was changed:
+
+    Content and graphic improved to provide a better understanding
+
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="3">
 
 November 17, 2024
@@ -47,6 +102,12 @@ November 17, 2024
 
         [SAP Build Process Automation Integration for SAP Advanced Financial Closing](../Integration-Capabilities/sap-build-process-automation-integration-for-sap-advanced-financial-closing-0ec464a.md)
 
+
+-   [Legal Basis for Data Processing](../Data-Management/legal-basis-for-data-processing-cb3111b.md):
+
+    The following information was added:
+
+    User group information on the user interface
 
 
 
@@ -93,30 +154,6 @@ November 17, 2024
 
     -   [Migrate Configuration Data \(read-only\)](../Migration-from-Advanced-Financial-Closing-as-Part-of-SAP-S/4HANA-Cloud-Optional/migrate-configuration-data-read-o-643f4e8.md)
     -   [Migrate Closing Task Lists \(read-only\)](../Migration-from-Advanced-Financial-Closing-as-Part-of-SAP-S/4HANA-Cloud-Optional/migrate-closing-task-lists-read-o-45712c6.md)
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-September 22, 2024
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [Accessing SAP Advanced Financial Closing](../Onboarding/accessing-sap-advanced-financial-closing-92e81ed.md#loio92e81ed38757493ca89484bd99e21ab0):
-
-    The following information was added:
-
-    Link to domain handling in SAP Build Work Zone
 
 
 

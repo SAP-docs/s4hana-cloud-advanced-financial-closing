@@ -28,7 +28,7 @@ Set up an integration with SAP Build Process Automation to use SAP Advanced Fina
 
 ## Context
 
-In SAP Build Process Automation, you can create workflows to perform specific steps, providing conditions and events and a lot more. You can set up an integration between SAP Build Process Automation and SAP Advanced Financial Closing to use SAP Advanced Financial Closing to trigger these workflows. After processing, the status of the workflow is then reported back to SAP Advanced Financial Closing. This way you can fully integrate workflows into your financial close and use SAP Advanced Financial Closing to trigger them automatically and receive results, and apply an approval process.
+In SAP Build Process Automation, you can create workflows to perform specific steps, providing conditions and events and a lot more. You can set up an integration between SAP Build Process Automation and SAP Advanced Financial Closing to use SAP Advanced Financial Closing to trigger these workflows. After processing, the status of the workflow is then reported back to SAP Advanced Financial Closing. This way, you can fully integrate workflows into your financial close and use SAP Advanced Financial Closing to trigger them automatically and receive results, and apply an approval process.
 
 > ### Caution:  
 > This integration can't be used in parallel to the stand-alone integration described under [Process Automation Integration Based on ABAP](process-automation-integration-based-on-abap-a1d7fe3.md).
@@ -45,7 +45,7 @@ In SAP Build Process Automation, you can create workflows to perform specific st
     > The authorizations required for steps in SAP Build Process Automation are described under [Authorizations](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/authorizations) \(SAP Build Process Automation documentation\).
 
     > ### Caution:  
-    > SAP Advanced Financial Closing currently doesn't support arrays, relative dates, and custom data types for parameters of workflows in SAP Build Process Automation.
+    > SAP Advanced Financial Closing currently doesn't support arrays, relative dates, or custom data types for parameters of workflows in SAP Build Process Automation.
 
 3.  Set up a communication system in SAP Advanced Financial Closing:
 

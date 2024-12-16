@@ -2,7 +2,7 @@
 
 # Data Storage Security
 
-To find out more about data storage in the Cloud Foundry environment, go to the [SAP HANA Service for SAP BTP Getting Started Guide](https://help.sap.com/docs/HANA_SERVICE_CF/cc53ad464a57404b8d453bbadbc81ceb/7cc0278fa13c4124bfe6af2ae5b59642.html).
+To find out more about data storage in the Cloud Foundry environment, go to the [SAP HANA Cloud Getting Started Guide](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-getting-started-guide/sap-hana-cloud-getting-started-guide).
 
 We apply the following data storage security measures:
 

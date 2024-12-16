@@ -131,7 +131,7 @@ Deletion of communication system
 </td>
 <td valign="top">
 
-AFC: Communication System was deleted
+AFC: Communication system was deleted
 
 </td>
 <td valign="top">
@@ -146,6 +146,41 @@ A communication system entry in SAP Advanced Financial Closing was deleted and c
 -   Destination configuration name
 -   Value of *Is Production System* indicator
 -   URL
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Security event
+
+</td>
+<td valign="top">
+
+Deletion of task list template or task list
+
+</td>
+<td valign="top">
+
+-   AFC: Task list template was deleted
+-   AFC: Task list was deleted
+
+
+
+</td>
+<td valign="top">
+
+A task list template or task list was deleted in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+-   Task list description
+-   List of communication systems in the closing structure \(task lists only\)
+-   Date and time of deletion
+-   User who has deleted the task list or template
 
 
 
