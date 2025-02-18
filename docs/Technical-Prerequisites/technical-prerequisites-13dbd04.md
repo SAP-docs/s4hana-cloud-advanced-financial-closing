@@ -19,9 +19,11 @@ Before you start to use SAP Advanced Financial Closing, check the requirements a
 
 You need to connect SAP Advanced Financial Closing to one of these financial communication systems:
 
--   SAP S/4HANA
+-   SAP S/4HANA Cloud Public Edition
 
--   SAP S/4HANA Cloud
+-   SAP S/4HANA Cloud Private Edition
+
+-   SAP S/4HANA
 
 -   SAP ERP
 

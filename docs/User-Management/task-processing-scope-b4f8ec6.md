@@ -134,6 +134,9 @@ Authorization to approve and reject tasks that require approval. This authorizat
 </tr>
 </table>
 
+> ### Note:  
+> Users may need additional authorization within the communication system to perform actions. For more information, see [Authorizations Required in the Communication System](authorizations-required-in-the-communication-system-97120d2.md).
+
 
 
 <a name="loiob4f8ec6e1c9745469f1574ee1b1e56e1__section_jtk_1kj_qrb"/>
@@ -147,7 +150,7 @@ Authorization to approve and reject tasks that require approval. This authorizat
 <tr>
 <th valign="top">
 
-Authorization
+Action
 
 </th>
 <th valign="top">
@@ -406,6 +409,43 @@ Cancel Run
 <tr>
 <td valign="top">
 
+Start Parameter Check
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Start Test Run
 
 </td>
@@ -474,6 +514,43 @@ Cancel Test Run
 <td valign="top">
 
  
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Download Attachments
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 </tr>

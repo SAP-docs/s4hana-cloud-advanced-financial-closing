@@ -23,7 +23,7 @@ Set up an integration between SAP Build Work Zone and SAP Advanced Financial Clo
 
 ## Context
 
-SAP Build Work Zone allows you to establish a unified point of access to SAP \(such as SAP S/4HANA Cloud or SAP S/4HANA\), custom-built, and third-party applications and extensions. Following an integration with SAP Build Work Zone, you can set up one single launchpad page grouping all the relevant apps of the different solutions you have integrated, such as SAP Advanced Financial Closing. You can use this launchpad as a single point of entry and access the apps of the different solutions directly from there.
+SAP Build Work Zone allows you to establish a unified point of access to SAP \(such as SAP S/4HANA Cloud Public Edition, SAP S/4HANA Cloud Private Edition, or SAP S/4HANA\), custom-built, and third-party applications and extensions. Following an integration with SAP Build Work Zone, you can set up one single launchpad page grouping all the relevant apps of the different solutions you have integrated, such as SAP Advanced Financial Closing. You can use this launchpad as a single point of entry and access the apps of the different solutions directly from there.
 
 
 

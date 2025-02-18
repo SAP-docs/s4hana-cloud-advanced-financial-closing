@@ -147,7 +147,7 @@ Authorization to change processing users or user groups, and users responsible o
 <tr>
 <th valign="top">
 
-Actions Allowed
+Action
 
 </th>
 <th valign="top">

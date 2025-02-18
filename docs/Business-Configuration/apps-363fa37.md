@@ -32,8 +32,8 @@ You use the *Manage User Roles* app to create user roles.
 		app to define several compliance settings.")**  
 You use the *Manage Compliance Settings* app to define several compliance settings.
 -   **[Manage General Settings](manage-general-settings-661b757.md "You use the Manage
-                                                  General Settings app to maintain settings that apply to all objects in SAP Advanced Financial
-                                                  Closing.")**  
+                                                  General Settings app to maintain settings that apply to all objects in SAP Advanced
+                                                  Financial Closing.")**  
 You use the *Manage General Settings* app to maintain settings that apply to all objects in SAP Advanced Financial Closing.
 -   **[Manage Users](manage-users-85bfe2f.md)**  
 

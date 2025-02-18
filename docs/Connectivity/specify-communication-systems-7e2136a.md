@@ -28,7 +28,8 @@ To perform your financial close, you connect one or more financial communication
 
 Find more information about working with the app and connecting the communication systems on the corresponding pages:
 
--   [SAP S/4HANA Cloud](sap-s-4hana-cloud-60448a7.md)
+-   [SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-60448a7.md)
+-   [SAP S/4HANA Cloud Private Edition](sap-s-4hana-cloud-private-edition-66be898.md)
 -   [SAP S/4HANA](sap-s-4hana-15a3a5b.md)
 -   [SAP ERP](sap-erp-7b85121.md)
 

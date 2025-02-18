@@ -14,10 +14,10 @@ For SAP Advanced Financial Closing, a booster is available in the SAP BTP cockpi
 
 -   Create or select the SAP BTP subaccount that you want to use for SAP Advanced Financial Closing.
 -   Initial role template assignments for users, such as administrators, developers, and business users.
--   Create formations for SAP S/4HANA Cloud communication systems.
+-   Create formations for communication systems of type SAP S/4HANA Cloud Public Edition.
 
     > ### Note:  
-    > An automated formation setup is currently possible for SAP S/4HANA Cloud systems only.
+    > An automated formation setup is currently possible for systems of type SAP S/4HANA Cloud Public Edition only.
     > 
     > The system needs to have been registered under *System Landscape* \> *Systems* in your subaccount before you can use the booster. The communication scenario group needs to be set as either *All Communication Scenarios* or *Integration with SAP Advanced Financial Closing*. The registration happened either automatically or it had to be done manually. For more information, see [Registering an SAP System \(SAP BTP documentation\)](https://help.sap.com/docs/btp/sap-business-technology-platform/2ffdaff0f1454acdb046876045321c91.html).
 
@@ -156,7 +156,7 @@ Use a booster to automate setting up your initial system.
         > The system needs to have been registered under *System Landscape* \> *Systems* in your subaccount before you can use the booster. The communication scenario group needs to be set as either *All Communication Scenarios* or *Integration with SAP Advanced Financial Closing*. The registration happened either automatically or it had to be done manually. For more information, see [Registering an SAP System \(SAP BTP documentation\)](https://help.sap.com/docs/btp/sap-business-technology-platform/2ffdaff0f1454acdb046876045321c91.html).
 
         > ### Note:  
-        > You can also manually connect your communication system later. To do so, simply leave the selection for *SAP S/4HANA Cloud System* empty. For more information about establishing a connection manually, see [Connectivity](../Connectivity/connectivity-200deae.md).
+        > You can also manually connect your communication system later, but the way as described here should be the preferred one. However, to connect your communication system manually later, simply leave the selection for *SAP S/4HANA Cloud System* empty. For more information about establishing a connection manually, see [Connectivity](../Connectivity/connectivity-200deae.md).
 
 
 10. *Review* screen:
@@ -191,9 +191,13 @@ You have now configured your SAP BTP subaccount for SAP Advanced Financial Closi
     -   Under *Security* \> *Trust Configuration*, you can check for the identity provider used for SAP Advanced Financial Closing.
 
 -   When working with SAP Cloud Identity Services, you can find the corresponding source and target system information under *Identity Provisioning*.
--   In **SAP Advanced Financial Closing**, a communication system has been created if an SAP S/4HANA Cloud system was included in the setup.
+-   In **SAP Advanced Financial Closing**, a communication system has been created if a system of type SAP S/4HANA Cloud Public Edition was included in the setup.
+
     -   A connection check for the system has been done.
-    -   A master data sync between your SAP S/4HANA Cloud communication system and SAP Advanced Financial Closing has been started.
+    -   A master data sync between your SAP S/4HANA Cloud Public Edition communication system and SAP Advanced Financial Closing has been started.
+
+    > ### Note:  
+    > During daily synchronization between the communication system and SAP Advanced Financial Closing, your business configuration data and master data are synchronized. For more information about the synchronization and validation of data, see [Synchronization of Communication Systems](../Connectivity/synchronization-of-communication-systems-a86348d.md).
 
 
 
@@ -215,6 +219,8 @@ You have now configured your SAP BTP subaccount for SAP Advanced Financial Closi
 [Including Systems in a Formation \(SAP BTP documentation\)](https://help.sap.com/docs/btp/sap-business-technology-platform/including-sap-systems-in-formation)
 
 [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md "Static roles enable users to see the affected apps on their SAP Fiori launchpad.")
+
+[Automating Integrations with SAP Advanced Financial Closing \(SAP BTP documentation\)](https://help.sap.com/docs/btp/sap-business-technology-platform/automating-integrations-with-sap-advanced-financial-closing)
 
 [Log On to Your Global Account \(SAP BTP documentation\)](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/77be28886328492086ab07c003cb8d37.html)
 

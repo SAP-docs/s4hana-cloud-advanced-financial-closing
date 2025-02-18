@@ -1,6 +1,6 @@
 <!-- loio90aa5f3dd1124a54b8bd33ba5b5868bd -->
 
-# How to Connect to SAP S/4HANA Cloud as a Communication System
+# How to Connect to SAP S/4HANA Cloud Public Edition as a Communication System
 
 Connect your financial Cloud system to SAP Advanced Financial Closing.
 
@@ -21,11 +21,16 @@ Connect your financial Cloud system to SAP Advanced Financial Closing.
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
--   The SAP S/4HANA Cloud system administrator needs to have completed the set-up instructions. For more information, see [Setting Up Financial Task List Management Integration \(4HG\)](https://rapid.sap.com/bp/#/scopeitems/4HG).
+-   The SAP S/4HANA Cloud Public Edition system administrator needs to have completed the set-up instructions. For more information, see [Setting Up Financial Task List Management Integration \(4HG\)](https://rapid.sap.com/bp/#/scopeitems/4HG).
 
 
 -   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md).
 
+
+> ### Tip:  
+> Instead of connecting a communication system manually to SAP Advanced Financial Closing as described below, you can also use the *Set Up SAP Advanced Financial Closing* booster in the SAP BTP cockpit. This is the preferred way to connect a system of type SAP S/4HANA Cloud Public Edition. Keep in mind that notification settings as described below aren't covered by the booster.
+> 
+> For more information about the booster, see [Automated Setup](../Automated-Setup/automated-setup-08b5486.md#loio08b54863254c43fda04b0726814e5506).
 
 
 
@@ -210,7 +215,7 @@ Connect your financial Cloud system to SAP Advanced Financial Closing.
 
 5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
 
-6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud.
+6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud Public Edition.
 
     For more information about the migration, refer to the [Migration Guide (Process Deprecated)](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
 
@@ -248,8 +253,4 @@ You have two options for the initial data synchronization with the communication
 
 > ### Note:  
 > Synchronization always uses the active state of the communication system entry in SAP Advanced Financial Closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
-
-**Parent topic:**[How to Connect to SAP S/4HANA Cloud Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
-
-**Next:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.")
 

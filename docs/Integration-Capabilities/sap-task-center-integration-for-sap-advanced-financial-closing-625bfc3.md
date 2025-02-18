@@ -16,17 +16,20 @@ The default identity provider does not support global user IDs. To use these IDs
 
 Depending on whether your SAP Advanced Financial Closing instance and SAP Task Center reside on the same subaccount or on different ones, the configuration procedure differs slightly. Find more information on the following pages:
 
--   **[Supported Use Cases](supported-use-cases-dc59212.md "Overview of the SAP Advanced Financial
-                                                  Closing use
-		cases supported by SAP Task Center.")**  
+-   **[Supported Use Cases](supported-use-cases-dc59212.md "Overview of the SAP Advanced
+                                                  Financial Closing use
+		cases supported by SAP Task
+                                                  Center.")**  
 Overview of the SAP Advanced Financial Closing use cases supported by SAP Task Center.
--   **[How to Set Up the SAP Task Center Integration Using the Same Subaccount](how-to-set-up-the-sap-task-center-integration-using-the-same-subaccount-0ad15cd.md "You have one subaccount in which SAP Advanced Financial
-                                                  Closing and SAP Task Center are set
+-   **[How to Set Up the SAP Task Center Integration Using the Same Subaccount](how-to-set-up-the-sap-task-center-integration-using-the-same-subaccount-0ad15cd.md "You have one subaccount in which SAP Advanced
+                                                  Financial Closing and SAP Task
+                                                  Center are set
 		up.")**  
 You have one subaccount in which SAP Advanced Financial Closing and SAP Task Center are set up.
--   **[How to Set Up the SAP Task Center Integration Using Different Subaccounts](how-to-set-up-the-sap-task-center-integration-using-different-subaccounts-98629e1.md "You have one subaccount in which SAP Advanced Financial
-                                                  Closing is set up and another
-		subaccount where SAP Task Center
+-   **[How to Set Up the SAP Task Center Integration Using Different Subaccounts](how-to-set-up-the-sap-task-center-integration-using-different-subaccounts-98629e1.md "You have one subaccount in which SAP Advanced
+                                                  Financial Closing is set up and another
+		subaccount where SAP Task
+                                                  Center
 		is set up.")**  
 You have one subaccount in which SAP Advanced Financial Closing is set up and another subaccount where SAP Task Center is set up.
 

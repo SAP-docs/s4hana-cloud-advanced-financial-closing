@@ -1,8 +1,8 @@
 <!-- loio51b6705400504ef1b9faa22e24995f91 -->
 
-# Migration from SAP S/4HANA Cloud for Advanced Financial Closing as Part of SAP S/4HANA Cloud \(Process Deprecated\)
+# Migration from SAP S/4HANA Cloud for Advanced Financial Closing as Part of SAP S/4HANA Cloud Public Edition \(Process Deprecated\)
 
-Migrate your data from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud to the SAP BTP solution.
+Migrate your data from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud Public Edition to the SAP BTP solution.
 
 
 
@@ -10,7 +10,7 @@ Migrate your data from SAP S/4HANA Cloud for advanced financial closing as part 
 
 ## Context
 
-The migration process was previously used to help customers migrate from the deprecated solution *SAP S/4HANA Cloud for advanced financial closing* that was part of SAP S/4HANA Cloud to the SAP BTP solution SAP Advanced Financial Closing. The two apps provided to facilitate this migration *Migrate Configuration Data* and *Migrate Closing Task Lists* have been set to read-only, since the migration to the SAP BTP solution has been completed for all customers. You can still use the apps to review the migration results.
+The migration process was previously used to help customers migrate from the deprecated solution *SAP S/4HANA Cloud for advanced financial closing* that was part of SAP S/4HANA Cloud Public Edition to the SAP BTP solution SAP Advanced Financial Closing. The two apps provided to facilitate this migration *Migrate Configuration Data* and *Migrate Closing Task Lists* have been set to read-only, since the migration to the SAP BTP solution has been completed for all customers. You can still use the apps to review the migration results.
 
 -   **[Migrate Configuration Data \(read-only\)](migrate-configuration-data-read-o-643f4e8.md "The Migrate
                                                   Configuration Data (read-only) app was

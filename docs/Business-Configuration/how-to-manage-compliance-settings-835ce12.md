@@ -44,7 +44,7 @@ Effect
 </td>
 <td valign="top">
 
-Specify whether you want real names to be removed from emails sent by the SAP Advanced Financial Closing notification service. The default value is `No`.
+Specify whether you want real names to be removed from emails sent by the notification service of SAP Advanced Financial Closing. The default value is `No`.
 
 </td>
 </tr>

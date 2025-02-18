@@ -11,7 +11,7 @@ Configure your local settings for better use with SAP Advanced Financial Closing
 When using SAP Advanced Financial Closing, you want to include your customer-specific local settings and ABAP programs. You can include them without any changes by registering them for SAP Advanced Financial Closing. However, to fully benefit from the automatic task status reporting to SAP Advanced Financial Closing, you need to integrate your programs and local settings further.
 
 > ### Tip:  
-> SAP provides a wide range of predefined content, which serves as an accelerator for implementation projects:
+> SAP provides a wide range of predefined task models, which serve as an accelerator for implementation projects:
 > 
 > The example business content for SAP S/4HANA systems is documented in SAP Note [3030697](https://me.sap.com/notes/3030697).
 

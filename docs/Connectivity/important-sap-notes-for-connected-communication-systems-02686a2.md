@@ -68,7 +68,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
- 
+`SP01`
 
 </td>
 <td valign="top">
@@ -105,7 +105,81 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
- 
+`SP03`
+
+</td>
+<td valign="top">
+
+[3336977](https://me.sap.com/notes/3336977) \(Missing AFC content after upgrade to S/4 OP 2022 and S/4 OP 2023\)
+
+</td>
+<td valign="top">
+
+Reintroduction of local settings that were part of SAP-delivered content in previous releases
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+2023-12-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+</td>
+<td valign="top">
+
+`2022`
+
+</td>
+<td valign="top">
+
+`SP02`
+
+</td>
+<td valign="top">
+
+[3313526](https://me.sap.com/notes/3313526) \(CLAS CL\_FCCX\_INFO\_COLLECTOR\_GW Method "APPLY\_GENERIC\_FILTER" does not exist\)
+
+</td>
+<td valign="top">
+
+Fix of an error that caused the message mentioned to arise
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+2023-03-29
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+</td>
+<td valign="top">
+
+`2021`
+
+</td>
+<td valign="top">
+
+`SP05`
 
 </td>
 <td valign="top">

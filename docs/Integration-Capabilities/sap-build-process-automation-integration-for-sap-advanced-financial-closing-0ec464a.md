@@ -38,8 +38,8 @@ You can set up an integration between SAP Build Process Automation and SAP Advan
 
 Find more information on the following page:
 
--   **[How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing](how-to-set-up-the-sap-build-process-automation-integration-for-sap-advanced-financial-cl-0d8e37f.md "Set up an integration with SAP Build Process
-                                                  Automation to use SAP Advanced Financial
-                                                  Closing to trigger workflows. ")**  
+-   **[How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing](how-to-set-up-the-sap-build-process-automation-integration-for-sap-advanced-financial-cl-0d8e37f.md "Set up an integration with SAP Build
+                                                  Process Automation to use SAP Advanced
+                                                  Financial Closing to trigger workflows. ")**  
 Set up an integration with SAP Build Process Automation to use SAP Advanced Financial Closing to trigger workflows.
 

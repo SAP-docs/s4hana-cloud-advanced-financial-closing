@@ -6,7 +6,7 @@ The *Migrate Configuration Data \(read-only\)* app was used to migrate configura
 
 
 
-With the *Migrate Configuration Data \(read-only\)* app, you could previously migrate your configuration data from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud. This migration covered data such as users, user groups, and compliance settings. The app has been set to read-only with the release made available in November 2024. You can still view the migration results, but another migration is no longer possible.
+With the *Migrate Configuration Data \(read-only\)* app, you could previously migrate your configuration data from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud Public Edition. This migration covered data such as users, user groups, and compliance settings. The app has been set to read-only with the release made available in November 2024. You can still view the migration results, but another migration is no longer possible.
 
 
 
@@ -16,7 +16,7 @@ With the *Migrate Configuration Data \(read-only\)* app, you could previously 
 
 
 
--   Migrate configuration data from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud to SAP Advanced Financial Closing on SAP BTP
+-   Migrate configuration data from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud Public Edition to SAP Advanced Financial Closing on SAP BTP
 -   Get an overview of the migration results
 
 

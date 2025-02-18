@@ -29,7 +29,7 @@ The following prerequisites need to be fulfilled before a data relating to SAP A
 
 
 
-### SAP S/4HANA Cloud
+### SAP S/4HANA Cloud Public Edition
 
 For more information, see:
 
@@ -38,7 +38,7 @@ For more information, see:
 
 
 
-### SAP S/4HANA
+### SAP S/4HANA and SAP S/4HANA Cloud Private Edition
 
 For more information, see:
 
@@ -65,8 +65,8 @@ For more information, see:
 > ### Note:  
 > For more information about information lifecycle management, see:
 > 
-> -   For SAP S/4HANA Cloud: [Information Lifecycle Management](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/3c9d33dde6154f71863f994262a584fd.html)
-> -   For SAP S/4HANA: [SAP Information Lifecycle Management](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/35d6f7d8cbd04dbf997ca36785c7a795/7fe188e04fdd462e8ec330bb80efc389.html)
+> -   For SAP S/4HANA Cloud Public Edition: [Information Lifecycle Management](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/3c9d33dde6154f71863f994262a584fd.html)
+> -   For SAP S/4HANA and SAP S/4HANA Cloud Private Edition: [SAP Information Lifecycle Management](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/35d6f7d8cbd04dbf997ca36785c7a795/7fe188e04fdd462e8ec330bb80efc389.html)
 > -   For SAP Business Suite: [SAP Information Lifecycle Management](https://help.sap.com/docs/BS_CA/7ce8e5dc89d7407e8baa9de7b775f31f/7fe188e04fdd462e8ec330bb80efc389.html)
 
 You create policies and rules for the related ILM object of this data destruction object.

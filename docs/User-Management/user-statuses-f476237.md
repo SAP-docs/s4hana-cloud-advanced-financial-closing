@@ -9,8 +9,8 @@ For users in SAP Advanced Financial Closing, several statuses are possible. You 
 
 
 ![Graphic depicting the different user statuses and the possible status changes: After user creation through a CSV upload
-							or through an API for SAP Advanced Financial
-                                                  Closing, the user has the status
+							or through an API for SAP Advanced
+                                                  Financial Closing, the user has the status
 								Inactive. As soon as the person assigned to the user signs in for the first time, the user
 							status is set to Active. The user stays in this status until it's deleted. In the case of a
 							deletion, the user status changes to Deleted. However, if the user is used for a new sign-in, the

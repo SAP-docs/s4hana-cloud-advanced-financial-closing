@@ -205,7 +205,7 @@ To be able to view synchronization logs, a user additionally requires role templ
 </td>
 <td valign="top">
 
-Migrates data if a migration from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud to the SAP BTP solution takes place.
+Migrates data if a migration from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud Public Edition to the SAP BTP solution takes place.
 
 **App Details:**
 

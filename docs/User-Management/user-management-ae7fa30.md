@@ -18,15 +18,18 @@ The following documents explain how to manage static roles and assign them to us
 
 1.  [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md "Define and bundle static roles and assign them to users.")  
 Define and bundle static roles and assign them to users.
-2.  [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP Advanced Financial
-                                                  Closing and update certain
+2.  [How to Manage Users](how-to-manage-users-c338b30.md "Upload new users to SAP Advanced
+                                                  Financial Closing and update certain
 		user attributes.")  
 Upload new users to SAP Advanced Financial Closing and update certain user attributes.
 3.  [How to Delete Users](how-to-delete-users-81d47cf.md "Delete users that are no longer required.")  
 Delete users that are no longer required.
 4.  [User Access Management](user-access-management-d974847.md "You can control and grant access to task list templates, task lists, and tasks in
-			SAP Advanced Financial
-                                                  Closing. By default,
+			SAP Advanced
+                                                  Financial Closing. By default,
 		users don't have access to these objects.")  
 You can control and grant access to task list templates, task lists, and tasks in SAP Advanced Financial Closing. By default, users don't have access to these objects.
+5.  [Authorizations Required in the Communication System](authorizations-required-in-the-communication-system-97120d2.md "Find more information about authorizations users need to have in the communication
+		system.")  
+Find more information about authorizations users need to have in the communication system.
 

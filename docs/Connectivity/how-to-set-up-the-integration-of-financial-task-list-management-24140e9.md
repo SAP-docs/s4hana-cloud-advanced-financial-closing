@@ -2,16 +2,16 @@
 
 # How to Set Up the Integration of Financial Task List Management
 
-Configure your SAP S/4HANA Cloud system for the connection with SAP Advanced Financial Closing.
+Configure your SAP S/4HANA Cloud Public Edition system for the connection with SAP Advanced Financial Closing.
 
 
 
 ## Context
 
-Before you can connect your SAP S/4HANA Cloud system to SAP Advanced Financial Closing, you need to perform additional configuration steps in your system.
+Before you can connect your SAP S/4HANA Cloud Public Edition system to SAP Advanced Financial Closing, you need to perform additional configuration steps in your system.
 
 > ### Tip:  
-> SAP provides a wide range of predefined content, which serves as an accelerator for implementation projects:
+> SAP provides a wide range of predefined task models, which serve as an accelerator for implementation projects:
 > 
 > The example business content for SAP S/4HANA Cloud Public Edition systems is documented in SAP Note [3153338](https://me.sap.com/notes/3153338).
 
@@ -37,8 +37,4 @@ Perform the steps as described under [Setting Up Advanced Financial Closing Inte
 ## Results
 
 You have now set up the integration of financial task list management.
-
-**Parent topic:**[How to Connect to SAP S/4HANA Cloud Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
-
-**Previous:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.")
 

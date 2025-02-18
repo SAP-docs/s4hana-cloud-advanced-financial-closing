@@ -2,7 +2,7 @@
 
 # How to Create a Destination in the SAP BTP Cockpit
 
-Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.
+Create a destination for your SAP S/4HANA Cloud Public Edition system in your SAP BTP cockpit.
 
 
 
@@ -12,7 +12,7 @@ Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.
 
 -   You have already completed the onboarding process as described under [Onboarding](../Onboarding/onboarding-1987953.md).
 
--   The SAP S/4HANA Cloud system administrator needs to have completed the set-up instructions as described under [How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md).
+-   The SAP S/4HANA Cloud Public Edition system administrator needs to have completed the set-up instructions as described under [How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md).
 
 
 
@@ -75,7 +75,7 @@ Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.
 
     <code>https://www.example.com:[port number]<b>/sap/opu/odata/sap/fccx_communication_services_srv?sap-client=100</b></code>
 
-    The highlighted part is the same for all SAP S/4HANA Cloud systems.
+    The highlighted part is the same for all SAP S/4HANA Cloud Public Edition systems.
     
     </td>
     </tr>
@@ -111,7 +111,7 @@ Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.
     </td>
     <td valign="top">
     
-    Technical communication user that you've received from the SAP S/4HANA Cloud system administrator.
+    Technical communication user that you've received from the SAP S/4HANA Cloud Public Edition system administrator.
     
     </td>
     </tr>
@@ -136,11 +136,5 @@ Create a destination for your SAP S/4HANA Cloud system in your SAP BTP cockpit.
 
 ## Results
 
-You have now created a destination for your SAP S/4HANA Cloud system.
-
-**Parent topic:**[How to Connect to SAP S/4HANA Cloud Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-d45dd6b.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
-
-**Next:**[How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud system for the connection with SAP Advanced Financial Closing.")
-
-**Previous:**[How to Connect to SAP S/4HANA Cloud as a Communication System](how-to-connect-to-sap-s-4hana-cloud-as-a-communication-system-90aa5f3.md "Connect your financial Cloud system to SAP Advanced Financial Closing.")
+You have now created a destination for your SAP S/4HANA Cloud Public Edition system.
 

@@ -239,3 +239,5 @@ Manage users, user groups, and user roles through a dedicated API.
 
 **Next:**[How to Delete Users](how-to-delete-users-81d47cf.md "Delete users that are no longer required.")
 
+**Previous:**[Authorizations Required in the Communication System](authorizations-required-in-the-communication-system-97120d2.md "Find more information about authorizations users need to have in the communication system.")
+

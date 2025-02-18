@@ -320,7 +320,7 @@ Warning
 </td>
 <td valign="top">
 
-Delta synchronization workflow for communication system “\{0\}” needed to restart. This may indicate missing resources in the ABAP communication system. Please contact your system administrator.
+Report metadata and program registration synchronization for communication system "\{0\}" needed to restart. This may indicate missing resources in the ABAP communication system. Please contact your system administrator. For safety reasons, a full synchronization was performed automatically.
 
 </td>
 <td valign="top">
@@ -346,6 +346,30 @@ This can happen in the following cases:
 
 -   The country/region code used in the communication system is not ISO-code-compliant.
 -   Custom countries/regions are defined in the ABAP tables in the communication system.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Warning
+
+</td>
+<td valign="top">
+
+Some ABAP reports couldn't be found for communication system "\{0\}". Please have a look at the documentation under "Synchronization Business Logs" and check your communication system for reports with the following codes: "\{1\}".
+
+</td>
+<td valign="top">
+
+Check your communication system for reports with the codes provided in the warning message in SAP Advanced Financial Closing. This warning is issued in several cases such as the following:
+
+-   The reports no longer exist in the communication system.
+-   The communication user's authorizations haven't been configured correctly.
+-   An upgrade failed resulting in incorrect references.
+-   The system is overloaded.
 
 
 

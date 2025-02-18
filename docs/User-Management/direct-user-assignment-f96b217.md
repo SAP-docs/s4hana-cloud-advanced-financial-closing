@@ -39,7 +39,7 @@ Scope Affected
 </th>
 <th valign="top">
 
-Actions
+Action
 
 </th>
 <th valign="top">
