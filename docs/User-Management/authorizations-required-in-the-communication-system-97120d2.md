@@ -59,6 +59,23 @@ Scheduling of Tasks
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Display Task Models in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+`SAP_FIN_BC_AFC_TMM_DSP_PC` \(SAP Advanced Financial Closing - Display Task Models\)
+
+</td>
+<td valign="top">
+
+`FCCX_TMM_03_TRAN` \(AFC TMM: required for authorization of Business User\)
+
+</td>
+</tr>
 </table>
 
 **Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.")

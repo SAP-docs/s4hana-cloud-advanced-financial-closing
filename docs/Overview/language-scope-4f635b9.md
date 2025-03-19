@@ -145,14 +145,46 @@ Product page for SAP Advanced Financial Closing on the SAP Help Portal
 </td>
 <td valign="top">
 
+-   Arabic \(machine translation only\)
+-   Bulgarian \(machine translation only\)
+-   Catalan \(machine translation only\)
 -   Chinese \(Simplified\)
+-   Chinese \(Traditional\) \(machine translation only\)
+-   Croatian \(machine translation only\)
+-   Czech \(machine translation only\)
+-   Danish \(machine translation only\)
+-   Dutch \(machine translation only\)
 -   English
+-   Estonian \(machine translation only\)
+-   Finnish \(machine translation only\)
 -   French
 -   German
+-   Greek \(machine translation only\)
+-   Hebrew \(machine translation only\)
+-   Hindi \(machine translation only\)
+-   Hungarian \(machine translation only\)
+-   Indonesian \(machine translation only\)
+-   Italian \(machine translation only\)
 -   Japanese
+-   Kazakh \(machine translation only\)
+-   Korean \(machine translation only\)
+-   Latvian \(machine translation only\)
+-   Lithuanian \(machine translation only\)
+-   Malay \(machine translation only\)
+-   Norwegian \(machine translation only\)
+-   Polish \(machine translation only\)
 -   Portuguese
+-   Romanian \(machine translation only\)
 -   Russian
+-   Serbian \(machine translation only\)
+-   Slovak \(machine translation only\)
+-   Slovenian \(machine translation only\)
 -   Spanish
+-   Swedish \(machine translation only\)
+-   Thai \(machine translation only\)
+-   Turkish \(machine translation only\)
+-   Ukrainian \(machine translation only\)
+-   Vietnamese \(machine translation only\)
 
 
 
@@ -180,7 +212,46 @@ Administration guide
 </td>
 <td valign="top">
 
+-   Arabic \(machine translation only\)
+-   Bulgarian \(machine translation only\)
+-   Catalan \(machine translation only\)
+-   Chinese \(Simplified\) \(machine translation only\)
+-   Chinese \(Traditional\) \(machine translation only\)
+-   Croatian \(machine translation only\)
+-   Czech \(machine translation only\)
+-   Danish \(machine translation only\)
+-   Dutch \(machine translation only\)
 -   English
+-   Estonian \(machine translation only\)
+-   Finnish \(machine translation only\)
+-   French \(machine translation only\)
+-   German \(machine translation only\)
+-   Greek \(machine translation only\)
+-   Hebrew \(machine translation only\)
+-   Hindi \(machine translation only\)
+-   Hungarian \(machine translation only\)
+-   Indonesian \(machine translation only\)
+-   Italian \(machine translation only\)
+-   Japanese \(machine translation only\)
+-   Kazakh \(machine translation only\)
+-   Korean \(machine translation only\)
+-   Latvian \(machine translation only\)
+-   Lithuanian \(machine translation only\)
+-   Malay \(machine translation only\)
+-   Norwegian \(machine translation only\)
+-   Polish \(machine translation only\)
+-   Portuguese \(machine translation only\)
+-   Romanian \(machine translation only\)
+-   Russian \(machine translation only\)
+-   Serbian \(machine translation only\)
+-   Slovak \(machine translation only\)
+-   Slovenian \(machine translation only\)
+-   Spanish \(machine translation only\)
+-   Swedish \(machine translation only\)
+-   Thai \(machine translation only\)
+-   Turkish \(machine translation only\)
+-   Ukrainian \(machine translation only\)
+-   Vietnamese \(machine translation only\)
 
 
 
@@ -194,14 +265,46 @@ User guide
 </td>
 <td valign="top">
 
+-   Arabic \(machine translation only\)
+-   Bulgarian \(machine translation only\)
+-   Catalan \(machine translation only\)
 -   Chinese \(Simplified\)
+-   Chinese \(Traditional\) \(machine translation only\)
+-   Croatian \(machine translation only\)
+-   Czech \(machine translation only\)
+-   Danish \(machine translation only\)
+-   Dutch \(machine translation only\)
 -   English
+-   Estonian \(machine translation only\)
+-   Finnish \(machine translation only\)
 -   French
 -   German
+-   Greek \(machine translation only\)
+-   Hebrew \(machine translation only\)
+-   Hindi \(machine translation only\)
+-   Hungarian \(machine translation only\)
+-   Indonesian \(machine translation only\)
+-   Italian \(machine translation only\)
 -   Japanese
+-   Kazakh \(machine translation only\)
+-   Korean \(machine translation only\)
+-   Latvian \(machine translation only\)
+-   Lithuanian \(machine translation only\)
+-   Malay \(machine translation only\)
+-   Norwegian \(machine translation only\)
+-   Polish \(machine translation only\)
 -   Portuguese
+-   Romanian \(machine translation only\)
 -   Russian
+-   Serbian \(machine translation only\)
+-   Slovak \(machine translation only\)
+-   Slovenian \(machine translation only\)
 -   Spanish
+-   Swedish \(machine translation only\)
+-   Thai \(machine translation only\)
+-   Turkish \(machine translation only\)
+-   Ukrainian \(machine translation only\)
+-   Vietnamese \(machine translation only\)
 
 
 
@@ -210,7 +313,7 @@ User guide
 <tr>
 <td valign="top">
 
-Migration guide
+Migration guide \(deprecated\)
 
 </td>
 <td valign="top">
@@ -230,7 +333,46 @@ Local settings guide \(on-premise systems\)
 </td>
 <td valign="top">
 
+-   Arabic \(machine translation only\)
+-   Bulgarian \(machine translation only\)
+-   Catalan \(machine translation only\)
+-   Chinese \(Simplified\) \(machine translation only\)
+-   Chinese \(Traditional\) \(machine translation only\)
+-   Croatian \(machine translation only\)
+-   Czech \(machine translation only\)
+-   Danish \(machine translation only\)
+-   Dutch \(machine translation only\)
 -   English
+-   Estonian \(machine translation only\)
+-   Finnish \(machine translation only\)
+-   French \(machine translation only\)
+-   German \(machine translation only\)
+-   Greek \(machine translation only\)
+-   Hebrew \(machine translation only\)
+-   Hindi \(machine translation only\)
+-   Hungarian \(machine translation only\)
+-   Indonesian \(machine translation only\)
+-   Italian \(machine translation only\)
+-   Japanese \(machine translation only\)
+-   Kazakh \(machine translation only\)
+-   Korean \(machine translation only\)
+-   Latvian \(machine translation only\)
+-   Lithuanian \(machine translation only\)
+-   Malay \(machine translation only\)
+-   Norwegian \(machine translation only\)
+-   Polish \(machine translation only\)
+-   Portuguese \(machine translation only\)
+-   Romanian \(machine translation only\)
+-   Russian \(machine translation only\)
+-   Serbian \(machine translation only\)
+-   Slovak \(machine translation only\)
+-   Slovenian \(machine translation only\)
+-   Spanish \(machine translation only\)
+-   Swedish \(machine translation only\)
+-   Thai \(machine translation only\)
+-   Turkish \(machine translation only\)
+-   Ukrainian \(machine translation only\)
+-   Vietnamese \(machine translation only\)
 
 
 
@@ -244,7 +386,46 @@ Set-up guide based on scope item 4HG \(Cloud systems\)
 </td>
 <td valign="top">
 
+-   Arabic \(machine translation only\)
+-   Bulgarian \(machine translation only\)
+-   Catalan \(machine translation only\)
+-   Chinese \(Simplified\) \(machine translation only\)
+-   Chinese \(Traditional\) \(machine translation only\)
+-   Croatian \(machine translation only\)
+-   Czech \(machine translation only\)
+-   Danish \(machine translation only\)
+-   Dutch \(machine translation only\)
 -   English
+-   Estonian \(machine translation only\)
+-   Finnish \(machine translation only\)
+-   French \(machine translation only\)
+-   German \(machine translation only\)
+-   Greek \(machine translation only\)
+-   Hebrew \(machine translation only\)
+-   Hindi \(machine translation only\)
+-   Hungarian \(machine translation only\)
+-   Indonesian \(machine translation only\)
+-   Italian \(machine translation only\)
+-   Japanese \(machine translation only\)
+-   Kazakh \(machine translation only\)
+-   Korean \(machine translation only\)
+-   Latvian \(machine translation only\)
+-   Lithuanian \(machine translation only\)
+-   Malay \(machine translation only\)
+-   Norwegian \(machine translation only\)
+-   Polish \(machine translation only\)
+-   Portuguese \(machine translation only\)
+-   Romanian \(machine translation only\)
+-   Russian \(machine translation only\)
+-   Serbian \(machine translation only\)
+-   Slovak \(machine translation only\)
+-   Slovenian \(machine translation only\)
+-   Spanish \(machine translation only\)
+-   Swedish \(machine translation only\)
+-   Thai \(machine translation only\)
+-   Turkish \(machine translation only\)
+-   Ukrainian \(machine translation only\)
+-   Vietnamese \(machine translation only\)
 
 
 
@@ -258,7 +439,46 @@ What's new documents on the SAP Help Portal
 </td>
 <td valign="top">
 
+-   Arabic \(machine translation only\)
+-   Bulgarian \(machine translation only\)
+-   Catalan \(machine translation only\)
+-   Chinese \(Simplified\) \(machine translation only\)
+-   Chinese \(Traditional\) \(machine translation only\)
+-   Croatian \(machine translation only\)
+-   Czech \(machine translation only\)
+-   Danish \(machine translation only\)
+-   Dutch \(machine translation only\)
 -   English
+-   Estonian \(machine translation only\)
+-   Finnish \(machine translation only\)
+-   French \(machine translation only\)
+-   German \(machine translation only\)
+-   Greek \(machine translation only\)
+-   Hebrew \(machine translation only\)
+-   Hindi \(machine translation only\)
+-   Hungarian \(machine translation only\)
+-   Indonesian \(machine translation only\)
+-   Italian \(machine translation only\)
+-   Japanese \(machine translation only\)
+-   Kazakh \(machine translation only\)
+-   Korean \(machine translation only\)
+-   Latvian \(machine translation only\)
+-   Lithuanian \(machine translation only\)
+-   Malay \(machine translation only\)
+-   Norwegian \(machine translation only\)
+-   Polish \(machine translation only\)
+-   Portuguese \(machine translation only\)
+-   Romanian \(machine translation only\)
+-   Russian \(machine translation only\)
+-   Serbian \(machine translation only\)
+-   Slovak \(machine translation only\)
+-   Slovenian \(machine translation only\)
+-   Spanish \(machine translation only\)
+-   Swedish \(machine translation only\)
+-   Thai \(machine translation only\)
+-   Turkish \(machine translation only\)
+-   Ukrainian \(machine translation only\)
+-   Vietnamese \(machine translation only\)
 
 
 

@@ -426,6 +426,37 @@ Maintains application-specific settings, such as notifications and country/regio
 <tr>
 <td valign="top">
 
+`AFC_TaskModels_Manage`
+
+</td>
+<td valign="top">
+
+Views task models, task model types, and job variants by communication system.
+
+**App Details:**
+
+[Manage Task Models](../Business-Configuration/manage-task-models-cfbdd1f.md)
+
+</td>
+<td valign="top">
+
+*Manage Task Models*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `AFC_GeneralSettings` 
 
 </td>
