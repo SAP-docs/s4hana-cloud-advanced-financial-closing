@@ -507,6 +507,45 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
+`2020`
+
+</td>
+<td valign="top">
+
+`SP03`
+
+</td>
+<td valign="top">
+
+[3069451](https://me.sap.com/notes/3069451) \(Handle Job State intercepted\)
+
+Additional note required: [3072949](https://me.sap.com/notes/3072949) \(AFC Raise Exception\)
+
+</td>
+<td valign="top">
+
+Fix for scheduling in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+2021-07-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+</td>
+<td valign="top">
+
 `1909`
 
 </td>
@@ -544,7 +583,7 @@ SAP S/4HANA
 </td>
 <td valign="top">
 
-`2019`
+`1909`
 
 </td>
 <td valign="top">
@@ -570,6 +609,82 @@ Recommended
 <td valign="top">
 
 2022-02-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP S/4HANA
+
+</td>
+<td valign="top">
+
+`1909`
+
+</td>
+<td valign="top">
+
+`SP05`
+
+</td>
+<td valign="top">
+
+[3069451](https://me.sap.com/notes/3069451) \(Handle Job State intercepted\)
+
+Additional note required: [3072949](https://me.sap.com/notes/3072949) \(AFC Raise Exception\)
+
+</td>
+<td valign="top">
+
+Fix for scheduling in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+2021-07-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP ERP
+
+</td>
+<td valign="top">
+
+`6.0`
+
+</td>
+<td valign="top">
+
+`SP20`
+
+</td>
+<td valign="top">
+
+[3504530](https://me.sap.com/notes/3504530) \(Rule calculation on data destruction uses wrong dataset\)
+
+</td>
+<td valign="top">
+
+Fix of rule calculation upon data destruction
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+2024-08-07
 
 </td>
 </tr>

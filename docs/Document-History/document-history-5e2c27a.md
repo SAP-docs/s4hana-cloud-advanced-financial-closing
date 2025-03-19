@@ -28,6 +28,84 @@ Description
 <tr>
 <td valign="top" rowspan="2">
 
+March 16, 2025
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [Language Scope](../Overview/language-scope-4f635b9.md):
+
+    The following information was added:
+
+    Language scope for SAP Help Portal documentation adjusted to include languages provided by machine translation
+
+-   [User Access Management](../User-Management/user-access-management-d974847.md):
+
+    The following underlying page was added:
+
+    [Task Model Management Scope](../User-Management/task-model-management-scope-c951f94.md)
+
+-   [Authorizations Required in the Communication System](../User-Management/authorizations-required-in-the-communication-system-97120d2.md):
+
+    The following information was added:
+
+    Authorization for task model management
+
+-   [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md):
+
+    The following information was added:
+
+    Requirements for task model management
+
+-   [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md):
+
+    The following information was added:
+
+    Additional notes added:
+
+    -   [3504530](https://me.sap.com/notes/3504530) \(Rule calculation on data destruction uses wrong dataset\)
+    -   [3069451](https://me.sap.com/notes/3069451) \(Handle Job State intercepted\)
+    -   [3072949](https://me.sap.com/notes/3072949) \(AFC Raise Exception\)
+
+-   [Business Configuration](../Business-Configuration/business-configuration-9719d0a.md):
+
+    The following underlying page was added:
+
+    -   [Manage Task Models](../Business-Configuration/manage-task-models-cfbdd1f.md) under [Apps](../Business-Configuration/apps-363fa37.md)
+    -   [How to View Task Models](../Business-Configuration/how-to-view-task-models-c383261.md)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
+
+</td>
+<td valign="top">
+
+-   [How to Create Technical Communication Users \(Separate Gateway and Business Back Ends\)](../Connectivity/how-to-create-technical-communication-users-separate-gateway-and-business-back-ends-d3b1cbe.md):
+
+    The following information was changed:
+
+    Errors in content resolved
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
 February 16, 2025
 
 </td>
@@ -93,61 +171,6 @@ February 16, 2025
     The following information was changed:
 
     Adjustment to official naming of SAP S/4HANA Cloud Public Edition and SAP S/4HANA Cloud Private Edition
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="2">
-
-December 15, 2024
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   *Administration Guide*:
-
-    The following underlying page was added:
-
-    [Automated Setup](../Automated-Setup/automated-setup-08b5486.md#loio08b54863254c43fda04b0726814e5506), covering the automated system setup provided by a booster
-
--   [Audit Log Integration](../Security/audit-log-integration-5839c73.md):
-
-    The following information was added:
-
-    Audit logs for the deletion of task list templates and task lists
-
--   [Logging](../Monitoring-and-Troubleshooting/logging-57375b8.md):
-
-    The following information was added:
-
-    Business logs for the deletion of task list templates and task lists
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
-
-</td>
-<td valign="top">
-
--   [System Landscape](../System-Landscape/system-landscape-3b9f341.md):
-
-    The following information was changed:
-
-    Content and graphic improved to provide a better understanding
 
 
 

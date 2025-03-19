@@ -320,12 +320,12 @@ Warning
 </td>
 <td valign="top">
 
-Report metadata and program registration synchronization for communication system "\{0\}" needed to restart. This may indicate missing resources in the ABAP communication system. Please contact your system administrator. For safety reasons, a full synchronization was performed automatically.
+Synchronization of report metadata and program registration for communication system "\{0\}" needed to restart. This may indicate missing resources in the ABAP system. For safety reasons, a full synchronization was performed.
 
 </td>
 <td valign="top">
 
-Check the ABAP communication system resources. One reason can be an overloaded system that is not responding fast enough or is unable to save entries in a given time. A possible solution is to increase the system resources \(for example, dialog processes\).
+Contact your system administrator and check the ABAP communication system resources. One reason can be an overloaded system that is not responding fast enough or is unable to save entries in a given time. A possible solution is to increase the system resources \(for example, dialog processes\).
 
 </td>
 </tr>

@@ -35,6 +35,8 @@ You use the *Manage Compliance Settings* app to define several compliance settin
                                                   General Settings app to maintain settings that apply to all objects in SAP Advanced
                                                   Financial Closing.")**  
 You use the *Manage General Settings* app to maintain settings that apply to all objects in SAP Advanced Financial Closing.
+-   **[Manage Task Models](manage-task-models-cfbdd1f.md)**  
+
 -   **[Manage Users](manage-users-85bfe2f.md)**  
 
 -   **[Manage User Role Assignments](manage-user-role-assignments-c606666.md "You use the Manage

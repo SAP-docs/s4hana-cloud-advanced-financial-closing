@@ -74,7 +74,7 @@ The following graphic lists the documentation for connectivity and system monito
 		to connect your communication systems to SAP Advanced
                                                   Financial Closing.")**  
 You use the *Specify Communication Systems* app to connect your communication systems to SAP Advanced Financial Closing.
--   **[Requirements for On-Premise Systems](requirements-for-on-premise-systems-12f664f.md "Understand which system releases and SAP Notes are required for SAP Advanced
+-   **[Requirements for Communication Systems](requirements-for-communication-systems-12f664f.md "Understand which system releases and SAP Notes are required for SAP Advanced
                                                   Financial Closing to run
 		correctly.")**  
 Understand which system releases and SAP Notes are required for SAP Advanced Financial Closing to run correctly.

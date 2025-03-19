@@ -2,7 +2,7 @@
 
 # System-Dependent Feature Availability
 
-Understand where feature availability depends on system releases and support packages of on-premise systems.
+Understand where feature availability depends on system releases and support packages of communication systems.
 
 Some features are only available for on-premise systems if your communication system meets specific requirements. The following table lists the affected features and their system requirements:
 
@@ -14,6 +14,11 @@ Some features are only available for on-premise systems if your communication sy
 <th valign="top">
 
 Feature
+
+</th>
+<th valign="top">
+
+SAP S/4HANA Cloud Public Edition
 
 </th>
 <th valign="top">
@@ -50,7 +55,54 @@ SAP ERP
 <tr>
 <td valign="top">
 
+Task Model Management Directly in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+`2502.1`
+
+</td>
+<td valign="top">
+
+`FPS3`
+
+</td>
+<td valign="top">
+
+`SPS5`
+
+</td>
+<td valign="top">
+
+`SPS7`
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Task Rule Displayed on User Interface in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -102,6 +154,11 @@ Additional requirement: [3426341](https://me.sap.com/notes/3426341)
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 Not applicable
 
 </td>
@@ -130,6 +187,11 @@ Not applicable
 <td valign="top">
 
 Spool Lists as CSV Downloads
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -180,6 +242,11 @@ Spool Lists as CSV Downloads
 <td valign="top">
 
 New Scheduling
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -250,6 +317,11 @@ Status Source Code Displayed
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `SP00`
 
 </td>
@@ -278,6 +350,11 @@ Not applicable
 <td valign="top">
 
 Parameter Type OPVAR \(Posting Period Variant\)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -364,6 +441,11 @@ Display Parameters Used for Processing
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `SP00`
 
 </td>
@@ -412,6 +494,11 @@ Not applicable
 <td valign="top">
 
 Use of Validation Class `CL_FCCX_VALIDATION_BY_JOBLOG_M`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -473,6 +560,11 @@ Archiving / ILM and Data Destruction
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `SP02`
 
 </td>
@@ -506,6 +598,11 @@ Not applicable
 <td valign="top">
 
 *Marked for Deletion* Flag in Communication System
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

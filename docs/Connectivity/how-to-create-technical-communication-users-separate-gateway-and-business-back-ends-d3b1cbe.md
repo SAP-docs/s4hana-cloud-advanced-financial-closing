@@ -27,7 +27,7 @@ If you use separate systems for the gateway back end and the business back end, 
 
 2.  Go to the *Logon Data* tab.
 
-    1.  If required for your system setup, provide an alias.
+    1.  You may need to provide an alias depending your system.
 
     2.  Under *User Type*, select *Dialog*.
 
@@ -46,86 +46,11 @@ If you use separate systems for the gateway back end and the business back end, 
 
 5.  Enter a description and choose *Save*.
 
-6.  In change mode, go to the *Menu* tab. If you use separate systems for the gateway back end and the business back end, choose *Insert*.
+6.  In change mode, go to the *Menu* tab and choose *Insert*.
 
 7.  Go to *Edit* \> *Insert Authorization Default*.
 
-8.  Under *Default Authorization*, select `SAP Gateway: Service Group Metadata`.
-
-    The following information is filled automatically:
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Program ID
-    
-    </th>
-    <th valign="top">
-
-    Object Type
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `R3TR`
-    
-    </td>
-    <td valign="top">
-    
-    `IWSG`
-    
-    </td>
-    </tr>
-    </table>
-    
-    1.  Under *TADIR Service*, use the value help to search for the technical service name that was used during service activation as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md). For example, the default **`[ZFCCX_COMMUNICATION_SERVICES_SRV]*`**.
-
-
-9.  On the *User* tab, add the technical communication user.
-
-    > ### Caution:  
-    > If you use separate systems for the gateway back end and the business back end, the users created for both systems **must be dialog users**. These users require authorization object `S_RFCACL`. Depending on your release, this object is provided with the default authorization *SAP Gateway Business Suite Enablement - Service*.
-
-    > ### Tip:  
-    > We do not recommend adding any alternative or additional profiles to the technical communication user.
-
-10. Save the role.
-
-
-**Creating the Technical Communication User for a Gateway Back End**
-
-11. In your gateway back end, run transaction `SU01` and create a user that will be used for the communication between your gateway back end and SAP Advanced Financial Closing.
-
-12. Go to the *Logon Data* tab.
-
-    1.  You may need to provide an alias depending your system.
-
-    2.  Under *User Type*, select *Dialog*.
-
-    3.  Provide the same password as that used for the technical communication user in your business back end.
-
-        > ### Remember:  
-        > To set the final password, you may first need to provide an initial password. Then, you log on to the system whereupon you'll be asked to change the password. This will then be the final password.
-
-
-
-**Providing the Roles Required for the Technical Communication User**
-
-13. Run transaction `PFCG`.
-
-14. Enter an ID for the role and choose *Single Role*.
-
-15. Enter a description and choose *Save*.
-
-16. In change mode, go to the *Menu* tab and choose *Insert*.
-
-17. Go to *Edit* \> *Insert Authorization Default*.
-
-18. Under *Default Authorization*, select `SAP Gateway Business Suite Enablement - Service`.
+8.  Under *Default Authorization*, select `SAP Gateway Business Suite Enablement - Service`.
 
     The following information is filled automatically:
 
@@ -315,13 +240,88 @@ If you use separate systems for the gateway back end and the business back end, 
         </table>
         
 
-19. On the *User* tab, add the technical communication user.
+9.  On the *User* tab, add the technical communication user.
 
     > ### Caution:  
     > If you use separate systems for the gateway back end and the business back end, the users created for both systems **must be dialog users**. These users require authorization object `S_RFCACL`. Depending on your release, this object is provided with the default authorization *SAP Gateway Business Suite Enablement - Service*.
 
     > ### Recommendation:  
     > We do **not** recommend adding any alternative or additional profiles to the technical communication user.
+
+10. Save the role.
+
+
+**Creating the Technical Communication User for a Gateway Back End**
+
+11. In your gateway back end, run transaction `SU01` and create a user that will be used for the communication between your gateway back end and SAP Advanced Financial Closing.
+
+12. Go to the *Logon Data* tab.
+
+    1.  If required for your system setup, provide an alias.
+
+    2.  Under *User Type*, select *Dialog*.
+
+    3.  Provide the same password as that used for the technical communication user in your business back end.
+
+        > ### Remember:  
+        > To set the final password, you may first need to provide an initial password. Then, you log on to the system whereupon you'll be asked to change the password. This will then be the final password.
+
+
+
+**Providing the Roles Required for the Technical Communication User**
+
+13. Run transaction `PFCG`.
+
+14. Enter an ID for the role and choose *Single Role*.
+
+15. Enter a description and choose *Save*.
+
+16. In change mode, go to the *Menu* tab. If you use separate systems for the gateway back end and the business back end, choose *Insert*.
+
+17. Go to *Edit* \> *Insert Authorization Default*.
+
+18. Under *Default Authorization*, select `SAP Gateway: Service Group Metadata`.
+
+    The following information is filled automatically:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Program ID
+    
+    </th>
+    <th valign="top">
+
+    Object Type
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `R3TR`
+    
+    </td>
+    <td valign="top">
+    
+    `IWSG`
+    
+    </td>
+    </tr>
+    </table>
+    
+    1.  Under *TADIR Service*, use the value help to search for the technical service name that was used during service activation as described under [How to Enable OData Services in SAP S/4HANA](how-to-enable-odata-services-in-sap-s-4hana-fb5fe06.md). For example, the default **`[ZFCCX_COMMUNICATION_SERVICES_SRV]*`**.
+
+
+19. On the *User* tab, add the technical communication user.
+
+    > ### Caution:  
+    > If you use separate systems for the gateway back end and the business back end, the users created for both systems **must be dialog users**. These users require authorization object `S_RFCACL`. Depending on your release, this object is provided with the default authorization *SAP Gateway Business Suite Enablement - Service*.
+
+    > ### Tip:  
+    > We do not recommend adding any alternative or additional profiles to the technical communication user.
 
 20. Save the role.
 

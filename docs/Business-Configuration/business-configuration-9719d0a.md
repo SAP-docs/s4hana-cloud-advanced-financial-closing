@@ -26,4 +26,7 @@ The compliance settings apply to all apps that are part of SAP Advanced Financia
 -   **[How to Manage General Settings](how-to-manage-general-settings-a4be7f7.md "Maintain settings that apply to all objects in SAP Advanced
                                                   Financial Closing.")**  
 Maintain settings that apply to all objects in SAP Advanced Financial Closing.
+-   **[How to View Task Models](how-to-view-task-models-c383261.md "View task models directly in SAP Advanced
+                                                  Financial Closing.")**  
+View task models directly in SAP Advanced Financial Closing.
 
