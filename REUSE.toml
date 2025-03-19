@@ -1,10 +1,10 @@
 version = 1
-SPDX-PackageName = "btp-business-application-studio"
-SPDX-PackageSupplier = "NAME SURNAME (EMAIL)"
-SPDX-PackageDownloadLocation = "https://github.com/sap-docs/YOUR-REPOSITORY"
+SPDX-PackageName = "s4hana-cloud-advanced-financial-closing"
+SPDX-PackageSupplier = "Evelyn Fromm (evelyn.fromm@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/s4hana-cloud-advanced-financial-closing"
 
 [[annotations]]
 path = "**"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "2021-2023 SAP SE or an SAP affiliate company and YOUR-REPOSITORY contributors"
+SPDX-FileCopyrightText = "2021-2023 SAP SE or an SAP affiliate company and sap-docs/s4hana-cloud-advanced-financial-closing contributors"
 SPDX-License-Identifier = "CC-BY-4.0"
