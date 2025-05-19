@@ -20,9 +20,15 @@ The Cloud Connector serves as a link between SAP BTP applications and on-premise
 
 2.  Perform the initial configuration steps described under [Initial Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/db9170a7d97610148537d5a84bf79ba2.html).
 
+    > ### Note:  
+    > You can't use port 443 as virtual host for your destination.
+
 3.  Connect your subaccounts to the Cloud Connector as described under [Managing Subaccounts](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/f16df12fab9f4fe1b8a4122f0fd54b6e.html?&locale=en-US).
 
-    If needed, you can find information about how to use more than one system with the Cloud Connector under [Set Up an HTTP Destination](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3884bc38209843ac900d92adb9c2a863.html?locale=en-US).
+    If needed, you can find information about how to use more than one system with the Cloud Connector under [Set Up an HTTP Destination](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-http-destinations).
+
+    > ### Remember:  
+    > You can't use port 443 as virtual host for your destination.
 
 
 

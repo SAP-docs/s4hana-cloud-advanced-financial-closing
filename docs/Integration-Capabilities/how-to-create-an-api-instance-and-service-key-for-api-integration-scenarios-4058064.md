@@ -10,7 +10,10 @@ Create an API instance and service key for API integration scenarios for SAP Adv
 
 ## Context
 
-As the first step to set up an API integration scenario for SAP Advanced Financial Closing, you need to create an API instance and a service key.
+For some API integration scenarios, as the first step the integration scenario with SAP Advanced Financial Closing, you need to create an API instance and a service key. This step is required only for the following integration scenarios:
+
+-   [SCIM API for User Access Management](scim-api-for-user-access-management-3f44fda.md)
+-   [SAP Task Center Integration for SAP Advanced Financial Closing](sap-task-center-integration-for-sap-advanced-financial-closing-625bfc3.md)
 
 > ### Note:  
 > The API instance and service key you create apply to all API integration scenarios you want to use for SAP Advanced Financial Closing. This means that you don't need to repeat these steps for additional API integration scenarios you implement.

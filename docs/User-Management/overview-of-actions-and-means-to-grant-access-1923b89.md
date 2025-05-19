@@ -10,6 +10,8 @@ The following table explains through which means you can grant which access. The
 
 -   Authorizations used to grant access in the *Task Processing* scope as described under [Task Processing Scope](task-processing-scope-b4f8ec6.md)
 
+-   Authorizations used to grant access in the *Task Model Management* scope as described under [Task Model Management Scope](task-model-management-scope-c951f94.md)
+
 -   Direct user assignments granting access as described under [Direct User Assignment](direct-user-assignment-f96b217.md)
 
 
@@ -172,6 +174,13 @@ Interested User / User Group \(Task\)
 \([Direct User Assignment](direct-user-assignment-f96b217.md)\)
 
 </th>
+<th valign="top">
+
+*Read* 
+
+\([Task Model Management Scope](task-model-management-scope-c951f94.md)\)
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -246,6 +255,11 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -394,6 +408,11 @@ Read
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -503,6 +522,11 @@ Read
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -612,6 +636,11 @@ Read
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -634,6 +663,11 @@ Create Task List Templates
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -830,6 +864,11 @@ Copy Task List Templates
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -841,7 +880,7 @@ Copy Task List Templates
 </td>
 <td valign="top">
 
-Edit Task List Templates and Task Lists
+Edit Task List Templates and Task Lists \(incl. creating, copying, and moving tasks\)
 
 </td>
 <td valign="top">
@@ -907,6 +946,11 @@ Edit Task List Templates and Task Lists
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1048,6 +1092,11 @@ Activate/Deactivate Tasks
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1125,6 +1174,11 @@ Recalculate Paths
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1266,6 +1320,11 @@ Delete Task List Templates and Task Lists with Status *Not Released*
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1303,6 +1362,11 @@ Generate Task Lists
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1484,6 +1548,11 @@ Change Task List Status
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1511,6 +1580,11 @@ Delete Task Lists
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1702,6 +1776,11 @@ Change User Assignments \(Quick Actions\)
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1779,6 +1858,11 @@ Check SOX Compliance
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1920,6 +2004,11 @@ Check Compatibility
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2027,6 +2116,11 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -2138,6 +2232,11 @@ Download Results
 `X` 
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2235,6 +2334,11 @@ Change Task Status
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2356,6 +2460,11 @@ Process
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2453,6 +2562,11 @@ Schedule
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2574,6 +2688,11 @@ Cancel Run
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2671,6 +2790,11 @@ Start Test Run
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2792,6 +2916,11 @@ Cancel Test Run
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2901,6 +3030,11 @@ Edit Attachments / Notes
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2958,6 +3092,11 @@ Change Planned Start
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3119,6 +3258,11 @@ Change Planned Duration
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3176,6 +3320,11 @@ Recalculate Paths
 <td valign="top">
 
 `X` \(through task list authorization of authorization groups\)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3337,6 +3486,11 @@ Change Parameters
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3429,6 +3583,11 @@ Change User Assignments
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3556,6 +3715,11 @@ Approve
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3649,6 +3813,11 @@ Reject
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3771,6 +3940,123 @@ Read
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Models*
+
+</td>
+<td valign="top">
+
+Read
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X` 
 
 </td>
 </tr>

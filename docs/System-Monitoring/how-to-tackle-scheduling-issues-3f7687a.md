@@ -110,18 +110,94 @@ The scheduling queue information reflects the status of the scheduling queue of 
 
     1.  If all schedulings are running as expected, no further action is required.
 
-    2.  If task schedulings are considered overdue, one of the following issues may be the reason:
-
-        -   A large number of task schedulings is currently in the queue.
-
-            > ### Note:  
-            > The system is still working on the queue and schedules tasks as soon as possible.
-
-        -   Performance of the communication system is low. You may want to check what is impacting the system performance.
+    2.  If task schedulings are not running as expected or are already considered overdue, check for the following possible issues:
 
 
+        <table>
+        <tr>
+        <th valign="top">
+
+        Possible Issue
+        
+        </th>
+        <th valign="top">
+
+        Solution / More Information
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        A large number of task schedulings in the queue.
+        
+        </td>
+        <td valign="top">
+        
+        Check the scheduling queue. If there's a large number of tasks in the queue, the system is still working on the queue and schedules tasks as soon as possible.
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        Tasks stay in status *Scheduling in Preparation*.
+        
+        </td>
+        <td valign="top">
+        
+        1.  Check the start mode and planned start time of the task. The task may be behaving as expected:
+            -   *Automatically*:
+
+                Task processing is automated and the task **will start even if its planned start date and time haven't been reached yet**. Predecessor tasks still need to be completed before the task can start.
+
+            -   *Automatically When Due*:
+
+                Task processing is automated, but the task **will start only once its planned start date and time are reached**. Predecessor tasks still need to be completed before the task can start.
+
+            -   *Manually*:
+
+                No automation. The user needs to trigger task processing manually.
+
+
+        2.  If possible, check whether other tasks for the same communication system are running as expected. This could indicate an issue with just the scheduling of this specific task.
+        3.  If none of the above helps, check whether the connection to the communication system is interrupted by running a connection check.
+
+        > ### Note:  
+        > Tasks that stay in status *Scheduling in Preparation* haven't actually been triggered in the communication system yet. You can still cancel the scheduling in SAP Advanced Financial Closing and retry.
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        Performance of the communication system is low.
+        
+        </td>
+        <td valign="top">
+        
+        You may want to check what is impacting system performance.
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        Connection to the communication system is interrupted.
+        
+        </td>
+        <td valign="top">
+        
+        Run a connection check to figure out why the connection was interrupted and then fix the issue.
+        
+        </td>
+        </tr>
+        </table>
+        
         > ### Recommendation:  
-        > Independent of the reason for the delay, you may want to inform users that there is a delay in scheduling.
+        > Independently of the reason for the issue, you may want to inform users that there is a delay in scheduling.
 
 
 

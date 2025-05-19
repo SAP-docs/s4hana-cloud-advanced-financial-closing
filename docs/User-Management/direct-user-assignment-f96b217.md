@@ -2,7 +2,7 @@
 
 # Direct User Assignment
 
-Grant access by directly assigning a user or user group to a task list template, task list, folder, or task.
+Grant access by directly assigning a user or user group to an object.
 
 
 
@@ -10,11 +10,11 @@ Grant access by directly assigning a user or user group to a task list template,
 
 ## About This Access
 
-Users who are maintained as owners of a task list template or task list or who belong to an assigned owner group have write access to the specific object in the *Manage Closing Task Lists* app.
+Users who are maintained as **owners of a task list template** or who belong to an assigned owner group have write access to the specific object in the *Manage Closing Task Lists* app.
 
-Users who are maintained as the user responsible for a **folder**, **task list**, or **task**, or who belong to a responsible user group always have write access to the respective object. They don't need to have a user role assigned in addition.
+Users who are maintained as the **user responsible** for a **folder**, **task list**, or **task**, or who belong to a responsible user group always have write access to the respective object. They don't need to have a user role assigned in addition.
 
-Users who are maintained as the processing user of a **task** or who belong to a processing user group always have access to the respective task. To be able to process the respective task, they don't need to have a user role assigned in addition.
+Users who are maintained as the **processing user** of a **task** or who belong to a processing user group always have access to the respective task. To be able to process the respective task, they don't need to have a user role assigned in addition.
 
 > ### Note:  
 > A substitute of an owner, of a user responsible, or of a processing user only inherits access to the objects to which the respective owner, user responsible, or processing user has been assigned individually and not as part of a user group.
@@ -227,7 +227,7 @@ Copy Task List Templates
 </td>
 <td valign="top">
 
-Edit Task List Templates and Task Lists
+Edit Task List Templates and Task Lists \(incl. creating, copying, and moving tasks\)
 
 </td>
 <td valign="top">

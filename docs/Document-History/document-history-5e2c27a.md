@@ -28,6 +28,55 @@ Description
 <tr>
 <td valign="top" rowspan="2">
 
+May 18, 2025
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [How to Install and Configure the Cloud Connector](../Connectivity/how-to-install-and-configure-the-cloud-connector-4cf0fb0.md) \(SAP S/4HANA\) and [How to Install and Configure the Cloud Connector](../Connectivity/how-to-install-and-configure-the-cloud-connector-3d19a8a.md) \(SAP ERP\):
+
+    The following information was added:
+
+    Note about virtual host
+
+-   [How to Tackle Scheduling Issues](../System-Monitoring/how-to-tackle-scheduling-issues-3f7687a.md):
+
+    The following information was added:
+
+    Information about solving scheduling issues enhanced
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
+
+</td>
+<td valign="top">
+
+-   [How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing](../Integration-Capabilities/how-to-set-up-the-sap-build-process-automation-integration-for-sap-advanced-financial-cl-0d8e37f.md):
+
+    The following information was changed:
+
+    New procedure for integration setup
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
 March 16, 2025
 
 </td>
@@ -97,80 +146,6 @@ March 16, 2025
     The following information was changed:
 
     Errors in content resolved
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="2">
-
-February 16, 2025
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [Task Processing Scope](../User-Management/task-processing-scope-b4f8ec6.md)
-
-    The following information was added:
-
-    -   *Download Attachments* action added to *Actions Allowed Based on Authorization of Scoped User Roles* table
-    -   *Start Parameter Check* action added *Actions Allowed Based on Authorization of Scoped User Roles* table
-
--   [Direct User Assignment](../User-Management/direct-user-assignment-f96b217.md):
-
-    The following information was added:
-
-    *Start Parameter Check* action added *Actions Allowed Based on Direct Assignments* table
-
--   [User Access Management](../User-Management/user-access-management-d974847.md):
-
-    The following underlying page was added:
-
-    [Authorizations Required in the Communication System](../User-Management/authorizations-required-in-the-communication-system-97120d2.md)
-
--   [Important SAP Notes for Connected Communication Systems](../Connectivity/important-sap-notes-for-connected-communication-systems-02686a2.md):
-
-    The following information was added:
-
-    Additional important SAP Note for systems of type SAP S/4HANA 2022, lower than `SP02`
-
--   [How to Manage General Settings](../Business-Configuration/how-to-manage-general-settings-a4be7f7.md):
-
-    The following underlying page was added:
-
-    Invalidation of successor tasks
-
--   [Synchronization Business Logs](../Connectivity/synchronization-business-logs-c4a31b9.md):
-
-    The following information was added:
-
-    Additional warning message listed that can be logged during synchronization
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
-
-</td>
-<td valign="top">
-
--   Several pages:
-
-    The following information was changed:
-
-    Adjustment to official naming of SAP S/4HANA Cloud Public Edition and SAP S/4HANA Cloud Private Edition
 
 
 

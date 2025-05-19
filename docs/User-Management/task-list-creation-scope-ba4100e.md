@@ -295,7 +295,7 @@ Copy Task List Templates
 <tr>
 <td valign="top">
 
-Edit Task List Templates and Task Lists
+Edit Task List Templates and Task Lists \(incl. creating, copying, and moving tasks\)
 
 </td>
 <td valign="top">

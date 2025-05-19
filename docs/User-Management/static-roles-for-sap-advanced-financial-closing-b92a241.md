@@ -466,6 +466,8 @@ Maintains general settings, such as archiving settings, applying to objects in S
 
 **App Details:**
 
+[Manage General Settings](../Business-Configuration/manage-general-settings-661b757.md)
+
 </td>
 <td valign="top">
 

@@ -1,6 +1,6 @@
 <!-- loio51b6705400504ef1b9faa22e24995f91 -->
 
-# Migration from SAP S/4HANA Cloud for Advanced Financial Closing as Part of SAP S/4HANA Cloud Public Edition \(Process Deprecated\)
+# Migration \(Process Deprecated\)
 
 Migrate your data from SAP S/4HANA Cloud for advanced financial closing as part of SAP S/4HANA Cloud Public Edition to the SAP BTP solution.
 

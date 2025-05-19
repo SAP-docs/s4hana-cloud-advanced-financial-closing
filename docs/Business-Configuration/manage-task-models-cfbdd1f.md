@@ -4,7 +4,7 @@
 
 
 
-With this app, you can display and manage task models directly in SAP Advanced Financial Closing instead of having to go to the communication system in which the task models are located.
+With this app, you can display task models directly in SAP Advanced Financial Closing instead of having to go to the communication system in which the task models are located.
 
 
 

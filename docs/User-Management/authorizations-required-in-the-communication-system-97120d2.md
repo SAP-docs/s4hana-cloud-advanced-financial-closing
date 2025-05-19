@@ -72,7 +72,7 @@ Display Task Models in SAP Advanced Financial Closing
 </td>
 <td valign="top">
 
-`FCCX_TMM_03_TRAN` \(AFC TMM: required for authorization of Business User\)
+`FCCX_TMM_03_TRAN` \(Read authorization for task model management in SAP Advanced Financial Closing\)
 
 </td>
 </tr>

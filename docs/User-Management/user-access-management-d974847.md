@@ -10,13 +10,15 @@ You can control and grant access to task list templates, task lists, and tasks i
 
 ## Access to Apps in General
 
-Users who have been assigned a static role can see the respective apps in the SAP Fiori launchpad \(see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md)\). For the following apps, you need to grant access to users so that they're able to view or edit **task list templates**, **task lists**, **tasks**, and **folders**:
+Users who have been assigned a static role can see the respective apps in the SAP Fiori launchpad \(see [How to Manage Static Role Templates](how-to-manage-static-role-templates-0cca34d.md)\). For the following apps, you need to grant access to users so that they're able to view or edit objects, such as **task list templates**, **tasks**, **folders**, and **task models**:
 
 -   *Manage Closing Task Lists*
 
 -   *Process Closing Tasks*
 
 -   *Approve Closing Tasks*
+
+-   *Manage Task Models*
 
 -   *Financial Close Overview \(Deprecated\)* \(derived from the *Read* authorization in the *Task Processing* scope\)
 
@@ -65,6 +67,7 @@ Migration Apps
 -   *Manage Users*
 -   *Manage User Role Assignments*
 -   *Manage Compliance Settings*
+-   *Manage General Settings*
 -   *Manage Archived Closing Task Lists*
 
 
@@ -201,6 +204,25 @@ For more information, see [Task Processing Scope](task-processing-scope-b4f8ec6.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Task Model Management*
+
+</td>
+<td valign="top">
+
+*Manage Task Models*
+
+</td>
+<td valign="top">
+
+Grant access to view task models directly in SAP Advanced Financial Closing.
+
+For more information, see [Task Model Management Scope](task-model-management-scope-c951f94.md).
+
+</td>
+</tr>
 </table>
 
 
@@ -225,9 +247,8 @@ Grant access to process and approve or reject tasks.
 -   **[Task Model Management Scope](task-model-management-scope-c951f94.md "Grant access to create and edit task list templates and to generate task
 		lists.")**  
 Grant access to create and edit task list templates and to generate task lists.
--   **[Direct User Assignment](direct-user-assignment-f96b217.md "Grant access by directly assigning a user or user group to a task list template, task
-		list, folder, or task.")**  
-Grant access by directly assigning a user or user group to a task list template, task list, folder, or task.
+-   **[Direct User Assignment](direct-user-assignment-f96b217.md "Grant access by directly assigning a user or user group to an object.")**  
+Grant access by directly assigning a user or user group to an object.
 -   **[How to Copy User Roles](how-to-copy-user-roles-c16170b.md "Copy scoped user roles.")**  
 Copy scoped user roles.
 -   **[How to Assign Users to User Roles](how-to-assign-users-to-user-roles-f703a5c.md "Specify the users to whom the user roles you've created apply.")**  
