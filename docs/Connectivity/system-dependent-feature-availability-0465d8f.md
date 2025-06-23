@@ -141,51 +141,6 @@ Additional requirement: [3426341](https://me.sap.com/notes/3426341)
 <tr>
 <td valign="top">
 
--   *Migrate Closing Task Lists \(read-only\)* app
--   *Migrate Configuration Data \(read-only\)* app
-
-
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Spool Lists as CSV Downloads
 
 </td>

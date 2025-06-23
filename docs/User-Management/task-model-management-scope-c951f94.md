@@ -2,7 +2,7 @@
 
 # Task Model Management Scope
 
-Grant access to create and edit task list templates and to generate task lists.
+Grant access to work with task models.
 
 
 

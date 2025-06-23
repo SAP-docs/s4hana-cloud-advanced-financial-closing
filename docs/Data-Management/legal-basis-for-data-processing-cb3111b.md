@@ -28,3 +28,19 @@ The following data is processed:
 
 SAP processes personal data in SAP Advanced Financial Closing as a subprocessor for SAP's cloud customers. Therefore, SAP acts as a processor according to the European Union's General Data Protection Regulation \(GDPR\) Article 28. The legal basis for processing by SAP's customers, who are the data controllers, has to be ensured by the customers themselves.
 
+
+
+### User Information on the User Interface of SAP Advanced Financial Closing
+
+In SAP Advanced Financial Closing, users can find detailed information about user groups and their members in several apps. This allows users to see the group members including their contact details while setting up and performing the financial close. In this way, they can contact group members in the event of any issues. The following information is available in a pop-up for the user group:
+
+-   User group name
+-   User group description
+-   Table listing the group members with the following information:
+    -   User name
+    -   User ID
+    -   Email address
+    -   Phone number \(if available in the user profile\)
+    -   Mobile phone number \(if available in the user profile\)
+
+

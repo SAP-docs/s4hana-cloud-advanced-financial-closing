@@ -31,6 +31,18 @@ Delete users that are no longer required.
         > ### Note:  
         > If a deleted user is assigned to a task list template, the next consistency check will return error or warning messages. Task list generation may not be possible.
 
+    3.  The user you're trying to delete must not be assigned to any user group.
+
+        > ### Note:  
+        > If such an assignment exists, you can set the user to *Deleted*, but you can't delete the user permanently.
+        > 
+        > **Restriction:** If the user is the last active user in a user group, the user can't be set to *Deleted* or even be deleted permanently.
+
+    4.  The user you're trying to delete must not have any user role assignments.
+
+        > ### Note:  
+        > If such an assignment exists, you can set the user to *Deleted*, but you can't delete the user permanently.
+
 
 
 
@@ -88,6 +100,6 @@ When you delete users from SAP Advanced Financial Closing, there is no retention
 -   To ensure that the deleted user isn't assigned in any task list templates anymore, an authorized user can run consistency checks on the templates and update any remaining assignments.
 
     > ### Tip:  
-    > A new consistency will detect assignments of deleted users in templates and return either an error or a warning message as described under [How to Perform Checks on Templates](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/bd90b43614b841f48796e068fb1fcb6c.html "Check whether your templates fulfill all requirements.") :arrow_upper_right:.
+    > A new consistency check will detect assignments of deleted users in templates and return either an error or a warning message as described under [How to Perform Checks on Templates](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/bd90b43614b841f48796e068fb1fcb6c.html "Check whether your templates fulfill all requirements.") :arrow_upper_right:.
 
 

@@ -244,9 +244,8 @@ Understand how you can grant which access.
 Grant access to create and edit task list templates and to generate task lists.
 -   **[Task Processing Scope](task-processing-scope-b4f8ec6.md "Grant access to process and approve or reject tasks.")**  
 Grant access to process and approve or reject tasks.
--   **[Task Model Management Scope](task-model-management-scope-c951f94.md "Grant access to create and edit task list templates and to generate task
-		lists.")**  
-Grant access to create and edit task list templates and to generate task lists.
+-   **[Task Model Management Scope](task-model-management-scope-c951f94.md "Grant access to work with task models.")**  
+Grant access to work with task models.
 -   **[Direct User Assignment](direct-user-assignment-f96b217.md "Grant access by directly assigning a user or user group to an object.")**  
 Grant access by directly assigning a user or user group to an object.
 -   **[How to Copy User Roles](how-to-copy-user-roles-c16170b.md "Copy scoped user roles.")**  

@@ -83,7 +83,7 @@ In SAP Build Process Automation, you can create workflows to perform specific st
 
 **Creating workflows in SAP Build Process Automation**
 
-12. If not done yet, create workflows in SAP Build Process Automation that you want to include into your financial close managed in SAP Advanced Financial Closing. For information on how to do this, see [Use SAP Build Process Automation](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/using-sap-build-process-automation) \(SAP Build Process Automation documentation\).
+12. If not done yet, create workflows in SAP Build Process Automation that you want to include into your financial close managed in SAP Advanced Financial Closing. For information on how to do this, see [How to Create Workflows in SAP Build Process Automation and Integrate Them into the Financial Close](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/24599e4d0fab4d0d9633d0024e89cb4f.html "Set up workflows in SAP Build Process Automation that can then be triggered by SAP Advanced Financial Closing.") :arrow_upper_right:.
 
     > ### Tip:  
     > The authorizations required for steps in SAP Build Process Automation are described under [Authorizations](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/authorizations) \(SAP Build Process Automation documentation\).
