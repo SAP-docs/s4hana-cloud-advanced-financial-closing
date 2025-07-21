@@ -76,6 +76,11 @@ Create a destination for your SAP S/4HANA Cloud Public Edition system in your SA
     <code>https://www.example.com:[port number]<b>/sap/opu/odata/sap/fccx_communication_services_srv?sap-client=100</b></code>
 
     The highlighted part is the same for all SAP S/4HANA Cloud Public Edition systems.
+
+    > ### Tip:  
+    > You can also find this information in the communication arrangement you created before as described under [How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md). Under *Inbound Services*, copy the URL displayed under *Service URL/Service Interface* and paste it into the destination information in the SAP BTP cockpit. Then add the client information *sap-client=100* at the end \(you may need to add a question mark as separator as shown in the example above\).
+
+
     
     </td>
     </tr>

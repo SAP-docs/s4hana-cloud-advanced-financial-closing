@@ -77,6 +77,8 @@ Some of these different means to manage user access offer a subset of available 
     As a source system, you can use an identity authentication, for example. To do this, follow the steps described under [SAP Advanced Financial Closing \(Identity Provisioning documentation for source systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-s-4hana-cloud-for-advanced-financial-closing).
 
     > ### Note:  
+    > The steps described in the documentation refer to Identity Provisioning provided by [SAP Cloud Identity Services](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/2d2685d469a54a56b886105a06ccdae6.html).
+    > 
     > Other identity provisioning services may require a different configuration.
 
 2.  Maintain the API information for your target system as described under [SAP Advanced Financial Closing \(Identity Provisioning documentation for target systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/target-sap-s-4hana-cloud-for-advanced-financial-closing).
@@ -91,18 +93,7 @@ Some of these different means to manage user access offer a subset of available 
     > ### Remember:  
     > The login name of a user maintained in Identity Provisioning has to be identical to the user ID in SAP Advanced Financial Closing.
 
-3.  **Optional:** After you've configured the source and target system information, you can also use runs in Identity Provisioning to synchronize users and user groups:
-
-    1.  Go to the *Source System Details* menu.
-
-    2.  Go to the *Jobs* tab.
-
-    3.  Choose *Run Now* or *Schedule* for the corresponding action.
-
-    4.  Once the run is finished, you can find the results under the *Job Execution Details* menu.
-
-
-4.  Using the API documentation provided by the user interface of SAP Advanced Financial Closing, you can now use the API to manage user access:
+3.  **Optional:** Using the API documentation provided by the user interface of SAP Advanced Financial Closing, you can use the API to find and test user access management options:
 
     1.  From SAP Advanced Financial Closing, open the *Public API* app.
 
@@ -112,6 +103,17 @@ Some of these different means to manage user access offer a subset of available 
 
         > ### Note:  
         > The API follows SCIM standards 7644 and 7643. However, it has been extended by functions that you can use to manage user roles, that is, adding users to roles or removing users from them.
+
+
+4.  After you've configured the source and target system information, you can use runs in Identity Provisioning to synchronize users and user groups:
+
+    1.  Go to the *Source System Details* menu.
+
+    2.  Go to the *Jobs* tab.
+
+    3.  Choose *Run Now* or *Schedule* for the corresponding action.
+
+    4.  Once the run is finished, you can find the results in the provisioning logs under *Identity Provisioning* \> *Provisioning Logs*.
 
 
 

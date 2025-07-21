@@ -18,6 +18,8 @@ This app provides the following key features:
 
 -   Display and edit archiving settings for task lists
 
+-   Manage the settings for the invalidation of successor tasks
+
 
 
 

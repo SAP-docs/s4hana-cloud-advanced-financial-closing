@@ -28,6 +28,30 @@ Description
 <tr>
 <td valign="top">
 
+20 July, 2025
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [How to Create a Destination in the SAP BTP Cockpit](../Connectivity/how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md):
+
+    The following information was added:
+
+    Improved guidance on the URL to be provided for the destination
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 22 June, 2025
 
 </td>
@@ -43,55 +67,6 @@ Description
     The following information was added:
 
     Additional prerequisites for user deletion
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="2">
-
-May 18, 2025
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [How to Install and Configure the Cloud Connector](../Connectivity/how-to-install-and-configure-the-cloud-connector-4cf0fb0.md) \(SAP S/4HANA\) and [How to Install and Configure the Cloud Connector](../Connectivity/how-to-install-and-configure-the-cloud-connector-3d19a8a.md) \(SAP ERP\):
-
-    The following information was added:
-
-    Note about virtual host
-
--   [How to Tackle Scheduling Issues](../System-Monitoring/how-to-tackle-scheduling-issues-3f7687a.md):
-
-    The following information was added:
-
-    Information about solving scheduling issues enhanced
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
-
-</td>
-<td valign="top">
-
--   [How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing](../Integration-Capabilities/how-to-set-up-the-sap-build-process-automation-integration-for-sap-advanced-financial-cl-0d8e37f.md):
-
-    The following information was changed:
-
-    New procedure for integration setup
 
 
 
