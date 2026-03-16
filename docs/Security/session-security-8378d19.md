@@ -2,6 +2,8 @@
 
 # Session Security
 
+Handling of session security.
+
 
 
 <a name="loio8378d19bb28d415f903388a72ca11566__section_am3_4hx_2qb"/>

@@ -28,7 +28,7 @@ Description
 <tr>
 <td valign="top">
 
-20 July, 2025
+March 15, 2026
 
 </td>
 <td valign="top">
@@ -38,11 +38,61 @@ Description
 </td>
 <td valign="top">
 
--   [How to Create a Destination in the SAP BTP Cockpit](../Connectivity/how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md):
+-   [How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing](../Integration-Capabilities/how-to-set-up-the-sap-build-process-automation-integration-for-sap-advanced-financial-cl-0d8e37f.md):
 
     The following information was added:
 
-    Improved guidance on the URL to be provided for the destination
+    More details and screenshots for integration setup
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+February 15, 2026
+
+</td>
+<td valign="top">
+
+![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+
+</td>
+<td valign="top">
+
+-   [Technical Prerequisites](../Technical-Prerequisites/technical-prerequisites-13dbd04.md):
+
+    The following underlying page was added:
+
+    [Switch to SAP Cloud Identity Services - Identity Authentication](../Technical-Prerequisites/switch-to-sap-cloud-identity-services-identity-authentication-f3cc8f5.md)
+
+-   [Overview of Actions and Means to Grant Access](../User-Management/overview-of-actions-and-means-to-grant-access-1923b89.md) and [Overview of Actions and Means to Grant Access \(for Use of Screenreaders\)](../User-Management/overview-of-actions-and-means-to-grant-access-for-use-of-screenreaders-ade4735.md):
+
+    The following information was added:
+
+    Authorizations relating to task group management
+
+-   [User Access Management](../User-Management/user-access-management-d974847.md):
+
+    The following underlying page was added:
+
+    [Task Group Management Scope](../User-Management/task-group-management-scope-12ebd1d.md)
+
+-   [Connectivity](../Connectivity/connectivity-200deae.md):
+
+    The following underlying page was added:
+
+    -   [SAP Accounting Automation by BlackLine](../Connectivity/sap-accounting-automation-by-blackline-ce92690.md)
+    -   [External Systems](../Connectivity/external-systems-9ca3083.md)
+
+-   [Integration Capabilities](../Integration-Capabilities/integration-capabilities-8aa10e1.md):
+
+    The following underlying page was added:
+
+    -   [Integration with SAP Accounting Automation by BlackLine for SAP Advanced Financial Closing](../Integration-Capabilities/integration-with-sap-accounting-automation-by-blackline-for-sap-advanced-financial-closi-be3f488.md)
+    -   [Integration with External Systems](../Integration-Capabilities/integration-with-external-systems-90573ae.md)
 
 
 
@@ -52,21 +102,16 @@ Description
 <tr>
 <td valign="top">
 
-22 June, 2025
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
 
 </td>
 <td valign="top">
 
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
+-   [Automated Setup for Production Tenant](../Automated-Setup/automated-setup-for-production-tenant-08b5486.md#loio08b54863254c43fda04b0726814e5506) and [Onboarding](../Onboarding/onboarding-1987953.md):
 
-</td>
-<td valign="top">
+    The following information was changed:
 
--   [How to Delete Users](../Data-Management/how-to-delete-users-a3d5d05.md):
-
-    The following information was added:
-
-    Additional prerequisites for user deletion
+    Clearer differentiation between setup of production and test tenants
 
 
 

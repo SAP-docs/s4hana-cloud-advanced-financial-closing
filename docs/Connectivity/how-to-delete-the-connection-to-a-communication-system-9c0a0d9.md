@@ -19,7 +19,7 @@ Delete the connection between SAP Advanced Financial Closing and the communicati
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
--   The connection to a communication system can be removed only if it isn't referenced by any task list template, task list, user role, or company code group.
+-   The connection to a communication system **can be removed only if it isn't referenced** by any task list template, task list, user role, or company code group.
 
 
 

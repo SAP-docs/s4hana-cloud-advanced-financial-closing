@@ -58,7 +58,7 @@ Depending on what kind of issue you're facing, you need to perform different ste
 **Related Information**  
 
 
-[Communication System Unavailable - Resilience of SAP Advanced Financial Closing](../Connectivity/communication-system-unavailable-resilience-of-sap-advanced-financial-closing-727d2ee.md "Understand how SAP Advanced Financial Closing behaves if a communication system is unavailable.")
+[Communication System Unavailable - No Restore Required](../Connectivity/communication-system-unavailable-no-restore-required-727d2ee.md "Understand how SAP Advanced Financial Closing behaves if a communication system is unavailable.")
 
 [Monitor Communication Systems](../System-Monitoring/monitor-communication-systems-a215069.md "You use the Monitor Communication Systems app to check the status of your connected communication systems and tackle any issues.")
 

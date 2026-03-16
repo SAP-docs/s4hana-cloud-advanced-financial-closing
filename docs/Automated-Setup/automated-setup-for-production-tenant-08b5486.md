@@ -1,8 +1,8 @@
 <!-- loio08b54863254c43fda04b0726814e5506 -->
 
-# Automated Setup
+# Automated Setup for Production Tenant
 
-Booster in SAP BTP cockpit for automated setup of SAP Advanced Financial Closing
+Booster in SAP BTP cockpit for automated setup of a production tenant for SAP Advanced Financial Closing
 
 
 
@@ -11,6 +11,11 @@ Booster in SAP BTP cockpit for automated setup of SAP Advanced Financial Closing
 ## Context
 
 For SAP Advanced Financial Closing, a booster is available in the SAP BTP cockpit. This booster supports you with your initial system setup by automating several of the setup steps. The following steps can be covered by the booster:
+
+> ### Note:  
+> The booster supports the automated setup for your production tenant only. If you want to setup a test tenant as well, you need to set it up manually as described under [Onboarding](../Onboarding/onboarding-1987953.md).
+> 
+> For more information about a system landscape involving both a production and a test tenant, see [System Landscape](../System-Landscape/system-landscape-3b9f341.md).
 
 -   Create or select the SAP BTP subaccount that you want to use for SAP Advanced Financial Closing.
 -   Initial role template assignments for users, such as administrators, developers, and business users.
@@ -31,7 +36,7 @@ For SAP Advanced Financial Closing, a booster is available in the SAP BTP cockpi
 The following components are included in the booster and will be configured when you use the booster for the initial set up of SAP Advanced Financial Closing:
 
 -   *AFC Public API* \(Standard plan\)
--   Subscription to **SAP Advanced Financial Closing**
+-   Subscription to **SAP Advanced Financial Closing** for your production tenant
 -   Subscription to **SAP Audit Log service** for SAP BTP
 
 **Related Information**  
@@ -67,6 +72,13 @@ Use a booster to automate setting up your initial system.
 
     For more information, see [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d17a116432d24470930ebea41977a888.html).
 
+-   You’re setting up SAP Advanced Financial Closing in the plan *afc-production – standard*.
+
+    > ### Remember:  
+    > The booster supports the automated setup for your production tenant only. If you want to setup a test tenant as well, you need to set it up manually as described under [Onboarding](../Onboarding/onboarding-1987953.md).
+    > 
+    > For more information about a system landscape involving both a production and a test tenant, see [System Landscape](../System-Landscape/system-landscape-3b9f341.md).
+
 
 
 
@@ -80,16 +92,16 @@ Use a booster to automate setting up your initial system.
 
 4.  Find the *Set Up SAP Advanced Financial Closing* booster and choose *Start*.
 
-    1.  On the *Overview* tab, you can find an overview of what the booster does and how to set up SAP Advanced Financial Closing.
-
-    2.  Go to the *Components* tab to check which components will be configured when you use the booster. The booster covers the following components:
-
-        -   *AFC Public API* \(Standard plan\)
-        -   Subscription to **SAP Advanced Financial Closing**
-        -   Subscription to **SAP Audit Log service** for SAP BTP
-
-    3.  Go to the *Additional Resources* tab to find links to more information about SAP Advanced Financial Closing.
-
+    > ### Tip:  
+    > If you don't choose *Start* right away and choose the tile instead, you can find more information about the booster:
+    > 
+    > -   On the *Overview* tab, you can find an overview of what the booster does and how to set up SAP Advanced Financial Closing.
+    > -   Go to the *Components* tab to check which components will be configured when you use the booster. The booster covers the following components:
+    >     -   *AFC Public API* \(Standard plan\)
+    >     -   Subscription to **SAP Advanced Financial Closing** for your production tenant
+    >     -   Subscription to **SAP Audit Log service** for SAP BTP
+    > 
+    > -   Go to the *Additional Resources* tab to find links to more information about SAP Advanced Financial Closing.
 
 5.  Choose *Start* in the booster header.
 

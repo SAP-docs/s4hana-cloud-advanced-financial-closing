@@ -270,6 +270,47 @@ You need to create a technical communication user with specific authorizations t
         
         </td>
         </tr>
+        <tr>
+        <td valign="top" rowspan="3">
+        
+        `S_APPL_LOG`
+        
+        </td>
+        <td valign="top">
+        
+        `ACTVT`
+        
+        </td>
+        <td valign="top">
+        
+        Automatically prefilled: `03`
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `ALG_OBJECT`
+        
+        </td>
+        <td valign="top">
+        
+        `*` \(asterisk\)
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        `ALG_SUBOBJ`
+        
+        </td>
+        <td valign="top">
+        
+        `*` \(asterisk\)
+        
+        </td>
+        </tr>
         </table>
         
 

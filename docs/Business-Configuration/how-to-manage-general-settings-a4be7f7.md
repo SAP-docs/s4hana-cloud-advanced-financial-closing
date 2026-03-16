@@ -193,6 +193,7 @@ If you need to manually set the task status *Completed with Errors* for a task t
 > ### Note:  
 > A task is invalidated only if the following holds:
 > 
+> -   Successor invalidation is activated in the general settings of SAP Advanced Financial Closing.
 > -   The task has already reached the status *In Process* or any of its subsequent statuses.
 > -   The task is connected to the affected task through process-related dependencies only. If a string of tasks is connected to the affected task through a time-related dependency only, these tasks aren't invalidated.
 > 

@@ -78,7 +78,7 @@ The user roles you've created take effect only once you assign users to them. Us
 
         5.  On the *User-to-Role Assignments* tab, choose *Upload Assignments* in the table toolbar.
 
-        6.  Choose *Add* and select your file.
+        6.  Choose *Choose File* and select the file from your device.
 
         7.  Choose *Upload* in the dialog footer.
 
@@ -86,7 +86,7 @@ The user roles you've created take effect only once you assign users to them. Us
 
 3.  To get an overview of the user-to-role assignments, go to the *User-to-Role Assignments* tab.
 
-    1.  You can download this overview using the export options in the table toolbar.
+    1.  You can download this overview using the download options in the table toolbar.
 
 
 

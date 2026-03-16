@@ -50,11 +50,17 @@ The abstraction level between user roles and specific objects enables you to gra
 
 ## Procedure
 
-1.  Open the *Configuration* app and choose *Authorization Groups*.
+1.  Open the *Configuration* app.
 
-2.  Choose *Create* in the table toolbar.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Provide the following information:
+2.  Choose *Authorization Groups* from the list.
+
+    This brings you to the *Manage Authorization Groups* app.
+
+3.  Choose *Create* in the table toolbar.
+
+4.  Provide the following information:
 
     1.  Under *Name*, freely define a name for your authorization group.
 
@@ -63,15 +69,15 @@ The abstraction level between user roles and specific objects enables you to gra
     3.  Under *Description*, you can add a description for your authorization group.
 
 
-4.  Save.
+5.  Save.
 
-5.  Go back to the *Configuration* app and choose *User Roles*.
+6.  Go back to the *Configuration* app and choose *User Roles*.
 
-6.  Go to the *Scoped User Roles* tab.
+7.  Go to the *Scoped User Roles* tab.
 
-7.  Choose *Create* in the table toolbar.
+8.  Choose *Create* in the table toolbar.
 
-8.  Provide the following information:
+9.  Provide the following information:
 
     1.  Under *Name*, freely define a name for your user role.
 
@@ -86,9 +92,9 @@ The abstraction level between user roles and specific objects enables you to gra
     5.  Under *Restriction*, select *Restricted*.
 
 
-9.  Choose *Create* in the dialog footer. The user role is created and opened right away.
+10. Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-10. Under *Authorizations*, choose *Add* and select an authorization you want to add.
+11. Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
     > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
@@ -183,21 +189,33 @@ The abstraction level between user roles and specific objects enables you to gra
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    *Task Groups*
+    
+    </td>
+    <td valign="top">
+    
+    Authorization to assign and update task groups in task list templates and task lists. This authorization always includes *Read* and *Write* authorization.
+    
+    </td>
+    </tr>
     </table>
     
-11. Repeat the previous step to assign additional authorizations.
+12. Repeat the previous step to assign additional authorizations.
 
-12. To remove an authorization, choose the corresponding *Delete* icon :x:.
+13. To remove an authorization, choose the corresponding *Delete* icon :x:.
 
     > ### Remember:  
     > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-13. Under *Task List Templates* and *Task Lists*, add the authorization group you created before to define access to the specific objects of the respective object type.
+14. Under *Task List Templates* and *Task Lists*, add the authorization group you created before to define access to the specific objects of the respective object type.
 
     > ### Note:  
     > You can add several authorization groups if the selected authorizations need to be applied to several authorization groups. Keep in mind that all users who have this role assignment have access to **all objects** that these authorization groups are assigned to on task list level.
 
-14. Whenever you made a change to a user role, choose *Activate* in the header.
+15. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

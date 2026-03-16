@@ -40,29 +40,35 @@ The following video gives you a quick overview about how to work with company co
 
 ## Procedure
 
-1.  Go to the *Configuration* app and choose *Company Code Groups* from the table.
+1.  Open the *Configuration* app.
 
-2.  Decide for your company what each characteristic represents.
+    The next screen lists all the configuration apps you're allowed to access.
+
+2.  Choose *Company Code Groups* from the list.
+
+    This brings you to the *Manage Company Code Groups* app.
+
+3.  Decide for your company what each characteristic represents.
 
     For example, you can decide that characteristic 1 represents regions.
 
-3.  To create a new company code group, navigate to a grouping characteristic tab and choose *Create* in the toolbar.
+4.  To create a new company code group, navigate to a grouping characteristic tab and choose *Create* in the toolbar.
 
-4.  On the new screen, provide a name and description for your company code group.
+5.  On the new screen, provide a name and description for your company code group.
 
     For example, for a group within the characteristic *Region*, you can enter a region, such as `North`, `East`, `South`, or `West`.
 
-5.  Choose *Create* to confirm.
+6.  Choose *Create* to confirm.
 
-6.  **Optional:** In the company code group, you can still edit the name and description by choosing *Edit General Information*.
+7.  **Optional:** In the company code group, you can still edit the name and description by choosing *Edit General Information*.
 
-7.  Under *Assigned Company Codes*, choose *Add* in the table toolbar.
+8.  Under *Assigned Company Codes*, choose *Add* in the table toolbar.
 
-8.  Select the company codes you want to assign to this group within the selected characteristic.
+9.  Select the company codes you want to assign to this group within the selected characteristic.
 
-9.  Choose *Add* to confirm.
+10. Choose *Add* to confirm.
 
-10. **Optional:** If you ever need to remove a company code from this group, open the company code group, select the company code in the table, and choose *Delete*.
+11. **Optional:** If you ever need to remove a company code from this group, open the company code group, select the company code in the table, and choose *Delete*.
 
 
 

@@ -21,16 +21,16 @@ Connect your financial Cloud system to SAP Advanced Financial Closing.
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
--   The SAP S/4HANA Cloud Public Edition system administrator needs to have completed the set-up instructions. For more information, see [Setting Up Financial Task List Management Integration \(4HG\)](https://rapid.sap.com/bp/#/scopeitems/4HG).
+-   The SAP S/4HANA Cloud Public Edition system administrator needs to have completed the set-up instructions. For more information, see [Setting Up Financial Task List Management Integration \(4HG\)](https://support.sap.com/content/dam/SAAP/Sol_Pack/S4C/Library/Setup/4HG_Set-Up_EN_XX.pdf).
 
 
--   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6e94409.md).
+-   The destination in the SAP BTP cockpit has already been created as described under [How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-6e94409.md).
 
 
 > ### Tip:  
 > Instead of connecting a communication system manually to SAP Advanced Financial Closing as described below, you can also use the *Set Up SAP Advanced Financial Closing* booster in the SAP BTP cockpit. This is the preferred way to connect a system of type SAP S/4HANA Cloud Public Edition. Keep in mind that notification settings as described below aren't covered by the booster.
 > 
-> For more information about the booster, see [Automated Setup](../Automated-Setup/automated-setup-08b5486.md#loio08b54863254c43fda04b0726814e5506).
+> For more information about the booster, see [Automated Setup for Production Tenant](../Automated-Setup/automated-setup-for-production-tenant-08b5486.md#loio08b54863254c43fda04b0726814e5506).
 
 
 
@@ -253,4 +253,8 @@ You have two options for the initial data synchronization with the communication
 
 > ### Note:  
 > Synchronization always uses the active state of the communication system entry in SAP Advanced Financial Closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
+
+**Parent topic:**[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-60448a7.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+
+**Next:**[How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud Public Edition system in your SAP BTP cockpit.")
 

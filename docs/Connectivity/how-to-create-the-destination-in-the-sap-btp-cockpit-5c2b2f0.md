@@ -1,6 +1,6 @@
 <!-- loio5c2b2f088a4f4fb0bb4921815264a167 -->
 
-# How to Create a Destination in the SAP BTP Cockpit
+# How to Create the Destination in the SAP BTP Cockpit
 
 Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 

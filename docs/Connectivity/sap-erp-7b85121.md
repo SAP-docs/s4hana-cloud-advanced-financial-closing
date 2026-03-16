@@ -13,7 +13,7 @@ Create a technical communication user for your SAP ERP system.
 3.  [How to Install and Configure the Cloud Connector](how-to-install-and-configure-the-cloud-connector-3d19a8a.md "If you want to connect to SAP ERP, you need to install and
 		configure the Cloud Connector as additional software.")  
 If you want to connect to SAP ERP, you need to install and configure the Cloud Connector as **additional software**.
-4.  [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")  
+4.  [How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")  
 Create a destination for your SAP ERP system in your SAP BTP cockpit.
 5.  [How to Connect to SAP ERP as a Communication System](how-to-connect-to-sap-erp-as-a-communication-system-e11be48.md "Connect to your SAP ERP
 		system to retrieve information about organizational units, the factory calendar, and so

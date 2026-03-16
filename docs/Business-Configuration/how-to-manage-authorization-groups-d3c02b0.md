@@ -41,19 +41,25 @@ You can use authorization groups to grant access to specific objects, that is, e
 
 ## Procedure
 
-1.  Go to the *Configuration* app and choose *Authorization Groups* from the table.
+1.  Open the *Configuration* app.
 
-2.  To create a new authorization group, choose *Create* in the table toolbar.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Provide a unique name.
+2.  Choose *Authorization Groups* from the list.
 
-4.  Under *Applied To*, select the object type that you want this group to be used for.
+    This brings you to the *Manage Authorization Groups* app.
+
+3.  To create a new authorization group, choose *Create* in the table toolbar.
+
+4.  Provide a unique name.
+
+5.  Under *Applied To*, select the object type that you want this group to be used for.
 
     For example, if you want to use this authorization group to grant access to specific task lists, select *Task List Template / Task List*.
 
-5.  You can also add a description for this group.
+6.  You can also add a description for this group.
 
-6.  Choose *Create* in the footer to create the authorization group.
+7.  Choose *Create* in the footer to create the authorization group.
 
 
 

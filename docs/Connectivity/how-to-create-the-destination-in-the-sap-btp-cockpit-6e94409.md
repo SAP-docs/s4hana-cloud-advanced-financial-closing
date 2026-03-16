@@ -1,6 +1,6 @@
 <!-- loio6e944094643a43c48e0230081880ddb0 -->
 
-# How to Create a Destination in the SAP BTP Cockpit
+# How to Create the Destination in the SAP BTP Cockpit
 
 Create a destination for your SAP S/4HANA Cloud Public Edition system in your SAP BTP cockpit.
 
@@ -142,4 +142,10 @@ Create a destination for your SAP S/4HANA Cloud Public Edition system in your SA
 ## Results
 
 You have now created a destination for your SAP S/4HANA Cloud Public Edition system.
+
+**Parent topic:**[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-60448a7.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+
+**Next:**[How to Add the Launchpad Tile in SAP S/4HANA Cloud Public Edition](how-to-add-the-launchpad-tile-in-sap-s-4hana-cloud-public-edition-857efd5.md "Add a tile for SAP Advanced Financial Closing to your launchpad in SAP S/4HANA Cloud Public Edition.")
+
+**Previous:**[How to Connect to SAP S/4HANA Cloud Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-90aa5f3.md "Connect your financial Cloud system to SAP Advanced Financial Closing.")
 

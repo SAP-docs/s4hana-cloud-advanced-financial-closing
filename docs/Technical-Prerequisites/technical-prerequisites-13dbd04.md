@@ -62,9 +62,9 @@ You require an identity provider to create business users and user groups. You c
 
 
 
--   Your own identity provider:
+-   You can also use your own identity provider. For more information, see [Corporate Identity Providers](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html).
 
-    -   You can also use your own identity provider. For more information, see [Corporate Identity Providers](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html).
+    -   You'll still need SAP Cloud Identity Services - Identity Authentication connected through OIDC \(OpenID Connect\), but you can use your own identity provider as proxy provider behind it.
 
 
 
@@ -73,4 +73,10 @@ You require an identity provider to create business users and user groups. You c
 ## Browsers and Browser Settings
 
 This application supports the standard browsers supported by SAP UI5. For more information, see the related chapter in the [SAP UI5 Documentation \(PDF\)](https://help.sap.com/SAPUI5_PDF/SAPUI5.pdf).
+
+-   **[Switch to SAP Cloud Identity Services - Identity Authentication](switch-to-sap-cloud-identity-services-identity-authentication-f3cc8f5.md "SAP Cloud Identity Services
+                                                - Identity Authentication is the central
+		service for authentication, single sign-on, and user management in SAP cloud
+		solutions.")**  
+SAP Cloud Identity Services - Identity Authentication is the central service for authentication, single sign-on, and user management in SAP cloud solutions.
 

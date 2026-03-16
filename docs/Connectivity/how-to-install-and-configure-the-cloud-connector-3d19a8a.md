@@ -41,5 +41,5 @@ You have now installed and configured the Cloud Connector.
 
 **Next:**[How to Create a Technical Communication User](how-to-create-a-technical-communication-user-d9e09c7.md "Create a technical communication user for your SAP ERP system.")
 
-**Previous:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
+**Previous:**[How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-6ec6782.md "Create a destination for your SAP ERP system in your SAP BTP cockpit.")
 

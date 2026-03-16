@@ -72,6 +72,7 @@ Static role templates are assigned to users to grant them access to apps that ar
     
     -   `AFC_Define`
     -   `AFC_Config`
+    -   `AFC_TaskGroups`
 
 
     

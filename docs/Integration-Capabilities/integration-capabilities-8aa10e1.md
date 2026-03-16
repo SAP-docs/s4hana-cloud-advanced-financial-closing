@@ -13,6 +13,14 @@ Manage users, user groups, and user roles through a dedicated API.
 		workflows in SAP Build
                                                   Process Automation.")**  
 Use SAP Advanced Financial Closing to trigger workflows in SAP Build Process Automation.
+-   **[Integration with SAP Accounting Automation by BlackLine for SAP Advanced Financial Closing](integration-with-sap-accounting-automation-by-blackline-for-sap-advanced-financial-closi-be3f488.md "Use SAP Advanced
+                                                  Financial Closing to trigger
+		processes in your existing BlackLine system.")**  
+Use SAP Advanced Financial Closing to trigger processes in your existing BlackLine system.
+-   **[Integration with External Systems](integration-with-external-systems-90573ae.md "Use SAP Advanced
+                                                  Financial Closing to trigger jobs
+		in an existing external system.")**  
+Use SAP Advanced Financial Closing to trigger jobs in an existing external system.
 -   **[SAP Build Work Zone Integration for SAP Advanced Financial Closing](sap-build-work-zone-integration-for-sap-advanced-financial-closing-fbacc2a.md "Use SAP Build Work
                                                 Zone to
 		access SAP Advanced
@@ -33,4 +41,9 @@ To use SAP Task Center together with your SAP Advanced Financial Closing subacco
 Set up process automation using SAP Build Process Automation or SAP Intelligent RPA to automate job processing.
 -   **[Additional Setup Information](additional-setup-information-bc2c8fc.md "")**  
 
+-   **[How to Add the Launchpad Tile in SAP S/4HANA Cloud Public Edition](how-to-add-the-launchpad-tile-in-sap-s-4hana-cloud-public-edition-b250944.md "Add a tile for SAP Advanced
+                                                  Financial Closing to
+		your launchpad in SAP S/4HANA
+                                                  Cloud Public Edition.")**  
+Add a tile for SAP Advanced Financial Closing to your launchpad in SAP S/4HANA Cloud Public Edition.
 

@@ -12,6 +12,14 @@ The administrator of your SAP S/4HANA system needs to perform the following step
 
 
 
+### What Are OData Services Used For?
+
+The OData services are required for the communication and necessary data flow between SAP Advanced Financial Closing and your SAP S/4HANA communication system.
+
+For more information about the data flow and communication between both systems, see [Data Flow from and to SAP Advanced Financial Closing](../Overview/data-flow-from-and-to-sap-advanced-financial-closing-56103b0.md).
+
+
+
 ## Procedure
 
 **Enabling OData Services**

@@ -14,6 +14,8 @@ Users who have been assigned a static role can see the respective apps in the SA
 
 -   *Manage Closing Task Lists*
 
+-   *Manage Task Group Templates*
+
 -   *Process Closing Tasks*
 
 -   *Approve Closing Tasks*
@@ -207,6 +209,28 @@ For more information, see [Task Processing Scope](task-processing-scope-b4f8ec6.
 <tr>
 <td valign="top">
 
+*Task Group Management*
+
+</td>
+<td valign="top">
+
+-   *Manage Task Group Templates*
+-   *Change Log*
+
+
+
+</td>
+<td valign="top">
+
+Grant access to create and edit task group templates. Users who are granted access for this scope automatically get access to the related entries in the change log.
+
+For more information, see [Task Group Management Scope](task-group-management-scope-12ebd1d.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Task Model Management*
 
 </td>
@@ -244,6 +268,8 @@ Understand how you can grant which access.
 Grant access to create and edit task list templates and to generate task lists.
 -   **[Task Processing Scope](task-processing-scope-b4f8ec6.md "Grant access to process and approve or reject tasks.")**  
 Grant access to process and approve or reject tasks.
+-   **[Task Group Management Scope](task-group-management-scope-12ebd1d.md "Grant access to create and edit task group templates.")**  
+Grant access to create and edit task group templates.
 -   **[Task Model Management Scope](task-model-management-scope-c951f94.md "Grant access to work with task models.")**  
 Grant access to work with task models.
 -   **[Direct User Assignment](direct-user-assignment-f96b217.md "Grant access by directly assigning a user or user group to an object.")**  

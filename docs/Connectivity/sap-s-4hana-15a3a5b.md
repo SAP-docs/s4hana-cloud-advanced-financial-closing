@@ -15,7 +15,7 @@ If you want to connect to SAP S/4HANA, you need to install and configure the Clo
 3.  [How to Create a Technical Communication User](how-to-create-a-technical-communication-user-c4a9b51.md "Create a technical communication user for your SAP
                                                 S/4HANA system.")  
 Create a technical communication user for your SAP S/4HANA system.
-4.  [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-5c2b2f0.md "Create a destination for your SAP
+4.  [How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-5c2b2f0.md "Create a destination for your SAP
                                                 S/4HANA system in your SAP BTP cockpit.")  
 Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.
 5.  [How to Connect to SAP S/4HANA as a Communication System](how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md "Connect to SAP

@@ -1,6 +1,6 @@
 <!-- loio727d2ee07e364da796a4273ff2f73bb5 -->
 
-# Communication System Unavailable - Resilience of SAP Advanced Financial Closing
+# Communication System Unavailable - No Restore Required
 
 Understand how SAP Advanced Financial Closing behaves if a communication system is unavailable.
 

@@ -26,13 +26,13 @@ Grant access to process and approve or reject tasks.
 
 
 
-### System Dependency of Roles
+### System Dependency of User Roles
 
 User roles created for this scope can be **system-independent** or **system-dependent**. This means that you can either tie these authorizations to a specific communication system or apply these authorizations across all communication systems.
 
 
 
-### Restrictions
+### Restricting Access
 
 User roles created for this scope can be restricted or unrestricted.
 

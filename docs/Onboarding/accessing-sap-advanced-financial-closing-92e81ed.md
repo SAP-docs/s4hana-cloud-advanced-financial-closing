@@ -33,12 +33,18 @@ Emails sent from SAP Advanced Financial Closing use the default URL. In most cas
 
 ## Relevance of the Domain Distinction
 
-The distinction between the `afc.cloud.sap` domain and the `hana.ondemand.com` domain can become relevant in certain integration scenarios. Due to the upcoming deprecation of third-party cookie support by browser vendors, the navigation flow between integrated applications may be interrupted if the domains used by the two products differ.
+The distinction between the `afc.cloud.sap` domain and the `hana.ondemand.com` domain can become relevant in **certain integration scenarios**. Due to the upcoming deprecation of third-party cookie support by browser vendors, the navigation flow between integrated applications may be interrupted if the domains used by the two products differ.
 
 > ### Example:  
 > If you've set up integration with SAP Build Work Zone, you need to ensure that your default URL for SAP Advanced Financial Closing uses the same domain as your SAP Build Work Zone instance.
-> 
-> For more information specifically about domain handling in SAP Build Work Zone, see [Using the Common Super Domain](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/using-super-common-domain?locale=en-US) in the SAP Build Work Zone documentation.
+
+
+
+### Integration with SAP Build Work Zone
+
+From the example above, you've already learned that there are certain URL requirements for the integration with SAP Build Work Zone. In detail, this means that if you've subscribed to SAP Advanced Financial Closing on June 23, 2024 or later, you can use the integration with SAP Build Work Zone only if your SAP Build Work Zone instance uses the domain `workzone.cloud.sap`.
+
+For more information specifically about domain handling in SAP Build Work Zone, see [Using the Common Super Domain](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/using-super-common-domain?locale=en-US) in the SAP Build Work Zone documentation.
 
 <a name="loio26bf9ffa15114bfeb698ef8c35cd78a6"/>
 

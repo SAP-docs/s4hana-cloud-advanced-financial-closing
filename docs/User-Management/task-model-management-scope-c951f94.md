@@ -19,15 +19,15 @@ Grant access to work with task models.
 
 
 
-### System Dependency of Roles
+### System Dependency of User Roles
 
-User roles created for this scope are **always system-independent** because they don't have to be restricted to just one communication system. You can, however, limit this user role to task models in one or more communication systems by creating a restricted user role.
+User roles created for this scope are technically labelled **system-independent**. You can, however, limit this user role to task models in one or more communication systems by creating a restricted user role.
 
 
 
-### Restrictions
+### Restricting Access
 
-User roles created for this scope can be restricted or unrestricted.
+User roles created for this scope can be granted restricted or unrestricted access.
 
 For restricted roles, access is granted based on **communication systems** you assign to the user role. This means that you restrict the access to task models in the specified communication systems.
 

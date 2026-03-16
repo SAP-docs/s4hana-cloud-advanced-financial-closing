@@ -13,6 +13,9 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
 -   You have already received the email from SAP Business Technology Platform with the technical information regarding your global account for SAP Advanced Financial Closing.
 
 
+> ### Remember:  
+> For a production tenant, you can also use the booster to benefit from an automated setup. For more information, see [Automated Setup for Production Tenant](../Automated-Setup/automated-setup-for-production-tenant-08b5486.md#loio08b54863254c43fda04b0726814e5506).
+
 > ### Tip:  
 > Some of the following steps are collapsed by default. To see the substeps, click on the first line of an affected step and it will expand.
 
@@ -83,7 +86,7 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
 
     3.  Choose *Add Service Plans*.
 
-    4.  Under *Services*, search for **`advanced financial closing`** and choose **SAP Advanced Financial Closing**.
+    4.  Under *Services*, search for **`advanced financial closing`** and choose **SAP Advanced Financial Closing** for a production tenant or **SAP Advanced Financial Closing \(test\)** for a test tenant.
 
         > ### Note:  
         > If the correct entry doesn't show, make sure you select *All Solutions* as a filter option under *Services*.
@@ -101,7 +104,7 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
 
     3.  Provide the following information:
 
-        -   *Service*: `SAP Advanced Financial Closing`
+        -   *Service*: `SAP Advanced Financial Closing` for a production tenant or `SAP Advanced Financial Closing (test)` for a test tenant
 
         -   *Plan*: `Subscriptions - standard`
 

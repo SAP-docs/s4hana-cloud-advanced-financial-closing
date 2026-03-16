@@ -42,19 +42,25 @@ Defining country/region groups for financial closing enables you to monitor the 
 
 ## Procedure
 
-1.  Go to the *Configuration* app and choose *Country/Region Groups* from the table.
+1.  Open the *Configuration* app.
 
-2.  Choose *Create* in the table toolbar.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Provide a unique name.
+2.  Choose *Country/Region Groups* from the list.
 
-4.  Under *Countries/Regions*, choose *Add*.
+    This brings you to the *Manage Country/Region Groups \(Deprecated\)* app.
 
-5.  In the table, select all countries that you want to add to this country/region group.
+3.  Choose *Create* in the table toolbar.
 
-6.  Choose *Add* in the dialog footer.
+4.  Provide a unique name.
 
-7.  Choose *Create* in the footer to create the country/region group.
+5.  Under *Countries/Regions*, choose *Add*.
+
+6.  In the table, select all countries that you want to add to this country/region group.
+
+7.  Choose *Add* in the dialog footer.
+
+8.  Choose *Create* in the footer to create the country/region group.
 
 
 

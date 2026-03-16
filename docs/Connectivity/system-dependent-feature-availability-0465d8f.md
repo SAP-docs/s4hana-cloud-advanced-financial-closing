@@ -18,7 +18,7 @@ Feature
 </th>
 <th valign="top">
 
-SAP S/4HANA Cloud Public Edition
+SAP S/4HANA 2025
 
 </th>
 <th valign="top">
@@ -60,7 +60,7 @@ Task Model Management Directly in SAP Advanced Financial Closing
 </td>
 <td valign="top">
 
-`2502.1`
+ 
 
 </td>
 <td valign="top">
@@ -442,6 +442,48 @@ Not applicable
 <td valign="top">
 
 `SP09`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+New Time-Related Parameter Rules for Fiscal Periods Prior to and Later than the Key Date \(see What's New for September 2025\)
+
+</td>
+<td valign="top">
+
+`SP01`
+
+</td>
+<td valign="top">
+
+`SP05`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

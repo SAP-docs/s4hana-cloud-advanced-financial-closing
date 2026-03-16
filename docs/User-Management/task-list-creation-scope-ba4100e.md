@@ -21,13 +21,13 @@ Grant access to create and edit task list templates and to generate task lists.
 
 
 
-### System Dependency of Roles
+### System Dependency of User Roles
 
 User roles created for this scope are **always system-independent**. This means that you can't tie these authorizations to a specific communication system.
 
 
 
-### Restrictions
+### Restricting Access
 
 User roles created for this scope can be restricted or unrestricted.
 
@@ -132,6 +132,18 @@ Authorization to change processing users or user groups, and users responsible o
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Task Groups*
+
+</td>
+<td valign="top">
+
+Authorization to assign and update task groups in task list templates and task lists. This authorization always includes *Read* and *Write* authorization.
+
+</td>
+</tr>
 </table>
 
 
@@ -180,11 +192,21 @@ Action
 *User Assignment*
 
 </th>
+<th valign="top">
+
+*Task Groups*
+
+</th>
 </tr>
 <tr>
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">
@@ -254,6 +276,11 @@ Create Task List Templates
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -269,6 +296,11 @@ Copy Task List Templates
 <td valign="top">
 
 `X`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -328,6 +360,11 @@ Edit Task List Templates and Task Lists \(incl. creating, copying, and moving ta
  
 
 </td>
+<td valign="top">
+
+`X`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -363,6 +400,11 @@ Activate/Deactivate Tasks
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 </tr>
@@ -402,6 +444,11 @@ Recalculate Paths
  
 
 </td>
+<td valign="top">
+
+`X`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -439,6 +486,11 @@ Delete Task List Templates and Task Lists with Status *Not Released*
  
 
 </td>
+<td valign="top">
+
+`X`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -469,6 +521,11 @@ Generate Task Lists
 <td valign="top">
 
 `X`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -513,6 +570,53 @@ Change Task List Status
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Assign and Update Task Groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -533,6 +637,11 @@ Delete Task Lists
 <td valign="top">
 
 `X`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -587,6 +696,11 @@ Change User Assignments \(Quick Actions\)
 `X`
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -607,6 +721,11 @@ Check SOX Compliance
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">
@@ -661,6 +780,11 @@ Check Compatibility
 `X`
 
 </td>
+<td valign="top">
+
+`X`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -681,6 +805,11 @@ Read Corresponding Change Log Entries
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 <td valign="top">

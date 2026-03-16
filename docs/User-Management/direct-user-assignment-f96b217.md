@@ -19,11 +19,16 @@ Users who are maintained as the **processing user** of a **task** or who belong 
 > ### Note:  
 > A substitute of an owner, of a user responsible, or of a processing user only inherits access to the objects to which the respective owner, user responsible, or processing user has been assigned individually and not as part of a user group.
 
+Users who are maintained as **owners of a task group template** or who belong to an assigned owner group have write access to the specific object in the *Manage Task Group Templates* app.
+
+> ### Note:  
+> For task group templates that are assigned to a task list template, the user authorizations apply as described below for the *Task List Creation* scope and later, in the task list, as described for the *Task Processing* scope. The task group owner doesn't get any authorization in the task list template or task list.
+
 Find out how to manage user groups under [How to Manage User Groups](how-to-manage-user-groups-45bb6c9.md).
 
 
 
-<a name="loiof96b217748304780966e86b8063dc41d__section_kjv_v5v_rrb"/>
+<a name="loiof96b217748304780966e86b8063dc41d__section_x4f_lmd_w2c"/>
 
 ## Actions Allowed Based on Direct Assignment
 
@@ -44,7 +49,12 @@ Action
 </th>
 <th valign="top">
 
-Owner / Owner Group
+Owner / Owner Group \(Task List Template\)
+
+</th>
+<th valign="top">
+
+Owner / Owner Group \(Task Group Template\)
 
 </th>
 <th valign="top">
@@ -124,6 +134,11 @@ Read
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -134,6 +149,11 @@ Read
 <td valign="top">
 
 Create Task List Templates
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -218,6 +238,11 @@ Copy Task List Templates
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -233,6 +258,11 @@ Edit Task List Templates and Task Lists \(incl. creating, copying, and moving ta
 <td valign="top">
 
 `X`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -312,6 +342,11 @@ Activate/Deactivate Tasks
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -359,6 +394,11 @@ Delete Task List Templates and Task Lists with Status *Not Released*
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -369,6 +409,11 @@ Delete Task List Templates and Task Lists with Status *Not Released*
 <td valign="top">
 
 Generate Task Lists
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -453,6 +498,11 @@ Change Task List Status
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -463,6 +513,11 @@ Change Task List Status
 <td valign="top">
 
 Delete Task Lists
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -547,6 +602,11 @@ Change User Assignments \(Quick Actions\)
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -562,6 +622,11 @@ Check SOX Compliance
 <td valign="top">
 
 `X`
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -641,6 +706,11 @@ Check Compatibility
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -651,6 +721,11 @@ Check Compatibility
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -698,6 +773,11 @@ Read
 <td valign="top">
 
 Download Results
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -769,6 +849,11 @@ Change Task Status
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -792,6 +877,11 @@ Change Task Status
 <td valign="top">
 
 Process
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -863,6 +953,11 @@ Schedule
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -886,6 +981,11 @@ Schedule
 <td valign="top">
 
 Cancel Run
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -957,6 +1057,11 @@ Start Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -1004,6 +1109,11 @@ Cancel Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -1027,6 +1137,11 @@ Cancel Test Run
 <td valign="top">
 
 Edit Attachments/Notes
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1111,6 +1226,11 @@ Change Planned Start
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1121,6 +1241,11 @@ Change Planned Start
 <td valign="top">
 
 Change Planned Duration
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1205,6 +1330,11 @@ Change Parameters
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1215,6 +1345,11 @@ Change Parameters
 <td valign="top">
 
 Change User Assignments
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1271,6 +1406,11 @@ Approve
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X`
 
 </td>
@@ -1318,7 +1458,7 @@ Reject
 </td>
 <td valign="top">
 
-`X`
+ 
 
 </td>
 <td valign="top">
@@ -1329,6 +1469,323 @@ Reject
 <td valign="top">
 
 `X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Group Management*
+
+</td>
+<td valign="top">
+
+Read
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Group Management*
+
+</td>
+<td valign="top">
+
+Create
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Group Management*
+
+</td>
+<td valign="top">
+
+Copy
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Group Management*
+
+</td>
+<td valign="top">
+
+Edit
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Group Management*
+
+</td>
+<td valign="top">
+
+Delete
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Task Group Management*
+
+</td>
+<td valign="top">
+
+Change Log \(in *Change Log* app\)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

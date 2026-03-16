@@ -76,6 +76,23 @@ Display Task Models in SAP Advanced Financial Closing
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Launchpad Tile in SAP S/4HANA Cloud Public Edition for Direct Navigation to SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+`SAP_FIN_BC_AFC_APPS_PC` \(Finance - Manage Advanced Financial Closing\)
+
+</td>
+<td valign="top">
+
+`U0233_TRAN` \(Manage Advanced Financial Closing\)
+
+</td>
+</tr>
 </table>
 
 **Parent topic:**[User Management](user-management-ae7fa30.md "Understand how you can manage users and their authorizations in SAP Advanced Financial Closing.")

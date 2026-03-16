@@ -35,6 +35,10 @@ You use the *Manage Compliance Settings* app to define several compliance settin
                                                   General Settings app to maintain settings that apply to all objects in SAP Advanced
                                                   Financial Closing.")**  
 You use the *Manage General Settings* app to maintain settings that apply to all objects in SAP Advanced Financial Closing.
+-   **[Manage Status Change Settings](manage-status-change-settings-2b788b3.md "You use the Manage Status Change Settings app to
+		maintain settings to define whether comments are required for specific status
+		changes.")**  
+You use the *Manage Status Change Settings* app to maintain settings to define whether comments are required for specific status changes.
 -   **[Manage Task Models](manage-task-models-cfbdd1f.md)**  
 
 -   **[Manage Users](manage-users-85bfe2f.md)**  

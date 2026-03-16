@@ -28,7 +28,7 @@ App Affected
 Action
 
 </th>
-<th valign="top" colspan="6">
+<th valign="top" colspan="7">
 
 [Task List Creation Scope](task-list-creation-scope-ba4100e.md)
 
@@ -63,6 +63,18 @@ Access is granted through the following authorizations:
 <th valign="top" colspan="7">
 
 [Direct User Assignment](direct-user-assignment-f96b217.md)
+
+Access is granted through the following authorizations:
+
+</th>
+<th valign="top" colspan="4">
+
+[Task Group Management Scope](task-group-management-scope-12ebd1d.md)
+
+The following access can be granted:
+
+-   [General](how-to-grant-general-access-8a1407c.md)
+
 
 Access is granted through the following authorizations:
 
@@ -129,6 +141,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Read* authorization in the *Task Processing* scope
 
 </td>
@@ -155,6 +172,26 @@ Read
 <td valign="top">
 
 *Approve / Reject* authorization in the *Task Processing* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -245,6 +282,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Read* authorization in the *Task Processing* scope
 
 </td>
@@ -271,6 +313,26 @@ Read
 <td valign="top">
 
 *Approve / Reject* authorization in the *Task Processing* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -359,6 +421,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Read* authorization in the *Task Processing* scope
 
 </td>
@@ -385,6 +452,26 @@ Read
 <td valign="top">
 
 *Approve / Reject* authorization in the *Task Processing* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -473,6 +560,11 @@ Read
 </td>
 <td valign="top">
 
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -541,6 +633,26 @@ Direct assignment as owner or owner group
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -563,6 +675,31 @@ Create Task List Templates
 <td valign="top">
 
 *Create* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -769,6 +906,31 @@ Copy Task List Templates
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -815,6 +977,11 @@ Edit Task List Templates and Task Lists \(incl. creating, copying, and moving ta
 </td>
 <td valign="top">
 
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -846,6 +1013,26 @@ Edit Task List Templates and Task Lists \(incl. creating, copying, and moving ta
 <td valign="top">
 
 Direct assignment as owner or owner group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -929,6 +1116,11 @@ Activate/Deactivate Tasks
 </td>
 <td valign="top">
 
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -960,6 +1152,26 @@ Activate/Deactivate Tasks
 <td valign="top">
 
 Direct assignment as owner or owner group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1043,6 +1255,11 @@ Recalculate Paths
 </td>
 <td valign="top">
 
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1074,6 +1291,26 @@ Recalculate Paths
 <td valign="top">
 
 Direct assignment as owner or owner group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1157,6 +1394,11 @@ Delete Task List Templates and Task Lists with Status *Not Released*
 </td>
 <td valign="top">
 
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1188,6 +1430,304 @@ Delete Task List Templates and Task Lists with Status *Not Released*
 <td valign="top">
 
 Direct assignment as owner or owner group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Assign Task Groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Update Task Groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1262,6 +1802,31 @@ Generate Task Lists
 <td valign="top">
 
 *Generate* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1453,6 +2018,170 @@ Change Task List Status
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Assign and Update Task Groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1480,6 +2209,31 @@ Delete Task Lists
 <td valign="top">
 
 *Delete* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1643,7 +2397,32 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 Direct assignment as owner or owner group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1727,6 +2506,11 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1758,6 +2542,26 @@ Check SOX Compliance
 <td valign="top">
 
 Direct assignment as owner or owner group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1841,6 +2645,11 @@ Check Compatibility
 </td>
 <td valign="top">
 
+*Task Groups* authorization in the *Task List Creation* scope
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1872,6 +2681,26 @@ Check Compatibility
 <td valign="top">
 
 Direct assignment as owner or owner group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1955,6 +2784,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Read* authorization in the *Task Processing* scope
 
 </td>
@@ -2016,6 +2850,26 @@ Direct assignment as processing user or user group
 <td valign="top">
 
 Direct assignment as interested user or user group on task
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2069,6 +2923,11 @@ Download Results
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Read* authorization in the *Task Processing* scope
 
 </td>
@@ -2130,6 +2989,26 @@ Direct assignment as processing user or user group
 <td valign="top">
 
 Direct assignment as interested user or user group on task
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2188,6 +3067,11 @@ Change Task Status
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Process* authorization in the *Task Processing* scope
 
 </td>
@@ -2234,6 +3118,26 @@ Change Task Status
 <td valign="top">
 
 Direct assignment as processing user or user group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2302,6 +3206,11 @@ Process
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Process* authorization in the *Task Processing* scope
 
 </td>
@@ -2348,6 +3257,26 @@ Process
 <td valign="top">
 
 Direct assignment as processing user or user group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2416,6 +3345,11 @@ Schedule
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Process* authorization in the *Task Processing* scope
 
 </td>
@@ -2462,6 +3396,26 @@ Schedule
 <td valign="top">
 
 Direct assignment as processing user or user group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2530,6 +3484,11 @@ Cancel Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Process* authorization in the *Task Processing* scope
 
 </td>
@@ -2576,6 +3535,26 @@ Cancel Run
 <td valign="top">
 
 Direct assignment as processing user or user group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2644,6 +3623,11 @@ Start Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Process* authorization in the *Task Processing* scope
 
 </td>
@@ -2690,6 +3674,26 @@ Start Test Run
 <td valign="top">
 
 Direct assignment as processing user or user group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2758,6 +3762,11 @@ Cancel Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Process* authorization in the *Task Processing* scope
 
 </td>
@@ -2821,6 +3830,26 @@ Direct assignment as processing user or user group
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2833,6 +3862,11 @@ Direct assignment as processing user or user group
 <td valign="top">
 
 Edit Attachments / Notes
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2918,6 +3952,26 @@ Direct assignment as user or user group responsible on task
 <td valign="top">
 
 Direct assignment as processing user or user group
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2991,7 +4045,32 @@ Change Planned Start
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Plan* authorization in the *Task Processing* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3105,7 +4184,32 @@ Change Planned Duration
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Plan* authorization in the *Task Processing* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3219,7 +4323,32 @@ Recalculate Paths
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Plan* authorization in the *Task Processing* scope through task list authorization of authorization groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3338,7 +4467,32 @@ Change Parameters
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Parameters* authorization in the *Task Processing* scope
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3457,6 +4611,11 @@ Change User Assignments
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *User Assignment* authorization in the *Task Processing* scope
 
 </td>
@@ -3483,6 +4642,26 @@ Direct assignment as user or user group responsible on organizational unit folde
 <td valign="top">
 
 Direct assignment as user or user group responsible on task
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3577,6 +4756,11 @@ Approve
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Approve / Reject* authorization in the *Task Processing* scope
 
 </td>
@@ -3598,6 +4782,26 @@ Direct assignment as user or user group responsible on organizational unit folde
 <td valign="top">
 
 Direct assignment as user or user group responsible on task
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3692,6 +4896,11 @@ Reject
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Approve / Reject* authorization in the *Task Processing* scope
 
 </td>
@@ -3713,6 +4922,26 @@ Direct assignment as user or user group responsible on organizational unit folde
 <td valign="top">
 
 Direct assignment as user or user group responsible on task
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3804,6 +5033,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 *Approve / Reject* authorization in the *Task Processing* scope
 
 </td>
@@ -3847,6 +5081,711 @@ Direct assignment as user or user group responsible on task
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Read
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Read* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+*Create* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+*Write* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+*Delete* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Create Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Read* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Copy Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Create* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Edit Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Write* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Delete Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+*Delete* authorization in the *Task Group Management*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3857,6 +5796,31 @@ Direct assignment as user or user group responsible on task
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

@@ -34,7 +34,7 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     -   Password of the selected user
 
 
--   The destination in the SAP BTP cockpit has already been created as described under [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-5c2b2f0.md).
+-   The destination in the SAP BTP cockpit has already been created as described under [How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-5c2b2f0.md).
 
 
 
@@ -261,7 +261,7 @@ You have two options for the initial data synchronization with the communication
 
 **Parent topic:**[SAP S/4HANA](sap-s-4hana-15a3a5b.md "Perform the following steps to connect SAP Advanced Financial Closing to your SAP S/4HANA system. Perform the last two steps only if they apply to your use case.")
 
-**Next:**[How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
+**Next:**[How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-5c2b2f0.md "Create a destination for your SAP S/4HANA system in your SAP BTP cockpit.")
 
 **Previous:**[How to Upgrade from an SAP ERP System to SAP S/4HANA](how-to-upgrade-from-an-sap-erp-system-to-sap-s-4hana-1fdf114.md "If you have already used SAP Advanced Financial Closing in connection with your SAP ERP system, you can upgrade from SAP ERP to SAP S/4HANA as your financial communication system and retrieve information about organizational units, the factory calendar, and so on.")
 

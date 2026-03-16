@@ -360,6 +360,7 @@ Maintains application-specific data, for example, configuration settings, or mas
 -   [Manage Email Notification Configurations](../Business-Configuration/manage-email-notification-configurations-6f4c0b4.md)
 -   [Manage User Groups](../Business-Configuration/manage-user-groups-3e8208b.md)
 -   [Manage User Roles](../Business-Configuration/manage-user-roles-a6e1ae0.md)
+-   [Manage Status Change Settings](../Business-Configuration/manage-status-change-settings-2b788b3.md)
 
 
 
@@ -371,6 +372,7 @@ Maintains application-specific data, for example, configuration settings, or mas
 -   *Manage Email Notification Configurations* \(Configuration\)
 -   *Manage User Groups* \(Configuration\)
 -   *Manage User Roles* \(Configuration\)
+-   *Manage Status Change Settings*
 
 
 
@@ -426,37 +428,6 @@ Maintains application-specific settings, such as notifications and country/regio
 <tr>
 <td valign="top">
 
-`AFC_TaskModels_Manage`
-
-</td>
-<td valign="top">
-
-Views task models, task model types, and job variants by communication system.
-
-**App Details:**
-
-[Manage Task Models](../Business-Configuration/manage-task-models-cfbdd1f.md)
-
-</td>
-<td valign="top">
-
-*Manage Task Models*
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `AFC_GeneralSettings` 
 
 </td>
@@ -482,6 +453,37 @@ Maintains general settings, such as archiving settings, applying to objects in S
 <td valign="top">
 
  
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`AFC_StatusChangeConstraintApp` 
+
+</td>
+<td valign="top">
+
+Maintains settings to define whether comments are required for specific status changes.
+
+**App Details:**
+
+[Manage Status Change Settings](../Business-Configuration/manage-status-change-settings-2b788b3.md)
+
+</td>
+<td valign="top">
+
+*Manage Status Change Settings*
+
+</td>
+<td valign="top">
+
+`AFC_StatusChangeConstraintApp_Display`
+
+</td>
+<td valign="top">
+
+Views status change settings
 
 </td>
 </tr>
@@ -920,6 +922,74 @@ Maintains task list templates and task lists
 <tr>
 <td valign="top">
 
+`AFC_TaskGroups`
+
+</td>
+<td valign="top">
+
+Maintains task group templates
+
+**App Details:**
+
+-   [Manage Task Group Templates](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/cad9588f735949cf89d88f7d216130c7.html "") :arrow_upper_right:
+-   [Change Log](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/e08df37697ed4d8c8b3e4826c203dc6e.html "") :arrow_upper_right:
+
+
+
+</td>
+<td valign="top">
+
+-   *Manage Task Group Templates*
+-   *Change Log*
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`AFC_TaskModels_Manage`
+
+</td>
+<td valign="top">
+
+Views task models, task model types, and job variants by communication system.
+
+**App Details:**
+
+[Manage Task Models](../Business-Configuration/manage-task-models-cfbdd1f.md)
+
+</td>
+<td valign="top">
+
+*Manage Task Models*
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `AFC_Process` 
 
 </td>
@@ -1143,6 +1213,13 @@ Reviews logs as an administrator
 
     For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
 
+    > ### Caution:  
+    > With the *Adapt UI* function, you can customize the user interface behavior, but some of the available options may be restricted by the application. Additionally, be careful not to adjust the user interface in a way that will restrict functionality. Examples of adjustments that might restrict the functionality:
+    > 
+    > -   Visibility of view management
+    > -   Visibility of sorting and filtering
+    > -   Selection limit
+
 -   Creates public views \(additionally, the role template `FlexKeyUser` is needed\).
 
     For more information, see [How to Manage Views](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/2fee7b5a83294d748953a9db5cc96326.html "Save, manage, and share views.") :arrow_upper_right:.
@@ -1178,6 +1255,13 @@ All apps in SAP Advanced Financial Closing
 -   Adapts the UI of apps for customer-specific use \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 
     For more information about UI adaptation, see [Adapting the UI](https://help.sap.com/docs/BTP/3d99fdeadde04524bdd33d35f1e13777/d868950a1e8c4b0f9b9453176939a19b.html?locale=en-US) in the SAP Fiori Launchpad documentation.
+
+    > ### Caution:  
+    > With the *Adapt UI* function, you can customize the user interface behavior, but some of the available options may be restricted by the application. Additionally, be careful not to adjust the user interface in a way that will restrict functionality. Examples of adjustments that might restrict the functionality:
+    > 
+    > -   Visibility of view management
+    > -   Visibility of sorting and filtering
+    > -   Selection limit
 
 -   Creates public views \(additionally, either the role template `AFC_SystemAdmin` or the role template `AFC_KeyUser` is needed\).
 
@@ -1235,6 +1319,7 @@ Included Role Templates
 
 -   `AFC_Define`
 -   `AFC_Config`
+-   `AFC_TaskGroups`
 
 
 

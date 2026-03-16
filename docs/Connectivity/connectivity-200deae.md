@@ -93,14 +93,23 @@ Perform the following steps to connect SAP Advanced Financial Closing to your SA
                                                   Financial Closing to your SAP ERP system. Perform the last
 		step only if it applies to your use case.")**  
 Perform the following steps to connect SAP Advanced Financial Closing to your SAP ERP system. Perform the last step only if it applies to your use case.
+-   **[SAP Build Process Automation](sap-build-process-automation-7385663.md "Perform the following steps to connect SAP Advanced
+                                                  Financial Closing to your SAP Build
+                                                  Process Automation system.")**  
+Perform the following steps to connect SAP Advanced Financial Closing to your SAP Build Process Automation system.
+-   **[SAP Accounting Automation by BlackLine](sap-accounting-automation-by-blackline-ce92690.md "Perform the following steps to connect SAP Advanced
+                                                  Financial Closing to SAP
+                                                Accounting Automation by BlackLine.")**  
+Perform the following steps to connect SAP Advanced Financial Closing to SAP Accounting Automation by BlackLine.
+-   **[External Systems](external-systems-9ca3083.md "Connect to your external financial system to retrieve information about organizational
+		units, the factory calendar, and so on.")**  
+Connect to your external financial system to retrieve information about organizational units, the factory calendar, and so on.
 -   **[How to Delete the Connection to a Communication System](how-to-delete-the-connection-to-a-communication-system-9c0a0d9.md "Delete the connection between SAP Advanced
                                                   Financial Closing and the communication
 		system.")**  
 Delete the connection between SAP Advanced Financial Closing and the communication system.
 -   **[Synchronization of Communication Systems](synchronization-of-communication-systems-a86348d.md "Get an overview of the synchronization and validation of data.")**  
 Get an overview of the synchronization and validation of data.
--   **[Communication System Unavailable - Resilience of SAP Advanced Financial Closing](communication-system-unavailable-resilience-of-sap-advanced-financial-closing-727d2ee.md "Understand how SAP Advanced
-                                                  Financial Closing
-		behaves if a communication system is unavailable.")**  
-Understand how SAP Advanced Financial Closing behaves if a communication system is unavailable.
+-   **[Disrupted System Connection](disrupted-system-connection-42df991.md "")**  
+
 

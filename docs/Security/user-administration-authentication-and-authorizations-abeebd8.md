@@ -2,6 +2,8 @@
 
 # User Administration, Authentication, and Authorizations
 
+Best practices for user management.
+
 Consider the following user management best practices:
 
 -   Grant users only the minimum level of authorization that they need for their work. For example, a business user should not be granted authorization as administrator.

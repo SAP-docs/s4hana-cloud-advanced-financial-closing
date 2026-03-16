@@ -10,6 +10,8 @@ The following table explains through which means you can grant which access. The
 
 -   Authorizations used to grant access in the *Task Processing* scope as described under [Task Processing Scope](task-processing-scope-b4f8ec6.md)
 
+-   Authorizations used to grant access in the *Task Group Management* scope as described under [Task Group Management Scope](task-group-management-scope-12ebd1d.md)
+
 -   Authorizations used to grant access in the *Task Model Management* scope as described under [Task Model Management Scope](task-model-management-scope-c951f94.md)
 
 -   Direct user assignments granting access as described under [Direct User Assignment](direct-user-assignment-f96b217.md)
@@ -79,6 +81,13 @@ Action
 <th valign="top">
 
 *User Assignment* 
+
+\([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
+
+</th>
+<th valign="top">
+
+*Task Groups*
 
 \([Task List Creation Scope](task-list-creation-scope-ba4100e.md)\)
 
@@ -178,6 +187,34 @@ Interested User / User Group \(Task\)
 
 *Read* 
 
+\([Task Group Management Scope](task-group-management-scope-12ebd1d.md)\)
+
+</th>
+<th valign="top">
+
+*Create* 
+
+\([Task Group Management Scope](task-group-management-scope-12ebd1d.md)\)
+
+</th>
+<th valign="top">
+
+*Write* 
+
+\([Task Group Management Scope](task-group-management-scope-12ebd1d.md)\)
+
+</th>
+<th valign="top">
+
+*Delete* 
+
+\([Task Group Management Scope](task-group-management-scope-12ebd1d.md)\)
+
+</th>
+<th valign="top">
+
+*Read* 
+
 \([Task Model Management Scope](task-model-management-scope-c951f94.md)\)
 
 </th>
@@ -229,7 +266,7 @@ Read
 </td>
 <td valign="top">
 
-`X` 
+ 
 
 </td>
 <td valign="top">
@@ -255,6 +292,31 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -345,7 +407,7 @@ Read
 </td>
 <td valign="top">
 
-`X` 
+ 
 
 </td>
 <td valign="top">
@@ -371,6 +433,31 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -459,7 +546,7 @@ Read
 </td>
 <td valign="top">
 
-`X` 
+ 
 
 </td>
 <td valign="top">
@@ -485,6 +572,31 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -573,6 +685,11 @@ Read
 </td>
 <td valign="top">
 
+`X` 
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -604,6 +721,26 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -663,6 +800,31 @@ Create Task List Templates
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -869,6 +1031,31 @@ Copy Task List Templates
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -915,6 +1102,11 @@ Edit Task List Templates and Task Lists \(incl. creating, copying, and moving ta
 </td>
 <td valign="top">
 
+`X` 
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -946,6 +1138,26 @@ Edit Task List Templates and Task Lists \(incl. creating, copying, and moving ta
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1029,6 +1241,11 @@ Activate/Deactivate Tasks
 </td>
 <td valign="top">
 
+`X` 
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1060,6 +1277,26 @@ Activate/Deactivate Tasks
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1143,6 +1380,11 @@ Recalculate Paths
 </td>
 <td valign="top">
 
+`X` 
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1174,6 +1416,26 @@ Recalculate Paths
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1257,6 +1519,11 @@ Delete Task List Templates and Task Lists with Status *Not Released*
 </td>
 <td valign="top">
 
+`X` 
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1288,6 +1555,300 @@ Delete Task List Templates and Task Lists with Status *Not Released*
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Closing Task Lists*
+
+</td>
+<td valign="top">
+
+Assign Task Groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Closing Task Lists*
+
+</td>
+<td valign="top">
+
+Update Task Groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1362,6 +1923,31 @@ Generate Task Lists
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1553,6 +2139,170 @@ Change Task List Status
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   *Manage Closing Task Lists*
+
+
+
+</td>
+<td valign="top">
+
+Assign and Update Task Groups
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1580,6 +2330,31 @@ Delete Task Lists
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1743,7 +2518,32 @@ Change User Assignments \(Quick Actions\)
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1827,6 +2627,11 @@ Check SOX Compliance
 </td>
 <td valign="top">
 
+`X` 
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1858,6 +2663,26 @@ Check SOX Compliance
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1941,6 +2766,11 @@ Check Compatibility
 </td>
 <td valign="top">
 
+`X` 
+
+</td>
+<td valign="top">
+
  
 
 </td>
@@ -1972,6 +2802,26 @@ Check Compatibility
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2055,6 +2905,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2116,6 +2971,26 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2169,6 +3044,11 @@ Download Results
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2230,6 +3110,26 @@ Download Results
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -2288,6 +3188,56 @@ Change Task Status
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2309,31 +3259,6 @@ Change Task Status
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`X` 
 
 </td>
 <td valign="top">
@@ -2402,6 +3327,56 @@ Process
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2423,31 +3398,6 @@ Process
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`X` 
 
 </td>
 <td valign="top">
@@ -2516,6 +3466,56 @@ Schedule
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2537,31 +3537,6 @@ Schedule
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`X` 
 
 </td>
 <td valign="top">
@@ -2630,6 +3605,56 @@ Cancel Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2651,31 +3676,6 @@ Cancel Run
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`X` 
 
 </td>
 <td valign="top">
@@ -2744,6 +3744,56 @@ Start Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2765,31 +3815,6 @@ Start Test Run
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`X` 
 
 </td>
 <td valign="top">
@@ -2858,6 +3883,56 @@ Cancel Test Run
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2879,31 +3954,6 @@ Cancel Test Run
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`X` 
 
 </td>
 <td valign="top">
@@ -2972,6 +4022,56 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
+`X` 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -2992,32 +4092,7 @@ Edit Attachments / Notes
 </td>
 <td valign="top">
 
-`X` 
-
-</td>
-<td valign="top">
-
  
-
-</td>
-<td valign="top">
-
-`X` 
-
-</td>
-<td valign="top">
-
-`X` 
-
-</td>
-<td valign="top">
-
-`X` 
-
-</td>
-<td valign="top">
-
-`X` 
 
 </td>
 <td valign="top">
@@ -3091,7 +4166,32 @@ Change Planned Start
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3205,7 +4305,32 @@ Change Planned Duration
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3319,7 +4444,32 @@ Recalculate Paths
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` \(through task list authorization of authorization groups\)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3438,7 +4588,32 @@ Change Parameters
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3557,6 +4732,11 @@ Change User Assignments
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -3583,6 +4763,26 @@ Change User Assignments
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3677,6 +4877,11 @@ Approve
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -3698,6 +4903,26 @@ Approve
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3792,6 +5017,11 @@ Reject
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -3813,6 +5043,26 @@ Reject
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3904,6 +5154,11 @@ Read
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 `X` 
 
 </td>
@@ -3925,6 +5180,26 @@ Read
 <td valign="top">
 
 `X` 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -3951,12 +5226,722 @@ Read
 <tr>
 <td valign="top">
 
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Read
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Create Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Copy Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Edit Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Manage Task Group Templates*
+
+</td>
+<td valign="top">
+
+Delete Task Group Templates
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Manage Task Models*
 
 </td>
 <td valign="top">
 
 Read
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

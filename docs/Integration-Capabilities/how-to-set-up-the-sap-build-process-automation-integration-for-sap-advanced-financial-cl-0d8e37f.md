@@ -35,61 +35,146 @@ In SAP Build Process Automation, you can create workflows to perform specific st
 
 1.  If not done yet, subscribe to SAP Build Process Automation as described under [Subscribe to SAP Build Process Automation](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/subscribe-to-sap-build-process-automation) \(SAP Build Process Automation documentation\).
 
-2.  In the subaccount in which you have **your subscription for SAP Build Process Automation**, create a service instance for SAP Build Process Automation. For more information, see [Create a Service Instance](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/create-service-instance) \(SAP Build Process Automation documentation\).
+2.  In the subaccount in which you have **your subscription for SAP Build Process Automation**, perform the following steps as described in the SAP Build Process Automation documentation:
 
-    > ### Restriction:  
-    > The use of the parameters `environmentId` and `apiKey` currently isn't possible in the way it's described in the linked documentation. For the time being, leave the field under *Or specify the parameters in JSON format* empty and simply choose *Next*.
+    1.  Create a **shared** environment. For more information, see [Create an Environment](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/create-environment?version=LATEST).
 
-3.  In the subaccount in which you have **your subscription for SAP Build Process Automation**, create a service key based on the service instance you've just created. For more information, see [Create a Service Key for the SAP Build Process Automation Instance](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/create-service-key-for-sap-build-process-automation-instance) \(SAP Build Process Automation documentation\).
+        > ### Remember:  
+        > An environment is a functional area in which you deploy and run your SAP Build Process Automation projects. For more information about environments, see [Environments](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/environments?version=LATEST).
 
-4.  In the subaccount in which you have **your subscription for SAP Advanced Financial Closing**, create a destination for SAP Build Process Automation based on the service key you've just created. For more information, see [Configure SAP Build Process Automation Destinations](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/configure-sap-build-process-automation-destinations) \(SAP Build Process Automation documentation\).
+    2.  Create an apiKey for the environment you've just created. For more information, see [Add API Keys to an Environment](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/add-api-keys?version=LATEST).
+
+        When deciding on the scopes during the apiKey creation, select any appropriate scope you might potentially need.
+
+    3.  Create a service instance for SAP Build Process Automation, providing the apiKey you've just created. For more information, see [Create a Service Instance](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/create-service-instance).
+
+        > ### Caution:  
+        > Use the values as described here.
+
+        1.  Under *Basic Info*, provide the following information:
+
+
+            <table>
+            <tr>
+            <th valign="top">
+
+            Field
+            
+            </th>
+            <th valign="top">
+
+            Value
+            
+            </th>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            *Service*
+            
+            </td>
+            <td valign="top">
+            
+            `SAP Build Process Automation`
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            *Plan*
+            
+            </td>
+            <td valign="top">
+            
+            `standard`
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            *Runtime Environment*
+            
+            </td>
+            <td valign="top">
+            
+            `Other`
+            
+            </td>
+            </tr>
+            <tr>
+            <td valign="top">
+            
+            *Instance Name*
+            
+            </td>
+            <td valign="top">
+            
+            Enter a name for this service instance.
+            
+            </td>
+            </tr>
+            </table>
+            
+            Here is an example of what this would look like:
+
+            ![Dialog filled with the information provided above](images/Screenshot_Instance_Basic_1273400.png)
+
+        2.  Under *Parameters*, provide the following information:
+
+            -   Provide the **apiKey** you've created in the previous step.
+            -   Provide the **environment ID**.
+
+                > ### Tip:  
+                > You can find the identifier of the environment under *Control Tower* \> *Environments*. Go to the corresponding environment and check the information under *Identifier* in the header. Note that the environment identifier should be entered in lowercase.
+
+                Here you can see where to find the identifier information:
+
+                ![The identifier of the environment can be found in the control tower.](images/Screenshot_ControlTower_EnvironmentID_2e00432.png)
+
+
+            Here is an example of what this would look like:
+
+            ![Dialog filled with the information provided above](images/Screenshot_Instance_Parameters_d46961c.png)
+
+
+    4.  Create a service key based on the service instance you've just created. For more information, see [Create a Service Key for the SAP Build Process Automation Instance](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/create-service-key-for-sap-build-process-automation-instance).
+
+        > ### Caution:  
+        > Use the values as described here.
+
+        To configure the parameters, provide the following information:
+
+        -   Provide the **environment ID**.
+
+            > ### Tip:  
+            > You can find the identifier of the environment under *Control Tower* \> *Environments*. Go to the corresponding environment and check the information under *Identifier* in the header. Note that the environment identifier should be entered in lowercase.
+
+        -   Provide the **apiKey** you've created in the previous step.
+
+        Here is an example of what this would look like:
+
+        ![Dialog filled with the information provided above](images/Screenshot_ServiceKey_Parameters_5002a36.png)
+
+
+3.  In the subaccount in which you have **your subscription for SAP Advanced Financial Closing**, create a destination for SAP Build Process Automation based on the service key you've just created. For more information, see [Configure SAP Build Process Automation Destinations](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/configure-sap-build-process-automation-destinations) \(SAP Build Process Automation documentation\).
 
 
 **Setting up a communication system in SAP Advanced Financial Closing**
 
-5.  In SAP Advanced Financial Closing, go to the *Specify Communication Systems* app.
-
-6.  Choose *Create* \> *Create SAP Build Process Automation System* in the table toolbar.
-
-    > ### Note:  
-    > This communication system can't be added to task list templates. To add workflows to a task list template, the communication system in which the workflow is processed needs to be added to the template.
-
-7.  Enter the following information:
-
-    1.  *Name*:
-
-        Enter a name for the communication system.
-
-    2.  *System URL*:
-
-        Enter the UI URL of your SAP Build Process Automation application. The URL follows a specific pattern: `https://<subdomain>.<landscape>.build.cloud.sap`.
-
-        > ### Example:  
-        > The subdomain of your subaccount is **`example-company`**.
-        > 
-        > Your SAP Build Process Automation application is in the landscape **`EU10`**.
-        > 
-        > **Result:** Your UI URL is **`https://example-company.eu10.build.cloud.sap`**.
-
-
-8.  Save.
-
-9.  Verify that the system URL entered is correct by choosing the *Open SAP Build Process Automation* button in the *SAP Build Process Automation* section.
-
-10. Check whether the connection between SAP Advanced Financial Closing and SAP Build Process Automation works by choosing the *Check Connection* button in the header bar.
-
-11. **Optional:** Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
+4.  Set up a communication system for SAP Build Process Automation as described under [SAP Build Process Automation](../Connectivity/sap-build-process-automation-7385663.md) in the *Connectivity* section of this guide.
 
 
 **Creating workflows in SAP Build Process Automation**
 
-12. If not done yet, create workflows in SAP Build Process Automation that you want to include into your financial close managed in SAP Advanced Financial Closing. For information on how to do this, see [How to Create Workflows in SAP Build Process Automation and Integrate Them into the Financial Close](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/24599e4d0fab4d0d9633d0024e89cb4f.html "Set up workflows in SAP Build Process Automation that can then be triggered by SAP Advanced Financial Closing.") :arrow_upper_right:.
+5.  If not done yet, create workflows in SAP Build Process Automation that you want to include into your financial close managed in SAP Advanced Financial Closing. For information on how to do this, see [How to Create Workflows in SAP Build Process Automation and Integrate Them into the Financial Close](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/24599e4d0fab4d0d9633d0024e89cb4f.html "Set up workflows in SAP Build Process Automation that can then be triggered by SAP Advanced Financial Closing.") :arrow_upper_right:.
 
     > ### Tip:  
     > The authorizations required for steps in SAP Build Process Automation are described under [Authorizations](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/authorizations) \(SAP Build Process Automation documentation\).
 
     > ### Caution:  
-    > SAP Advanced Financial Closing currently doesn't support arrays, relative dates, or custom data types for parameters of workflows in SAP Build Process Automation.
+    > SAP Advanced Financial Closing currently doesn't support arrays or relative dates for parameters of workflows in SAP Build Process Automation.
 
 
 

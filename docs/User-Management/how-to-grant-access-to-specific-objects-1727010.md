@@ -36,13 +36,19 @@ You can grant access that is restricted to task models in specific communication
 
 ## Procedure
 
-1.  Open to the *Configuration* app and choose *User Roles*.
+1.  Open the *Configuration* app.
 
-2.  Go to the *Scoped User Roles* tab.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Choose *Create* in the table toolbar.
+2.  Choose *User Roles* from the list.
 
-4.  Provide the following information:
+    This brings you to the *Manage User Roles* app.
+
+3.  Go to the *Scoped User Roles* tab.
+
+4.  Choose *Create* in the table toolbar.
+
+5.  Provide the following information:
 
     1.  Under *Name*, freely define a name for your user role.
 
@@ -57,9 +63,9 @@ You can grant access that is restricted to task models in specific communication
     5.  Under *Restriction*, select *Restricted*.
 
 
-5.  Choose *Create* in the dialog footer. The user role is created and opened right away.
+6.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-6.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
+7.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     **Authorizations for Task Model Management**
 
@@ -91,13 +97,13 @@ You can grant access that is restricted to task models in specific communication
     </tr>
     </table>
     
-7.  Repeat the previous step to assign additional authorizations.
+8.  Repeat the previous step to assign additional authorizations.
 
-8.  To remove an authorization, choose the corresponding *Delete* icon :x:.
+9.  To remove an authorization, choose the corresponding *Delete* icon :x:.
 
-9.  Under *Assigned Communication Systems*, add the communication systems where the task models for which you want to grant authorization are located.
+10. Under *Assigned Communication Systems*, add the communication systems where the task models for which you want to grant authorization are located.
 
-10. Whenever you made a change to a user role, choose *Activate* in the header.
+11. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

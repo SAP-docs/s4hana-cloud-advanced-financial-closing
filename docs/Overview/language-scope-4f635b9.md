@@ -63,6 +63,7 @@ User interface of SAP Advanced Financial Closing \(exception: *Monitor Business 
 -   Thai
 -   Turkish
 -   Ukrainian
+-   Vietnamese
 
 
 
@@ -132,6 +133,7 @@ In-app help and in-app what's new
 -   Thai
 -   Turkish
 -   Ukrainian
+-   Vietnamese
 
 
 

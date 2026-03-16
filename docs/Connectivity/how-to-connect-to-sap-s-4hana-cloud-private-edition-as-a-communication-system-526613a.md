@@ -26,10 +26,12 @@ To connect SAP Advanced Financial Closing to SAP S/4HANA Cloud Private Edition, 
 
 5.  Connect SAP Advanced Financial Closing to your SAP S/4HANA Cloud Private Edition as follows:
 
-    1.  First, follow the steps described under [How to Create a Destination in the SAP BTP Cockpit](how-to-create-a-destination-in-the-sap-btp-cockpit-5c2b2f0.md).
+    1.  First, follow the steps described under [How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-5c2b2f0.md).
 
     2.  Then, follow the steps described under [How to Connect to SAP S/4HANA as a Communication System](how-to-connect-to-sap-s-4hana-as-a-communication-system-34ec755.md).
 
+
+6.  Configure the local settings in your communication system as described under [How to Configure Local Settings in Communication Systems](how-to-configure-local-settings-in-communication-systems-a3b374a.md).
 
 
 **Related Information**  

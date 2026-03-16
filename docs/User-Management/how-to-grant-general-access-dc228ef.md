@@ -46,13 +46,19 @@ You can grant access that applies to all objects within the scope, independently
 
 ## Procedure
 
-1.  Open the *Configuration* app and choose *User Roles*.
+1.  Open the *Configuration* app.
 
-2.  Go to the *Scoped User Roles* tab.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Choose *Create* in the table toolbar.
+2.  Choose *User Roles* from the list.
 
-4.  Provide the following information:
+    This brings you to the *Manage User Roles* app.
+
+3.  Go to the *Scoped User Roles* tab.
+
+4.  Choose *Create* in the table toolbar.
+
+5.  Provide the following information:
 
     1.  Under *Name*, freely define a name for your user role.
 
@@ -67,9 +73,9 @@ You can grant access that applies to all objects within the scope, independently
     5.  Under *Restriction*, select *Unrestricted*.
 
 
-5.  Choose *Create* in the dialog footer. The user role is created and opened right away.
+6.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-6.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
+7.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
     > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
@@ -167,18 +173,30 @@ You can grant access that applies to all objects within the scope, independently
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    *Task Groups*
+    
+    </td>
+    <td valign="top">
+    
+    Authorization to assign and update task groups in task list templates and task lists. This authorization always includes *Read* and *Write* authorization.
+    
+    </td>
+    </tr>
     </table>
     
-7.  Choose *Add* in the dialog footer.
+8.  Choose *Add* in the dialog footer.
 
-8.  Repeat the previous steps to assign additional authorizations.
+9.  Repeat the previous steps to assign additional authorizations.
 
-9.  To remove an authorization, choose the corresponding *Delete* icon :x:.
+10. To remove an authorization, choose the corresponding *Delete* icon :x:.
 
     > ### Remember:  
     > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-10. Whenever you made a change to a user role, choose *Activate* in the header.
+11. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

@@ -41,19 +41,25 @@ The default notification configuration is prefilled when you create a new task l
 
 ## Procedure
 
-1.  Go to the *Configuration* app and choose *Email Notification Configurations* from the table.
+1.  Open the *Configuration* app.
 
-2.  Choose *Create* in the table toolbar.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Enter a name and description for the email notification configuration.
+2.  Choose *Email Notification Configurations* from the list.
 
-4.  Under *Scenarios*, choose *Add*.
+    This brings you to the *Manage Email Notification Configurations* app.
 
-5.  In the table, select the scenarios for which you want notifications to be sent.
+3.  Choose *Create* in the table toolbar.
 
-6.  Choose *Add* in the dialog footer.
+4.  Enter a name and description for the email notification configuration.
 
-7.  In the *Scenarios* table, select who should receive an email notification for each scenario by checking the box in the corresponding table column.
+5.  Under *Scenarios*, choose *Add*.
+
+6.  In the table, select the scenarios for which you want notifications to be sent.
+
+7.  Choose *Add* in the dialog footer.
+
+8.  In the *Scenarios* table, select who should receive an email notification for each scenario by checking the box in the corresponding table column.
 
     You have the following recipients or recipient groups available:
 
@@ -61,7 +67,7 @@ The default notification configuration is prefilled when you create a new task l
     -   Processing users
     -   Interested users
 
-8.  Choose *Create* in the footer to create the configuration.
+9.  Choose *Create* in the footer to create the configuration.
 
 
 

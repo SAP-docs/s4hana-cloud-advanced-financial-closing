@@ -1,6 +1,6 @@
 <!-- loio6ec67822497649dcaed61baf476fe3aa -->
 
-# How to Create a Destination in the SAP BTP Cockpit
+# How to Create the Destination in the SAP BTP Cockpit
 
 Create a destination for your SAP ERP system in your SAP BTP cockpit.
 

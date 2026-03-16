@@ -13,7 +13,7 @@ Before you can connect your SAP S/4HANA Cloud Public Edition system to SAP Advan
 > ### Tip:  
 > SAP provides a wide range of predefined task models, which serve as an accelerator for implementation projects:
 > 
-> The example business content for SAP S/4HANA Cloud Public Edition systems is documented in SAP Note [3153338](https://me.sap.com/notes/3153338).
+> The business content for SAP S/4HANA Cloud Public Edition systems is available in the *Manage Task Models* app. For more information, see [Manage Task Models](../Business-Configuration/manage-task-models-cfbdd1f.md).
 
 
 
@@ -21,7 +21,7 @@ Before you can connect your SAP S/4HANA Cloud Public Edition system to SAP Advan
 
 ## Procedure
 
-Perform the steps as described under [Setting Up Advanced Financial Closing Integration (4HG)](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/448c1997a9a44071bba9aa91d4bd82af.html "") :arrow_upper_right:. The guide covers the following topics:
+Perform the steps as described under [Setting Up Financial Task List Management Integration \(4HG\)](https://support.sap.com/content/dam/SAAP/Sol_Pack/S4C/Library/Setup/4HG_Set-Up_EN_XX.pdf). The guide covers the following topics:
 
 1.  [About This Configuration Guide](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/448c1997a9a44071bba9aa91d4bd82af.html "") :arrow_upper_right:: Familiarize yourself with the local settings guide.
 
@@ -37,4 +37,8 @@ Perform the steps as described under [Setting Up Advanced Financial Closing Inte
 ## Results
 
 You have now set up the integration of financial task list management.
+
+**Parent topic:**[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-60448a7.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
+
+**Previous:**[How to Add the Launchpad Tile in SAP S/4HANA Cloud Public Edition](how-to-add-the-launchpad-tile-in-sap-s-4hana-cloud-public-edition-857efd5.md "Add a tile for SAP Advanced Financial Closing to your launchpad in SAP S/4HANA Cloud Public Edition.")
 

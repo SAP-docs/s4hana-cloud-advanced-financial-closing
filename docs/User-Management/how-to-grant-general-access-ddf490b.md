@@ -34,13 +34,19 @@ You can grant access that applies to all objects within the scope, independently
 
 ## Procedure
 
-1.  Open the *Configuration* app and choose *User Roles*.
+1.  Open the *Configuration* app.
 
-2.  Go to the *Scoped User Roles* tab.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Choose *Create* in the table toolbar.
+2.  Choose *User Roles* from the list.
 
-4.  Provide the following information:
+    This brings you to the *Manage User Roles* app.
+
+3.  Go to the *Scoped User Roles* tab.
+
+4.  Choose *Create* in the table toolbar.
+
+5.  Provide the following information:
 
     1.  Under *Name*, freely define a name for your user role.
 
@@ -55,12 +61,12 @@ You can grant access that applies to all objects within the scope, independently
     5.  Under *Restriction*, select *Unrestricted*.
 
 
-5.  Choose *Create* in the dialog footer. The user role is created and opened right away.
+6.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
     > ### Remember:  
     > For users who have this role assignment, *Read* authorization applies across all task models.
 
-6.  Whenever you made a change to a user role, choose *Activate* in the header.
+7.  Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

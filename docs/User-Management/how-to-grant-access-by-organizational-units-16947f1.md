@@ -48,13 +48,19 @@ The abstraction level between user roles and specific objects enables you to gra
 
 ## Procedure
 
-1.  Open the *Configuration* app and choose *User Roles*.
+1.  Open the *Configuration* app.
 
-2.  Go to the *Scoped User Roles* tab.
+    The next screen lists all the configuration apps you're allowed to access.
 
-3.  Choose *Create* in the table toolbar.
+2.  Choose *User Roles* from the list.
 
-4.  Provide the following information:
+    This brings you to the *Manage User Roles* app.
+
+3.  Go to the *Scoped User Roles* tab.
+
+4.  Choose *Create* in the table toolbar.
+
+5.  Provide the following information:
 
     1.  Under *Name*You can grant access that is restricted to specific organizational units. The authorizations, freely define a name for your user role.
 
@@ -67,9 +73,9 @@ The abstraction level between user roles and specific objects enables you to gra
     5.  Under *Restriction*, select *Restricted*.
 
 
-5.  Choose *Create* in the dialog footer. The user role is created and opened right away.
+6.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-6.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
+7.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
     > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
@@ -167,14 +173,14 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     </table>
     
-7.  Repeat the previous step to assign additional authorizations.
+8.  Repeat the previous step to assign additional authorizations.
 
-8.  To remove an authorization, choose the corresponding *Delete* icon :x:.
+9.  To remove an authorization, choose the corresponding *Delete* icon :x:.
 
     > ### Remember:  
     > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-9.  Under *Assigned Company Codes*, *Assigned Controlling Areas*, and *Assigned Plants*, add the organizational unit to which this role grants access.
+10. Under *Assigned Company Codes*, *Assigned Controlling Areas*, and *Assigned Plants*, add the organizational unit to which this role grants access.
 
     > ### Note:  
     > You can add several organizational units if the selected authorizations need to be applied to several organizational units. Keep in mind that all users who have this role assignment have access to **all objects** of these organizational units.
@@ -182,7 +188,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Caution:  
     > The organizational units you maintain in the role are independent of each other and always give access to the specific organizational unit and all underlying organizational units. This means that if you add a controlling area to this role, you can't restrict the access to specific company codes within this controlling area by additionally assigning these company codes. You can, however, add several company codes to one role, even without adding a controlling area or plant. In that case, you only grant access to the specific company codes and all their underlying organizational units.
 
-10. Whenever you made a change to a user role, choose *Activate* in the header.
+11. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

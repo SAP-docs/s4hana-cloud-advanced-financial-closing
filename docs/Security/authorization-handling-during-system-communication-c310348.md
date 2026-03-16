@@ -27,12 +27,19 @@ During communication between the SAP Advanced Financial Closing back end and the
 
 To enable communication with the connected communication system, the following process comes into play:
 
-1.  The SAP Advanced Financial Closing back end **requires the technical communication user data**, which gives access to the communication system. It receives this information from the destination service. \(Steps 1 and 2 in graphic below\)
-2.  Since the technical communication user potentially has more authorizations in the communication system than the individual user has, the communication system in turn requires the business user information and the corresponding authorizations so as to **restrict access accordingly**.
+> ### Note:  
+> The list points correspond to the numbered steps shown in the graphic below.
 
-    Therefore, the SAP Advanced Financial Closing back end **attaches the business user information** when it uses the technical communication user information to obtain authentication from the communication system. \(Steps 3 and 4 in graphic below\)
+1.  SAP Advanced Financial Closing back end **contacts the destination service** to ask for the technical communication user information.
+2.  The destination service **provides the information of the technical communication user** to SAP Advanced Financial Closing.
+3.  SAP Advanced Financial Closing now **attaches information about the business user**.
 
-3.  The communication system **confirms** that the technical communication user is valid and then **checks the business user information** to restrict access. \(Steps 5 through 7 in graphic below\)
+    This is required because the technical communication user potentially has more authorizations in the communication system than the individual user has. Accordingly, the communication system requires the business user information and the corresponding authorizations so as to **restrict access accordingly**.
+
+4.  The SAP Advanced Financial Closing back end uses the technical communication user information - with the business user information attached - to **obtain authentication** from the communication system.
+5.  The communication system **confirms** that the technical communication user is valid.
+6.  The communication system **checks the business user information**.
+7.  The communication system **restricts access** to the individual authorizations.
 
 The following graphic depicts this connection:
 
