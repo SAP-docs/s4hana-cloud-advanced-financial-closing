@@ -126,6 +126,8 @@ Use a booster to automate setting up your initial system.
         5.  Under *Subdomain*, you enter a subdomain for your new subaccount.
 
         > ### Note:  
+        > This subdomain forms part of the URL you use to access the application in your browser. It also appears in the API URL you provide to external trading platforms. Choose the subdomain name carefully; you can't change it once you save it.
+        > 
         > For more information about subaccounts in the SAP BTP cockpit, see [Managing Subaccounts Using the Cockpit \(SAP BTP documentation\)](https://help.sap.com/docs/btp/sap-business-technology-platform/55d0b6d8b96846b8ae93b85194df0944.html).
 
     2.  *Select Subaccount*:

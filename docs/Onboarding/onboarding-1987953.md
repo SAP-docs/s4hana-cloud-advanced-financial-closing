@@ -54,7 +54,10 @@ Add SAP Advanced Financial Closing to your global account and subscribe to the p
 
     4.  *Subdomain*:
 
-        The subdomain name must be unique for each data center. Therefore, we strongly recommend including a **customer-specific prefix** in the name of the subdomain. Please note that this subdomain is later part of your URL with which you access the application in the browser and also part of the API URL that you provide to your external trading platform.
+        The subdomain name must be unique for each data center. Therefore, we strongly recommend including a **customer-specific prefix** in the name of the subdomain.
+
+        > ### Note:  
+        > This subdomain forms part of the URL you use to access the application in your browser. It also appears in the API URL you provide to external trading platforms. Choose the subdomain name carefully; you can't change it once you save it.
 
     5.  *Advanced*:
 

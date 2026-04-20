@@ -21,7 +21,7 @@ Connect your financial Cloud system to SAP Advanced Financial Closing.
 
     For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
--   The SAP S/4HANA Cloud Public Edition system administrator needs to have completed the set-up instructions. For more information, see [Setting Up Financial Task List Management Integration \(4HG\)](https://support.sap.com/content/dam/SAAP/Sol_Pack/S4C/Library/Setup/4HG_Set-Up_EN_XX.pdf).
+-   The SAP S/4HANA Cloud Public Edition system administrator needs to have completed the set-up instructions. For more information, see [Setting Up Financial Task List Management Integration \(4HG\)](https://me.sap.com/processnavigator/SolS/EARL_SolS-013/2602/SolP/4HG).
 
 
 -   The destination in the SAP BTP cockpit has already been created as described under [How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-6e94409.md).

@@ -14,8 +14,6 @@ For some actions, users need authorizations in the connected communication syste
 
 You can grant authorizations in communication systems of type SAP S/4HANA Cloud Public Edition in two ways, using a business catalog or using an IAM app. For more information about how to assign a business catalog or IAM app, see [How to Maintain Business Roles](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/eb0f7719da404f1ca48f28a4cba06f35.html "Use business catalogs and IAM apps to grant authorizations.") :arrow_upper_right:.
 
-****
-
 
 <table>
 <tr>
@@ -90,6 +88,49 @@ Launchpad Tile in SAP S/4HANA Cloud Public Edition for Direct Navigation to SAP 
 <td valign="top">
 
 `U0233_TRAN` \(Manage Advanced Financial Closing\)
+
+</td>
+</tr>
+</table>
+
+
+
+## SAP S/4HANA and SAP S/4HANA Cloud Private Edition
+
+You can grant authorizations in communication systems of types SAP S/4HANA and SAP S/4HANA Cloud Private Edition by creating roles and assigning authorization objects.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+Authorization Required
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Display Task Models in SAP Advanced Financial Closing
+
+> ### Note:  
+> Check the requirements your system must fulfill for this feature to be available. You can find this information under [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md).
+
+
+
+</td>
+<td valign="top">
+
+Create a role in `PFCG` and add the authorization default for transaction `FCCX_TMM` to it.
+
+You find an authorization object named `FCCX_TMM` under *Authorization Data*. For `ACTVT`, enter the value `03` \(for display\).
+
+Generate the profile and assign it to your user as required.
 
 </td>
 </tr>

@@ -88,6 +88,9 @@ The user roles you've created take effect only once you assign users to them. Us
 
     1.  You can download this overview using the download options in the table toolbar.
 
+        > ### Note:  
+        > All downloaded CSV files apply formula escaping to cell values as a security measure against CSV injection. If a cell's content begins with `+`, `-`, `=`, or `@`, a single quote \(`'`\) is automatically prepended to the value. However, if the leading character is followed by only numeric characters \(for example, -123, +45.6\), the value is not escaped, as it does not pose an injection risk.
+
 
 
 

@@ -21,7 +21,7 @@ Before you can connect your SAP S/4HANA Cloud Public Edition system to SAP Advan
 
 ## Procedure
 
-Perform the steps as described under [Setting Up Financial Task List Management Integration \(4HG\)](https://support.sap.com/content/dam/SAAP/Sol_Pack/S4C/Library/Setup/4HG_Set-Up_EN_XX.pdf). The guide covers the following topics:
+Perform the steps as described under [Setting Up Financial Task List Management Integration \(4HG\)](https://me.sap.com/processnavigator/SolS/EARL_SolS-013/2602/SolP/4HG). The guide covers the following topics:
 
 1.  [About This Configuration Guide](https://help.sap.com/viewer/7a732dca39e2412cb8661b769277bcbb/SHIP/en-US/448c1997a9a44071bba9aa91d4bd82af.html "") :arrow_upper_right:: Familiarize yourself with the local settings guide.
 
