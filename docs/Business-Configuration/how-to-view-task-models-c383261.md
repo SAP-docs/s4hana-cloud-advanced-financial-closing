@@ -12,14 +12,18 @@ View task models directly in SAP Advanced Financial Closing.
 
 ## Prerequisites
 
--   Your user must have a role collection assigned that includes the role template `AFC_TaskModels_Manage`.
+-   **Within SAP Advanced Financial Closing:**
+    -   Your user must have a role collection assigned that includes the role template `AFC_TaskModels_Manage`.
 
-    For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
+        For more information about role templates, see [How to Manage Static Role Templates](../User-Management/how-to-manage-static-role-templates-0cca34d.md) and [Static Roles for SAP Advanced Financial Closing](../User-Management/static-roles-for-sap-advanced-financial-closing-b92a241.md).
 
--   Your user must have a user role assigned for the *Task Model Management* scope with *Read* authorization for the corresponding communication system.
--   For communication systems of type SAP S/4HANA Cloud Public Edition: A user with the same email address as your user in SAP Advanced Financial Closing must exist in the communication system and your user must be authorized for task model management there.
--   Users need additional authorization within the communication system to perform actions. For more information, see [Authorizations Required in the Communication System](../User-Management/authorizations-required-in-the-communication-system-97120d2.md).
--   Check whether your system must fulfill any requirements for the task model management feature to be available. You can find this information under [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md).
+    -   Your user must have a user role assigned for the *Task Model Management* scope with *Read* authorization for the corresponding communication system.
+
+-   **Within the respective communication system:**
+    -   You need to have authorization within the communication system. For more information, see [Authorizations Required in the Communication System](../User-Management/authorizations-required-in-the-communication-system-97120d2.md).
+    -   For communication systems of type SAP S/4HANA Cloud Public Edition: A user with the same email address as your user in SAP Advanced Financial Closing must exist in the communication system and your user must be authorized for task model management there.
+    -   Check whether your system must fulfill any requirements for the task model management feature to be available. You can find this information under [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md).
+
 
 
 

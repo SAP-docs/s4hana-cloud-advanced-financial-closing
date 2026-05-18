@@ -28,6 +28,23 @@ Description
 <tr>
 <td valign="top">
 
+May 17, 2026
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 April 19, 2026
 
 </td>
@@ -49,30 +66,6 @@ April 19, 2026
     The following information was added:
 
     Note about formatting in CSV files downloaded from SAP Advanced Financial Closing
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-March 15, 2026
-
-</td>
-<td valign="top">
-
-![Content added](images/Icon_Information_Added_Plus_85e6f2e.png)
-
-</td>
-<td valign="top">
-
--   [How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing](../Integration-Capabilities/how-to-set-up-the-sap-build-process-automation-integration-for-sap-advanced-financial-cl-0d8e37f.md):
-
-    The following information was added:
-
-    More details and screenshots for integration setup
 
 
 

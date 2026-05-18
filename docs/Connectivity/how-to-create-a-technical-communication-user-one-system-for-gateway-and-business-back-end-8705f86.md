@@ -26,9 +26,6 @@ You need to create a technical communication user with specific authorizations t
 
     2.  Under *User Type*, make a selection.
 
-        > ### Recommendation:  
-        > We recommend that you select the user type *Dialog* for the purpose of this user.
-
     3.  Provide a password.
 
         > ### Remember:  
