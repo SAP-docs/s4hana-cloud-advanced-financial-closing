@@ -33,6 +33,8 @@ In SAP Build Process Automation, you can create workflows to perform specific st
 
 ## Procedure
 
+**Creating an Environment in the Subaccount with SAP Build Process Automation Subscription**
+
 1.  If not done yet, subscribe to SAP Build Process Automation as described under [Subscribe to SAP Build Process Automation](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/subscribe-to-sap-build-process-automation) \(SAP Build Process Automation documentation\).
 
 2.  In the subaccount in which you have **your subscription for SAP Build Process Automation**, perform the following steps as described in the SAP Build Process Automation documentation:
@@ -158,7 +160,10 @@ In SAP Build Process Automation, you can create workflows to perform specific st
         ![Dialog filled with the information provided above](images/Screenshot_ServiceKey_Parameters_5002a36.png)
 
 
-3.  In the subaccount in which you have **your subscription for SAP Advanced Financial Closing**, create a destination for SAP Build Process Automation based on the service key you've just created. For more information, see [Configure SAP Build Process Automation Destinations](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/configure-sap-build-process-automation-destinations) \(SAP Build Process Automation documentation\).
+
+**Creating a Destination in the Subaccount with SAP Advanced Financial Closing Subscription**
+
+3.  In the subaccount in which you have **your subscription for SAP Advanced Financial Closing**, create a destination for SAP Build Process Automation based on the service key you've just created. For more information, see [How to Create the Destination in the SAP BTP Cockpit](../Connectivity/how-to-create-the-destination-in-the-sap-btp-cockpit-3ba6624.md).
 
 
 **Setting up a communication system in SAP Advanced Financial Closing**

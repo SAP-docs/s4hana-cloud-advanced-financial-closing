@@ -10,7 +10,7 @@ You have one subaccount in which SAP Advanced Financial Closing and SAP Task Cen
 
 ## Prerequisites
 
--   You've created an API instance and service key for API integration scenarios for SAP Advanced Financial Closing as described under [How to Create an API Instance and Service Key for API Integration Scenarios](how-to-create-an-api-instance-and-service-key-for-api-integration-scenarios-4058064.md).
+-   You've created an API instance and service key for API integration scenarios for SAP Advanced Financial Closing as described under [How to Create an API Instance and Service Binding for API Integration Scenarios](how-to-create-an-api-instance-and-service-binding-for-api-integration-scenarios-4058064.md).
 
     Make sure that you have the following service key values, which you'll need to set up the destination:
 

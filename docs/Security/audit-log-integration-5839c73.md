@@ -16,6 +16,17 @@ The logs created by SAP Advanced Financial Closing can be extracted using the SA
 
 
 
+## Retention Period of Audit Logs
+
+By default, the SAP Audit Log service retains audit log data for **90 days**. After this period, data is automatically deleted.
+
+> ### Caution:  
+> In a financial close context, statutory and internal audit requirements may demand a retention period significantly longer than 90 days. Make sure you configure a custom retention period that meets your organization's compliance requirements. If audit logs are deleted before they're retrieved, the data can't be recovered.
+
+For more information about configuring the retention period, see [Retention of Audit Data written from SAP BTP Applications and Services](https://help.sap.com/docs/btp/sap-business-technology-platform/retention-of-audit-data-written-from-sap-btp-applications-and-services?version=LATEST) in the SAP Business Technology Platform documentation.
+
+
+
 <a name="loio5839c73985d34eaaa21413ab92846b6e__section_kvv_wkg_f1c"/>
 
 ## Logs Written by SAP Advanced Financial Closing

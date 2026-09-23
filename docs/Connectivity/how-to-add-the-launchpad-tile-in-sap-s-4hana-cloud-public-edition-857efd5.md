@@ -22,5 +22,5 @@ For more information about how to authorize users to see the *Manage Advanced Fi
 
 **Next:**[How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md "Configure your SAP S/4HANA Cloud Public Edition system for the connection with SAP Advanced Financial Closing.")
 
-**Previous:**[How to Create the Destination in the SAP BTP Cockpit](how-to-create-the-destination-in-the-sap-btp-cockpit-6e94409.md "Create a destination for your SAP S/4HANA Cloud Public Edition system in your SAP BTP cockpit.")
+**Previous:**[How to Set Up Certificate-Based Authentication](how-to-set-up-certificate-based-authentication-d8a918e.md "Create a destination certificate in the SAP BTP cockpit to enable certificate-based authentication for the connection between SAP Advanced Financial Closing and your SAP S/4HANA Cloud Public Edition system.")
 

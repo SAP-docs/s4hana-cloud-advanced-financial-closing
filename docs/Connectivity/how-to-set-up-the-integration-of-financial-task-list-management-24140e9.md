@@ -13,7 +13,7 @@ Before you can connect your SAP S/4HANA Cloud Public Edition system to SAP Advan
 > ### Tip:  
 > SAP provides a wide range of predefined task models, which serve as an accelerator for implementation projects:
 > 
-> The business content for SAP S/4HANA Cloud Public Edition systems is available in the *Manage Task Models* app. For more information, see [Manage Task Models](../Business-Configuration/manage-task-models-cfbdd1f.md).
+> The business content for SAP S/4HANA Cloud Public Edition systems is available in the *Manage Task Models* app. For more information, see [Manage Task Models](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/cfbdd1fdc065457c82ca9d4fdd937e5e.html "") :arrow_upper_right:.
 
 
 

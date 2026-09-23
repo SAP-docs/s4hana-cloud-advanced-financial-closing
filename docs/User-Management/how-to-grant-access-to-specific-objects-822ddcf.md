@@ -94,7 +94,14 @@ The abstraction level between user roles and specific objects enables you to gra
 
 10. Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-11. Under *Authorizations*, choose *Add* and select an authorization you want to add.
+11. **Optional:** If you want to allow user-to-role assignments to be managed through the SCIM API, select the *Exposed via SCIM Group* checkbox in the *General Information* section.
+
+    1.  Confirm that you understand the warning displayed and choose *OK*.
+
+
+    For more information about user access management through the SCIM API, see [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md).
+
+12. Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
     > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
@@ -203,19 +210,19 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     </table>
     
-12. Repeat the previous step to assign additional authorizations.
+13. Repeat the previous step to assign additional authorizations.
 
-13. To remove an authorization, choose the corresponding *Delete* icon :x:.
+14. To remove an authorization, choose the corresponding *Delete* icon :x:.
 
     > ### Remember:  
     > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-14. Under *Task List Templates* and *Task Lists*, add the authorization group you created before to define access to the specific objects of the respective object type.
+15. Under *Task List Templates* and *Task Lists*, add the authorization group you created before to define access to the specific objects of the respective object type.
 
     > ### Note:  
     > You can add several authorization groups if the selected authorizations need to be applied to several authorization groups. Keep in mind that all users who have this role assignment have access to **all objects** that these authorization groups are assigned to on task list level.
 
-15. Whenever you made a change to a user role, choose *Activate* in the header.
+16. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

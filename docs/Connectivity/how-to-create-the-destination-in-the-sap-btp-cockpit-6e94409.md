@@ -14,6 +14,8 @@ Create a destination for your SAP S/4HANA Cloud Public Edition system in your SA
 
 -   The SAP S/4HANA Cloud Public Edition system administrator needs to have completed the set-up instructions as described under [How to Set Up the Integration of Financial Task List Management](how-to-set-up-the-integration-of-financial-task-list-management-24140e9.md).
 
+-   For certificate-based authentication, you've created the certificate as described under [How to Set Up Certificate-Based Authentication](how-to-set-up-certificate-based-authentication-d8a918e.md).
+
 
 
 
@@ -104,31 +106,52 @@ Create a destination for your SAP S/4HANA Cloud Public Edition system in your SA
     </td>
     <td valign="top">
     
-    `BasicAuthentication`
+    -   `ClientCertificateAuthentication`
+
+        > ### Note:  
+        > This option is highly recommended for the connection between SAP Advanced Financial Closing and a communication system of type SAP S/4HANA Cloud Public Edition.
+        > 
+        > Remember that for this setup, you first need to create the certificate as described under [How to Set Up Certificate-Based Authentication](how-to-set-up-certificate-based-authentication-d8a918e.md).
+
+    -   `BasicAuthentication`
+
+
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *User*
+    -   *Key Store Location*
+    -   *Key Store Password*
+
+    \(for certificate-based authentication only\)
     
     </td>
     <td valign="top">
     
-    Technical communication user that you've received from the SAP S/4HANA Cloud Public Edition system administrator.
+    -   The name of the certificate you created for this purpose.
+    -   If no password was assigned during certificate creation, you leave this field empty as well.
+
+
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *Password*
+    -   *User*
+    -   *Password*
+
+    \(for basic authentication only\)
     
     </td>
     <td valign="top">
     
-    Password of the selected user
+    -   Technical communication user that you've received from the SAP S/4HANA Cloud Public Edition system administrator.
+    -   Password of the selected user
+
+
     
     </td>
     </tr>
@@ -145,7 +168,7 @@ You have now created a destination for your SAP S/4HANA Cloud Public Edition sys
 
 **Parent topic:**[SAP S/4HANA Cloud Public Edition](sap-s-4hana-cloud-public-edition-60448a7.md "Connect to your financial cloud system to retrieve information about organizational units, the factory calendar, and so on.")
 
-**Next:**[How to Add the Launchpad Tile in SAP S/4HANA Cloud Public Edition](how-to-add-the-launchpad-tile-in-sap-s-4hana-cloud-public-edition-857efd5.md "Add a tile for SAP Advanced Financial Closing to your launchpad in SAP S/4HANA Cloud Public Edition.")
+**Next:**[How to Set Up Certificate-Based Authentication](how-to-set-up-certificate-based-authentication-d8a918e.md "Create a destination certificate in the SAP BTP cockpit to enable certificate-based authentication for the connection between SAP Advanced Financial Closing and your SAP S/4HANA Cloud Public Edition system.")
 
 **Previous:**[How to Connect to SAP S/4HANA Cloud Public Edition as a Communication System](how-to-connect-to-sap-s-4hana-cloud-public-edition-as-a-communication-system-90aa5f3.md "Connect your financial Cloud system to SAP Advanced Financial Closing.")
 

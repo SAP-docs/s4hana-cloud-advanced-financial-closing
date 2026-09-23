@@ -75,7 +75,14 @@ The abstraction level between user roles and specific objects enables you to gra
 
 6.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-7.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
+7.  **Optional:** If you want to allow user-to-role assignments to be managed through the SCIM API, select the *Exposed via SCIM Group* checkbox in the *General Information* section.
+
+    1.  Confirm that you understand the warning displayed and choose *OK*.
+
+
+    For more information about user access management through the SCIM API, see [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md).
+
+8.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
     > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
@@ -173,14 +180,14 @@ The abstraction level between user roles and specific objects enables you to gra
     </tr>
     </table>
     
-8.  Repeat the previous step to assign additional authorizations.
+9.  Repeat the previous step to assign additional authorizations.
 
-9.  To remove an authorization, choose the corresponding *Delete* icon :x:.
+10. To remove an authorization, choose the corresponding *Delete* icon :x:.
 
     > ### Remember:  
     > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-10. Under *Assigned Company Codes*, *Assigned Controlling Areas*, and *Assigned Plants*, add the organizational unit to which this role grants access.
+11. Under *Assigned Company Codes*, *Assigned Controlling Areas*, and *Assigned Plants*, add the organizational unit to which this role grants access.
 
     > ### Note:  
     > You can add several organizational units if the selected authorizations need to be applied to several organizational units. Keep in mind that all users who have this role assignment have access to **all objects** of these organizational units.
@@ -188,7 +195,7 @@ The abstraction level between user roles and specific objects enables you to gra
     > ### Caution:  
     > The organizational units you maintain in the role are independent of each other and always give access to the specific organizational unit and all underlying organizational units. This means that if you add a controlling area to this role, you can't restrict the access to specific company codes within this controlling area by additionally assigning these company codes. You can, however, add several company codes to one role, even without adding a controlling area or plant. In that case, you only grant access to the specific company codes and all their underlying organizational units.
 
-11. Whenever you made a change to a user role, choose *Activate* in the header.
+12. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

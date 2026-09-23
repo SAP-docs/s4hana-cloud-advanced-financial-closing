@@ -15,7 +15,7 @@ Grant access to work with task models.
 ### Apps in This Scope
 
 -   *Manage Task Models*
-
+-   *Task Model Change Log*
 
 
 
@@ -62,6 +62,245 @@ Description
 <td valign="top">
 
 Read authorization within the scope of this user role.
+
+This is the minimum authorization, and it's included in all others.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Write*
+
+</td>
+<td valign="top">
+
+Authorization to create and edit task models, task model types, and job variants from within SAP Advanced Financial Closing. This authorization always includes *Read* authorization.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Publish*
+
+</td>
+<td valign="top">
+
+Authorization to publish task models, task model types, and job variants from within SAP Advanced Financial Closing. This authorization always includes *Read* authorization.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Delete*
+
+</td>
+<td valign="top">
+
+Authorization to delete task models, task model types, and job variants from within SAP Advanced Financial Closing. This authorization always includes *Read* authorization.
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loioc951f94d942e48e08a7895e63fed0bf9__section_mqj_xmc_qrb"/>
+
+## Actions Allowed Based on Authorization of Scoped User Roles
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Action
+
+</th>
+<th valign="top">
+
+*Read*
+
+</th>
+<th valign="top">
+
+*Write*
+
+</th>
+<th valign="top">
+
+*Publish*
+
+</th>
+<th valign="top">
+
+*Delete*
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Read
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create Task Models, Task Model Types, and Job Variants
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Edit Task Models, Task Model Types, and Job Variants
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Publish Task Models, Task Model Types, and Job Variants
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Task Models, Task Model Types, and Job Variants
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Read Corresponding Change Log Entries
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
+
+</td>
+<td valign="top">
+
+`X`
 
 </td>
 </tr>

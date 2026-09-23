@@ -1,5 +1,7 @@
 <!-- loioddf490b678744eb5891854f9862c807a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # How to Grant General Access
 
 Grant general access by assigning one or more authorizations available within this scope.
@@ -63,10 +65,99 @@ You can grant access that applies to all objects within the scope, independently
 
 6.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-    > ### Remember:  
-    > For users who have this role assignment, *Read* authorization applies across all task models.
+7.  **Optional:** If you want to allow user-to-role assignments to be managed through the SCIM API, select the *Exposed via SCIM Group* checkbox in the *General Information* section.
 
-7.  Whenever you made a change to a user role, choose *Activate* in the header.
+    1.  Confirm that you understand the warning displayed and choose *OK*.
+
+
+    For more information about user access management through the SCIM API, see [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md).
+
+8.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
+
+    > ### Note:  
+    > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
+
+    > ### Remember:  
+    > For users who have this role assignment, the authorizations selected apply across all task models.
+
+    **Authorizations for Task Model Management**
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Authorization
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Read*
+    
+    </td>
+    <td valign="top">
+    
+    Read authorization within the scope of this user role.
+
+    This is the minimum authorization, and it's included in all others.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Write*
+    
+    </td>
+    <td valign="top">
+    
+    Authorization to create and edit task models, task model types, and job variants from within SAP Advanced Financial Closing. This authorization always includes *Read* authorization.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Publish*
+    
+    </td>
+    <td valign="top">
+    
+    Authorization to publish task models, task model types, and job variants from within SAP Advanced Financial Closing. This authorization always includes *Read* authorization.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Delete*
+    
+    </td>
+    <td valign="top">
+    
+    Authorization to delete task models, task model types, and job variants from within SAP Advanced Financial Closing. This authorization always includes *Read* authorization.
+    
+    </td>
+    </tr>
+    </table>
+    
+9.  Choose *Add* in the dialog footer.
+
+10. Repeat the previous steps to assign additional authorizations.
+
+11. To remove an authorization, choose the corresponding *Delete* icon :x:.
+
+    > ### Remember:  
+    > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
+
+12. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

@@ -11,6 +11,12 @@ Create a destination for your external system in your SAP BTP cockpit.
 ## Prerequisites
 
 -   You have already completed the onboarding process as described under [Onboarding](../Onboarding/onboarding-1987953.md).
+-   You have prepared the integration of your external system with SAP Advanced Financial Closing as described on these pages:
+
+    -   [Integration with External Systems](../Integration-Capabilities/integration-with-external-systems-90573ae.md)
+    -   [How to Set Up an Integration with an External System for SAP Advanced Financial Closing](../Integration-Capabilities/how-to-set-up-an-integration-with-an-external-system-for-sap-advanced-financial-closing-6db4864.md)
+
+    .
 
 
 
@@ -69,11 +75,18 @@ Create a destination for your external system in your SAP BTP cockpit.
     </td>
     <td valign="top">
     
-    Enter the back-end URL of the external communication system. The back-end URL has to have the following format:
+    Enter the back-end URL of the external communication system.
 
-    <code><b>&lt;URL_OF_EXTERNAL_SYSTEM&gt;</b>/api/job-scheduling/v1</code>
+    `<URL_OF_EXTERNAL_SYSTEM>`
 
-    Replace the highlighted part **<URL\_OF\_EXTERNAL\_SYSTEM\>** \(including the brackets\) with the URL of your communication system.
+    > ### Note:  
+    > Systems with proxy type *Internet* must start with `https://`.
+    > 
+    > Systems with proxy type *OnPremise* must start with `http://`.
+    > 
+    > The proxy type is explained in the next row just below.
+
+
     
     </td>
     </tr>
@@ -85,7 +98,10 @@ Create a destination for your external system in your SAP BTP cockpit.
     </td>
     <td valign="top">
     
-    `Internet`
+    -   `Internet`
+    -   `OnPremise` \(for external on-premise systems only\)
+
+
     
     </td>
     </tr>
@@ -118,6 +134,8 @@ Create a destination for your external system in your SAP BTP cockpit.
 You have now created a destination for your external system.
 
 **Parent topic:**[External Systems](external-systems-9ca3083.md "Connect to your external financial system to retrieve information about organizational units, the factory calendar, and so on.")
+
+**Next:**[How to Install and Configure the Cloud Connector for On-Premise Systems](how-to-install-and-configure-the-cloud-connector-for-on-premise-systems-13b0b26.md "If you want to connect to an external on-premise system, you need to install and configure the Cloud Connector as additional software.")
 
 **Previous:**[How to Connect to a External System as a Communication System](how-to-connect-to-a-external-system-as-a-communication-system-ea13039.md "Connect to your external system to retrieve information about organizational units, the factory calendar, and so on.")
 

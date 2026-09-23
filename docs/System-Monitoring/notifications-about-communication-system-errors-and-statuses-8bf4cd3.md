@@ -1,6 +1,6 @@
 <!-- loio8bf4cd3e2d744d90b8b6b2b48ab4500d -->
 
-# Notifications About Communication System Errors
+# Notifications About Communication System Errors and Statuses
 
 Get an overview of notifications about communication system errors.
 
@@ -63,7 +63,7 @@ Users who are selected as recipients receive notifications for master data synch
 <tr>
 <td valign="top">
 
-*All Errors*
+*All Scenarios*
 
 </td>
 <td valign="top">
@@ -91,7 +91,7 @@ Recipients are defined in the system settings in the *Specify Communication Syst
 
 3.  Go to the *Notifications* section.
 
-4.  In the *Assigned Scenarios* table, you can see which user or user group is defined for the respective scenario.
+4.  In the table, you can see which user or user group is defined for the respective scenario.
 
 
 

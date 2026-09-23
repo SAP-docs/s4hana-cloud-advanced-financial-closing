@@ -10,16 +10,20 @@ Manage users, user groups, and user roles through a dedicated API.
 
 ## Prerequisites
 
--   You've created an API instance and service key for API integration scenarios for SAP Advanced Financial Closing as described under [How to Create an API Instance and Service Key for API Integration Scenarios](how-to-create-an-api-instance-and-service-key-for-api-integration-scenarios-4058064.md).
+-   You've created an API instance and service key for API integration scenarios for SAP Advanced Financial Closing as described under [How to Create an API Instance and Service Binding for API Integration Scenarios](how-to-create-an-api-instance-and-service-binding-for-api-integration-scenarios-4058064.md).
 
 -   To access the API information available from the user interface of SAP Advanced Financial Closing, your user must have a role collection assigned that includes the role template `AFC_API_Access`.
+
+-   If you want to change **user-to-role assignments** using the SCIM API, you need to create the user roles in SAP Advanced Financial Closing first as described under [User Access Management](../User-Management/user-access-management-d974847.md).
+
+    You don't need to assign users to the roles yet because you can do that using the SCIM API.
 
 
 
 
 ## Context
 
-Working with the Identity Provisioning service or Identity Authentication service, you can use the SCIM API to change users, user groups, and user-to-group assignments following the SCIM standard. User role assignments are an SCIM extension. Accordingly, you can perform user-to-role assignments using the SCIM API only when you work with a custom implementation instead of the Identity Provisioning service or Identity Authentication service.
+Working with the Identity Provisioning service or Identity Authentication service, you can use the SCIM API to change users, user groups, user-to-group assignments, and user-to-role assignments following the SCIM standard. User role assignments are also available as an SCIM extension. Accordingly, you can perform user-to-role assignments using the SCIM API also when you work with a custom implementation instead of the Identity Provisioning service or Identity Authentication service.
 
 > ### Caution:  
 > If you use the SCIM API, keep in mind that certain user information is case-sensitive and has to be identical between the different sources. The following user data is affected and has to be identical:
@@ -95,17 +99,53 @@ Some of these different means to manage user access offer a subset of available 
 
 3.  **Optional:** Using the API documentation provided by the user interface of SAP Advanced Financial Closing, you can use the API to find and test user access management options:
 
-    1.  From SAP Advanced Financial Closing, open the *Public API* app.
+    > ### Note:  
+    > The preferred option is to use the SCIM API from within your identity provisioning service. Use the approach described below mainly for **testing purposes**, not for production purposes.
+
+    1.  From SAP Advanced Financial Closing, open the *Public APIs* app.
 
     2.  Open *SCIM*.
 
     3.  On the next screen, you find all the information needed for this API.
 
         > ### Note:  
-        > The API follows SCIM standards 7644 and 7643. However, it has been extended by functions that you can use to manage user roles, that is, adding users to roles or removing users from them.
+        > The API follows SCIM standards `7644` and `7643`. However, it has been extended by functions that you can use to manage user roles, that is, adding users to roles or removing users from them **if you don't** manage them through the groups in Identity Provisioning service.
 
 
 4.  After you've configured the source and target system information, you can use runs in Identity Provisioning to synchronize users and user groups:
+
+    Use the following source and target system assignments:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Source System
+    
+    </th>
+    <th valign="top">
+
+    Target System
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Identity Provisioning provided by SAP Cloud Identity Services or another identity provisioning service you use
+    
+    </td>
+    <td valign="top">
+    
+    SAP Advanced Financial Closing
+    
+    </td>
+    </tr>
+    </table>
+    
+    > ### Note:  
+    > The following step description refers to Identity Provisioning provided by SAP Cloud Identity Services. If you're using another identity provisioning service, follow the specific steps for the service.
 
     1.  Go to the *Source System Details* menu.
 
@@ -114,6 +154,126 @@ Some of these different means to manage user access offer a subset of available 
     3.  Choose *Run Now* or *Schedule* for the corresponding action.
 
     4.  Once the run is finished, you can find the results in the provisioning logs under *Identity Provisioning* \> *Provisioning Logs*.
+
+
+5.  Special use case **synchronization of user-to-role assignments**:
+
+    You can create user roles only in SAP Advanced Financial Closing. Using the SCIM API, you can merely update the user assignments to roles, you can't create or change the role itself. Accordingly, before you can use the SCIM API to manage user-to-role assignments, you first need to create user roles as described under [User Access Management](../User-Management/user-access-management-d974847.md). You don't need to assign users to the roles yet because you can do that using the SCIM API. Once user roles have been created, perform the following steps:
+
+    > ### Remember:  
+    > Only roles for which the *Exposed via SCIM Group* checkbox has been selected can be managed using the SCIM API.
+
+    1.  Run a synchronization from SAP Advanced Financial Closing to the identity provisioning service.
+
+        Use the following source and target system assignments:
+
+
+        <table>
+        <tr>
+        <th valign="top">
+
+        Source System
+        
+        </th>
+        <th valign="top">
+
+        Target System
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        SAP Advanced Financial Closing
+        
+        </td>
+        <td valign="top">
+        
+        Identity Provisioning provided by SAP Cloud Identity Services or another identity provisioning service you use
+        
+        </td>
+        </tr>
+        </table>
+        
+        > ### Tip:  
+        > Consider using filtering options for your synchronization to influence which user roles are synchronized and subsequently available for user-to-role assignment within your identity provisioning service. Filtering options are described under [SAP Advanced Financial Closing \(Identity Provisioning documentation for source systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-s-4hana-cloud-for-advanced-financial-closing).
+
+        > ### Note:  
+        > The following step description refers to Identity Provisioning provided by SAP Cloud Identity Services. If you use a different identity provisioning service, follow the specific steps for that service.
+
+        1.  Go to the *Source System Details* menu.
+        2.  Go to the *Jobs* tab.
+        3.  Choose *Run Now* or *Schedule* for the corresponding action.
+        4.  Once the run is finished, you can find the results in the provisioning logs under *Identity Provisioning* \> *Provisioning Logs*.
+
+    2.  Add or remove user-to-role assignments in your identity provisioning service as required.
+
+        For Identity Provisioning provided by SAP Cloud Identity Services, perform the following steps:
+
+        1.  Go to *Users & Authorizations* \> *Groups*.
+        2.  Search for the user role for which you want to change the user assignments.
+
+            > ### Note:  
+            > User roles are considered 'groups' in Identity Provisioning. However, you can differentiate user groups and roles by their type. User roles are groups of type *Authorization*.
+            > 
+            > We recommend that you avoid giving user roles names that are identical to or very similar to the names of user groups. Even though you can differentiate user groups and roles by their type, an identical or similar name might be confusing.
+
+        3.  Open the user role details.
+        4.  Add and remove members.
+
+    3.  Now synchronize the changes back to SAP Advanced Financial Closing:
+
+        > ### Caution:  
+        > If you've changed the user-to-role assignments directly in SAP Advanced Financial Closing in the meantime, these changes are overwritten with the user-to-role assignments from the identity provisioning service during a synchronization.
+        > 
+        > **Best Practice**
+        > 
+        > Due to this behavior, you have two strategies available for managing user-to-role assignments:
+        > 
+        > -   Create user roles in SAP Advanced Financial Closing but manage all user-to-role assignments from then on using the SCIM API.
+        > -   Create user roles in SAP Advanced Financial Closing and also manage all user-to-role assignments in SAP Advanced Financial Closing directly.
+        > 
+        > If you mix the role assignment options, inconsistencies or unwanted effects might arise.
+        > 
+        > However, you can also opt to use different strategies for different roles, that is, manage some user roles following the first strategy and some user roles following the second strategy. You can achieve this if you work with filtering options for your synchronization to influence which user roles are synchronized and subsequently available for user-to-role assignment within your identity provisioning service. Filtering options are described under [SAP Advanced Financial Closing \(Identity Provisioning documentation for source systems\)](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-s-4hana-cloud-for-advanced-financial-closing).
+
+        Use the following source and target system assignments:
+
+
+        <table>
+        <tr>
+        <th valign="top">
+
+        Source System
+        
+        </th>
+        <th valign="top">
+
+        Target System
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        Identity Provisioning provided by SAP Cloud Identity Services or another identity provisioning service you use
+        
+        </td>
+        <td valign="top">
+        
+        SAP Advanced Financial Closing
+        
+        </td>
+        </tr>
+        </table>
+        
+        > ### Note:  
+        > The following step description refers to Identity Provisioning provided by SAP Cloud Identity Services. If you use a different identity provisioning service, follow the specific steps for that service.
+
+        1.  Go to the *Source System Details* menu.
+        2.  Go to the *Jobs* tab.
+        3.  Choose *Run Now* or *Schedule* for the corresponding action.
+        4.  Once the run is finished, you can find the results in the provisioning logs under *Identity Provisioning* \> *Provisioning Logs*.
 
 
 

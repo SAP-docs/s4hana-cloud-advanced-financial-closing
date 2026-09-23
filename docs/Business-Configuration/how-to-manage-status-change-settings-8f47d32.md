@@ -2,7 +2,7 @@
 
 # How to Manage Status Change Settings
 
-Maintain settings that define whether comments are required for specific task status changes in SAP Advanced Financial Closing.
+Maintain settings that define whether additional input is required for specific task status changes in SAP Advanced Financial Closing.
 
 
 
@@ -24,7 +24,7 @@ You can manage settings that define whether or not a comment is required for a t
 
 You can create general rules for task types and target statuses by selecting the *All* value for the corresponding field.
 
-If you create a rule with the *All* value selected for both task type and target status, the settings you make in that rule applies to all manual status changes for all task types.
+If you create a rule with the *All* value selected for both task type and target status, the settings you make in that rule apply to all manual status changes - task status or approval status changes depending on the setting - for all task types.
 
 
 
@@ -41,7 +41,7 @@ If by logic two rules - a general and a specific one - were to apply to a specif
 > ### Example:  
 > You've created a general rule for all task types that comments are optional for all manual status changes. Additionally, you've created a specific rule that for all task types a comment is mandatory for a manual change to the status *Completed with Errors*.
 > 
-> A user changes the status of a task of type *SAP Fiori Application* to *Completed with Errors*. The specific rule takes priority over the general rule, which is why a comment is mandatory in this case.
+> A user manually changes the status of a task of type *SAP Fiori Application* to *Completed with Errors*. The specific rule takes priority over the general rule, which is why a comment is mandatory in this case.
 
 
 
@@ -79,7 +79,7 @@ If there is a status change that isn't covered by any rule, the default setting 
     > 
     > Keep in mind, however, that you can maintain one entry with the *All* option and additionally an entry with a specific target status for the same task type. In this case, the *All* rule will apply to all status changes for which no specific rule exists for this task type. If a rule exists for the selected task type for a specific target status, that rule will apply to a change to the specific target status.
 
-6.  Under *Comments in Production Systems* and *Comments in Non-Production Systems*, define a status change setting for both cases.
+6.  Under *Comments in Production Task Lists* and *Comments in Non-Production Task Lists*, define a status change setting for both cases.
 
     The following values are possible:
 
@@ -129,7 +129,7 @@ If there is a status change that isn't covered by any rule, the default setting 
     </td>
     <td valign="top">
     
-    The option to provide a reason, comment, or attachment respectively is hidden in the *Change Status* dialog.
+    The option to provide a comment is hidden in the *Change Status* dialog.
     
     </td>
     </tr>
@@ -143,4 +143,9 @@ If there is a status change that isn't covered by any rule, the default setting 
 ## Results
 
 You have now maintained settings for status changes based on task type, target status, and system type.
+
+**Related Information**  
+
+
+ <?sap-ot O2O class="- topic/link " href="08309ad20e6c486da07c5071bf05d30d.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/crl1564036446177/loio5ac9737f9c0d44818734ea620b69186e_en-US/src/content/localization/en-us/8f47d3218f1943c9a0a325e7f6b9d1a5.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

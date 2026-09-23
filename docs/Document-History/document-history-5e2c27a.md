@@ -26,26 +26,9 @@ Description
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
-May 17, 2026
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-April 19, 2026
+September 20, 2026
 
 </td>
 <td valign="top">
@@ -55,17 +38,81 @@ April 19, 2026
 </td>
 <td valign="top">
 
--   [Authorizations Required in the Communication System](../User-Management/authorizations-required-in-the-communication-system-97120d2.md):
+-   [SAP S/4HANA Cloud Public Edition](../Connectivity/sap-s-4hana-cloud-public-edition-60448a7.md) \([Connectivity](../Connectivity/connectivity-200deae.md)\):
+
+    The following underlying page was added:
+
+    [How to Set Up Certificate-Based Authentication](../Connectivity/how-to-set-up-certificate-based-authentication-d8a918e.md)
+
+-   [External Systems](../Connectivity/external-systems-9ca3083.md):
+
+    The following underlying page was added:
+
+    [How to Install and Configure the Cloud Connector for On-Premise Systems](../Connectivity/how-to-install-and-configure-the-cloud-connector-for-on-premise-systems-13b0b26.md)
+
+-   [Monitor Communication Systems](../System-Monitoring/monitor-communication-systems-a215069.md):
+    -   The following information was added:
+
+        -   *Authentication Status* section
+        -   *Task Model Management Status* section
+
+    -   The following underlying page was added:
+
+        -   [How to Tackle Authentication Issues](../System-Monitoring/how-to-tackle-authentication-issues-e2958d9.md)
+
+        -   [How to Tackle Task Model Management Issues](../System-Monitoring/how-to-tackle-task-model-management-issues-18301a9.md)
+
+
+-   [Audit Log Integration](../Security/audit-log-integration-5839c73.md):
 
     The following information was added:
 
-    Section for systems of type SAP S/4HANA and SAP S/4HANA Cloud Private Edition
+    Retention period of audit logs
 
--   [How to Assign Users to User Roles](../User-Management/how-to-assign-users-to-user-roles-f703a5c.md):
 
-    The following information was added:
 
-    Note about formatting in CSV files downloaded from SAP Advanced Financial Closing
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
+
+</td>
+<td valign="top">
+
+-   [How to Create the Destination in the SAP BTP Cockpit](../Connectivity/how-to-create-the-destination-in-the-sap-btp-cockpit-4916c1e.md):
+
+    The following information was changed:
+
+    -   Added link to further prerequisites
+    -   Added option for on-premise external systems
+    -   Adjusted URL information for external systems
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+July 19, 2026
+
+</td>
+<td valign="top">
+
+![Content changed](images/Icon_Content_Changed_Pen_efe7972.png)
+
+</td>
+<td valign="top">
+
+-   [How to Create an API Instance and Service Binding for API Integration Scenarios](../Integration-Capabilities/how-to-create-an-api-instance-and-service-binding-for-api-integration-scenarios-4058064.md):
+
+    The following information was changed:
+
+    Configuration information for service bindings
 
 
 

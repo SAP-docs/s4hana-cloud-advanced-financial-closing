@@ -55,27 +55,27 @@ SAP ERP
 <tr>
 <td valign="top">
 
-Task Model Management Directly in SAP Advanced Financial Closing
+Edit and Publish Capability of Task Model Management Directly in SAP Advanced Financial Closing
 
 </td>
 <td valign="top">
 
- 
+`FPS02`
 
 </td>
 <td valign="top">
 
-`FPS3`
+`SP06`
 
 </td>
 <td valign="top">
 
-`SPS5`
+`SP08`
 
 </td>
 <td valign="top">
 
-`SPS7`
+`SP10`
 
 </td>
 <td valign="top">
@@ -97,7 +97,17 @@ Not applicable
 <tr>
 <td valign="top">
 
-Task Rule Displayed on User Interface in SAP Advanced Financial Closing
+New Time-Related Parameter Rules for Fiscal Periods Prior to and Later than the Key Date \(see What's New for September 2025\)
+
+</td>
+<td valign="top">
+
+`FPS01`
+
+</td>
+<td valign="top">
+
+`SP05`
 
 </td>
 <td valign="top">
@@ -112,7 +122,44 @@ Task Rule Displayed on User Interface in SAP Advanced Financial Closing
 </td>
 <td valign="top">
 
-Not applicable
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+View Capability of Task Model Management Directly in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`FPS03`
+
+</td>
+<td valign="top">
+
+`SP05`
+
+</td>
+<td valign="top">
+
+`SP07`
 
 </td>
 <td valign="top">
@@ -123,6 +170,117 @@ Not applicable
 <td valign="top">
 
 Not applicable
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Archiving / ILM and Data Destruction
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`SP02`
+
+</td>
+<td valign="top">
+
+`SP04`
+
+</td>
+<td valign="top">
+
+`SP06`
+
+</td>
+<td valign="top">
+
+`SP08`
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+`SP20`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Marked for Deletion* Flag in Communication System
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`SP02`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+<td valign="top">
+
+`SP04`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+<td valign="top">
+
+`SP06`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+<td valign="top">
+
+`SP08`
+
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
 
 </td>
 <td valign="top">
@@ -134,7 +292,75 @@ Not applicable
 
 `SP18`
 
-Additional requirement: [3426341](https://me.sap.com/notes/3426341)
+-   Previous support packages: Feature is available if the following requirements are met:
+
+    -   [3414838](https://me.sap.com/notes/3414838)
+
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Use of Validation Class `CL_FCCX_VALIDATION_BY_JOBLOG_M`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`SP02`
+
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
+
+
+
+
+</td>
+<td valign="top">
+
+`SP04`
+
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
+
+
+
+
+</td>
+<td valign="top">
+
+`SP06`
+
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
+
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+`SP11`
+
+-   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
+
+
+
 
 </td>
 </tr>
@@ -448,17 +674,7 @@ Not applicable
 <tr>
 <td valign="top">
 
-New Time-Related Parameter Rules for Fiscal Periods Prior to and Later than the Key Date \(see What's New for September 2025\)
-
-</td>
-<td valign="top">
-
-`SP01`
-
-</td>
-<td valign="top">
-
-`SP05`
+Task Rule Displayed on User Interface in SAP Advanced Financial Closing
 
 </td>
 <td valign="top">
@@ -469,68 +685,6 @@ New Time-Related Parameter Rules for Fiscal Periods Prior to and Later than the 
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Use of Validation Class `CL_FCCX_VALIDATION_BY_JOBLOG_M`
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`SP02`
-
--   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
-
-
-
-
-</td>
-<td valign="top">
-
-`SP04`
-
--   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
-
-
-
-
-</td>
-<td valign="top">
-
-`SP06`
-
--   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
-
-
-
 
 </td>
 <td valign="top">
@@ -540,118 +694,12 @@ Not applicable
 </td>
 <td valign="top">
 
-`SP11`
-
--   Additional requirement: [3227008](https://me.sap.com/notes/3227008)
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Archiving / ILM and Data Destruction
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`SP02`
-
-</td>
-<td valign="top">
-
-`SP04`
-
-</td>
-<td valign="top">
-
-`SP06`
-
-</td>
-<td valign="top">
-
-`SP08`
-
-</td>
-<td valign="top">
-
 Not applicable
 
 </td>
 <td valign="top">
 
-`SP20`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Marked for Deletion* Flag in Communication System
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-`SP02`
-
--   Previous support packages: Feature is available if the following requirements are met:
-
-    -   [3414838](https://me.sap.com/notes/3414838)
-
-
-
-
-
-</td>
-<td valign="top">
-
-`SP04`
-
--   Previous support packages: Feature is available if the following requirements are met:
-
-    -   [3414838](https://me.sap.com/notes/3414838)
-
-
-
-
-
-</td>
-<td valign="top">
-
-`SP06`
-
--   Previous support packages: Feature is available if the following requirements are met:
-
-    -   [3414838](https://me.sap.com/notes/3414838)
-
-
-
-
-
-</td>
-<td valign="top">
-
-`SP08`
-
--   Previous support packages: Feature is available if the following requirements are met:
-
-    -   [3414838](https://me.sap.com/notes/3414838)
-
-
-
-
+Not applicable
 
 </td>
 <td valign="top">
@@ -663,13 +711,7 @@ Not applicable
 
 `SP18`
 
--   Previous support packages: Feature is available if the following requirements are met:
-
-    -   [3414838](https://me.sap.com/notes/3414838)
-
-
-
-
+Additional requirement: [3426341](https://me.sap.com/notes/3426341)
 
 </td>
 </tr>

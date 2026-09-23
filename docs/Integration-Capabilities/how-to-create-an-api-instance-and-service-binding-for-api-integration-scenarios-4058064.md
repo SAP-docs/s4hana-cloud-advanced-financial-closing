@@ -2,21 +2,21 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# How to Create an API Instance and Service Key for API Integration Scenarios
+# How to Create an API Instance and Service Binding for API Integration Scenarios
 
-Create an API instance and service key for API integration scenarios for SAP Advanced Financial Closing.
+Create an API instance and service binding for API integration scenarios for SAP Advanced Financial Closing.
 
 
 
 ## Context
 
-For some API integration scenarios, as the first step the integration scenario with SAP Advanced Financial Closing, you need to create an API instance and a service key. This step is required only for the following integration scenarios:
+For some API integration scenarios, as the first step the integration scenario with SAP Advanced Financial Closing, you need to create an API instance and a service binding. This step is required only for the following integration scenarios:
 
 -   [SCIM API for User Access Management](scim-api-for-user-access-management-3f44fda.md)
 -   [SAP Task Center Integration for SAP Advanced Financial Closing](sap-task-center-integration-for-sap-advanced-financial-closing-625bfc3.md)
 
 > ### Note:  
-> The API instance and service key you create apply to all API integration scenarios you want to use for SAP Advanced Financial Closing. This means that you don't need to repeat these steps for additional API integration scenarios you implement.
+> The API instance and service binding you create apply to all API integration scenarios you want to use for SAP Advanced Financial Closing. This means that you don't need to repeat these steps for additional API integration scenarios you implement.
 
 
 
@@ -97,19 +97,7 @@ For some API integration scenarios, as the first step the integration scenario w
         </td>
         <td valign="top">
         
-        Enter `Cloud Foundry`.
-        
-        </td>
-        </tr>
-        <tr>
-        <td valign="top">
-        
-        *Space*
-        
-        </td>
-        <td valign="top">
-        
-        Keep the default value.
+        Enter `Other`.
         
         </td>
         </tr>
@@ -128,21 +116,21 @@ For some API integration scenarios, as the first step the integration scenario w
         </table>
         
 
-2.  Get the service key:
+2.  Get the service binding:
 
     > ### Tip:  
-    > You can also get the service key using a command line tool. For more information about this, see [Access SAP Authorization and Trust Management Service APIs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/ebc9113a520e495ea5fb759b9a7929f2.html).
+    > You can also get the service binding using a command line tool. For more information about this, see [Access SAP Authorization and Trust Management Service APIs](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/ebc9113a520e495ea5fb759b9a7929f2.html).
 
     1.  From the side panel, choose *Instances* and find the API instance.
 
     2.  From the search result list, open the instance details.
 
-    3.  In the *Service Keys* section, choose *Create*.
+    3.  In the *Service Bindings* section, choose *Create*.
 
-    4.  Open the service key credentials by clicking on the service key name.
+    4.  Open the service binding credentials by clicking on the service binding name.
 
         > ### Recommendation:  
-        > Service keys hold sensitive data, such as the *clientid* and *clientsecret* elements.
+        > Service bindings hold sensitive data, such as the *clientid* and *clientsecret* elements.
         > 
         > You may want to pay attention to the security considerations described under [Data Used for API Integrations](../Security/data-used-for-api-integrations-62f0a49.md).
 

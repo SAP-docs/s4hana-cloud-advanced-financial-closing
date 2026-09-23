@@ -77,6 +77,23 @@ Display Task Models in SAP Advanced Financial Closing
 <tr>
 <td valign="top">
 
+Editing and Publishing Task Models in SAP Advanced Financial Closing
+
+</td>
+<td valign="top">
+
+`SAP_FIN_BC_AFC_TMM_PC` \(Finance - Edit and Publish Task Models in SAP Advanced Financial Closing\)
+
+</td>
+<td valign="top">
+
+`FCCX_TMM_PUBLISH_TRAN` \(Write authorization for task model management in SAP Advanced Financial Closing\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Launchpad Tile in SAP S/4HANA Cloud Public Edition for Direct Navigation to SAP Advanced Financial Closing
 
 </td>
@@ -129,6 +146,30 @@ Display Task Models in SAP Advanced Financial Closing
 Create a role in `PFCG` and add the authorization default for transaction `FCCX_TMM` to it.
 
 You find an authorization object named `FCCX_TMM` under *Authorization Data*. For `ACTVT`, enter the value `03` \(for display\).
+
+Generate the profile and assign it to your user as required.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Edit and Publish Task Models in SAP Advanced Financial Closing
+
+> ### Note:  
+> Check the requirements your system must fulfill for this feature to be available. You can find this information under [System-Dependent Feature Availability](../Connectivity/system-dependent-feature-availability-0465d8f.md).
+
+
+
+</td>
+<td valign="top">
+
+Create a role in `PFCG` and add the authorization default for transaction `FCCX_TMM` to it.
+
+You find an authorization object named `FCCX_TMM` under *Authorization Data*. For `ACTVT`, enter the following values:
+
+-   `01` \(for create\)
+-   `02` \(for change\)
 
 Generate the profile and assign it to your user as required.
 

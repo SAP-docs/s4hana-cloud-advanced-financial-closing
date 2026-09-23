@@ -329,7 +329,7 @@ Uses the UI to access API information and documentation
 </td>
 <td valign="top">
 
-*Public API*
+*Public APIs*
 
 </td>
 <td valign="top">
@@ -959,21 +959,27 @@ Maintains task group templates
 <tr>
 <td valign="top">
 
-`AFC_TaskModels_Manage`
+-   `AFC_TaskModels_Manage`
+-   `AFC_TaskModels_Define`
+
+
 
 </td>
 <td valign="top">
 
-Views task models, task model types, and job variants by communication system.
+Maintains task models, task model types, and job variants.
 
 **App Details:**
 
-[Manage Task Models](../Business-Configuration/manage-task-models-cfbdd1f.md)
+[Manage Task Models](https://help.sap.com/viewer/b3f5b9cf1ab7498fad5b6f297013d65a/SHIP/en-US/cfbdd1fdc065457c82ca9d4fdd937e5e.html "") :arrow_upper_right:
 
 </td>
 <td valign="top">
 
-*Manage Task Models*
+-   *Manage Task Models*
+-   *Task Model Change Log*
+
+
 
 </td>
 <td valign="top">

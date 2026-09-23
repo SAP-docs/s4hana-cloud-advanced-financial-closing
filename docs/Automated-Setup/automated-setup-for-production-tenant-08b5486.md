@@ -39,6 +39,15 @@ The following components are included in the booster and will be configured when
 -   Subscription to **SAP Advanced Financial Closing** for your production tenant
 -   Subscription to **SAP Audit Log service** for SAP BTP
 
+
+
+The following video shows how to use the booster as described in the steps below:
+
+
+
+> ### Note:  
+> For this video, audio is only available in English. However, captions/subtitles are available for a range of languages. Simply click the *CC* button at the bottom right of the video player to see which languages are supported.
+
 **Related Information**  
 
 

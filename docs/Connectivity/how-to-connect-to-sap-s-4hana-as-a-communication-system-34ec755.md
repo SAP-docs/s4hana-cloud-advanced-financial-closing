@@ -54,6 +54,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <tr>
     <th valign="top">
 
+    Section on the User Interface
+    
+    </th>
+    <th valign="top">
+
     Field
     
     </th>
@@ -64,6 +69,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </th>
     </tr>
     <tr>
+    <td valign="top">
+    
+    *General Information*
+    
+    </td>
     <td valign="top">
     
     *Name*
@@ -78,6 +88,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <tr>
     <td valign="top">
     
+    *General Information*
+    
+    </td>
+    <td valign="top">
+    
     *Name of Destination Configuration*
     
     </td>
@@ -88,6 +103,39 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </td>
     </tr>
     <tr>
+    <td valign="top">
+    
+    *General Information*
+    
+    </td>
+    <td valign="top">
+    
+    *Is Production System*
+    
+    </td>
+    <td valign="top">
+    
+    Decide whether the communication system you want to connect to is a test system or a production system. `Yes` indicates that the communication system contains production data, which thereby makes all related task lists potentially relevant to auditing and data retention.
+
+    The default value is `Yes`.
+
+    > ### Note:  
+    > Define a communication system as a production system to prevent the untimely deletion of related task lists. Mark communication systems as test systems only if they do not contain audit- or retention-relevant data. However, use this setting to allow enhanced testing capabilities for your non-production systems.
+    > 
+    > Ensure that you set this indicator correctly, since the information will be displayed in the task list header information in the *Manage Closing Task Lists* app.
+    > 
+    > We do not recommend changing the *Is Production System* indicator for a system after it has already been in use. Existing task lists will not be reclassified.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SAP Fiori Launchpad*
+    
+    </td>
     <td valign="top">
     
     *UI Domain*
@@ -111,6 +159,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     </td>
     </tr>
     <tr>
+    <td valign="top">
+    
+    *SAP Fiori Launchpad*
+    
+    </td>
     <td valign="top">
     
     *UI Endpoint* \(mandatory for communication systems that have an SAP Fiori launchpad\)
@@ -143,6 +196,11 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     <tr>
     <td valign="top">
     
+    *SAP Fiori Launchpad*
+    
+    </td>
+    <td valign="top">
+    
     *UI Parameters* \(optional\)
     
     </td>
@@ -163,29 +221,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     
     </td>
     </tr>
-    <tr>
-    <td valign="top">
-    
-    *Is Production System*
-    
-    </td>
-    <td valign="top">
-    
-    Decide whether the communication system you want to connect to is a test system or a production system. `Yes` indicates that the communication system contains production data, which thereby makes all related task lists potentially relevant to auditing and data retention.
-
-    The default value is `Yes`.
-
-    > ### Note:  
-    > Define a communication system as a production system to prevent the untimely deletion of related task lists. Mark communication systems as test systems only if they do not contain audit- or retention-relevant data. However, use this setting to allow enhanced testing capabilities for your non-production systems.
-    > 
-    > Ensure that you set this indicator correctly, since the information will be displayed in the task list header information in the *Manage Closing Task Lists* app.
-    > 
-    > We do not recommend changing the *Is Production System* indicator for a system after it has already been in use. Existing task lists will not be reclassified.
-
-
-    
-    </td>
-    </tr>
     </table>
     
     > ### Tip:  
@@ -194,7 +229,84 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     > ### Tip:  
     > You can check whether the connection with the communication system works as expected. Choose *Check Connection*. This will check whether the back-end connection works and whether the system communicates as expected.
 
-4.  Save.
+4.  Under *Task Model Management*, decide whether you allow task model management from within SAP Advanced Financial Closing for this communication system.
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Option
+    
+    </th>
+    <th valign="top">
+
+    Description
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Yes, with current settings
+    
+    </td>
+    <td valign="top">
+    
+    Authorized users can create, edit, publish, and delete task models in SAP Advanced Financial Closing. This setting aligns with the *Current Settings* indicator of the underlying database tables in the communication system.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Yes, with transport
+    
+    </td>
+    <td valign="top">
+    
+    Authorized users can create, edit, publish, and delete task models in SAP Advanced Financial Closing. In the communication system, a transport request needs to exist. Users working on the task model need to enter the transport request upon publishing. In task list templates, users can then create tasks from these models.
+
+    Based on the transport request, you can transport published task models between different system, for example, from your Quality system to the Production system.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Yes, without transport
+    
+    </td>
+    <td valign="top">
+    
+    Authorized users can create, edit, publish, and delete task models in SAP Advanced Financial Closing. In the communication system, no transport request is required. Accordingly, no transport between systems is possible.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    No
+    
+    </td>
+    <td valign="top">
+    
+    Users can't create task models in SAP Advanced Financial Closing. In task list templates, users can still create tasks from already existing models.
+    
+    </td>
+    </tr>
+    </table>
+    
+    1.  To check whether the communication system allows the selection you've made for task model management, choose *Check Task Model Management Settings*.
+
+
+5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
+
+6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud Public Edition.
+
+    For more information about the migration, refer to the [Migration Guide (Process Deprecated)](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
+
+7.  Choose *Create* to confirm.
 
     > ### Tip:  
     > You can check whether the connection you set up works:
@@ -217,12 +329,6 @@ Connect to SAP S/4HANA as your financial communication system to retrieve inform
     >     -   If entries are displayed, the connection works. Exit the value help and choose *Cancel* to cancel template creation.
     > 
     >     -   If no entries are displayed, the connection doesn't work properly. Perform the steps described for issues with the connection to the communication system under [Error Handling](../Monitoring-and-Troubleshooting/error-handling-e5eb3d8.md).
-
-5.  Under *Notifications*, you can set up notifications about system errors. Follow the steps described under [How to Set Up Notifications About Communication System Errors](../System-Monitoring/how-to-set-up-notifications-about-communication-system-errors-835b2a2.md).
-
-6.  Under *Migration*, you can maintain the migration system name. This is only relevant if you're migrating your data from SAP Advanced Financial Closing as part of SAP S/4HANA Cloud Public Edition.
-
-    For more information about the migration, refer to the [Migration Guide (Process Deprecated)](https://help.sap.com/viewer/c67f40b6823f4b33ad8abe58303db75b/SHIP/en-US/025204e29f8b43b282099d44470de1fc.html "Get an overview of what this migration guide covers.") :arrow_upper_right:.
 
 
 

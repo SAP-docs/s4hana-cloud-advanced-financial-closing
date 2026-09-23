@@ -10,8 +10,6 @@ Request the deletion of your SAP Advanced Financial Closing tenant.
 
 ## Context
 
-If you want to delete your SAP Advanced Financial Closing tenant and your data, you need to create an incident to request the deletion. However, be aware that as a precaution against accidental deletion, the deletion process is blocked for a grace period of 60 days after you have requested the deletion.
-
 The deletion of your tenant and your data in SAP Advanced Financial Closing covers the deletion of **all** of the following:
 
 -   Task list templates and task lists
@@ -24,7 +22,7 @@ The deletion of your tenant and your data in SAP Advanced Financial Closing cove
 
 
 > ### Caution:  
-> Once the process to unsubscribe is initiated, a resubscription is no longer possible.
+> Once the process to unsubscribe is initiated, you may subscribe again at any time; however, data from the previous subscription cannot be recovered.
 
 If you wish to delete your tenant and your data, perform the following steps:
 

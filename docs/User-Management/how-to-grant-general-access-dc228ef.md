@@ -75,7 +75,14 @@ You can grant access that applies to all objects within the scope, independently
 
 6.  Choose *Create* in the dialog footer. The user role is created and opened right away.
 
-7.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
+7.  **Optional:** If you want to allow user-to-role assignments to be managed through the SCIM API, select the *Exposed via SCIM Group* checkbox in the *General Information* section.
+
+    1.  Confirm that you understand the warning displayed and choose *OK*.
+
+
+    For more information about user access management through the SCIM API, see [How to Manage User Access Using the SCIM API Provided](../Integration-Capabilities/how-to-manage-user-access-using-the-scim-api-provided-49376ed.md).
+
+8.  Under *Authorizations*, choose *Add* and select an authorization you want to add.
 
     > ### Note:  
     > *Read* authorization is the minimum authorization required for all user roles. Accordingly, it is added to each user role automatically from the beginning.
@@ -187,16 +194,16 @@ You can grant access that applies to all objects within the scope, independently
     </tr>
     </table>
     
-8.  Choose *Add* in the dialog footer.
+9.  Choose *Add* in the dialog footer.
 
-9.  Repeat the previous steps to assign additional authorizations.
+10. Repeat the previous steps to assign additional authorizations.
 
-10. To remove an authorization, choose the corresponding *Delete* icon :x:.
+11. To remove an authorization, choose the corresponding *Delete* icon :x:.
 
     > ### Remember:  
     > Some authorizations include others. When removing authorizations, you need to start with the broader authorization, since the included authorization is a minimum for the broader one.
 
-11. Whenever you made a change to a user role, choose *Activate* in the header.
+12. Whenever you made a change to a user role, choose *Activate* in the header.
 
     This activates the user role and, if users were already assigned, this also synchronizes any changes with the users assigned.
 

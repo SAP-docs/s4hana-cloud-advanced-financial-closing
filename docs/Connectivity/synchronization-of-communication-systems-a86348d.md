@@ -206,6 +206,13 @@ To synchronize data \(for example, if you have changes in your communication sys
 > ### Note:  
 > Synchronization always uses the active state of the communication system entry in SAP Advanced Financial Closing. This means that any unsaved changes aren't considered and synchronization is performed based on the state last saved.
 
+> ### Remember:  
+> To trigger an immediate synchronization, your user must have a role collection assigned that includes one of the following role templates:
+> 
+> -   `AFC_SystemAdmin`
+> -   `AFC_SpecifySystemsApp`
+> -   `AFC_MonitorSystemsApp`
+
 
 
 <a name="loioa86348d6459a4c929ec1f389e38827ad__section_elr_nlc_sxb"/>

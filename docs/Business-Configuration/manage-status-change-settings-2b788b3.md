@@ -2,11 +2,11 @@
 
 # *Manage Status Change Settings*
 
-You use the *Manage Status Change Settings* app to maintain settings to define whether comments are required for specific status changes.
+You use the *Manage Status Change Settings* app to maintain settings to define which input is required for specific status changes.
 
 
 
-With this app, you can display and edit settings to define whether comments are required for specific status changes in SAP Advanced Financial Closing.
+With this app, you can display and edit settings to define which input is required for specific status changes in SAP Advanced Financial Closing.
 
 
 
@@ -33,5 +33,5 @@ This app provides the following key features:
 **Related Information**  
 
 
-[How to Manage Status Change Settings](how-to-manage-status-change-settings-8f47d32.md "Maintain settings that define whether comments are required for specific task status changes in SAP Advanced Financial Closing.")
+[How to Manage Status Change Settings](how-to-manage-status-change-settings-8f47d32.md "Maintain settings that define whether additional input is required for specific task status changes in SAP Advanced Financial Closing.")
 

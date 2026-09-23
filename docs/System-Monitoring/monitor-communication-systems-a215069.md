@@ -209,6 +209,12 @@ The synchronization check follows the frequency and rules as described under [Sy
 
 
 
+### Authentication Status
+
+For systems that use certificate-based authentication, the authentication status provides more information about the certificate used for authentication between SAP Advanced Financial Closing and the communication system. The status indicates whether everything is ok or whether the certificate is already expired. If the certificate expires without being renewed, the connection between the communication system and SAP Advanced Financial Closing is disrupted.
+
+
+
 ### Scheduling Queue
 
 The scheduling queue information reflects the status of the scheduling queue of a communication system and provides an overview of the tasks for which the scheduling is in preparation. It also shows how many of those are overdue. A task scheduling is considered overdue under the following conditions:
@@ -225,6 +231,12 @@ The scheduling queue information reflects the status of the scheduling queue of 
 > 
 > -   Scheduling of *Job* tasks
 
+
+
+### Task Model Management Status
+
+For systems that can allow task model management from within SAP Advanced Financial Closing, the task model management status indicates whether any issues exist.
+
 -   **[How to Check the System Information](how-to-check-the-system-information-1f3c6dd.md "Check that the system information available is correct.")**  
 Check that the system information available is correct.
 -   **[How to Check the Overall System Status](how-to-check-the-overall-system-status-f30be05.md "Check the overall statuses of your connected communication systems.")**  
@@ -234,8 +246,14 @@ Check the overall statuses of your connected communication systems.
 Check the connection status of your communication system and tackle any existing issues.
 -   **[How to Tackle Synchronization Issues](how-to-tackle-synchronization-issues-ed8c4ec.md "Check the synchronization status of your communication system and tackle any issues.")**  
 Check the synchronization status of your communication system and tackle any issues.
+-   **[How to Tackle Authentication Issues](how-to-tackle-authentication-issues-e2958d9.md "Check the status of the certificate-based authentication and tackle any existing
+		issues.")**  
+Check the status of the certificate-based authentication and tackle any existing issues.
 -   **[How to Tackle Scheduling Issues](how-to-tackle-scheduling-issues-3f7687a.md "Check the scheduling status of your communication system and tackle any existing issues.")**  
 Check the scheduling status of your communication system and tackle any existing issues.
--   **[Notifications About Communication System Errors](notifications-about-communication-system-errors-8bf4cd3.md "Get an overview of notifications about communication system errors.")**  
+-   **[How to Tackle Task Model Management Issues](how-to-tackle-task-model-management-issues-18301a9.md "Check the status of the task model management and tackle any existing
+		issues.")**  
+Check the status of the task model management and tackle any existing issues.
+-   **[Notifications About Communication System Errors and Statuses](notifications-about-communication-system-errors-and-statuses-8bf4cd3.md "Get an overview of notifications about communication system errors.")**  
 Get an overview of notifications about communication system errors.
 
